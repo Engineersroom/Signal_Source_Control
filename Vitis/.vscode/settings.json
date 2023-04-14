@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "platform_config.h": "c",
+        "xparameters.h": "c",
+        "platform.h": "c",
+        "xil_printf.h": "c",
+        "xil_cache.h": "c",
+        "xspi.h": "c",
+        "xintc.h": "c",
+        "init_arr.h": "c",
+        "xuartlite.h": "c"
+    }
+}

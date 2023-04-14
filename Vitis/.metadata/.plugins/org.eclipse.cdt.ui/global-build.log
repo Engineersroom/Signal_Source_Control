@@ -1,0 +1,61 @@
+Nothing to build in platform 'Signal_Souce_Control_BD_wrapper'
+
+18:05:23 **** Incremental Build of configuration Debug for project Signal_Source_Control_App ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'main':
+../src/main.c:41:5: warning: implicit declaration of function 'init_axi_gpio' [-Wimplicit-function-declaration]
+   41 |     init_axi_gpio();
+      |     ^~~~~~~~~~~~~
+../src/main.c:106:17: warning: implicit declaration of function 'Check_FTH_Switching' [-Wimplicit-function-declaration]
+  106 |                 Check_FTH_Switching(&Spi);
+      |                 ^~~~~~~~~~~~~~~~~~~
+../src/main.c:111:17: warning: implicit declaration of function 'sleep' [-Wimplicit-function-declaration]
+  111 |                 sleep(1);
+      |                 ^~~~~
+../src/main.c:119:17: warning: implicit declaration of function 'SPI_Forced_Input'; did you mean 'SPI_Forced_Input2'? [-Wimplicit-function-declaration]
+  119 |                 SPI_Forced_Input(&Spi);
+      |                 ^~~~~~~~~~~~~~~~
+      |                 SPI_Forced_Input2
+../src/main.c:49:9: warning: unused variable 'Index' [-Wunused-variable]
+   49 |     int Index;
+      |         ^~~~~
+../src/main.c:48:9: warning: unused variable 'cnt' [-Wunused-variable]
+   48 |     int cnt = 0;
+      |         ^~~
+../src/main.c:47:18: warning: unused variable 'ReceivedCount' [-Wunused-variable]
+   47 |     unsigned int ReceivedCount = 0;
+      |                  ^~~~~~~~~~~~~
+../src/main.c:46:18: warning: unused variable 'SentCount' [-Wunused-variable]
+   46 |     unsigned int SentCount;
+      |                  ^~~~~~~~~
+../src/main.c:45:9: warning: unused variable 'Status' [-Wunused-variable]
+   45 |     int Status;
+      |         ^~~~~~
+../src/main.c:44:9: warning: unused variable 'status' [-Wunused-variable]
+   44 |     int status;
+      |         ^~~~~~
+../src/main.c:43:8: warning: unused variable 'send_data' [-Wunused-variable]
+   43 |     u8 send_data = 'A';
+      |        ^~~~~~~~~
+../src/main.c:42:8: warning: unused variable 'recv_data' [-Wunused-variable]
+   42 |     u8 recv_data;
+      |        ^~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: Signal_Source_Control_App.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Signal_Source_Control_App.elf"  ./src/AD9164_FMC.o ./src/init_arr.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Signal_Source_Control_App.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Signal_Source_Control_App.elf  |tee "Signal_Source_Control_App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 101028	   2140	   3576	 106744	  1a0f8	Signal_Source_Control_App.elf
+'Finished building: Signal_Source_Control_App.elf.size'
+' '
+18:05:23 **** Incremental Build of configuration Debug for project Signal_Source_Control_App_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
