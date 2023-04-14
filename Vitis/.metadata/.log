@@ -1,0 +1,1140 @@
+!SESSION 2023-04-14 15:23:38.181 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2023-04-14 15:24:17.508
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:23.463
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:23.465
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:23.475
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:25.434
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:25.436
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-15
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:25.436
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:25.438
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:25.439
+!MESSAGE XSCT Command: [setws D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis], Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:25.439
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/Xilinx/Vitis/2022.2/data]. Thread: Worker-1: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:25.441
+!MESSAGE XSCT command with result: [setws D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis], Result: [null, ]. Thread: Thread-19
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-14 15:24:31.189
+!MESSAGE Opening file dialog using preferences. Current path: D:\Xilinx\Vitis\2022.2\data\embeddedsw\lib\fixed_hwplatforms, Local preference: scw_hwspec, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:52.850
+!MESSAGE XSCT Command: [::hsi::utils::openhw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:53.155
+!MESSAGE XSCT command with result: [::hsi::utils::openhw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:53.180
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:53.183
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, {"device": "xcku5p",
+"family": "kintexuplus",
+"timestamp": "Fri Apr 14 14:59:11 2023",
+"vivado_version": "2022.2",
+"part": "xcku5p-ffvb676-2-e",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:53.186
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:24:53.190
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_intc_0": {"hier_name": "axi_intc_0",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"axi_quad_spi_0": {"hier_name": "axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:08.616
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:08.622
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:08.626
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_DATA_SIZE], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:08.628
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_DATA_SIZE], Result: [null, 32]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:10.586
+!MESSAGE XSCT Command: [::hsi::utils::get_all_app_details -json], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:10.604
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_app_details -json], Result: [null, {"ddr_self_refresh": {"userdefname": "DDR self refresh",
+"description": "This DDR self refresh application provides a simple demonstration of how to enter to/exit from DDR self refresh mode. This application runs on R5 out of TCM.",
+"supp_proc": "psu_cortexr5",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/ddr_self_refresh",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"dhrystone": {"userdefname": "Dhrystone",
+"description": "Dhrystone synthetic benchmark program for baremetal environment.",
+"supp_proc": "microblaze psu_cortexa53 ps7_cortexa9 psv_cortexa72 psu_cortexr5 psv_cortexr5",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/dhrystone",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"empty_application": {"userdefname": "Empty Application(C)",
+"description": "A blank C project.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel freertos10_xilinx",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/empty_application",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"freertos_hello_world": {"userdefname": "FreeRTOS Hello World",
+"description": " FreeRTOS Hello World application",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72 psxl_cortexr52 psx_cortexr52 psx_cortexa78 psxl_cortexa78",
+"supp_os": "freertos10_xilinx",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_echo_server": {"userdefname": "FreeRTOS lwIP Echo Server",
+"description": "The FreeRTOS lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP) with FreeRTOS. This application sets up the board to use IP address 192.168.1.10 or IPv6 address FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_client": {"userdefname": "FreeRTOS lwIP TCP Perf Client",
+"description": "The FreeRTOS LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address whenipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_tcp_perf_server": {"userdefname": "FreeRTOS lwIP TCP Perf Server",
+"description": "The FreeRTOS LwIP TCP Server application is used for creating TCP server using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection info and also display interim and average TCP statistics for data transfer. This application handles only 1 client connection at a time.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_client": {"userdefname": "FreeRTOS lwIP UDP Perf Client",
+"description": "The FreeRTOS LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"freertos_lwip_udp_perf_server": {"userdefname": "FreeRTOS lwIP UDP Perf Server",
+"description": "The FreeRTOS LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "freertos10_xilinx",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/freertos_lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"hello_world": {"userdefname": "Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psu_cortexa72 psv_cortexr5 psv_cortexa72 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"imgsel": {"userdefname": "Image Selector",
+"description": "ImgSel for Zynq Ultrascale+ MPSoC. The Image Selector  selects the image based on configuration parameters",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/imgsel",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"img_rcvry": {"userdefname": "Image Recovery",
+"description": "Image Recovery tool which writes  user selected images on the board.",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/img_rcvry",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"libmetal_echo_demo": {"userdefname": "Libmetal AMP Demo",
+"description": "Libmetal AMP Application",
+"supp_proc": "psu_cortexr5 psv_cortexr5",
+"supp_os": "freertos10_xilinx standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/libmetal_echo_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_echo_server": {"userdefname": "lwIP Echo Server",
+"description": "The lwIP Echo Server application provides a simple demonstration of how to use the light-weight IP stack (lwIP). This application sets up the board to use IP address 192.168.1.10 or IPv6 FE80:0:0:0:20A:35FF:FE00:102, with MAC address 00:0a:35:00:01:02. The server listens for input at port 7 and simply echoes back whatever data is sent to that port.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_echo_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_client": {"userdefname": "lwIP TCP Perf Client",
+"description": "The LwIP TCP Perf Client application is used for creating TCP client and measure TCP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. This application creates TCP client on board and make connection with TCP server running on host machine. It will display connection information along with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_tcp_perf_server": {"userdefname": "lwIP TCP Perf Server",
+"description": "The LwIP TCP Perf Server application is used for creating TCP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IPv4 address 192.168.1.10 and IPv6 link local address when ipv6_enable is true, with MAC address 00:0a:35:00:01:02. The application creates TCP server on board and starts listening for TCP client connections. It will display client connection information with interim and average TCP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_tcp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_client": {"userdefname": "lwIP UDP Perf Client",
+"description": "The LwIP UDP Perf Client application is used for creating UDP client and measure UDP uplink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. This application creates UDP client on board and make connection with UDP server running on host machine. It will display connection information along with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_client",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"lwip_udp_perf_server": {"userdefname": "lwIP UDP Perf Server",
+"description": "The LwIP UDP Perf Server application is used for creating UDP server and measure downlink performance using light-weight IP stack (lwIP). This application sets up the board to use default IP address 192.168.1.10, with MAC address 00:0a:35:00:01:02. The application creates UDP server on board and starts listening for UDP client connections. It will display client connection information with interim and average UDP statistics for data transfer.",
+"supp_proc": "psv_cortexa72 psv_cortexr5 psu_cortexa53 psu_cortexr5 ps7_cortexa9 microblaze",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/lwip_udp_perf_server",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"mba_fs_boot": {"userdefname": "mba_fs_boot",
+"description": "fs-boot for microblaze by Xilinx Inc..",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/mba_fs_boot",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"memory_tests": {"userdefname": "Memory Tests",
+"description": "This application tests Memory Regions present in the hardware.",
+"supp_proc": "microblaze ps7_cortexa9 psu_cortexa53 psu_cortexr5 psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/memory_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"openamp_echo_test": {"userdefname": "OpenAMP echo-test",
+"description": " OpenAMP echo-test application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_echo_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_matrix_multiply": {"userdefname": "OpenAMP matrix multiplication Demo",
+"description": " OpenAMP matrix multiplication application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_matrix_multiply",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"openamp_rpc_demo": {"userdefname": "OpenAMP RPC Demo",
+"description": " OpenAMP rpc-demo application ",
+"supp_proc": "psu_cortexr5 psv_cortexr5 ps7_cortexa9",
+"supp_os": "freertos10_xilinx standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/openamp_rpc_demo",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"peripheral_tests": {"userdefname": "Peripheral Tests",
+"description": "Simple test routines for all peripherals in the hardware.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 psu_cortexr5 microblaze psv_cortexa72 psv_cortexr5 psxl_cortexa78 psxl_cortexr52 psx_cortexa78 psx_cortexr52",
+"supp_os": "standalone xilkernel",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/peripheral_tests",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"rsa_auth_app": {"userdefname": "RSA Authentication App",
+"description": "Used to RSA authenticate a user application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/rsa_auth_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"srec_bootloader": {"userdefname": "SREC Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory. This program assumes that you have an SREC image programmed into BPI flash. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the physical address where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"srec_spi_bootloader": {"userdefname": "SREC SPI Bootloader",
+"description": "Simple bootloader for loading SREC images from non volatile memory (SPI). This program assumes that you have an SREC image programmed into SPI flash already. The program also assumes that the target SREC image is an application for this processor that does not overlap the bootloader and resides in separate physical memory in the hardware. Typically this application is initialized into BRAM so that it bootloads the SREC image when the FPGA is powered up.
+
+Don't forget to modify blconfig.h to reflect the offset where your SREC image resides in non-volatile memory!",
+"supp_proc": "microblaze",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/srec_spi_bootloader",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_plm": {"userdefname": "versal PLM",
+"description": "Platform Loader and Manager for versal.",
+"supp_proc": "psu_pmc psv_pmc psxl_pmc psx_pmc",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_plm",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"versal_psmfw": {"userdefname": "versal PSM Firmware",
+"description": "Processing System Management Unit Firmware for versal.",
+"supp_proc": "psu_psm psv_psm psxl_psm psx_psm",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/versal_psmfw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_dram_test": {"userdefname": "Zynq MP DRAM tests",
+"description": "This application runs out of OCM and performs memory tests on Zynq MP DRAM.  For more information about the test, refer to ZYNQMP_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "psu_cortexa53",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynqmp_fsbl": {"userdefname": "Zynq MP FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq Ultrascale+ MPSoC. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/SD/QSPI) to RAM (DDR) and takes A53/R5 out of reset.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "psu_cortexa53 psu_cortexr5",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynqmp_pmufw": {"userdefname": "ZynqMP PMU Firmware",
+"description": "Platform Management Unit Firmware for ZynqMP.",
+"supp_proc": "psu_pmu",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynqmp_pmufw",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"zynq_dram_test": {"userdefname": "Zynq DRAM tests",
+"description": "This application runs out of OCM and performs memory tests and read/write eye measurements on Zynq DRAM.  For more information about the test, refer to ZYNQ_DRAM_DIAGNOSTICS_TEST.docx, in the src directory of the application",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_dram_test",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"zynq_fsbl": {"userdefname": "Zynq FSBL",
+"description": "First Stage Bootloader (FSBL) for Zynq. The FSBL configures the FPGA with HW bit stream (if it exists)  and loads the Operating System (OS) Image or Standalone (SA) Image or 2nd Stage Boot Loader image from the  non-volatile memory (NAND/NOR/QSPI) to RAM (DDR) and starts executing it.  It supports multiple partitions,  and each partition can be a code image or a bit stream.",
+"supp_proc": "ps7_cortexa9",
+"supp_os": "standalone",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps/zynq_fsbl",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "true",
+},
+"linux_empty_app": {"userdefname": "Linux Empty Application",
+"description": "A blank Linux C project.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_empty_app",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+"linux_hello_world": {"userdefname": "Linux Hello World",
+"description": "Let's say 'Hello World' in C.",
+"supp_proc": "ps7_cortexa9 psu_cortexa53 microblaze psv_cortexa72",
+"supp_os": "linux",
+"path": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/sw_apps_linux/linux_hello_world",
+"os": "linux",
+"platform_required": NO,
+"bsp_constraints": "false",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:10.680
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:10.696
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:10.698
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:10.708
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:12.510
+!MESSAGE XSCT Command: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:12.520
+!MESSAGE XSCT command with result: [::hsi::utils::is_app_supported_on_hw_sw  -hw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa -os standalone -processor microblaze_0 -app hello_world -sw {} -arch {}], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:14.164
+!MESSAGE XSCT Command: [platform create -name {Signal_Souce_Control_BD_wrapper} -hw {D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vivado\Signal_Souce_Control_BD_wrapper.xsa} -out {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis};platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:14.496
+!MESSAGE XSCT command with result: [platform create -name {Signal_Souce_Control_BD_wrapper} -hw {D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vivado\Signal_Souce_Control_BD_wrapper.xsa} -out {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis};platform write], Result: [null, Successfully saved  the platform at "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:14.518
+!MESSAGE XSCT Command: [domain create -name {standalone_microblaze_0} -display-name {standalone_microblaze_0} -os {standalone} -proc {microblaze_0} -runtime {cpp} -arch {32-bit} -support-app {hello_world}], Thread: ModalContext
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-04-14 15:25:14.535
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.part.IntroPart.dispose(IntroPart.java:99)
+	at org.eclipse.ui.internal.ViewIntroAdapterPart.dispose(ViewIntroAdapterPart.java:153)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:260)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:417)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1002)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:967)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:200)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:176)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:89)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:491)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:184)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:954)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:115)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:945)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:873)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:868)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:852)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.subscribeTopicToBeRendered(PartRenderingEngine.java:187)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.di.internal.extensions.EventObjectSupplier$DIEventHandler.handleEvent(EventObjectSupplier.java:92)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:314)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1406)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1537)
+	at org.eclipse.ui.internal.WorkbenchPage.hidePart(WorkbenchPage.java:1496)
+	at org.eclipse.ui.internal.WorkbenchPage.hideView(WorkbenchPage.java:2609)
+	at org.eclipse.ui.internal.WorkbenchIntroManager.closeIntro(WorkbenchIntroManager.java:98)
+	at com.xilinx.sdx.ui.utils.SWTUtils.closeWelcomeView(SWTUtils.java:529)
+	at com.xilinx.sdx.scw.project.ScwProjectCreationHandler$1.run(ScwProjectCreationHandler.java:71)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3897)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3527)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:166)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:368)
+	at org.eclipse.jface.wizard.WizardDialog.run(WizardDialog.java:1033)
+	at com.xilinx.sdx.npw.NewProjectCreationHandler.execute(NewProjectCreationHandler.java:105)
+	at com.xilinx.sdx.npw.NewProjectWizard._createApplicationProject(NewProjectWizard.java:214)
+	at com.xilinx.sdx.npw.NewProjectWizard.performFinish(NewProjectWizard.java:161)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:832)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:472)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at com.xilinx.sdx.npw.OpenApplicationProjectWizardAction.run(OpenApplicationProjectWizardAction.java:27)
+	at com.xilinx.sdx.npw.OpenApplicationProjectWizardAction.clicked(OpenApplicationProjectWizardAction.java:44)
+	at com.xilinx.ide.product.intro.IDEIntroPart.createApplicationProject(IDEIntroPart.java:475)
+	at com.xilinx.ide.product.intro.IDEIntroPart$3.run(IDEIntroPart.java:274)
+	at com.xilinx.ide.product.intro.IDEIntroPart$12.mouseUp(IDEIntroPart.java:402)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:224)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4105)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3922)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3524)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1160)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1049)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154)
+	at com.xilinx.ide.application.ui.Application.start(Application.java:80)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:17.420
+!MESSAGE XSCT command with result: [domain create -name {standalone_microblaze_0} -display-name {standalone_microblaze_0} -os {standalone} -proc {microblaze_0} -runtime {cpp} -arch {32-bit} -support-app {hello_world}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:17.424
+!MESSAGE XSCT Command: [platform write], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:17.450
+!MESSAGE XSCT command with result: [platform write], Result: [null, Successfully saved  the platform at "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/platform.spr"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:17.463
+!MESSAGE XSCT Command: [platform active {Signal_Souce_Control_BD_wrapper}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:17.464
+!MESSAGE XSCT command with result: [platform active {Signal_Souce_Control_BD_wrapper}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:17.467
+!MESSAGE XSCT Command: [platform generate -quick], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:17.559
+!MESSAGE XSCT command with result: [platform generate -quick], Result: [null, Successfully generated platform at "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis"]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:18.077
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:18.383
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:18.384
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:18.388
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_intc_0": {"hier_name": "axi_intc_0",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"axi_quad_spi_0": {"hier_name": "axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"xlconcat_0": {"hier_name": "xlconcat_0",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:18.408
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:18.411
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss ], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:18.412
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:18.415
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.041
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_REORDER_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.042
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_REORDER_INSTR], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.044
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_ENDIANNESS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.046
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.047
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_BARREL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.048
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_BARREL], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.061
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_PCMP_INSTR], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.063
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_PCMP_INSTR], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.064
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_DIV], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.076
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_DIV], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.077
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_FPU], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.079
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_FPU], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.081
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_HW_MUL], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.083
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_USE_HW_MUL], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.084
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_AREA_OPTIMIZED], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.085
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0 C_AREA_OPTIMIZED], Result: [null, 0]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.096
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.102
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_12": {"name": "freertos10_xilinx",
+"version": "1.12",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.4.6",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_12",
+},
+"standalone_v8_0": {"name": "standalone",
+"version": "8.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/lib/bsp/standalone_v8_0",
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.103
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.105
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.106
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.122
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.123
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.125
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa microblaze_0], Result: [null, axi_gpio_0 axi_gpio_1 axi_intc_0 axi_quad_spi_0 axi_uartlite_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.126
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.138
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.9",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.9",
+},
+"axi_intc_0": {"name": "intc",
+"ver": "3.15",
+},
+"axi_quad_spi_0": {"name": "spi",
+"ver": "4.9",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.7",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.8",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.8",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.16",
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.139
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.196
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, {"axi_gpio_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"gpio_v4_9": {"name": "gpio",
+"version": "4.9",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_1": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"gpio_v4_9": {"name": "gpio",
+"version": "4.9",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_intc_0": {"version": "4.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"intc_v3_15": {"name": "intc",
+"version": "3.15",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/intc_v3_15",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_quad_spi_0": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"spi_v4_9": {"name": "spi",
+"version": "4.9",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/spi_v4_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"uartlite_v3_7": {"name": "uartlite",
+"version": "3.7",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_1": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"clk_wiz_v1_5": {"name": "clk_wiz",
+"version": "1.5",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"uartlite_v3_7": {"name": "uartlite",
+"version": "3.7",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_7",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"cpu_v2_16": {"name": "cpu",
+"version": "2.16",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_16",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"bram_v4_8": {"name": "bram",
+"version": "4.8",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+"bram_v4_8": {"name": "bram",
+"version": "4.8",
+"repo": "D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_8",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"rst_clk_wiz_1_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+"xlconcat_0": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "3.0 3.1",
+"repo": "{D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_0} {D:/Xilinx/Vitis/2022.2/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v3_1}",
+},
+},
+},
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.198
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.200
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.201
+!MESSAGE XSCT Command: [::hsi::utils::get_sw_libs -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.204
+!MESSAGE XSCT command with result: [::hsi::utils::get_sw_libs -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Result: [null, {}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.242
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.243
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.244
+!MESSAGE XSCT Command: [::hsi::utils::opensw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.261
+!MESSAGE XSCT command with result: [::hsi::utils::opensw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.262
+!MESSAGE XSCT Command: [::hsi::utils::generate_app_template -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss -app hello_world -processor microblaze_0 -os standalone -dir D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/src], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.329
+!MESSAGE XSCT command with result: [::hsi::utils::generate_app_template -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss -app hello_world -processor microblaze_0 -os standalone -dir D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/src], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.366
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App\_ide\bitstream}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.527
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App\_ide\bitstream}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.528
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.530
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, {"device": "xcku5p",
+"family": "kintexuplus",
+"timestamp": "Fri Apr 14 14:59:11 2023",
+"vivado_version": "2022.2",
+"part": "xcku5p-ffvb676-2-e",
+}]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.560
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:19.562
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/system.mss], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-14 15:25:19.584
+!MESSAGE Generating MD5 hash for file: D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Souce_Control_BD_wrapper\export\Signal_Souce_Control_BD_wrapper\sw\Signal_Souce_Control_BD_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:20.035
+!MESSAGE XSCT Command: [::hsi::utils::closehw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-14 15:25:20.039
+!MESSAGE XSCT command with result: [::hsi::utils::closehw C:/Users/DMTS/AppData/Local/Temp/hwspec_Signal_Souce_Control_BD_wrapper578156081573483653/Signal_Souce_Control_BD_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-04-14 15:25:23.155
+!MESSAGE Indexed 'Signal_Souce_Control_BD_wrapper' (169 sources, 182 headers) in 2.87 sec: 4,841 declarations; 20,257 references; 90 unresolved inclusions; 42 syntax errors; 295 unresolved names (1.2%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-04-14 15:25:23.464
+!MESSAGE Indexed 'Signal_Source_Control_App' (2 sources, 52 headers) in 0.307 sec: 1,538 declarations; 2,230 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2023-04-14 15:25:23.466
+!MESSAGE Indexed 'Signal_Source_Control_App_system' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
