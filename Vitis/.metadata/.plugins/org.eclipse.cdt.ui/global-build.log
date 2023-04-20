@@ -1,6 +1,6 @@
 Nothing to build in platform 'Signal_Souce_Control_BD_wrapper'
 
-10:03:15 **** Incremental Build of configuration Debug for project Signal_Source_Control_App ****
+10:29:58 **** Incremental Build of configuration Debug for project Signal_Source_Control_App ****
 make all 
 'Building file: ../src/AD9164_FMC.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -675,51 +675,6 @@ D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_S
       | ^
 'Finished building: ../src/AD9164_FMC.c'
 ' '
-'Building file: ../src/main.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-../src/main.c: In function 'main':
-../src/main.c:43:5: warning: implicit declaration of function 'init_axi_gpio' [-Wimplicit-function-declaration]
-   43 |     init_axi_gpio(&GpioTxEn, &GpioLed);
-      |     ^~~~~~~~~~~~~
-../src/main.c:56:9: warning: unused variable 'ptr' [-Wunused-variable]
-   56 |     u8 *ptr = RecvBuffer;
-      |         ^~~
-../src/main.c:55:10: warning: unused variable 'before_menu' [-Wunused-variable]
-   55 |     char before_menu = 0;
-      |          ^~~~~~~~~~~
-../src/main.c:54:10: warning: unused variable 'menu_print_out_flag' [-Wunused-variable]
-   54 |     char menu_print_out_flag = 0;
-      |          ^~~~~~~~~~~~~~~~~~~
-../src/main.c:53:9: warning: unused variable 'Index' [-Wunused-variable]
-   53 |     int Index;
-      |         ^~~~~
-../src/main.c:52:9: warning: unused variable 'cnt' [-Wunused-variable]
-   52 |     int cnt = 0;
-      |         ^~~
-../src/main.c:50:18: warning: unused variable 'ReceivedCount' [-Wunused-variable]
-   50 |     unsigned int ReceivedCount = 0;
-      |                  ^~~~~~~~~~~~~
-../src/main.c:49:18: warning: unused variable 'SentCount' [-Wunused-variable]
-   49 |     unsigned int SentCount;
-      |                  ^~~~~~~~~
-../src/main.c:48:9: warning: unused variable 'Status' [-Wunused-variable]
-   48 |     int Status;
-      |         ^~~~~~
-../src/main.c:47:9: warning: unused variable 'status' [-Wunused-variable]
-   47 |     int status;
-      |         ^~~~~~
-../src/main.c:46:8: warning: unused variable 'send_data' [-Wunused-variable]
-   46 |     u8 send_data = 'A';
-      |        ^~~~~~~~~
-../src/main.c:45:8: warning: unused variable 'recv_data' [-Wunused-variable]
-   45 |     u8 recv_data;
-      |        ^~~~~~~~~
-../src/main.c:40:9: warning: unused variable 'txen_flag' [-Wunused-variable]
-   40 |     int txen_flag = 0;
-      |         ^~~~~~~~~
-'Finished building: ../src/main.c'
-' '
 'Building target: Signal_Source_Control_App.elf'
 'Invoking: MicroBlaze gcc linker'
 mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Signal_Source_Control_App.elf"  ./src/AD9164_FMC.o ./src/init_arr.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
@@ -728,6 +683,6 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/DMTS/MOLIT_Shoe_Schaner/Development/FPG
 'Invoking: MicroBlaze Print Size'
 mb-size Signal_Source_Control_App.elf  |tee "Signal_Source_Control_App.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  20956	   1172	   3520	  25648	   6430	Signal_Source_Control_App.elf
+  20956	   1572	   3520	  26048	   65c0	Signal_Source_Control_App.elf
 'Finished building: Signal_Source_Control_App.elf.size'
 ' '

@@ -17,5 +17,5 @@ extern char Global_AD9164_recv[3];
 extern char One_GHz_Arr[4];
 extern char Two_GHz_Arr[4];
 extern char One_Hundred_MHz_Arr[4];
-extern char TX_Arr[200];
+extern char Freq_Arr[200];
 #endif /* INIT_ARR_H */

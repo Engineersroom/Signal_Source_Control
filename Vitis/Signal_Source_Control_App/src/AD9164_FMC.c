@@ -28,10 +28,10 @@ int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq)
     if (Status != XST_SUCCESS)
         return XST_FAILURE;
 
-    FTH1_REGSTER1[2] = TX_Arr[0+(freq-100)*4];
-    FTH1_REGSTER2[2] = TX_Arr[1+(freq-100)*4];
-    FTH1_REGSTER3[2] = TX_Arr[2+(freq-100)*4];
-    FTH1_REGSTER4[2] = TX_Arr[3+(freq-100)*4];
+    FTH1_REGSTER1[2] = Freq_Arr[0+(freq-1)*4];
+    FTH1_REGSTER2[2] = Freq_Arr[1+(freq-1)*4];
+    FTH1_REGSTER3[2] = Freq_Arr[2+(freq-1)*4];
+    FTH1_REGSTER4[2] = Freq_Arr[3+(freq-1)*4];
     TransferInProgress = TRUE;
     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
     while (TransferInProgress)

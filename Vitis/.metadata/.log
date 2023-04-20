@@ -8751,3 +8751,477 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-584: Laun
 
 !ENTRY com.xilinx.sdk.utils 1 0 2023-04-20 10:03:29.583
 !MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '39'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:15:31.683
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-598: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:15:31.686
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-598: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:15:31.687
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-598: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:15:31.690
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-598: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-20 10:15:31.690
+!MESSAGE Generating MD5 hash for file: D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Souce_Control_BD_wrapper\export\Signal_Souce_Control_BD_wrapper\sw\Signal_Souce_Control_BD_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:15:31.691
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-598: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:15:31.693
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-598: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:05.111
+!MESSAGE XSCT Command: [disconnect tcfchan#46], Thread: Thread-2173
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:05.113
+!MESSAGE XSCT command with result: [disconnect tcfchan#46], Result: [null, ]. Thread: Thread-2173
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.128
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.134
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#47]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.134
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.142
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.142
+!MESSAGE XSCT Command: [version -server], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.144
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.144
+!MESSAGE XSCT Command: [version], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.145
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.145
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.149
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.150
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.161
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.162
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.166
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.167
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.179
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.180
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.184
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.185
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.198
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.198
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.203
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.203
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.215
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.216
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.220
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.221
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.231
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.233
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level == 0}], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.244
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level == 0}], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.245
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.249
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.265
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.269
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.270
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.282
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.283
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.310
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:06.311
+!MESSAGE XSCT Command: [fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.071
+!MESSAGE XSCT command with result: [fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.078
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.089
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.090
+!MESSAGE XSCT Command: [loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.096
+!MESSAGE XSCT command with result: [loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs], Result: [null, Signal_Souce_Control_BD_wrapper_0]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.096
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.098
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.099
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.110
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.110
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.113
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:15.114
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.121
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.123
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.134
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.135
+!MESSAGE XSCT Command: [dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.262
+!MESSAGE XSCT command with result: [dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.321
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.335
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.336
+!MESSAGE XSCT Command: [con], Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:17:18.342
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-595: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-20 10:17:18.344
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '40'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:29:58.746
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-606: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:29:58.749
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-606: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:29:58.750
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-606: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:29:58.752
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-606: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-20 10:29:58.753
+!MESSAGE Generating MD5 hash for file: D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Souce_Control_BD_wrapper\export\Signal_Souce_Control_BD_wrapper\sw\Signal_Souce_Control_BD_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:29:58.754
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-606: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:29:58.755
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-606: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:01.579
+!MESSAGE XSCT Command: [disconnect tcfchan#47], Thread: Thread-2217
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:01.598
+!MESSAGE XSCT command with result: [disconnect tcfchan#47], Result: [null, ]. Thread: Thread-2217
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.611
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.616
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#48]. Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.617
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.643
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122 (closed)]. Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.644
+!MESSAGE XSCT Command: [version -server], Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.646
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.647
+!MESSAGE XSCT Command: [version], Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.648
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.648
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.652
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122 (closed)]. Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:02.653
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122 (closed)" && level==1}], Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:05.665
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122 (closed)" && level==1}], Result: [null, ]. Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:08.670
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122 (closed)" && level==1}], Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:11.685
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122 (closed)" && level==1}], Result: [null, ]. Thread: Worker-609: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.546
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.548
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#48]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.549
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.553
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.553
+!MESSAGE XSCT Command: [version -server], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.561
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.562
+!MESSAGE XSCT Command: [version], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.562
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:39
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.563
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.567
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.568
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.579
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.580
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.584
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.585
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.597
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.597
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.602
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.602
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.614
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.615
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.619
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.619
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.632
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.633
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.637
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.637
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.650
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.650
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level == 0}], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.663
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level == 0}], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.664
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.665
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.683
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.688
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent JTAG-SMT2NC 210308AE6122]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.689
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.701
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==1}], Result: [null,      2  xcku5p (idcode 04a62093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.702
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.724
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:30.724
+!MESSAGE XSCT Command: [fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.504
+!MESSAGE XSCT command with result: [fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.520
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.533
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.533
+!MESSAGE XSCT Command: [loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.538
+!MESSAGE XSCT command with result: [loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs], Result: [null, Signal_Souce_Control_BD_wrapper_0]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.539
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.540
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.541
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.552
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.553
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.562
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:39.563
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.569
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.571
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.583
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.583
+!MESSAGE XSCT Command: [dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.689
+!MESSAGE XSCT command with result: [dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.742
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.755
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.756
+!MESSAGE XSCT Command: [con], Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-20 10:30:42.763
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-610: Launching Debugger_Signal_Source_Control_App-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-20 10:30:42.764
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '41'
