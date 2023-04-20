@@ -8,6 +8,8 @@
         "xspi.h": "c",
         "xintc.h": "c",
         "init_arr.h": "c",
-        "xuartlite.h": "c"
+        "xuartlite.h": "c",
+        "ad9164_fmc.h": "c",
+        "xgpio.h": "c"
     }
 }

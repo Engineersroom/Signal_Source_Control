@@ -21,6 +21,256 @@ u8 ReadBuffer_AD9164[AD9164_BUFFER_SIZE];
 volatile static int TransferInProgress;
 int Error;
 
+int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq)
+{
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    FTH1_REGSTER1[2] = TX_Arr[0+(freq-100)*4];
+    FTH1_REGSTER2[2] = TX_Arr[1+(freq-100)*4];
+    FTH1_REGSTER3[2] = TX_Arr[2+(freq-100)*4];
+    FTH1_REGSTER4[2] = TX_Arr[3+(freq-100)*4];
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    return Status;
+
+}
+
+int SET_FTH1_OFF(XSpi *spiPtr)
+{
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    FTH1_REGSTER1[2] = 0;
+    FTH1_REGSTER2[2] = 0;
+    FTH1_REGSTER3[2] = 0;
+    FTH1_REGSTER4[2] = 0;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    return Status;
+}
+
+int SET_FTH1_100MHZ(XSpi *spiPtr)
+{
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    FTH1_REGSTER1[2] = One_Hundred_MHz_Arr[0];
+    FTH1_REGSTER2[2] = One_Hundred_MHz_Arr[1];
+    FTH1_REGSTER3[2] = One_Hundred_MHz_Arr[2];
+    FTH1_REGSTER4[2] = One_Hundred_MHz_Arr[3];
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    return Status;
+}
+
+int SET_FTH1_1GHZ(XSpi *spiPtr)
+{
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    FTH1_REGSTER1[2] = One_GHz_Arr[0];
+    FTH1_REGSTER2[2] = One_GHz_Arr[1];
+    FTH1_REGSTER3[2] = One_GHz_Arr[2];
+    FTH1_REGSTER4[2] = One_GHz_Arr[3];
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    return Status;
+}
+
+int SET_FTH1_2GHZ(XSpi *spiPtr)
+{
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    FTH1_REGSTER1[2] = Two_GHz_Arr[0];
+    FTH1_REGSTER2[2] = Two_GHz_Arr[1];
+    FTH1_REGSTER3[2] = Two_GHz_Arr[2];
+    FTH1_REGSTER4[2] = Two_GHz_Arr[3];
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    return Status;
+}
+
 int SPI_Init_Func(int device_id, XSpi *spiPtr, XIntc *Intptr)
 {
     int Status;
@@ -230,239 +480,6 @@ int SPI_User_Debug_Mode(XSpi *spiPtr, XUartLite *uartPtr)
     return 0;
 }
 
-int SPI_Register_Init(XSpi *spiPtr)
-{
-    XSpi_Start(spiPtr);
-    // xil_printf("Register Init ... \r\n");
-    int Status;
-    // ADF4355
-    Status = XSpi_SetSlaveSelect(spiPtr, ADF4355_ID);
-    if (Status != XST_SUCCESS)
-    {
-        xil_printf("ADF4355 Conneting... failed\r\n");
-        return XST_FAILURE;
-    }
-    else
-    {
-        xil_printf("ADF4355 Conneting...\r\n");
-    }
-    xil_printf("ADF4355 Selected ... \r\n");
-    for (int asd = 0; asd < 15; asd++)
-    {
-        for (int i = 0; i < ADF4355_BUFFER_SIZE; i++)
-        {
-            // 버퍼에 데이터 넣기
-            WriteBuffer_ADF4355[i] = Init_ADF4355[asd * ADF4355_BUFFER_SIZE + i];
-            // WriteBuffer_ADF4355[]
-        }
-        // 플래그 설정
-        TransferInProgress = TRUE;
-        // 전송시작
-        XSpi_Transfer(spiPtr, WriteBuffer_ADF4355, ReadBuffer_ADF4355, ADF4355_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        usleep(10);
-    }
-    xil_printf("ADF4355 END\r\n");
-}
-
-int SPI_Forced_Input(XSpi *spiPtr)
-{
-    // FDAC 6GHz, REF 120Mhz,
-    char temp_addr1[3] = {0x08, 0x00, 0x01};
-    char temp_addr2[3] = {0x08, 0x06, 0xAB};
-    char temp_addr3[3] = {0x08, 0x07, 0xAA};
-    char temp_addr4[3] = {0x08, 0x08, 0xAA};
-    char temp_addr5[3] = {0x08, 0x09, 0x2A};
-    char complete1[3] = {0x01, 0x13, 0x00};
-    char complete2[3] = {0x01, 0x13, 0x01};
-    char temp_recv[3];
-    int Status;
-    XSpi_Start(spiPtr);
-    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
-    if (Status != XST_SUCCESS)
-    {
-        xil_printf("Test Conneting... failed\r\n");
-        return XST_FAILURE;
-    }
-    else
-    {
-        xil_printf("Test Conneting...\r\n");
-    }
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr2, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr3, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr4, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr5, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete2, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    xil_printf("Mission Complte...\r\n");
-}
-
-int SPI_Forced_Input2(XSpi *spiPtr)
-{
-    // FDAC 6GHz, REF 120Mhz,
-    char temp_addr1[3] = {0x08, 0x00, 0x02};
-    char temp_addr2[3] = {0x08, 0x0A, 0x55};
-    char temp_addr3[3] = {0x08, 0x0B, 0x55};
-    char temp_addr4[3] = {0x08, 0x0C, 0x55};
-    char temp_addr5[3] = {0x08, 0x0D, 0x55};
-
-    char complete1[3] = {0x01, 0x13, 0x00};
-    char complete2[3] = {0x01, 0x13, 0x01};
-    char temp_recv[3];
-    int Status;
-    XSpi_Start(spiPtr);
-    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
-    if (Status != XST_SUCCESS)
-    {
-        xil_printf("Test Conneting... failed\r\n");
-        return XST_FAILURE;
-    }
-    else
-    {
-        xil_printf("Test Conneting...\r\n");
-    }
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr2, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr3, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr4, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr5, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete2, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(10);
-    xil_printf("Mission Complte...\r\n");
-}
-
-int DAC_Start_Up_Sequence_Func(XSpi *spiPtr)
-{
-    xil_printf("DAC_Start_up_Phase_1 \r\n");
-    XSpi_Start(spiPtr);
-    int Status;
-    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
-    if (Status != XST_SUCCESS)
-    {
-        xil_printf("AD9164 Conneting... failed\r\n");
-        return XST_FAILURE;
-    }
-    else
-    {
-        xil_printf("AD9164 Conneting...Success\r\n");
-    }
-    for (int asd = 0; asd < 67; asd++)
-    {
-        for (int i = 0; i < AD9164_BUFFER_SIZE; i++)
-        {
-            // 버퍼에 데이터 넣기
-            WriteBuffer_AD9164[i] = DAC_Start_Up_Sequnce_2[asd * AD9164_BUFFER_SIZE + i];
-        }
-        // 플래그 설정
-        TransferInProgress = TRUE;
-        // 전송시작
-        XSpi_Transfer(spiPtr, WriteBuffer_AD9164, ReadBuffer_AD9164, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        usleep(1);
-    }
-    // SPI 읽기
-    WriteBuffer_AD9164[0] = 0x80;
-    WriteBuffer_AD9164[1] = 0x92;
-    WriteBuffer_AD9164[2] = 0x00;
-    ReadBuffer_AD9164[0] = 0;
-    ReadBuffer_AD9164[1] = 0;
-    ReadBuffer_AD9164[2] = 0;
-    XSpi_Transfer(spiPtr, WriteBuffer_AD9164, ReadBuffer_AD9164, 3);
-    while (TransferInProgress)
-        ;
-    printf("%d \r\n", ReadBuffer_AD9164[2]);
-
-    printf("DAC_Start_Up_Phase_1_end\r\n");
-}
-
 int Read_Register(XSpi *spiPtr, int device_id)
 {
     int Status;
@@ -490,261 +507,6 @@ int Read_Register(XSpi *spiPtr, int device_id)
     // 왜 읽어오지 않는지는 모르겠음.
 }
 
-int Check_Timing(XSpi *spiPtr)
-{
-    // Sweep 속도 테스트
-    // for문과 일반 반복 10번이 속도가 다른지 확인
-    // FTH1번 레지스터에 0Mhz 100MHz 로 바꾸는 동작을 10번 하게 한다음 /
-    // 오실로스코프에서 파형 변환 체크.
-    xil_printf("timing_Check \r\n");
-    // 100MHz
-    char temp_addr1[3] = {0x08, 0x00, 0x01};
-    char temp_addr2[3] = {0x08, 0x06, 0x44};
-    char temp_addr3[3] = {0x08, 0x07, 0x44};
-    char temp_addr4[3] = {0x08, 0x08, 0x44};
-    char temp_addr5[3] = {0x08, 0x09, 0x04};
-
-    char complete1[3] = {0x01, 0x13, 0x00};
-    char complete2[3] = {0x01, 0x13, 0x01};
-    char temp_recv[3];
-
-    char temp2_addr1[3] = {0x08, 0x00, 0x01};
-    char temp2_addr2[3] = {0x08, 0x06, 0x00};
-    char temp2_addr3[3] = {0x08, 0x07, 0x00};
-    char temp2_addr4[3] = {0x08, 0x08, 0x00};
-    char temp2_addr5[3] = {0x08, 0x09, 0x00};
-
-    for (int i = 0; i < 10; i++)
-    {
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-
-        // 플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp_addr1, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp_addr2, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp_addr3, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp_addr4, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-
-        // 플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp_addr5, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-
-        // 플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, complete2, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        usleep(1);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp2_addr1, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp2_addr2, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp2_addr3, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp2_addr4, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-
-        // 플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp2_addr5, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-
-        // 플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, complete2, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        usleep(1);
-    }
-    // xil_printf("Complete \r\n");
-}
-
-int Check_FTH_Switching(XSpi *spiPtr)
-{
-    xil_printf("timing_Check2 \r\n");
-    char temp_addr1[3] = {0x08, 0x00, 0x01};
-    char temp_addr2[3] = {0x08, 0x06, 0x44};
-    char temp_addr3[3] = {0x08, 0x07, 0x44};
-    char temp_addr4[3] = {0x08, 0x08, 0x44};
-    char temp_addr5[3] = {0x08, 0x09, 0x04};
-
-    char complete1[3] = {0x01, 0x13, 0x00};
-    char complete2[3] = {0x01, 0x13, 0x01};
-    char temp_recv[3];
-
-    char temp2_addr1[3] = {0x08, 0x00, 0x01};
-    char temp2_addr2[3] = {0x08, 0x06, 0x00};
-    char temp2_addr3[3] = {0x08, 0x07, 0x00};
-    char temp2_addr4[3] = {0x08, 0x08, 0x00};
-    char temp2_addr5[3] = {0x08, 0x09, 0x00};
-
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr2, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr3, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr4, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp_addr5, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete2, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(1);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp2_addr1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp2_addr2, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp2_addr3, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp2_addr4, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, temp2_addr5, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-
-    // 플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete2, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    // usleep(10);
-    //  플래그 설정
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, complete1, temp_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-    usleep(1);
-    for (int i = 0; i < 10; i++)
-    {
-        // 플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp_addr1, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-        //  플래그 설정
-        TransferInProgress = TRUE;
-        XSpi_Transfer(spiPtr, temp2_addr1, temp_recv, AD9164_BUFFER_SIZE);
-        while (TransferInProgress)
-            ;
-        // usleep(10);
-    }
-}
 // 인터럽트
 
 // UART

@@ -43,9 +43,17 @@ int SPI_User_Debug_Mode(XSpi *spiPtr, XUartLite *uartPtr);
 int Read_Register(XSpi *spiPtr, int device_id);
 int SPI_Forced_Input2(XSpi *spiPtr);
 
+int SET_FTH1_1GHZ(XSpi *spiPtr);
+int SET_FTH1_2GHZ(XSpi *spiPtr);
+
+int SET_FTH1_100MHZ(XSpi *spiPtr);
+int SET_FTH1_OFF(XSpi *spiPtr);
+
+int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq);
+
 extern u8 data[20];
-extern u8 SendBuffer[TEST_BUFFER_SIZE];
-extern u8 RecvBuffer[TEST_BUFFER_SIZE];
+extern unsigned char SendBuffer[TEST_BUFFER_SIZE];
+extern unsigned char RecvBuffer[TEST_BUFFER_SIZE];
 
 int UART_Init_Func(int devide_id, XUartLite *uartPtr);
 
