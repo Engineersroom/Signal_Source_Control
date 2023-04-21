@@ -6790,3 +6790,39 @@ TRACE::2023-04-21.14:22:17::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_S
 TRACE::2023-04-21.14:22:17::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2023-04-21.14:22:17::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-04-21.14:23:41::SCWMssOS::cleaning the bsp 
+TRACE::2023-04-21.14:23:41::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-04-21.14:23:41::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-04-21.14:23:41::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-04-21.14:23:41::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-04-21.14:23:41::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-04-21.14:23:41::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s clean 
+
+TRACE::2023-04-21.14:23:41::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-04-21.14:23:42::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-04-21.14:23:42::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+TRACE::2023-04-21.14:23:43::SCWMssOS::cleaning the bsp 
+TRACE::2023-04-21.14:23:43::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-04-21.14:23:43::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-04-21.14:23:43::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-04-21.14:23:43::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-04-21.14:23:43::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-04-21.14:23:43::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s clean 
+
+TRACE::2023-04-21.14:23:43::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-04-21.14:23:44::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-04-21.14:23:44::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+

@@ -3650,3 +3650,8 @@ con
 ----------------End of Script----------------
 
 14:12:43 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+14:22:01 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+14:22:09 INFO  : Result from executing command 'removePlatformRepo': 
+14:22:17 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+14:22:17 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+14:22:18 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
