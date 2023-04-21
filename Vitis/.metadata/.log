@@ -1827,3 +1827,51 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-885: Laun
 
 !ENTRY com.xilinx.sdk.utils 1 0 2023-04-21 14:12:43.016
 !MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '55'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:01.371
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:01.374
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:01.375
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:01.377
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-21 14:22:01.378
+!MESSAGE Generating MD5 hash for file: D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Souce_Control_BD_wrapper\export\Signal_Souce_Control_BD_wrapper\sw\Signal_Souce_Control_BD_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:01.379
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:01.380
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:18.011
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:18.015
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:18.016
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:18.019
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-04-21 14:22:18.020
+!MESSAGE Generating MD5 hash for file: D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Souce_Control_BD_wrapper\export\Signal_Souce_Control_BD_wrapper\sw\Signal_Souce_Control_BD_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:18.021
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-879: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:18.023
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-879: Build Project
