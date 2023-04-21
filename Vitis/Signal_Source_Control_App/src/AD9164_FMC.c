@@ -18,8 +18,61 @@ u8 ReadBuffer_AD9508[AD9508_BUFFER_SIZE];
 u8 WriteBuffer_AD9164[AD9164_BUFFER_SIZE];
 u8 ReadBuffer_AD9164[AD9164_BUFFER_SIZE];
 
+u8 WriteBuffer_ADAR2001[ADAR2001_BUFFER_SIZE];
+u8 ReadBuffer_ADAR2001[ADAR2001_BUFFER_SIZE];
+
 volatile static int TransferInProgress;
 int Error;
+
+int SET_ADAR2001(XSpi *spiPtr)
+{
+    xil_printf("ADAR2001 Set \r\n");
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, ADAR2001_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+    for (int asd = 0; asd < 4; asd++)
+    {
+        for (int i = 0; i < ADAR2001_BUFFER_SIZE; i++)
+        {
+            // 버퍼에 데이터 넣기
+            WriteBuffer_ADAR2001[i] = ADAR2001_Test_State[asd * ADAR2001_BUFFER_SIZE + i];
+        }
+        // 플래그 설정
+        TransferInProgress = TRUE;
+        // 전송시작
+        XSpi_Transfer(spiPtr, WriteBuffer_ADAR2001, ReadBuffer_ADAR2001, ADAR2001_BUFFER_SIZE);
+        while (TransferInProgress)
+            ;
+        // usleep(10);
+    }
+    xil_printf("ADAR2001 Set End\r\n");
+}
+
+int Init_ADAR2001_Func(XSpi *spiPtr)
+{
+    xil_printf("ADAR2001 Init\r\n");
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, ADAR2001_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+    for (int asd = 0; asd < 12; asd++)
+    {
+        for (int i = 0; i < ADAR2001_BUFFER_SIZE; i++)
+        {
+            // 버퍼에 데이터 넣기
+            WriteBuffer_ADAR2001[i] = Init_ADAR2001[asd * ADAR2001_BUFFER_SIZE + i];
+        }
+        // 플래그 설정
+        TransferInProgress = TRUE;
+        // 전송시작
+        XSpi_Transfer(spiPtr, WriteBuffer_ADAR2001, ReadBuffer_ADAR2001, ADAR2001_BUFFER_SIZE);
+        while (TransferInProgress)
+            ;
+        // usleep(10);
+    }
+    xil_printf("ADAR2001 Init End\r\n");
+}
 
 int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq)
 {
@@ -28,10 +81,10 @@ int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq)
     if (Status != XST_SUCCESS)
         return XST_FAILURE;
 
-    FTH1_REGSTER1[2] = Freq_Arr[0+(freq-1)*4];
-    FTH1_REGSTER2[2] = Freq_Arr[1+(freq-1)*4];
-    FTH1_REGSTER3[2] = Freq_Arr[2+(freq-1)*4];
-    FTH1_REGSTER4[2] = Freq_Arr[3+(freq-1)*4];
+    FTH1_REGSTER1[2] = Freq_Arr[0 + (freq - 1) * 4];
+    FTH1_REGSTER2[2] = Freq_Arr[1 + (freq - 1) * 4];
+    FTH1_REGSTER3[2] = Freq_Arr[2 + (freq - 1) * 4];
+    FTH1_REGSTER4[2] = Freq_Arr[3 + (freq - 1) * 4];
     TransferInProgress = TRUE;
     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
@@ -67,7 +120,6 @@ int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq)
         ;
 
     return Status;
-
 }
 
 int SET_FTH1_OFF(XSpi *spiPtr)

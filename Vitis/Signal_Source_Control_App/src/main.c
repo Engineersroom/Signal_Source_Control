@@ -73,34 +73,42 @@ int main()
     //  2-1 단계, Signal Source 모드면, RX 인지 TX 인지,
     //  그 후, 테이블에 해당하는 주파수 발생
     //  RX TX 정해주면 좋긴 하지만,, 섞어 쓸 수 도 있고 했갈릴 수 도 있으니 구별해서 전송
+    // 노선 변경
+    // 101 ~ 201 TX
+    // 1 ~ 100 RX
     xil_printf("Enter 0 for test mode and 1 for use mode \r\n");
-     xil_printf("Testing System \r\n");
-    //XGpio_DiscreteWrite(&GpioTxEn, 1, txen_flag);
-    //XGpio_DiscreteWrite(&GpioTxEn, 0, txen_flag);
-    //unsigned char recv = 0;
+    xil_printf("Testing System \r\n");
+    
+    Init_ADAR2001_Func(&Spi);
+    
+    SET_ADAR2001(&Spi);
+    
+    // XGpio_DiscreteWrite(&GpioTxEn, 1, txen_flag);
+    // XGpio_DiscreteWrite(&GpioTxEn, 0, txen_flag);
+    // unsigned char recv = 0;
     while (1)
     {
-    
+
         // xil_printf("Waiting for input while \r\n");
         RecvBuffer[0] = 0;
 
         XUartLite_Recv(&UartLite, RecvBuffer, 1);
         if (RecvBuffer[0] == 0)
         {
-           
-          //   xil_printf("Waiting for input \r\n");
+
+            //   xil_printf("Waiting for input \r\n");
         }
         else
         {
-             //xil_printf("Test Mode \r\n");
-            if (RecvBuffer[0] == 201 ) // 0xFA) // 250
+            // xil_printf("Test Mode \r\n");
+            if (RecvBuffer[0] == 201) // 0xFA) // 250
             {
-               // XGpio_DiscreteWrite(&GpioLed, 1, 0b10101010);
+                // XGpio_DiscreteWrite(&GpioLed, 1, 0b10101010);
                 SET_FTH1_1GHZ(&Spi);
             }
             else if (RecvBuffer[0] == 202) // 0xFB) // 254
             {
-               // XGpio_DiscreteWrite(&GpioLed, 1, 0b001010101);
+                // XGpio_DiscreteWrite(&GpioLed, 1, 0b001010101);
                 SET_FTH1_2GHZ(&Spi);
             }
             else if (RecvBuffer[0] == 203) // 0xFB) // 254
@@ -113,7 +121,7 @@ int main()
             }
             else
             {
-               SET_FTH1_FREQ(&Spi, RecvBuffer[0]);
+                SET_FTH1_FREQ(&Spi, RecvBuffer[0]);
             }
         }
     }

@@ -1,6 +1,6 @@
-17:48:45 **** Build of configuration Debug for project Signal_Source_Control_App_system ****
+12:01:47 **** Incremental Build of configuration Debug for project Signal_Source_Control_App_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-17:48:45 Build Finished (took 128ms)
+12:01:47 Build Finished (took 108ms)
 

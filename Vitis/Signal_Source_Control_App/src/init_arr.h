@@ -14,6 +14,9 @@ extern char SAND_complete1[3];
 extern char SAND_complete2[3];
 extern char Global_AD9164_recv[3];
 
+extern char Init_ADAR2001[36];
+extern char ADAR2001_Test_State[12];
+
 extern char One_GHz_Arr[4];
 extern char Two_GHz_Arr[4];
 extern char One_Hundred_MHz_Arr[4];

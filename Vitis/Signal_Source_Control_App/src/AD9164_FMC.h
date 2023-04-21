@@ -8,10 +8,12 @@
 #define ADF4355_ID 4
 #define AD9164_ID 1
 #define AD9508_ID 2
+#define ADAR2001_ID 8
 
 #define ADF4355_BUFFER_SIZE 4
 #define AD9508_BUFFER_SIZE 3
 #define AD9164_BUFFER_SIZE 3
+#define ADAR2001_BUFFER_SIZE 3
 
 // Chip Control Variable
 
@@ -36,6 +38,9 @@ extern u8 ReadBuffer_AD9508[AD9508_BUFFER_SIZE];
 extern u8 WriteBuffer_AD9164[AD9164_BUFFER_SIZE];
 extern u8 ReadBuffer_AD9164[AD9164_BUFFER_SIZE];
 
+extern u8 WriteBuffer_ADAR2001[ADAR2001_BUFFER_SIZE];
+extern u8 ReadBuffer_ADAR2001[ADAR2001_BUFFER_SIZE];
+
 void SpiHandler(void *CallBackRef, u32 StatusEvent, unsigned int ByteCount);
 int SPI_Init_Func(int device_id, XSpi *spiPtr, XIntc *Intptr);
 int SPI_Signal_Source_Factory_Init(XSpi *spiPtr);
@@ -50,6 +55,9 @@ int SET_FTH1_100MHZ(XSpi *spiPtr);
 int SET_FTH1_OFF(XSpi *spiPtr);
 
 int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq);
+
+int Init_ADAR2001_Func(XSpi *spiPtr);
+int SET_ADAR2001(XSpi *spiPtr);
 
 extern u8 data[20];
 extern unsigned char SendBuffer[TEST_BUFFER_SIZE];
