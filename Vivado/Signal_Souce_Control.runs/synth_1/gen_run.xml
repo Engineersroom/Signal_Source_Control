@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xcku5p-ffvb676-2-e" LaunchTime="1681452426" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Signal_Souce_Control_BD_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xcku5p-ffvb676-2-e" LaunchTime="1683531169" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Signal_Souce_Control_BD_wrapper.dcp">
   <File Type="PA-TCL" Name="Signal_Souce_Control_BD_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Signal_Souce_Control_BD_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Signal_Souce_Control_BD_wrapper_reports.tcl"/>
@@ -61,6 +61,7 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_axi_gpio_2_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_microblaze_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_clk_wiz_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_axi_gpio_0_0"/>

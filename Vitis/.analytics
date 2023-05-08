@@ -195,3 +195,11 @@ timestamp=[2023-04-21 14:22:19], mode=BUILD, duration=0:00:01.048, duration_ms=1
 timestamp=[2023-04-21 14:23:42], mode=PLATFORM_GENERATION, duration=0:00:02.347, duration_ms=2347, data={name=Signal_Souce_Control_BD_wrapper}
 timestamp=[2023-04-21 14:23:44], mode=PLATFORM_GENERATION, duration=0:00:01.803, duration_ms=1803, data={name=Signal_Souce_Control_BD_wrapper}
 timestamp=[2023-04-21 14:23:44], mode=BUILD, duration=0:00:00.171, duration_ms=171, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-04-28 17:51:00], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.369, duration_ms=369, data={}
+timestamp=[2023-04-28 17:51:01], mode=WORKBENCH_START, duration=0:00:08.684, duration_ms=8684, data={}
+timestamp=[2023-04-28 17:51:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.218, duration_ms=218, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,Signal_Souce_Control_BD_wrapper,Signal_Source_Control_App,Signal_Source_Control_App_system}
+timestamp=[2023-05-09 08:11:12], mode=WORKBENCH_START, duration=0:00:07.662, duration_ms=7662, data={}
+timestamp=[2023-05-09 08:11:12], mode=WORKBENCH_UI_INIT, duration=0:00:00.367, duration_ms=367, data={editors_count=0, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,Signal_Souce_Control_BD_wrapper,Signal_Source_Control_App,Signal_Source_Control_App_system}
+timestamp=[2023-05-09 08:11:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.374, duration_ms=374, data={}
+timestamp=[2023-05-09 08:12:22], mode=PLATFORM_GENERATION, duration=0:00:02.390, duration_ms=2390, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 08:12:29], mode=PLATFORM_GENERATION, duration=0:00:07.209, duration_ms=7209, data={name=Signal_Souce_Control_BD_wrapper}

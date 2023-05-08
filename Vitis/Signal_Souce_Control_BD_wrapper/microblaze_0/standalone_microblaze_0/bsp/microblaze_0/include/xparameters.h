@@ -567,7 +567,7 @@
 /******************************************************************/
 
 /* Definitions for driver GPIO */
-#define XPAR_XGPIO_NUM_INSTANCES 2
+#define XPAR_XGPIO_NUM_INSTANCES 3
 
 /* Definitions for peripheral AXI_GPIO_0 */
 #define XPAR_AXI_GPIO_0_BASEADDR 0x40000000
@@ -585,6 +585,14 @@
 #define XPAR_AXI_GPIO_1_IS_DUAL 1
 
 
+/* Definitions for peripheral AXI_GPIO_2 */
+#define XPAR_AXI_GPIO_2_BASEADDR 0x40020000
+#define XPAR_AXI_GPIO_2_HIGHADDR 0x4002FFFF
+#define XPAR_AXI_GPIO_2_DEVICE_ID 2
+#define XPAR_AXI_GPIO_2_INTERRUPT_PRESENT 0
+#define XPAR_AXI_GPIO_2_IS_DUAL 0
+
+
 /******************************************************************/
 
 /* Canonical definitions for peripheral AXI_GPIO_0 */
@@ -600,6 +608,13 @@
 #define XPAR_GPIO_1_DEVICE_ID XPAR_AXI_GPIO_1_DEVICE_ID
 #define XPAR_GPIO_1_INTERRUPT_PRESENT 0
 #define XPAR_GPIO_1_IS_DUAL 1
+
+/* Canonical definitions for peripheral AXI_GPIO_2 */
+#define XPAR_GPIO_2_BASEADDR 0x40020000
+#define XPAR_GPIO_2_HIGHADDR 0x4002FFFF
+#define XPAR_GPIO_2_DEVICE_ID XPAR_AXI_GPIO_2_DEVICE_ID
+#define XPAR_GPIO_2_INTERRUPT_PRESENT 0
+#define XPAR_GPIO_2_IS_DUAL 0
 
 
 /******************************************************************/
@@ -632,6 +647,8 @@
 #define XPAR_AXI_INTC_0_TYPE 0U
 #define XPAR_AXI_QUAD_SPI_0_IP2INTC_IRPT_MASK 0X000001U
 #define XPAR_AXI_INTC_0_AXI_QUAD_SPI_0_IP2INTC_IRPT_INTR 0U
+#define XPAR_AXI_QUAD_SPI_1_IP2INTC_IRPT_MASK 0X000002U
+#define XPAR_AXI_INTC_0_AXI_QUAD_SPI_1_IP2INTC_IRPT_INTR 1U
 
 /******************************************************************/
 
@@ -647,11 +664,13 @@
 #define XPAR_INTC_0_ADDR_WIDTH 32U
 #define XPAR_INTC_0_INTC_TYPE 0U
 
+#define XPAR_INTC_0_SPI_0_VEC_ID XPAR_AXI_INTC_0_AXI_QUAD_SPI_0_IP2INTC_IRPT_INTR
+#define XPAR_INTC_0_SPI_1_VEC_ID XPAR_AXI_INTC_0_AXI_QUAD_SPI_1_IP2INTC_IRPT_INTR
 
 /******************************************************************/
 
 /* Definitions for driver SPI */
-#define XPAR_XSPI_NUM_INSTANCES 1U
+#define XPAR_XSPI_NUM_INSTANCES 2U
 
 /* Definitions for peripheral AXI_QUAD_SPI_0 */
 #define XPAR_AXI_QUAD_SPI_0_DEVICE_ID 0U
@@ -683,6 +702,39 @@
 #define XPAR_SPI_0_AXI4_HIGHADDR 0U
 #define XPAR_SPI_0_XIP_MODE 0U
 #define XPAR_SPI_0_USE_STARTUP 0U
+
+
+
+/* Definitions for peripheral AXI_QUAD_SPI_1 */
+#define XPAR_AXI_QUAD_SPI_1_DEVICE_ID 1U
+#define XPAR_AXI_QUAD_SPI_1_BASEADDR 0x44A10000U
+#define XPAR_AXI_QUAD_SPI_1_HIGHADDR 0x44A1FFFFU
+#define XPAR_AXI_QUAD_SPI_1_FIFO_EXIST 1U
+#define XPAR_AXI_QUAD_SPI_1_FIFO_DEPTH 16U
+#define XPAR_AXI_QUAD_SPI_1_SPI_SLAVE_ONLY 0U
+#define XPAR_AXI_QUAD_SPI_1_NUM_SS_BITS 4U
+#define XPAR_AXI_QUAD_SPI_1_NUM_TRANSFER_BITS 8U
+#define XPAR_AXI_QUAD_SPI_1_SPI_MODE 0U
+#define XPAR_AXI_QUAD_SPI_1_TYPE_OF_AXI4_INTERFACE 0U
+#define XPAR_AXI_QUAD_SPI_1_AXI4_BASEADDR 0U
+#define XPAR_AXI_QUAD_SPI_1_AXI4_HIGHADDR 0U
+#define XPAR_AXI_QUAD_SPI_1_XIP_MODE 0U
+
+/* Canonical definitions for peripheral AXI_QUAD_SPI_1 */
+#define XPAR_SPI_1_DEVICE_ID 1U
+#define XPAR_SPI_1_BASEADDR 0x44A10000U
+#define XPAR_SPI_1_HIGHADDR 0x44A1FFFFU
+#define XPAR_SPI_1_FIFO_EXIST 1U
+#define XPAR_SPI_1_FIFO_DEPTH 16U
+#define XPAR_SPI_1_SPI_SLAVE_ONLY 0U
+#define XPAR_SPI_1_NUM_SS_BITS 4U
+#define XPAR_SPI_1_NUM_TRANSFER_BITS 8U
+#define XPAR_SPI_1_SPI_MODE 0U
+#define XPAR_SPI_1_TYPE_OF_AXI4_INTERFACE 0U
+#define XPAR_SPI_1_AXI4_BASEADDR 0U
+#define XPAR_SPI_1_AXI4_HIGHADDR 0U
+#define XPAR_SPI_1_XIP_MODE 0U
+#define XPAR_SPI_1_USE_STARTUP 0U
 
 
 

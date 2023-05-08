@@ -920,7 +920,7 @@ Writing a 1 to this bit position clears the receive FIFO
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c90ab7fa</spirit:value>
+            <spirit:value>9:30e1f9d7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -934,11 +934,11 @@ Writing a 1 to this bit position clears the receive FIFO
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 14 02:32:22 UTC 2023</spirit:value>
+            <spirit:value>Fri Apr 14 08:04:17 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c90ab7fa</spirit:value>
+            <spirit:value>9:30e1f9d7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -954,11 +954,11 @@ Writing a 1 to this bit position clears the receive FIFO
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 14 02:32:22 UTC 2023</spirit:value>
+            <spirit:value>Fri Apr 14 08:04:17 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c90ab7fa</spirit:value>
+            <spirit:value>9:30e1f9d7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -990,7 +990,7 @@ Writing a 1 to this bit position clears the receive FIFO
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:321516ec</spirit:value>
+            <spirit:value>9:e666cc2b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1006,11 +1006,11 @@ Writing a 1 to this bit position clears the receive FIFO
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 14 02:32:22 UTC 2023</spirit:value>
+            <spirit:value>Fri Apr 14 08:04:17 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:321516ec</spirit:value>
+            <spirit:value>9:e666cc2b</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1024,11 +1024,11 @@ Writing a 1 to this bit position clears the receive FIFO
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 14 02:32:22 UTC 2023</spirit:value>
+            <spirit:value>Fri Apr 14 08:04:17 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c90ab7fa</spirit:value>
+            <spirit:value>9:30e1f9d7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1042,11 +1042,11 @@ Writing a 1 to this bit position clears the receive FIFO
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri Apr 14 06:00:08 UTC 2023</spirit:value>
+            <spirit:value>Fri Apr 14 08:05:13 UTC 2023</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:c90ab7fa</spirit:value>
+            <spirit:value>9:30e1f9d7</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -1426,7 +1426,7 @@ Writing a 1 to this bit position clears the receive FIFO
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_BAUDRATE</spirit:name>
         <spirit:displayName>Baudrate</spirit:displayName>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_BAUDRATE">9600</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_BAUDRATE">115200</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_DATA_BITS</spirit:name>
@@ -1711,7 +1711,7 @@ Writing a 1 to this bit position clears the receive FIFO
       <spirit:name>C_BAUDRATE</spirit:name>
       <spirit:displayName>Baudrate</spirit:displayName>
       <spirit:description>Baud rate of the AXI UART Lite in bits per second.</spirit:description>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_BAUDRATE" spirit:choiceRef="choice_list_d4196e9f" spirit:order="1300">9600</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.C_BAUDRATE" spirit:choiceRef="choice_list_d4196e9f" spirit:order="1300">115200</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>C_S_AXI_ACLK_FREQ_HZ</spirit:name>
@@ -1800,6 +1800,7 @@ Writing a 1 to this bit position clears the receive FIFO
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.WUSER_BITS_PER_BYTE" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.S_AXI.WUSER_WIDTH" xilinx:valueSource="constant" xilinx:valuePermission="bd"/>
         <xilinx:configElementInfo xilinx:referenceId="BUSIFPARAM_VALUE.UART.BOARD.ASSOCIATED_PARAM" xilinx:valuePermission="bd"/>
+        <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_BAUDRATE" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.C_S_AXI_ACLK_FREQ_HZ_d" xilinx:valueSource="propagated" xilinx:valuePermission="bd_and_user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.UARTLITE_BOARD_INTERFACE" xilinx:valueSource="user"/>
         <xilinx:configElementInfo xilinx:referenceId="PARAM_VALUE.USE_BOARD_FLOW" xilinx:valueSource="user"/>

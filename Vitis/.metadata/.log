@@ -1875,3 +1875,142 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-885: Laun
 
 !ENTRY com.xilinx.sdk.utils 0 0 2023-04-21 14:22:18.023
 !MESSAGE XSCT command with result: [::hsi::utils::closesw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-879: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2023-04-21 14:26:29.029
+!MESSAGE TCF channel terminated
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:290)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:351)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.eclipse.tcf.core.ChannelTCP.get(ChannelTCP.java:186)
+	at org.eclipse.tcf.core.StreamChannel.read(StreamChannel.java:85)
+	at org.eclipse.tcf.core.AbstractChannel$1.run(AbstractChannel.java:329)
+!SESSION 2023-04-28 17:50:33.792 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-04-28 17:50:52.993
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 4 2023-04-28 17:50:56.440
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-04-28 17:51:01.596
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-04-28 17:51:01.597
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-04-28 17:51:01.598
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:02.040
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:02.041
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:02.053
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:02.055
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:02.056
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:02.069
+!MESSAGE XSCT Command: [setws D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis], Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:04.913
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:04.915
+!MESSAGE XSCT command with result: [setws D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis], Result: [null, ]. Thread: Thread-22
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:04.915
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-04-28 17:51:04.916
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/Xilinx/Vitis/2022.2/data]. Thread: Worker-0: Initializing s/w repositories
+!SESSION 2023-05-09 08:10:23.068 -----------------------------------------------
+eclipse.buildId=2022.2
+java.version=11.0.11
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2023-05-09 08:11:06.420
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-05-09 08:11:11.525
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-05-09 08:11:11.527
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2023-05-09 08:11:11.528
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:12.007
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:12.008
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:12.022
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:12.023
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:12.024
+!MESSAGE XSCT Command: [setws D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis], Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:12.027
+!MESSAGE XSCT command with result: [setws D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis], Result: [null, ]. Thread: Thread-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:12.977
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:15.580
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:15.581
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:15.582
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, D:/Xilinx/Vitis/2022.2/data]. Thread: Worker-0: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:40.424
+!MESSAGE XSCT Command: [platform read {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/platform.spr}], Thread: Worker-4: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:40.870
+!MESSAGE XSCT command with result: [platform read {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-4: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:40.895
+!MESSAGE XSCT Command: [platform active {Signal_Souce_Control_BD_wrapper}], Thread: Worker-4: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:11:40.897
+!MESSAGE XSCT command with result: [platform active {Signal_Souce_Control_BD_wrapper}], Result: [null, ]. Thread: Worker-4: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-09 08:12:07.189
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-09 08:12:07.191
+!MESSAGE Preference loaded using local preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-09 08:12:07.191
+!MESSAGE Workspace path used is: D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:12:13.718
+!MESSAGE XSCT Command: [platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}], Thread: Worker-2: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-09 08:12:14.410
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}], Result: [null, ]. Thread: Worker-2: Updating hardware platform

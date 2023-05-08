@@ -2,12 +2,12 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Fri Apr 14 14:59:16 2023
-# Process ID: 12664
-# Current directory: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_axi_quad_spi_0_0_synth_1
+# Start of session at: Fri Apr 21 11:39:30 2023
+# Process ID: 27076
+# Current directory: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_axi_quad_spi_0_0_synth_1
 # Command line: vivado.exe -log Signal_Souce_Control_BD_axi_quad_spi_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Signal_Souce_Control_BD_axi_quad_spi_0_0.tcl
-# Log file: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_axi_quad_spi_0_0_synth_1/Signal_Souce_Control_BD_axi_quad_spi_0_0.vds
-# Journal file: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_axi_quad_spi_0_0_synth_1\vivado.jou
+# Log file: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_axi_quad_spi_0_0_synth_1/Signal_Souce_Control_BD_axi_quad_spi_0_0.vds
+# Journal file: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_axi_quad_spi_0_0_synth_1\vivado.jou
 # Running On: DESKTOP-LJ1PS58, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 68595 MB
 #-----------------------------------------------------------
 source Signal_Souce_Control_BD_axi_quad_spi_0_0.tcl -notrace

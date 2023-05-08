@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:{D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc} rfile:../../../../KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc rfile:../../../../KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:32 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B22        [get_ports "DDR4_DQ5"] ;# Bank  67 VCCO - VCC1V2   - IO_L24N_T3U_N11_67
 set_property src_info {type:XDC file:1 line:33 export:INPUT save:INPUT read:READ} [current_design]
@@ -607,497 +607,515 @@ set_property src_info {type:XDC file:1 line:404 export:INPUT save:INPUT read:REA
 set_property PACKAGE_PIN AE23      [get_ports "FMC_HPC0_LA13_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L8N_T1L_N3_AD5N_64
 set_property src_info {type:XDC file:1 line:405 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA13_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L8N_T1L_N3_AD5N_64
-set_property src_info {type:XDC file:1 line:406 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AD23      [get_ports "FMC_HPC0_LA13_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L8P_T1L_N2_AD5P_64
 set_property src_info {type:XDC file:1 line:407 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA13_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L8P_T1L_N2_AD5P_64
-set_property src_info {type:XDC file:1 line:408 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF22      [get_ports "FMC_HPC0_LA14_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L7N_T1L_N1_QBC_AD13N_64
-set_property src_info {type:XDC file:1 line:409 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:408 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA14_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L7N_T1L_N1_QBC_AD13N_64
-set_property src_info {type:XDC file:1 line:410 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:409 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE22      [get_ports "FMC_HPC0_LA14_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L7P_T1L_N0_QBC_AD13P_64
-set_property src_info {type:XDC file:1 line:411 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:410 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA14_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L7P_T1L_N0_QBC_AD13P_64
-set_property src_info {type:XDC file:1 line:412 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:411 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF20      [get_ports "6N10655"] ;# Bank  64 VCCO - VADJ_FMC - IO_T1U_N12_64
-set_property src_info {type:XDC file:1 line:413 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:412 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOSxx  [get_ports "6N10655"] ;# Bank  64 VCCO - VADJ_FMC - IO_T1U_N12_64
-set_property src_info {type:XDC file:1 line:414 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:413 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF23      [get_ports "6N10656"] ;# Bank  64 VCCO - VADJ_FMC - IO_T0U_N12_VRP_64
-set_property src_info {type:XDC file:1 line:415 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:414 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOSxx  [get_ports "6N10656"] ;# Bank  64 VCCO - VADJ_FMC - IO_T0U_N12_VRP_64
-set_property src_info {type:XDC file:1 line:416 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:415 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AC24      [get_ports "FMC_HPC0_LA15_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L6N_T0U_N11_AD6N_64
-set_property src_info {type:XDC file:1 line:417 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:416 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA15_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L6N_T0U_N11_AD6N_64
-set_property src_info {type:XDC file:1 line:418 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:417 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB24      [get_ports "FMC_HPC0_LA15_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L6P_T0U_N10_AD6P_64
-set_property src_info {type:XDC file:1 line:419 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:418 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA15_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L6P_T0U_N10_AD6P_64
-set_property src_info {type:XDC file:1 line:420 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:419 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD25      [get_ports "FMC_HPC0_LA16_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L5N_T0U_N9_AD14N_64
-set_property src_info {type:XDC file:1 line:421 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:420 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA16_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L5N_T0U_N9_AD14N_64
-set_property src_info {type:XDC file:1 line:422 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:421 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD24      [get_ports "FMC_HPC0_LA16_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L5P_T0U_N8_AD14P_64
-set_property src_info {type:XDC file:1 line:423 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:422 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA16_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L5P_T0U_N8_AD14P_64
-set_property src_info {type:XDC file:1 line:424 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:423 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD26      [get_ports "FMC_HPC0_LA19_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L4N_T0U_N7_DBC_AD7N_64
-set_property src_info {type:XDC file:1 line:425 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:424 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA19_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L4N_T0U_N7_DBC_AD7N_64
-set_property src_info {type:XDC file:1 line:426 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:425 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AC26      [get_ports "FMC_HPC0_LA19_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L4P_T0U_N6_DBC_AD7P_64
-set_property src_info {type:XDC file:1 line:427 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:426 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA19_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L4P_T0U_N6_DBC_AD7P_64
-set_property src_info {type:XDC file:1 line:428 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:427 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF25      [get_ports "FMC_HPC0_LA20_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L3N_T0L_N5_AD15N_64
-set_property src_info {type:XDC file:1 line:429 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:428 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA20_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L3N_T0L_N5_AD15N_64
-set_property src_info {type:XDC file:1 line:430 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:429 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF24      [get_ports "FMC_HPC0_LA20_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L3P_T0L_N4_AD15P_64
-set_property src_info {type:XDC file:1 line:431 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:430 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA20_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L3P_T0L_N4_AD15P_64
-set_property src_info {type:XDC file:1 line:432 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:431 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB26      [get_ports "FMC_HPC0_LA21_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L2N_T0L_N3_64
-set_property src_info {type:XDC file:1 line:433 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:432 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA21_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L2N_T0L_N3_64
-set_property src_info {type:XDC file:1 line:434 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:433 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB25      [get_ports "FMC_HPC0_LA21_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L2P_T0L_N2_64
-set_property src_info {type:XDC file:1 line:435 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:434 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA21_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L2P_T0L_N2_64
-set_property src_info {type:XDC file:1 line:436 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:435 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE26      [get_ports "FMC_HPC0_LA22_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L1N_T0L_N1_DBC_64
-set_property src_info {type:XDC file:1 line:437 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:436 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA22_N"] ;# Bank  64 VCCO - VADJ_FMC - IO_L1N_T0L_N1_DBC_64
-set_property src_info {type:XDC file:1 line:438 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:437 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE25      [get_ports "FMC_HPC0_LA22_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L1P_T0L_N0_DBC_64
-set_property src_info {type:XDC file:1 line:439 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:438 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS      [get_ports "FMC_HPC0_LA22_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L1P_T0L_N0_DBC_64
-set_property src_info {type:XDC file:1 line:440 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:439 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN A14       [get_ports "PMOD0_0"] ;# Bank  87 VCCO - VCC3V3   - IO_L12N_AD8N_87
-set_property src_info {type:XDC file:1 line:441 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:440 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD0_0"] ;# Bank  87 VCCO - VCC3V3   - IO_L12N_AD8N_87
-set_property src_info {type:XDC file:1 line:442 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:441 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B14       [get_ports "PMOD0_1"] ;# Bank  87 VCCO - VCC3V3   - IO_L12P_AD8P_87
-set_property src_info {type:XDC file:1 line:443 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:442 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD0_1"] ;# Bank  87 VCCO - VCC3V3   - IO_L12P_AD8P_87
-set_property src_info {type:XDC file:1 line:444 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:443 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN A12       [get_ports "PMOD0_2"] ;# Bank  87 VCCO - VCC3V3   - IO_L11N_AD9N_87
-set_property src_info {type:XDC file:1 line:445 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:444 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD0_2"] ;# Bank  87 VCCO - VCC3V3   - IO_L11N_AD9N_87
-set_property src_info {type:XDC file:1 line:446 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:445 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN A13       [get_ports "PMOD0_3"] ;# Bank  87 VCCO - VCC3V3   - IO_L11P_AD9P_87
-set_property src_info {type:XDC file:1 line:447 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:446 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD0_3"] ;# Bank  87 VCCO - VCC3V3   - IO_L11P_AD9P_87
-set_property src_info {type:XDC file:1 line:448 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:447 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B12       [get_ports "PMOD0_4"] ;# Bank  87 VCCO - VCC3V3   - IO_L10N_AD10N_87
-set_property src_info {type:XDC file:1 line:449 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:448 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD0_4"] ;# Bank  87 VCCO - VCC3V3   - IO_L10N_AD10N_87
-set_property src_info {type:XDC file:1 line:450 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:449 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C12       [get_ports "PMOD0_5"] ;# Bank  87 VCCO - VCC3V3   - IO_L10P_AD10P_87
-set_property src_info {type:XDC file:1 line:451 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:450 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD0_5"] ;# Bank  87 VCCO - VCC3V3   - IO_L10P_AD10P_87
-set_property src_info {type:XDC file:1 line:452 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:451 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C13       [get_ports "PMOD0_6"] ;# Bank  87 VCCO - VCC3V3   - IO_L9N_AD11N_87
-set_property src_info {type:XDC file:1 line:453 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:452 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD0_6"] ;# Bank  87 VCCO - VCC3V3   - IO_L9N_AD11N_87
-set_property src_info {type:XDC file:1 line:454 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:453 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C14       [get_ports "PMOD0_7"] ;# Bank  87 VCCO - VCC3V3   - IO_L9P_AD11P_87
-set_property src_info {type:XDC file:1 line:455 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:454 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD0_7"] ;# Bank  87 VCCO - VCC3V3   - IO_L9P_AD11P_87
-set_property src_info {type:XDC file:1 line:456 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:455 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D13       [get_ports "PMOD1_0"] ;# Bank  87 VCCO - VCC3V3   - IO_L8N_HDGC_87
-set_property src_info {type:XDC file:1 line:457 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:456 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD1_0"] ;# Bank  87 VCCO - VCC3V3   - IO_L8N_HDGC_87
-set_property src_info {type:XDC file:1 line:458 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:457 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D14       [get_ports "PMOD1_1"] ;# Bank  87 VCCO - VCC3V3   - IO_L8P_HDGC_87
-set_property src_info {type:XDC file:1 line:459 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:458 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD1_1"] ;# Bank  87 VCCO - VCC3V3   - IO_L8P_HDGC_87
-set_property src_info {type:XDC file:1 line:460 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:459 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN E12       [get_ports "PMOD1_2"] ;# Bank  87 VCCO - VCC3V3   - IO_L7N_HDGC_87
-set_property src_info {type:XDC file:1 line:461 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:460 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD1_2"] ;# Bank  87 VCCO - VCC3V3   - IO_L7N_HDGC_87
-set_property src_info {type:XDC file:1 line:462 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:461 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN E13       [get_ports "PMOD1_3"] ;# Bank  87 VCCO - VCC3V3   - IO_L7P_HDGC_87
-set_property src_info {type:XDC file:1 line:463 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:462 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD1_3"] ;# Bank  87 VCCO - VCC3V3   - IO_L7P_HDGC_87
-set_property src_info {type:XDC file:1 line:464 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:463 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F13       [get_ports "PMOD1_4"] ;# Bank  87 VCCO - VCC3V3   - IO_L6N_HDGC_87
-set_property src_info {type:XDC file:1 line:465 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:464 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD1_4"] ;# Bank  87 VCCO - VCC3V3   - IO_L6N_HDGC_87
-set_property src_info {type:XDC file:1 line:466 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:465 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F14       [get_ports "PMOD1_5"] ;# Bank  87 VCCO - VCC3V3   - IO_L6P_HDGC_87
-set_property src_info {type:XDC file:1 line:467 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:466 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD1_5"] ;# Bank  87 VCCO - VCC3V3   - IO_L6P_HDGC_87
-set_property src_info {type:XDC file:1 line:468 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:467 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F12       [get_ports "CLK_125_N"] ;# Bank  87 VCCO - VCC3V3   - IO_L5N_HDGC_87
-set_property src_info {type:XDC file:1 line:469 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:468 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS_25   [get_ports "CLK_125_N"] ;# Bank  87 VCCO - VCC3V3   - IO_L5N_HDGC_87
-set_property src_info {type:XDC file:1 line:470 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:469 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN G12       [get_ports "CLK_125_P"] ;# Bank  87 VCCO - VCC3V3   - IO_L5P_HDGC_87
-set_property src_info {type:XDC file:1 line:471 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:470 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS_25   [get_ports "CLK_125_P"] ;# Bank  87 VCCO - VCC3V3   - IO_L5P_HDGC_87
-set_property src_info {type:XDC file:1 line:472 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:471 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J14       [get_ports "PMOD1_6"] ;# Bank  87 VCCO - VCC3V3   - IO_L4N_AD12N_87
-set_property src_info {type:XDC file:1 line:473 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:472 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD1_6"] ;# Bank  87 VCCO - VCC3V3   - IO_L4N_AD12N_87
-set_property src_info {type:XDC file:1 line:474 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:473 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J15       [get_ports "PMOD1_7"] ;# Bank  87 VCCO - VCC3V3   - IO_L4P_AD12P_87
-set_property src_info {type:XDC file:1 line:475 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:474 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "PMOD1_7"] ;# Bank  87 VCCO - VCC3V3   - IO_L4P_AD12P_87
-set_property src_info {type:XDC file:1 line:476 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:475 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN G14       [get_ports "IIC_EXPANDER_GPIO"] ;# Bank  87 VCCO - VCC3V3   - IO_L3N_AD13N_87
-set_property src_info {type:XDC file:1 line:477 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:476 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "IIC_EXPANDER_GPIO"] ;# Bank  87 VCCO - VCC3V3   - IO_L3N_AD13N_87
-set_property src_info {type:XDC file:1 line:478 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:477 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H14       [get_ports "FMC_HPC0_PRSNT_M2C_B"] ;# Bank  87 VCCO - VCC3V3   - IO_L3P_AD13P_87
-set_property src_info {type:XDC file:1 line:479 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:478 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "FMC_HPC0_PRSNT_M2C_B"] ;# Bank  87 VCCO - VCC3V3   - IO_L3P_AD13P_87
-set_property src_info {type:XDC file:1 line:480 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:479 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H13       [get_ports "FMC_HPC0_PG_M2C"] ;# Bank  87 VCCO - VCC3V3   - IO_L2N_AD14N_87 PG_C2M
-set_property src_info {type:XDC file:1 line:481 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:480 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "FMC_HPC0_PG_M2C"] ;# Bank  87 VCCO - VCC3V3   - IO_L2N_AD14N_87 PG_C2M
-set_property src_info {type:XDC file:1 line:482 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:481 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J13       [get_ports "VADJ_FMC_PGOOD"] ;# Bank  87 VCCO - VCC3V3   - IO_L2P_AD14P_87
-set_property src_info {type:XDC file:1 line:483 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:482 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "VADJ_FMC_PGOOD"] ;# Bank  87 VCCO - VCC3V3   - IO_L2P_AD14P_87
-set_property src_info {type:XDC file:1 line:484 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:483 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H12       [get_ports "5N7267"] ;# Bank  87 VCCO - VCC3V3   - IO_L1N_AD15N_87
-set_property src_info {type:XDC file:1 line:485 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:484 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "5N7267"] ;# Bank  87 VCCO - VCC3V3   - IO_L1N_AD15N_87
-set_property src_info {type:XDC file:1 line:486 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:485 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J12       [get_ports "5N7261"] ;# Bank  87 VCCO - VCC3V3   - IO_L1P_AD15P_87
-set_property src_info {type:XDC file:1 line:487 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:486 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "5N7261"] ;# Bank  87 VCCO - VCC3V3   - IO_L1P_AD15P_87
-set_property src_info {type:XDC file:1 line:488 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:487 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B11       [get_ports "GPIO_SW_E"] ;# Bank  86 VCCO - VCC3V3   - IO_L12N_AD0N_86
-set_property src_info {type:XDC file:1 line:489 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:488 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_SW_E"] ;# Bank  86 VCCO - VCC3V3   - IO_L12N_AD0N_86
-set_property src_info {type:XDC file:1 line:490 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:489 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C11       [get_ports "GPIO_SW_S"] ;# Bank  86 VCCO - VCC3V3   - IO_L12P_AD0P_86
-set_property src_info {type:XDC file:1 line:491 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:490 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_SW_S"] ;# Bank  86 VCCO - VCC3V3   - IO_L12P_AD0P_86
-set_property src_info {type:XDC file:1 line:492 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:491 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN A10       [get_ports "GPIO_SW_N"] ;# Bank  86 VCCO - VCC3V3   - IO_L11N_AD1N_86
-set_property src_info {type:XDC file:1 line:493 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:492 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_SW_N"] ;# Bank  86 VCCO - VCC3V3   - IO_L11N_AD1N_86
-set_property src_info {type:XDC file:1 line:494 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:493 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B10       [get_ports "GPIO_SW_W"] ;# Bank  86 VCCO - VCC3V3   - IO_L11P_AD1P_86
-set_property src_info {type:XDC file:1 line:495 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:494 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_SW_W"] ;# Bank  86 VCCO - VCC3V3   - IO_L11P_AD1P_86
-set_property src_info {type:XDC file:1 line:496 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:495 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN A9        [get_ports "GPIO_SW_C"] ;# Bank  86 VCCO - VCC3V3   - IO_L10N_AD2N_86
-set_property src_info {type:XDC file:1 line:497 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:496 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_SW_C"] ;# Bank  86 VCCO - VCC3V3   - IO_L10N_AD2N_86
-set_property src_info {type:XDC file:1 line:498 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:497 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B9        [get_ports "CPU_RESET"] ;# Bank  86 VCCO - VCC3V3   - IO_L10P_AD2P_86
-set_property src_info {type:XDC file:1 line:499 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:498 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "CPU_RESET"] ;# Bank  86 VCCO - VCC3V3   - IO_L10P_AD2P_86
-set_property src_info {type:XDC file:1 line:500 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:499 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C9        [get_ports "GPIO_LED_0"] ;# Bank  86 VCCO - VCC3V3   - IO_L9N_AD3N_86
-set_property src_info {type:XDC file:1 line:501 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:500 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_0"] ;# Bank  86 VCCO - VCC3V3   - IO_L9N_AD3N_86
-set_property src_info {type:XDC file:1 line:502 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:501 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D9        [get_ports "GPIO_LED_1"] ;# Bank  86 VCCO - VCC3V3   - IO_L9P_AD3P_86
-set_property src_info {type:XDC file:1 line:503 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:502 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_1"] ;# Bank  86 VCCO - VCC3V3   - IO_L9P_AD3P_86
-set_property src_info {type:XDC file:1 line:504 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:503 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D10       [get_ports "CLK_74_25_N"] ;# Bank  86 VCCO - VCC3V3   - IO_L8N_HDGC_AD4N_86
-set_property src_info {type:XDC file:1 line:505 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:504 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS_25   [get_ports "CLK_74_25_N"] ;# Bank  86 VCCO - VCC3V3   - IO_L8N_HDGC_AD4N_86
-set_property src_info {type:XDC file:1 line:506 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:505 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D11       [get_ports "CLK_74_25_P"] ;# Bank  86 VCCO - VCC3V3   - IO_L8P_HDGC_AD4P_86
-set_property src_info {type:XDC file:1 line:507 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:506 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVDS_25   [get_ports "CLK_74_25_P"] ;# Bank  86 VCCO - VCC3V3   - IO_L8P_HDGC_AD4P_86
-set_property src_info {type:XDC file:1 line:508 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:507 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN E10       [get_ports "GPIO_LED_2"] ;# Bank  86 VCCO - VCC3V3   - IO_L7N_HDGC_AD5N_86
-set_property src_info {type:XDC file:1 line:509 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:508 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_2"] ;# Bank  86 VCCO - VCC3V3   - IO_L7N_HDGC_AD5N_86
-set_property src_info {type:XDC file:1 line:510 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:509 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN E11       [get_ports "GPIO_LED_3"] ;# Bank  86 VCCO - VCC3V3   - IO_L7P_HDGC_AD5P_86
-set_property src_info {type:XDC file:1 line:511 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:510 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_3"] ;# Bank  86 VCCO - VCC3V3   - IO_L7P_HDGC_AD5P_86
-set_property src_info {type:XDC file:1 line:512 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:511 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F9        [get_ports "GPIO_LED_4"] ;# Bank  86 VCCO - VCC3V3   - IO_L6N_HDGC_AD6N_86
-set_property src_info {type:XDC file:1 line:513 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:512 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_4"] ;# Bank  86 VCCO - VCC3V3   - IO_L6N_HDGC_AD6N_86
-set_property src_info {type:XDC file:1 line:514 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:513 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F10       [get_ports "GPIO_LED_5"] ;# Bank  86 VCCO - VCC3V3   - IO_L6P_HDGC_AD6P_86
-set_property src_info {type:XDC file:1 line:515 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:514 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_5"] ;# Bank  86 VCCO - VCC3V3   - IO_L6P_HDGC_AD6P_86
-set_property src_info {type:XDC file:1 line:516 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:515 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN G9        [get_ports "GPIO_LED_6"] ;# Bank  86 VCCO - VCC3V3   - IO_L5N_HDGC_AD7N_86
-set_property src_info {type:XDC file:1 line:517 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:516 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_6"] ;# Bank  86 VCCO - VCC3V3   - IO_L5N_HDGC_AD7N_86
-set_property src_info {type:XDC file:1 line:518 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:517 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN G10       [get_ports "GPIO_LED_7"] ;# Bank  86 VCCO - VCC3V3   - IO_L5P_HDGC_AD7P_86
-set_property src_info {type:XDC file:1 line:519 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:518 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_LED_7"] ;# Bank  86 VCCO - VCC3V3   - IO_L5P_HDGC_AD7P_86
-set_property src_info {type:XDC file:1 line:520 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:519 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN G11       [get_ports "GPIO_DIP_SW0"] ;# Bank  86 VCCO - VCC3V3   - IO_L4N_AD8N_86
-set_property src_info {type:XDC file:1 line:521 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:520 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_DIP_SW0"] ;# Bank  86 VCCO - VCC3V3   - IO_L4N_AD8N_86
-set_property src_info {type:XDC file:1 line:522 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:521 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H11       [get_ports "GPIO_DIP_SW1"] ;# Bank  86 VCCO - VCC3V3   - IO_L4P_AD8P_86
-set_property src_info {type:XDC file:1 line:523 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:522 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_DIP_SW1"] ;# Bank  86 VCCO - VCC3V3   - IO_L4P_AD8P_86
-set_property src_info {type:XDC file:1 line:524 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:523 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H9        [get_ports "GPIO_DIP_SW2"] ;# Bank  86 VCCO - VCC3V3   - IO_L3N_AD9N_86
-set_property src_info {type:XDC file:1 line:525 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:524 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_DIP_SW2"] ;# Bank  86 VCCO - VCC3V3   - IO_L3N_AD9N_86
-set_property src_info {type:XDC file:1 line:526 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:525 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J9        [get_ports "GPIO_DIP_SW3"] ;# Bank  86 VCCO - VCC3V3   - IO_L3P_AD9P_86
-set_property src_info {type:XDC file:1 line:527 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:526 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "GPIO_DIP_SW3"] ;# Bank  86 VCCO - VCC3V3   - IO_L3P_AD9P_86
-set_property src_info {type:XDC file:1 line:528 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:527 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J10       [get_ports "4N9606"] ;# Bank  86 VCCO - VCC3V3   - IO_L2N_AD10N_86
-set_property src_info {type:XDC file:1 line:536 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:535 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W13       [get_ports "USB_UART_RX_FPGA_TX_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L12N_AD0N_84
-set_property src_info {type:XDC file:1 line:537 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:536 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "USB_UART_RX_FPGA_TX_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L12N_AD0N_84
-set_property src_info {type:XDC file:1 line:538 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:537 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W12       [get_ports "USB_UART_TX_FPGA_RX_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L12P_AD0P_84
-set_property src_info {type:XDC file:1 line:539 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:538 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "USB_UART_TX_FPGA_RX_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L12P_AD0P_84
-set_property src_info {type:XDC file:1 line:540 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:539 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AA13      [get_ports "USB_UART_RTS_O_B_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L11N_AD1N_84
-set_property src_info {type:XDC file:1 line:541 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:540 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "USB_UART_RTS_O_B_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L11N_AD1N_84
-set_property src_info {type:XDC file:1 line:542 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:541 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y13       [get_ports "USB_UART_CTS_I_B_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L11P_AD1P_84
-set_property src_info {type:XDC file:1 line:543 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:542 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "USB_UART_CTS_I_B_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L11P_AD1P_84
-set_property src_info {type:XDC file:1 line:544 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:543 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W15       [get_ports "SYSCTLR_GPIO_5"] ;# Bank  84 VCCO - VCC3V3   - IO_L10N_AD2N_84
-set_property src_info {type:XDC file:1 line:545 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:544 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "SYSCTLR_GPIO_5"] ;# Bank  84 VCCO - VCC3V3   - IO_L10N_AD2N_84
-set_property src_info {type:XDC file:1 line:546 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:545 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W14       [get_ports "SYSCTLR_GPIO_6"] ;# Bank  84 VCCO - VCC3V3   - IO_L10P_AD2P_84
-set_property src_info {type:XDC file:1 line:547 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:546 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "SYSCTLR_GPIO_6"] ;# Bank  84 VCCO - VCC3V3   - IO_L10P_AD2P_84
-set_property src_info {type:XDC file:1 line:548 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:547 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y16       [get_ports "SYSCTLR_GPIO_7"] ;# Bank  84 VCCO - VCC3V3   - IO_L9N_AD3N_84
-set_property src_info {type:XDC file:1 line:549 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:548 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "SYSCTLR_GPIO_7"] ;# Bank  84 VCCO - VCC3V3   - IO_L9N_AD3N_84
-set_property src_info {type:XDC file:1 line:550 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:549 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W16       [get_ports "SFP_SI5328_INT_ALM"] ;# Bank  84 VCCO - VCC3V3   - IO_L9P_AD3P_84
-set_property src_info {type:XDC file:1 line:551 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:550 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "SFP_SI5328_INT_ALM"] ;# Bank  84 VCCO - VCC3V3   - IO_L9P_AD3P_84
-set_property src_info {type:XDC file:1 line:552 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:551 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB14      [get_ports "SFP0_TX_DISABLE_B"] ;# Bank  84 VCCO - VCC3V3   - IO_L8N_HDGC_AD4N_84
-set_property src_info {type:XDC file:1 line:553 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:552 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "SFP0_TX_DISABLE_B"] ;# Bank  84 VCCO - VCC3V3   - IO_L8N_HDGC_AD4N_84
-set_property src_info {type:XDC file:1 line:554 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:553 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AA14      [get_ports "SFP1_TX_DISABLE_B"] ;# Bank  84 VCCO - VCC3V3   - IO_L8P_HDGC_AD4P_84
-set_property src_info {type:XDC file:1 line:555 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:554 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "SFP1_TX_DISABLE_B"] ;# Bank  84 VCCO - VCC3V3   - IO_L8P_HDGC_AD4P_84
-set_property src_info {type:XDC file:1 line:556 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:555 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AA15      [get_ports "SFP2_TX_DISABLE_B"] ;# Bank  84 VCCO - VCC3V3   - IO_L7N_HDGC_AD5N_84
-set_property src_info {type:XDC file:1 line:557 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:556 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "SFP2_TX_DISABLE_B"] ;# Bank  84 VCCO - VCC3V3   - IO_L7N_HDGC_AD5N_84
-set_property src_info {type:XDC file:1 line:558 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:557 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y15       [get_ports "SFP3_TX_DISABLE_B"] ;# Bank  84 VCCO - VCC3V3   - IO_L7P_HDGC_AD5P_84
-set_property src_info {type:XDC file:1 line:559 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:558 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "SFP3_TX_DISABLE_B"] ;# Bank  84 VCCO - VCC3V3   - IO_L7P_HDGC_AD5P_84
-set_property src_info {type:XDC file:1 line:572 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:571 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE15      [get_ports "IIC_SDA_HDMI"] ;# Bank  84 VCCO - VCC3V3   - IO_L3N_AD9N_84
-set_property src_info {type:XDC file:1 line:573 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:572 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "IIC_SDA_HDMI"] ;# Bank  84 VCCO - VCC3V3   - IO_L3N_AD9N_84
-set_property src_info {type:XDC file:1 line:574 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:573 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD15      [get_ports "IIC_SCL_HDMI"] ;# Bank  84 VCCO - VCC3V3   - IO_L3P_AD9P_84 AD9164 SCL
-set_property src_info {type:XDC file:1 line:575 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:574 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "IIC_SCL_HDMI"] ;# Bank  84 VCCO - VCC3V3   - IO_L3P_AD9P_84 SCL
-set_property src_info {type:XDC file:1 line:576 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:575 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF13      [get_ports "IIC_MAIN_SDA_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L2N_AD10N_84
-set_property src_info {type:XDC file:1 line:577 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:576 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "IIC_MAIN_SDA_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L2N_AD10N_84
-set_property src_info {type:XDC file:1 line:578 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:577 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE13      [get_ports "IIC_MAIN_SCL_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L2P_AD10P_84 SCL
-set_property src_info {type:XDC file:1 line:579 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:578 export:INPUT save:INPUT read:READ} [current_design]
 set_property IOSTANDARD  LVCMOS33  [get_ports "IIC_MAIN_SCL_LS"] ;# Bank  84 VCCO - VCC3V3   - IO_L2P_AD10P_84 SCL
-set_property src_info {type:XDC file:1 line:584 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:583 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB6       [get_ports "9N8315"] ;# Bank 224 - MGTREFCLK0N_224
-set_property src_info {type:XDC file:1 line:585 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:584 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB7       [get_ports "9N8316"] ;# Bank 224 - MGTREFCLK0P_224
-set_property src_info {type:XDC file:1 line:586 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:585 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y6        [get_ports "9N8171"] ;# Bank 224 - MGTREFCLK1N_224
-set_property src_info {type:XDC file:1 line:587 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:586 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y7        [get_ports "9N8173"] ;# Bank 224 - MGTREFCLK1P_224
-set_property src_info {type:XDC file:1 line:588 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:587 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD9       [get_ports "MGTRREF_224"] ;# Bank 224 - MGTRREF_R
-set_property src_info {type:XDC file:1 line:589 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:588 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF1       [get_ports "PCIE_RX7_N"] ;# Bank 224 - MGTYRXN0_224
-set_property src_info {type:XDC file:1 line:590 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:589 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE3       [get_ports "PCIE_RX6_N"] ;# Bank 224 - MGTYRXN1_224
-set_property src_info {type:XDC file:1 line:591 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:590 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD1       [get_ports "PCIE_RX5_N"] ;# Bank 224 - MGTYRXN2_224
-set_property src_info {type:XDC file:1 line:592 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:591 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB1       [get_ports "PCIE_RX4_N"] ;# Bank 224 - MGTYRXN3_224
-set_property src_info {type:XDC file:1 line:593 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:592 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF2       [get_ports "PCIE_RX7_P"] ;# Bank 224 - MGTYRXP0_224
-set_property src_info {type:XDC file:1 line:594 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:593 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE4       [get_ports "PCIE_RX6_P"] ;# Bank 224 - MGTYRXP1_224
-set_property src_info {type:XDC file:1 line:595 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:594 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD2       [get_ports "PCIE_RX5_P"] ;# Bank 224 - MGTYRXP2_224
-set_property src_info {type:XDC file:1 line:596 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:595 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AB2       [get_ports "PCIE_RX4_P"] ;# Bank 224 - MGTYRXP3_224
-set_property src_info {type:XDC file:1 line:597 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:596 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF6       [get_ports "PCIE_TX7_N"] ;# Bank 224 - MGTYTXN0_224
-set_property src_info {type:XDC file:1 line:598 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:597 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE8       [get_ports "PCIE_TX6_N"] ;# Bank 224 - MGTYTXN1_224
-set_property src_info {type:XDC file:1 line:599 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:598 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD6       [get_ports "PCIE_TX5_N"] ;# Bank 224 - MGTYTXN2_224
-set_property src_info {type:XDC file:1 line:600 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:599 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AC4       [get_ports "PCIE_TX4_N"] ;# Bank 224 - MGTYTXN3_224
-set_property src_info {type:XDC file:1 line:601 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:600 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AF7       [get_ports "PCIE_TX7_P"] ;# Bank 224 - MGTYTXP0_224
-set_property src_info {type:XDC file:1 line:602 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:601 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AE9       [get_ports "PCIE_TX6_P"] ;# Bank 224 - MGTYTXP1_224
-set_property src_info {type:XDC file:1 line:603 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:602 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AD7       [get_ports "PCIE_TX5_P"] ;# Bank 224 - MGTYTXP2_224
-set_property src_info {type:XDC file:1 line:604 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:603 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AC5       [get_ports "PCIE_TX4_P"] ;# Bank 224 - MGTYTXP3_224
-set_property src_info {type:XDC file:1 line:605 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:604 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN V6        [get_ports "PCIE_CLK_QO_N"] ;# Bank 225 - MGTREFCLK0N_225
-set_property src_info {type:XDC file:1 line:606 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:605 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN V7        [get_ports "PCIE_CLK_QO_P"] ;# Bank 225 - MGTREFCLK0P_225
-set_property src_info {type:XDC file:1 line:607 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:606 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T6        [get_ports "9N8177"] ;# Bank 225 - MGTREFCLK1N_225
-set_property src_info {type:XDC file:1 line:608 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:607 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T7        [get_ports "9N8175"] ;# Bank 225 - MGTREFCLK1P_225
-set_property src_info {type:XDC file:1 line:609 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:608 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y1        [get_ports "PCIE_RX3_N"] ;# Bank 225 - MGTYRXN0_225
-set_property src_info {type:XDC file:1 line:610 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:609 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN V1        [get_ports "PCIE_RX2_N"] ;# Bank 225 - MGTYRXN1_225
-set_property src_info {type:XDC file:1 line:611 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:610 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T1        [get_ports "PCIE_RX1_N"] ;# Bank 225 - MGTYRXN2_225
-set_property src_info {type:XDC file:1 line:612 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:611 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN P1        [get_ports "PCIE_RX0_N"] ;# Bank 225 - MGTYRXN3_225
-set_property src_info {type:XDC file:1 line:613 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:612 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y2        [get_ports "PCIE_RX3_P"] ;# Bank 225 - MGTYRXP0_225
-set_property src_info {type:XDC file:1 line:614 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:613 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN V2        [get_ports "PCIE_RX2_P"] ;# Bank 225 - MGTYRXP1_225
-set_property src_info {type:XDC file:1 line:615 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:614 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN T2        [get_ports "PCIE_RX1_P"] ;# Bank 225 - MGTYRXP2_225
-set_property src_info {type:XDC file:1 line:616 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:615 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN P2        [get_ports "PCIE_RX0_P"] ;# Bank 225 - MGTYRXP3_225
-set_property src_info {type:XDC file:1 line:617 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:616 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AA4       [get_ports "PCIE_TX3_N"] ;# Bank 225 - MGTYTXN0_225
-set_property src_info {type:XDC file:1 line:618 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:617 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W4        [get_ports "PCIE_TX2_N"] ;# Bank 225 - MGTYTXN1_225
-set_property src_info {type:XDC file:1 line:619 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:618 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN U4        [get_ports "PCIE_TX1_N"] ;# Bank 225 - MGTYTXN2_225
-set_property src_info {type:XDC file:1 line:620 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:619 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN R4        [get_ports "PCIE_TX0_N"] ;# Bank 225 - MGTYTXN3_225
-set_property src_info {type:XDC file:1 line:621 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:620 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AA5       [get_ports "PCIE_TX3_P"] ;# Bank 225 - MGTYTXP0_225
-set_property src_info {type:XDC file:1 line:622 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:621 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5        [get_ports "PCIE_TX2_P"] ;# Bank 225 - MGTYTXP1_225
-set_property src_info {type:XDC file:1 line:623 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:622 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN U5        [get_ports "PCIE_TX1_P"] ;# Bank 225 - MGTYTXP2_225
-set_property src_info {type:XDC file:1 line:624 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:623 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN R5        [get_ports "PCIE_TX0_P"] ;# Bank 225 - MGTYTXP3_225
-set_property src_info {type:XDC file:1 line:625 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:624 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN P6        [get_ports "SFP_SI5328_OUT_C_N"] ;# Bank 226 - MGTREFCLK0N_226
-set_property src_info {type:XDC file:1 line:626 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:625 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN P7        [get_ports "SFP_SI5328_OUT_C_P"] ;# Bank 226 - MGTREFCLK0P_226
-set_property src_info {type:XDC file:1 line:627 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:626 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN M6        [get_ports "USER_MGT_SI570_CLOCK_C_N"] ;# Bank 226 - MGTREFCLK1N_226
-set_property src_info {type:XDC file:1 line:628 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:627 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN M7        [get_ports "USER_MGT_SI570_CLOCK_C_P"] ;# Bank 226 - MGTREFCLK1P_226
-set_property src_info {type:XDC file:1 line:629 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:628 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN M1        [get_ports "SFP0_RX_N"] ;# Bank 226 - MGTYRXN0_226
-set_property src_info {type:XDC file:1 line:630 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:629 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN K1        [get_ports "SFP1_RX_N"] ;# Bank 226 - MGTYRXN1_226
-set_property src_info {type:XDC file:1 line:631 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:630 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H1        [get_ports "SFP2_RX_N"] ;# Bank 226 - MGTYRXN2_226
-set_property src_info {type:XDC file:1 line:632 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:631 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F1        [get_ports "SFP3_RX_N"] ;# Bank 226 - MGTYRXN3_226
-set_property src_info {type:XDC file:1 line:633 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:632 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN M2        [get_ports "SFP0_RX_P"] ;# Bank 226 - MGTYRXP0_226
-set_property src_info {type:XDC file:1 line:634 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:633 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN K2        [get_ports "SFP1_RX_P"] ;# Bank 226 - MGTYRXP1_226
-set_property src_info {type:XDC file:1 line:635 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:634 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H2        [get_ports "SFP2_RX_P"] ;# Bank 226 - MGTYRXP2_226
-set_property src_info {type:XDC file:1 line:636 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:635 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F2        [get_ports "SFP3_RX_P"] ;# Bank 226 - MGTYRXP3_226
-set_property src_info {type:XDC file:1 line:637 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:636 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN N4        [get_ports "SFP0_TX_N"] ;# Bank 226 - MGTYTXN0_226
-set_property src_info {type:XDC file:1 line:638 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:637 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN L4        [get_ports "SFP1_TX_N"] ;# Bank 226 - MGTYTXN1_226
-set_property src_info {type:XDC file:1 line:639 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:638 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J4        [get_ports "SFP2_TX_N"] ;# Bank 226 - MGTYTXN2_226
-set_property src_info {type:XDC file:1 line:640 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:639 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN G4        [get_ports "SFP3_TX_N"] ;# Bank 226 - MGTYTXN3_226
-set_property src_info {type:XDC file:1 line:641 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:640 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN N5        [get_ports "SFP0_TX_P"] ;# Bank 226 - MGTYTXP0_226
-set_property src_info {type:XDC file:1 line:642 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:641 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN L5        [get_ports "SFP1_TX_P"] ;# Bank 226 - MGTYTXP1_226
-set_property src_info {type:XDC file:1 line:643 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:642 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN J5        [get_ports "SFP2_TX_P"] ;# Bank 226 - MGTYTXP2_226
-set_property src_info {type:XDC file:1 line:644 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:643 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN G5        [get_ports "SFP3_TX_P"] ;# Bank 226 - MGTYTXP3_226
-set_property src_info {type:XDC file:1 line:645 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:644 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN K6        [get_ports "FMC_HPC0_GBTCLK0_M2C_C_N"] ;# Bank 227 - MGTREFCLK0N_227
-set_property src_info {type:XDC file:1 line:646 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:645 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN K7        [get_ports "FMC_HPC0_GBTCLK0_M2C_C_P"] ;# Bank 227 - MGTREFCLK0P_227
-set_property src_info {type:XDC file:1 line:647 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:646 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H6        [get_ports "FMC_HPC0_GBTCLK1_M2C_C_N"] ;# Bank 227 - MGTREFCLK1N_227
-set_property src_info {type:XDC file:1 line:648 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:647 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN H7        [get_ports "FMC_HPC0_GBTCLK1_M2C_C_P"] ;# Bank 227 - MGTREFCLK1P_227
-set_property src_info {type:XDC file:1 line:649 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:648 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D1        [get_ports "FMC_HPC0_DP0_M2C_N"] ;# Bank 227 - MGTYRXN0_227
-set_property src_info {type:XDC file:1 line:650 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:649 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C3        [get_ports "FMC_HPC0_DP1_M2C_N"] ;# Bank 227 - MGTYRXN1_227
-set_property src_info {type:XDC file:1 line:651 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:650 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B1        [get_ports "FMC_HPC0_DP2_M2C_N"] ;# Bank 227 - MGTYRXN2_227
-set_property src_info {type:XDC file:1 line:652 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:651 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN A3        [get_ports "FMC_HPC0_DP3_M2C_N"] ;# Bank 227 - MGTYRXN3_227
-set_property src_info {type:XDC file:1 line:653 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:652 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D2        [get_ports "FMC_HPC0_DP0_M2C_P"] ;# Bank 227 - MGTYRXP0_227
-set_property src_info {type:XDC file:1 line:654 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:653 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN C4        [get_ports "FMC_HPC0_DP1_M2C_P"] ;# Bank 227 - MGTYRXP1_227
-set_property src_info {type:XDC file:1 line:655 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:654 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B2        [get_ports "FMC_HPC0_DP2_M2C_P"] ;# Bank 227 - MGTYRXP2_227
-set_property src_info {type:XDC file:1 line:656 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:655 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN A4        [get_ports "FMC_HPC0_DP3_M2C_P"] ;# Bank 227 - MGTYRXP3_227
-set_property src_info {type:XDC file:1 line:657 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:656 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F6        [get_ports "FMC_HPC0_DP0_C2M_N"] ;# Bank 227 - MGTYTXN0_227
-set_property src_info {type:XDC file:1 line:658 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:657 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN E4        [get_ports "FMC_HPC0_DP1_C2M_N"] ;# Bank 227 - MGTYTXN1_227 SERDIN1
-set_property src_info {type:XDC file:1 line:659 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:658 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D6        [get_ports "FMC_HPC0_DP2_C2M_N"] ;# Bank 227 - MGTYTXN2_227 SERDIN2
-set_property src_info {type:XDC file:1 line:660 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:659 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B6        [get_ports "FMC_HPC0_DP3_C2M_N"] ;# Bank 227 - MGTYTXN3_227 SERDIN3
-set_property src_info {type:XDC file:1 line:661 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:660 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN F7        [get_ports "FMC_HPC0_DP0_C2M_P"] ;# Bank 227 - MGTYTXP0_227
-set_property src_info {type:XDC file:1 line:662 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:661 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN E5        [get_ports "FMC_HPC0_DP1_C2M_P"] ;# Bank 227 - MGTYTXP1_227 SERDIN1
-set_property src_info {type:XDC file:1 line:663 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:662 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN D7        [get_ports "FMC_HPC0_DP2_C2M_P"] ;# Bank 227 - MGTYTXP2_227 SERDIN2
-set_property src_info {type:XDC file:1 line:664 export:INPUT save:INPUT read:READ} [current_design]
+set_property src_info {type:XDC file:1 line:663 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN B7        [get_ports "FMC_HPC0_DP3_C2M_P"] ;# Bank 227 - MGTYTXP3_227 SERDIN3
+set_property src_info {type:XDC file:1 line:666 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AB19      [get_ports "DDS1_SPI_EN"] ;# Bank  64 VCCO - VADJ_FMC - IO_L20N_T3L_N3_AD1N_64 FMC_SPI_EN
 set_property src_info {type:XDC file:1 line:667 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AB19      [get_ports "FMC_HPC0_LA05_P_SPI_EN"] ;# Bank  64 VCCO - VADJ_FMC - IO_L20N_T3L_N3_AD1N_64 FMC_SPI_EN
-set_property src_info {type:XDC file:1 line:668 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS18      [get_ports "FMC_HPC0_LA05_P_SPI_EN"] ;# Bank  64 VCCO - VADJ_FMC - IO_L20N_T3L_N3_AD1N_64
-set_property src_info {type:XDC file:1 line:670 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AD18      [get_ports "FMC_HPC0_LA09_HMC849VCTL"] ;# Bank  64 VCCO - VADJ_FMC - IO_L16N_T2U_N7_QBC_AD3N_64
+set_property IOSTANDARD  LVCMOS18      [get_ports "DDS1_SPI_EN"] ;# Bank  64 VCCO - VADJ_FMC - IO_L20N_T3L_N3_AD1N_64
 set_property src_info {type:XDC file:1 line:671 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD  LVCMOS18      [get_ports "FMC_HPC0_LA09_HMC849VCTL"] ;# Bank  64 VCCO - VADJ_FMC - IO_L16N_T2U_N7_QBC_AD3N_64
+set_property PACKAGE_PIN AD16      [get_ports "DDS1_TXEN_0"] ;# Bank  64 VCCO - VADJ_FMC - IO_L18P_T2U_N10_AD2P_64
 set_property src_info {type:XDC file:1 line:673 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AD16      [get_ports "FMC_HPC0_LA07_P_TXEN_0"] ;# Bank  64 VCCO - VADJ_FMC - IO_L18P_T2U_N10_AD2P_64
+set_property PACKAGE_PIN AC17      [get_ports "DDS1_MOSI"] ;# Bank  64 VCCO - VADJ_FMC - IO_L22N_T3U_N7_DBC_AD0N_64
 set_property src_info {type:XDC file:1 line:675 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AC17      [get_ports "FMC_HPC0_LA03_N_MOSI"] ;# Bank  64 VCCO - VADJ_FMC - IO_L22N_T3U_N7_DBC_AD0N_64
-set_property src_info {type:XDC file:1 line:677 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AB17      [get_ports "FMC_HPC0_LA03_P_SCK"] ;# Bank  64 VCCO - VADJ_FMC - IO_L22P_T3U_N6_DBC_AD0P_64
-set_property src_info {type:XDC file:1 line:680 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AA20      [get_ports "FMC_HPC0_LA04_P_MISO"] ;# Bank  64 VCCO - VADJ_FMC - IO_L21P_T3L_N4_AD8P_64
+set_property PACKAGE_PIN AB17      [get_ports "DDS1_SCK"] ;# Bank  64 VCCO - VADJ_FMC - IO_L22P_T3U_N6_DBC_AD0P_64
+set_property src_info {type:XDC file:1 line:678 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AA20      [get_ports "DDS1_MISO"] ;# Bank  64 VCCO - VADJ_FMC - IO_L21P_T3L_N4_AD8P_64
+set_property src_info {type:XDC file:1 line:681 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AB20      [get_ports "DDS1_CS[0]"] ;# Bank  64 VCCO - VADJ_FMC - IO_L21N_T3L_N5_AD8N_64
 set_property src_info {type:XDC file:1 line:683 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AB20      [get_ports "CS[0]"] ;# Bank  64 VCCO - VADJ_FMC - IO_L21N_T3L_N5_AD8N_64
+set_property PACKAGE_PIN AA19      [get_ports "DDS1_CS[1]"] ;# Bank  64 VCCO - VADJ_FMC - IO_L20P_T3L_N2_AD1P_64 FMC_CS2
 set_property src_info {type:XDC file:1 line:685 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AA19      [get_ports "CS[1]"] ;# Bank  64 VCCO - VADJ_FMC - IO_L20P_T3L_N2_AD1P_64 FMC_CS2
+set_property PACKAGE_PIN AC18      [get_ports "DDS1_CS[2]"] ;# Bank  64 VCCO - VADJ_FMC - IO_L16P_T2U_N6_QBC_AD3P_64 FMC_CS3
 set_property src_info {type:XDC file:1 line:687 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN AC18      [get_ports "CS[2]"] ;# Bank  64 VCCO - VADJ_FMC - IO_L16P_T2U_N6_QBC_AD3P_64 FMC_CS3
+set_property PACKAGE_PIN AD23      [get_ports "DDS1_CS[3]"] ;# Bank  64 VCCO - VADJ_FMC - IO_L8P_T1L_N2_AD5P_64
+set_property src_info {type:XDC file:1 line:693 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AD18      [get_ports "DDS1_HMC849VCTL"] ;# Bank  64 VCCO - VADJ_FMC - IO_L16N_T2U_N7_QBC_AD3N_64
+set_property src_info {type:XDC file:1 line:694 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD  LVCMOS18      [get_ports "DDS1_HMC849VCTL"] ;# Bank  64 VCCO - VADJ_FMC - IO_L16N_T2U_N7_QBC_AD3N_64
+set_property src_info {type:XDC file:1 line:697 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AE16 [get_ports "DDS2_TXEN_0"] ;# FMC_HPC0_LA07_N
+set_property src_info {type:XDC file:1 line:699 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AF17 [get_ports "DDS2_MOSI"] ;# FMC_HPC0_LA08_N
+set_property src_info {type:XDC file:1 line:701 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AE17 [get_ports "DDS2_SCK"] ;# FMC_HPC0_LA03_P
+set_property src_info {type:XDC file:1 line:704 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN Y18 [get_ports "DDS2_MISO"] ;# FMC_HPC0_LA11_P
+set_property src_info {type:XDC file:1 line:707 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AA18 [get_ports "DDS2_CS[0]"] ;# FMC_HPC0_LA11_N
+set_property src_info {type:XDC file:1 line:709 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AC19 [get_ports "DDS2_CS[1]"] ;# FMC_HPC0_LA01_CC_P
+set_property src_info {type:XDC file:1 line:711 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AD19 [get_ports "DDS2_CS[2]"] ;# FMC_HPC0_LA01_CC_N
+set_property src_info {type:XDC file:1 line:713 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AD25 [get_ports "DDS2_CS[3]"] ;# FMC_HPC0_LA16_N
+set_property src_info {type:XDC file:1 line:716 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AD18 [get_ports "DDS2_HMC849VCTL"] ;# FMC_HPC0_LA09_N
+set_property src_info {type:XDC file:1 line:717 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS18 [get_ports "DDS2_HMC849VCTL"] ;# FMC_HPC0_LA09_N

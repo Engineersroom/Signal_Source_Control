@@ -1,0 +1,15 @@
+vhdl xil_defaultlib  \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_microblaze_0_0/sim/Signal_Souce_Control_BD_microblaze_0_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_uartlite_0_0/sim/Signal_Souce_Control_BD_axi_uartlite_0_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/sim/Signal_Souce_Control_BD_axi_quad_spi_0_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_0_0/sim/Signal_Souce_Control_BD_axi_gpio_0_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/sim/Signal_Souce_Control_BD_axi_intc_0_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_v10_0/sim/Signal_Souce_Control_BD_dlmb_v10_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_ilmb_v10_0/sim/Signal_Souce_Control_BD_ilmb_v10_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/sim/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0/sim/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_mdm_1_0/sim/Signal_Souce_Control_BD_mdm_1_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/sim/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/sim/Signal_Souce_Control_BD_axi_gpio_1_0.vhd" \
+
+nosort
