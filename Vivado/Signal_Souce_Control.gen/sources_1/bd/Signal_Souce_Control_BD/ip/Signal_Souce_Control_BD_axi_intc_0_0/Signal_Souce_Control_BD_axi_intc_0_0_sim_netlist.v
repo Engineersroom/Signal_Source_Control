@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-// Date        : Mon May  8 15:20:31 2023
+// Date        : Fri Apr 14 11:34:06 2023
 // Host        : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim
-//               d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/Signal_Souce_Control_BD_axi_intc_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top Signal_Souce_Control_BD_axi_intc_0_0 -prefix
+//               Signal_Souce_Control_BD_axi_intc_0_0_ Signal_Souce_Control_BD_axi_intc_0_0_sim_netlist.v
 // Design      : Signal_Souce_Control_BD_axi_intc_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -55,7 +55,7 @@ module Signal_Souce_Control_BD_axi_intc_0_0
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi RRESP" *) output [1:0]s_axi_rresp;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi RVALID" *) output s_axi_rvalid;
   (* x_interface_info = "xilinx.com:interface:aximm:1.0 s_axi RREADY" *) input s_axi_rready;
-  (* x_interface_info = "xilinx.com:signal:interrupt:1.0 interrupt_input INTERRUPT" *) (* x_interface_parameter = "XIL_INTERFACENAME interrupt_input, SENSITIVITY EDGE_RISING:EDGE_RISING, PORTWIDTH 2" *) input [1:0]intr;
+  (* x_interface_info = "xilinx.com:signal:interrupt:1.0 interrupt_input INTERRUPT" *) (* x_interface_parameter = "XIL_INTERFACENAME interrupt_input, SENSITIVITY NULL:EDGE_RISING, PORTWIDTH 2" *) input [1:0]intr;
   (* x_interface_info = "xilinx.com:interface:mbinterrupt:1.0 interrupt INTERRUPT" *) (* x_interface_parameter = "XIL_INTERFACENAME interrupt, SENSITIVITY LEVEL_HIGH, LOW_LATENCY 0" *) output irq;
 
   wire \<const0> ;
@@ -92,7 +92,7 @@ module Signal_Souce_Control_BD_axi_intc_0_0
   GND GND
        (.G(\<const0> ));
   (* C_ADDR_WIDTH = "32" *) 
-  (* C_ASYNC_INTR = "32'b11111111111111111111111111111100" *) 
+  (* C_ASYNC_INTR = "32'b11111111111111111111111111111110" *) 
   (* C_CASCADE_MASTER = "0" *) 
   (* C_DISABLE_SYNCHRONIZERS = "0" *) 
   (* C_ENABLE_ASYNC = "0" *) 
@@ -154,7 +154,6 @@ module Signal_Souce_Control_BD_axi_intc_0_0
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "address_decoder" *) 
 module Signal_Souce_Control_BD_axi_intc_0_0_address_decoder
    (\GEN_BKEND_CE_REGISTERS[0].ce_out_i_reg[0]_0 ,
     Bus_RNW_reg_reg_0,
@@ -958,7 +957,7 @@ module Signal_Souce_Control_BD_axi_intc_0_0_address_decoder
         .O(ip2bus_wrack_reg));
 endmodule
 
-(* C_ADDR_WIDTH = "32" *) (* C_ASYNC_INTR = "32'b11111111111111111111111111111100" *) (* C_CASCADE_MASTER = "0" *) 
+(* C_ADDR_WIDTH = "32" *) (* C_ASYNC_INTR = "32'b11111111111111111111111111111110" *) (* C_CASCADE_MASTER = "0" *) 
 (* C_DISABLE_SYNCHRONIZERS = "0" *) (* C_ENABLE_ASYNC = "0" *) (* C_EN_CASCADE_MODE = "0" *) 
 (* C_FAMILY = "kintexuplus" *) (* C_HAS_CIE = "1" *) (* C_HAS_FAST = "0" *) 
 (* C_HAS_ILR = "0" *) (* C_HAS_IPR = "1" *) (* C_HAS_IVR = "1" *) 
@@ -966,9 +965,9 @@ endmodule
 (* C_IRQ_IS_LEVEL = "1" *) (* C_IVAR_RESET_VALUE = "64'b0000000000000000000000000000000000000000000000000000000000010000" *) (* C_KIND_OF_EDGE = "32'b11111111111111111111111111111111" *) 
 (* C_KIND_OF_INTR = "32'b11111111111111111111111111111111" *) (* C_KIND_OF_LVL = "32'b11111111111111111111111111111111" *) (* C_MB_CLK_NOT_CONNECTED = "1" *) 
 (* C_NUM_INTR_INPUTS = "2" *) (* C_NUM_SW_INTR = "0" *) (* C_NUM_SYNC_FF = "2" *) 
-(* C_S_AXI_ADDR_WIDTH = "9" *) (* C_S_AXI_DATA_WIDTH = "32" *) (* ORIG_REF_NAME = "axi_intc" *) 
-(* hdl = "VHDL" *) (* imp_netlist = "TRUE" *) (* ip_group = "LOGICORE" *) 
-(* iptype = "PERIPHERAL" *) (* run_ngcbuild = "TRUE" *) (* style = "HDL" *) 
+(* C_S_AXI_ADDR_WIDTH = "9" *) (* C_S_AXI_DATA_WIDTH = "32" *) (* hdl = "VHDL" *) 
+(* imp_netlist = "TRUE" *) (* ip_group = "LOGICORE" *) (* iptype = "PERIPHERAL" *) 
+(* run_ngcbuild = "TRUE" *) (* style = "HDL" *) 
 module Signal_Souce_Control_BD_axi_intc_0_0_axi_intc
    (s_axi_aclk,
     s_axi_aresetn,
@@ -1263,7 +1262,6 @@ module Signal_Souce_Control_BD_axi_intc_0_0_axi_intc
         .R(INTC_CORE_I_n_0));
 endmodule
 
-(* ORIG_REF_NAME = "axi_lite_ipif" *) 
 module Signal_Souce_Control_BD_axi_intc_0_0_axi_lite_ipif
    (p_18_in,
     s_axi_rresp,
@@ -1476,7 +1474,6 @@ module Signal_Souce_Control_BD_axi_intc_0_0_axi_lite_ipif
         .s_axi_wvalid(s_axi_wvalid));
 endmodule
 
-(* ORIG_REF_NAME = "intc_core" *) 
 module Signal_Souce_Control_BD_axi_intc_0_0_intc_core
    (SR,
     \IVR_GEN.ivr_reg[1]_0 ,
@@ -1545,6 +1542,7 @@ module Signal_Souce_Control_BD_axi_intc_0_0_intc_core
   wire \CIE_GEN.CIE_BIT_GEN[1].cie_reg[1]_0 ;
   wire \INTR_DETECT_GEN[0].EDGE_DETECT_GEN.hw_intr[0]_i_1_n_0 ;
   wire \INTR_DETECT_GEN[0].EDGE_DETECT_GEN.intr_d1 ;
+  (* async_reg = "true" *) wire [0:1]\INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff ;
   wire \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.hw_intr[1]_i_1_n_0 ;
   wire \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.intr_d1 ;
   wire \IPR_GEN.ipr[0]_i_1_n_0 ;
@@ -1621,11 +1619,31 @@ module Signal_Souce_Control_BD_axi_intc_0_0_intc_core
         .D(intr[0]),
         .Q(\INTR_DETECT_GEN[0].EDGE_DETECT_GEN.intr_d1 ),
         .R(SR));
+  (* ASYNC_REG *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[0] 
+       (.C(s_axi_aclk),
+        .CE(1'b1),
+        .D(intr[1]),
+        .Q(\INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff [0]),
+        .R(1'b0));
+  (* ASYNC_REG *) 
+  (* KEEP = "yes" *) 
+  FDRE #(
+    .INIT(1'b0)) 
+    \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[1] 
+       (.C(s_axi_aclk),
+        .CE(1'b1),
+        .D(\INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff [0]),
+        .Q(\INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff [1]),
+        .R(1'b0));
   LUT3 #(
     .INIT(8'hF4)) 
     \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.hw_intr[1]_i_1 
        (.I0(\INTR_DETECT_GEN[1].EDGE_DETECT_GEN.intr_d1 ),
-        .I1(intr[1]),
+        .I1(\INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff [1]),
         .I2(hw_intr[1]),
         .O(\INTR_DETECT_GEN[1].EDGE_DETECT_GEN.hw_intr[1]_i_1_n_0 ));
   FDRE \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.hw_intr_reg[1] 
@@ -1637,7 +1655,7 @@ module Signal_Souce_Control_BD_axi_intc_0_0_intc_core
   FDRE \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.intr_d1_reg 
        (.C(s_axi_aclk),
         .CE(1'b1),
-        .D(intr[1]),
+        .D(\INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff [1]),
         .Q(\INTR_DETECT_GEN[1].EDGE_DETECT_GEN.intr_d1 ),
         .R(SR));
   (* SOFT_HLUTNM = "soft_lutpair26" *) 
@@ -1840,7 +1858,6 @@ module Signal_Souce_Control_BD_axi_intc_0_0_intc_core
         .O(SR));
 endmodule
 
-(* ORIG_REF_NAME = "slave_attachment" *) 
 module Signal_Souce_Control_BD_axi_intc_0_0_slave_attachment
    (\GEN_BKEND_CE_REGISTERS[0].ce_out_i_reg[0] ,
     s_axi_rresp,

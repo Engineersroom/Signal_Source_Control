@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Mon May  8 16:33:40 2023
+| Date         : Tue May  9 15:45:39 2023
 | Host         : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Signal_Souce_Control_BD_wrapper_utilization_synth.rpt -pb Signal_Souce_Control_BD_wrapper_utilization_synth.pb
 | Design       : Signal_Souce_Control_BD_wrapper
@@ -96,7 +96,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +------------+------+-------+------------+-----------+-------+
 |  Site Type | Used | Fixed | Prohibited | Available | Util% |
 +------------+------+-------+------------+-----------+-------+
-| Bonded IOB |   31 |     0 |          0 |       280 | 11.07 |
+| Bonded IOB |   30 |     0 |          0 |       280 | 10.71 |
 +------------+------+-------+------------+-----------+-------+
 
 
@@ -156,8 +156,8 @@ Warning! LUT value is adjusted to account for LUT combining.
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
 | OBUF     |   23 |                 I/O |
-| INBUF    |    8 |                 I/O |
-| IBUFCTRL |    8 |              Others |
+| INBUF    |    7 |                 I/O |
+| IBUFCTRL |    7 |              Others |
 +----------+------+---------------------+
 
 
@@ -178,7 +178,6 @@ Warning! LUT value is adjusted to account for LUT combining.
 | Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0 |    1 |
 | Signal_Souce_Control_BD_clk_wiz_1_0          |    1 |
 | Signal_Souce_Control_BD_axi_uartlite_0_0     |    1 |
-| Signal_Souce_Control_BD_axi_quad_spi_1_0     |    1 |
 | Signal_Souce_Control_BD_axi_quad_spi_0_0     |    1 |
 | Signal_Souce_Control_BD_axi_intc_0_0         |    1 |
 | Signal_Souce_Control_BD_axi_gpio_2_0         |    1 |

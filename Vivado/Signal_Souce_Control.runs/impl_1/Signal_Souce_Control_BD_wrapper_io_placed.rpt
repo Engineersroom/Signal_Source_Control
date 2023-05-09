@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date                      : Mon May  8 16:35:19 2023
+| Date                      : Tue May  9 15:47:11 2023
 | Host                      : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command                   : report_io -file Signal_Souce_Control_BD_wrapper_io_placed.rpt
 | Design                    : Signal_Souce_Control_BD_wrapper
@@ -25,7 +25,7 @@ Table of Contents
 +---------------+
 | Total User IO |
 +---------------+
-|            33 |
+|            32 |
 +---------------+
 
 
@@ -702,7 +702,7 @@ Table of Contents
 | Y15        |                             | High Density     | IO_L7P_HDGC_AD5P_84                | GCLK          |             |      84 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
 | Y16        |                             | High Density     | IO_L9N_AD3N_84                     | User IO       |             |      84 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
 | Y17        |                             | High Performance | IO_L23P_T3U_N8_64                  | User IO       |             |      64 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
-| Y18        | DDS2_MISO                   | High Performance | IO_L24P_T3U_N10_64                 | INPUT         | LVCMOS18    |      64 |            |                         |      |                   |                 NONE |           | FIXED      |           |          |      | NONE             |              |                   |              |
+| Y18        |                             | High Performance | IO_L24P_T3U_N10_64                 | User IO       |             |      64 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
 | Y19        |                             |                  | GND                                | GND           |             |         |            |                         |      |                   |                      |       0.0 |            |           |          |      |                  |              |                   |              |
 | Y20        |                             | High Performance | IO_L19P_T3L_N0_DBC_AD9P_64         | User IO       |             |      64 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |
 | Y21        |                             | High Performance | IO_L19N_T3L_N1_DBC_AD9N_64         | User IO       |             |      64 |            |                         |      |                   |                      |           |            |           |          |      |                  |              |                   |              |

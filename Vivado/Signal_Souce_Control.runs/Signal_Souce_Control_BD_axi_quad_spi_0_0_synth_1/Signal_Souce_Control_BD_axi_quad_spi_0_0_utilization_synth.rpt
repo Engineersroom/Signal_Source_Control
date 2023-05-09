@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri Apr 21 11:40:35 2023
+| Date         : Tue May  9 15:44:49 2023
 | Host         : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Signal_Souce_Control_BD_axi_quad_spi_0_0_utilization_synth.rpt -pb Signal_Souce_Control_BD_axi_quad_spi_0_0_utilization_synth.pb
 | Design       : Signal_Souce_Control_BD_axi_quad_spi_0_0
@@ -32,13 +32,13 @@ Table of Contents
 +----------------------------+------+-------+------------+-----------+-------+
 |          Site Type         | Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+------+-------+------------+-----------+-------+
-| CLB LUTs*                  |  445 |     0 |          0 |    216960 |  0.21 |
-|   LUT as Logic             |  429 |     0 |          0 |    216960 |  0.20 |
+| CLB LUTs*                  |  447 |     0 |          0 |    216960 |  0.21 |
+|   LUT as Logic             |  431 |     0 |          0 |    216960 |  0.20 |
 |   LUT as Memory            |   16 |     0 |          0 |     99840 |  0.02 |
 |     LUT as Distributed RAM |   16 |     0 |            |           |       |
 |     LUT as Shift Register  |    0 |     0 |            |           |       |
-| CLB Registers              |  646 |     1 |          0 |    433920 |  0.15 |
-|   Register as Flip Flop    |  646 |     1 |          0 |    433920 |  0.15 |
+| CLB Registers              |  662 |     1 |          0 |    433920 |  0.15 |
+|   Register as Flip Flop    |  662 |     1 |          0 |    433920 |  0.15 |
 |   Register as Latch        |    0 |     0 |          0 |    433920 |  0.00 |
 | CARRY8                     |    0 |     0 |          0 |     27120 |  0.00 |
 | F7 Muxes                   |    0 |     0 |          0 |    108480 |  0.00 |
@@ -63,8 +63,8 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
-| 38    |          Yes |         Set |            - |
-| 608   |          Yes |       Reset |            - |
+| 46    |          Yes |         Set |            - |
+| 616   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -157,15 +157,15 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |  608 |            Register |
-| LUT6     |  132 |                 CLB |
-| LUT5     |  114 |                 CLB |
-| LUT2     |  104 |                 CLB |
+| FDRE     |  616 |            Register |
+| LUT6     |  130 |                 CLB |
+| LUT5     |  121 |                 CLB |
+| LUT2     |  105 |                 CLB |
 | LUT3     |   83 |                 CLB |
-| LUT4     |   75 |                 CLB |
-| FDSE     |   38 |            Register |
+| LUT4     |   74 |                 CLB |
+| FDSE     |   46 |            Register |
 | RAMD32   |   28 |                 CLB |
-| LUT1     |   17 |                 CLB |
+| LUT1     |   16 |                 CLB |
 | RAMS32   |    4 |                 CLB |
 +----------+------+---------------------+
 

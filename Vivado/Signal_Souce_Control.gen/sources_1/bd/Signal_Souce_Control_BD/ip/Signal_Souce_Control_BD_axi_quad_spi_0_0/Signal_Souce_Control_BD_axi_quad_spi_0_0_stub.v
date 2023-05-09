@@ -1,7 +1,7 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-// Date        : Fri Apr 21 11:40:35 2023
+// Date        : Tue May  9 15:44:49 2023
 // Host        : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0_stub.v
@@ -19,7 +19,7 @@ module Signal_Souce_Control_BD_axi_quad_spi_0_0(ext_spi_clk, s_axi_aclk, s_axi_a
   s_axi_wready, s_axi_bresp, s_axi_bvalid, s_axi_bready, s_axi_araddr, s_axi_arvalid, 
   s_axi_arready, s_axi_rdata, s_axi_rresp, s_axi_rvalid, s_axi_rready, io0_i, io0_o, io0_t, io1_i, 
   io1_o, io1_t, sck_i, sck_o, sck_t, ss_i, ss_o, ss_t, ip2intc_irpt)
-/* synthesis syn_black_box black_box_pad_pin="ext_spi_clk,s_axi_aclk,s_axi_aresetn,s_axi_awaddr[6:0],s_axi_awvalid,s_axi_awready,s_axi_wdata[31:0],s_axi_wstrb[3:0],s_axi_wvalid,s_axi_wready,s_axi_bresp[1:0],s_axi_bvalid,s_axi_bready,s_axi_araddr[6:0],s_axi_arvalid,s_axi_arready,s_axi_rdata[31:0],s_axi_rresp[1:0],s_axi_rvalid,s_axi_rready,io0_i,io0_o,io0_t,io1_i,io1_o,io1_t,sck_i,sck_o,sck_t,ss_i[3:0],ss_o[3:0],ss_t,ip2intc_irpt" */;
+/* synthesis syn_black_box black_box_pad_pin="ext_spi_clk,s_axi_aclk,s_axi_aresetn,s_axi_awaddr[6:0],s_axi_awvalid,s_axi_awready,s_axi_wdata[31:0],s_axi_wstrb[3:0],s_axi_wvalid,s_axi_wready,s_axi_bresp[1:0],s_axi_bvalid,s_axi_bready,s_axi_araddr[6:0],s_axi_arvalid,s_axi_arready,s_axi_rdata[31:0],s_axi_rresp[1:0],s_axi_rvalid,s_axi_rready,io0_i,io0_o,io0_t,io1_i,io1_o,io1_t,sck_i,sck_o,sck_t,ss_i[7:0],ss_o[7:0],ss_t,ip2intc_irpt" */;
   input ext_spi_clk;
   input s_axi_aclk;
   input s_axi_aresetn;
@@ -49,8 +49,8 @@ module Signal_Souce_Control_BD_axi_quad_spi_0_0(ext_spi_clk, s_axi_aclk, s_axi_a
   input sck_i;
   output sck_o;
   output sck_t;
-  input [3:0]ss_i;
-  output [3:0]ss_o;
+  input [7:0]ss_i;
+  output [7:0]ss_o;
   output ss_t;
   output ip2intc_irpt;
 endmodule

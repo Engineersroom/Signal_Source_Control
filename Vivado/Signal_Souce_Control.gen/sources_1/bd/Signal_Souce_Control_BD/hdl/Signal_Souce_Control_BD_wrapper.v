@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Mon May  8 15:19:32 2023
+//Date        : Tue May  9 15:43:27 2023
 //Host        : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 //Command     : generate_target Signal_Souce_Control_BD_wrapper.bd
 //Design      : Signal_Souce_Control_BD_wrapper
@@ -16,7 +16,6 @@ module Signal_Souce_Control_BD_wrapper
     DDS1_SCK,
     DDS1_TXEN_0,
     DDS2_CS,
-    DDS2_MISO,
     DDS2_MOSI,
     DDS2_SCK,
     DDS2_TXEN_0,
@@ -33,7 +32,6 @@ module Signal_Souce_Control_BD_wrapper
   output DDS1_SCK;
   output [0:0]DDS1_TXEN_0;
   output [3:0]DDS2_CS;
-  input DDS2_MISO;
   output DDS2_MOSI;
   output DDS2_SCK;
   output [0:0]DDS2_TXEN_0;
@@ -51,7 +49,6 @@ module Signal_Souce_Control_BD_wrapper
   wire DDS1_SCK;
   wire [0:0]DDS1_TXEN_0;
   wire [3:0]DDS2_CS;
-  wire DDS2_MISO;
   wire DDS2_MOSI;
   wire DDS2_SCK;
   wire [0:0]DDS2_TXEN_0;
@@ -70,7 +67,6 @@ module Signal_Souce_Control_BD_wrapper
         .DDS1_SCK(DDS1_SCK),
         .DDS1_TXEN_0(DDS1_TXEN_0),
         .DDS2_CS(DDS2_CS),
-        .DDS2_MISO(DDS2_MISO),
         .DDS2_MOSI(DDS2_MOSI),
         .DDS2_SCK(DDS2_SCK),
         .DDS2_TXEN_0(DDS2_TXEN_0),

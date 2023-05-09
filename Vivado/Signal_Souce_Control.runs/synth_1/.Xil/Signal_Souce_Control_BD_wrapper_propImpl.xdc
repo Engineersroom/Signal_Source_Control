@@ -1107,6 +1107,8 @@ set_property src_info {type:XDC file:1 line:701 export:INPUT save:INPUT read:REA
 set_property PACKAGE_PIN AE17 [get_ports "DDS2_SCK"] ;# FMC_HPC0_LA03_P
 set_property src_info {type:XDC file:1 line:704 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN Y18 [get_ports "DDS2_MISO"] ;# FMC_HPC0_LA11_P
+set_property src_info {type:XDC file:1 line:705 export:INPUT save:INPUT read:READ} [current_design]
+set_property IOSTANDARD LVCMOS18 [get_ports "DDS2_MISO"] ;# FMC_HPC0_LA11_P
 set_property src_info {type:XDC file:1 line:707 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN AA18 [get_ports "DDS2_CS[0]"] ;# FMC_HPC0_LA11_N
 set_property src_info {type:XDC file:1 line:709 export:INPUT save:INPUT read:READ} [current_design]

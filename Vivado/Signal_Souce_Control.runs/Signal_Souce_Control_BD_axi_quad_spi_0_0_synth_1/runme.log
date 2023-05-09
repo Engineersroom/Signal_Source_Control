@@ -18,10 +18,10 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku5p'
 INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 38108
+INFO: [Synth 8-7075] Helper process launched with PID 70528
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1988.527 ; gain = 372.449
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1989.133 ; gain = 369.801
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/synth/Signal_Souce_Control_BD_axi_quad_spi_0_0.vhd:97]
 	Parameter Async_Clk bound to: 0 - type: integer 
@@ -38,7 +38,7 @@ INFO: [Synth 8-638] synthesizing module 'Signal_Souce_Control_BD_axi_quad_spi_0_
 	Parameter C_FIFO_DEPTH bound to: 16 - type: integer 
 	Parameter C_SCK_RATIO bound to: 16 - type: integer 
 	Parameter C_DUAL_QUAD_MODE bound to: 0 - type: integer 
-	Parameter C_NUM_SS_BITS bound to: 4 - type: integer 
+	Parameter C_NUM_SS_BITS bound to: 8 - type: integer 
 	Parameter C_NUM_TRANSFER_BITS bound to: 8 - type: integer 
 	Parameter C_NEW_SEQ_EN bound to: 1 - type: integer 
 	Parameter C_SPI_MODE bound to: 0 - type: integer 
@@ -270,6 +270,22 @@ INFO: [Synth 8-113] binding component instance 'SPISSR_SYNC_AXI_2_SPI_2' to cell
 INFO: [Synth 8-113] binding component instance 'SPISSR_AX2S_1_CDC' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15858]
 	Parameter INIT bound to: 1'b1 
 INFO: [Synth 8-113] binding component instance 'SPISSR_SYNC_AXI_2_SPI_2' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15866]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'SPISSR_AX2S_1_CDC' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15858]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'SPISSR_SYNC_AXI_2_SPI_2' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15866]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'SPISSR_AX2S_1_CDC' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15858]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'SPISSR_SYNC_AXI_2_SPI_2' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15866]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'SPISSR_AX2S_1_CDC' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15858]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'SPISSR_SYNC_AXI_2_SPI_2' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15866]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'SPISSR_AX2S_1_CDC' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15858]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'SPISSR_SYNC_AXI_2_SPI_2' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15866]
 	Parameter INIT bound to: 1'b0 
 INFO: [Synth 8-113] binding component instance 'DRR_OVERRUN_S2AX_1_CDC' to cell 'FDR' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:15891]
 	Parameter INIT bound to: 1'b0 
@@ -398,19 +414,11 @@ INFO: [Synth 8-113] binding component instance 'SCK_O_NE_4_FDRE_INST' to cell 'F
 INFO: [Synth 8-256] done synthesizing module 'qspi_mode_0_module' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:8775]
 INFO: [Synth 8-638] synthesizing module 'qspi_cntrl_reg' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:13820]
 INFO: [Synth 8-113] binding component instance 'SPI_TRISTATE_CONTROL_I' to cell 'FDRE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:14027]
-INFO: [Synth 8-113] binding component instance 'SPI_TRISTATE_CONTROL_I' to cell 'FDRE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:14027]
+INFO: [Common 17-14] Message 'Synth 8-113' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-256] done synthesizing module 'qspi_cntrl_reg' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:13820]
 INFO: [Synth 8-638] synthesizing module 'qspi_status_slave_sel_reg' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:2658]
 INFO: [Synth 8-256] done synthesizing module 'qspi_status_slave_sel_reg' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:2658]
 INFO: [Synth 8-638] synthesizing module 'soft_reset' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:874]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:1005]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:1005]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:1005]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:1005]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:1005]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:1005]
-INFO: [Synth 8-113] binding component instance 'RST_FLOPS' to cell 'FDRSE' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:1005]
-INFO: [Common 17-14] Message 'Synth 8-113' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-256] done synthesizing module 'soft_reset' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/75b9/hdl/axi_quad_spi_v3_2_rfs.vhd:874]
 INFO: [Synth 8-638] synthesizing module 'interrupt_control' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
 INFO: [Synth 8-256] done synthesizing module 'interrupt_control' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a040/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
@@ -567,19 +575,19 @@ WARNING: [Synth 8-7129] Port Bus2IP_SPISSR_Data[18] in module qspi_status_slave_
 WARNING: [Synth 8-7129] Port Bus2IP_SPISSR_Data[19] in module qspi_status_slave_sel_reg is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2240.746 ; gain = 624.668
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 2243.637 ; gain = 624.305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2240.746 ; gain = 624.668
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2243.637 ; gain = 624.305
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 2240.746 ; gain = 624.668
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 2243.637 ; gain = 624.305
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 2240.746 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 113 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2243.637 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 121 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
@@ -658,18 +666,18 @@ Resolution: To avoid this warning, move constraints listed in [.Xil/Signal_Souce
 INFO: [Project 1-1714] 14 XPM XDC files have been applied to the design.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2344.387 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2342.516 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 113 instances were transformed.
+  A total of 121 instances were transformed.
   FD => FDRE: 11 instances
-  FDR => FDRE: 85 instances
+  FDR => FDRE: 93 instances
   FDRSE => FDRSE (FDRE, LUT4, VCC): 17 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 2344.387 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 2342.516 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2344.387 ; gain = 728.309
+Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 2342.516 ; gain = 723.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -677,7 +685,7 @@ Start Loading Part and Timing Information
 Loading part: xcku5p-ffvb676-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 2344.387 ; gain = 728.309
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 2342.516 ; gain = 723.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -698,7 +706,7 @@ Applied set_property KEEP_HIERARCHY = SOFT for U0/\NO_DUAL_QUAD_MODE.QSPI_NORMAL
 Applied set_property KEEP_HIERARCHY = SOFT for U0/\NO_DUAL_QUAD_MODE.QSPI_NORMAL /\QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I /\FIFO_EXISTS.RX_FIFO_II . (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for U0/\NO_DUAL_QUAD_MODE.QSPI_NORMAL /\QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I /\FIFO_EXISTS.TX_FIFO_II /\xpm_fifo_instance.xpm_fifo_async_inst . (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 2344.387 ; gain = 728.309
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 2342.516 ; gain = 723.184
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
 INFO: [Synth 8-802] inferred FSM for state register 'gen_rst_ic.curr_wrst_state_reg' in module 'xpm_fifo_rst__xdcDup__1'
@@ -791,7 +799,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'gen_fwft.curr_fwft_state_r
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'LOCAL_TX_EMPTY_FIFO_12_GEN.spi_cntrl_ps_reg' using encoding 'sequential' in module 'qspi_mode_0_module'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:24 ; elapsed = 00:00:28 . Memory (MB): peak = 2344.387 ; gain = 728.309
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 2342.516 ; gain = 723.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -814,14 +822,14 @@ Detailed RTL Component Info :
 +---Registers : 
 	               32 Bit    Registers := 2     
 	               14 Bit    Registers := 1     
-	                8 Bit    Registers := 9     
+	                8 Bit    Registers := 10    
 	                7 Bit    Registers := 1     
 	                6 Bit    Registers := 1     
 	                5 Bit    Registers := 33    
-	                4 Bit    Registers := 31    
+	                4 Bit    Registers := 30    
 	                3 Bit    Registers := 1     
 	                2 Bit    Registers := 11    
-	                1 Bit    Registers := 191   
+	                1 Bit    Registers := 195   
 +---RAMs : 
 	              128 Bit	(16 X 8 bit)          RAMs := 2     
 +---Muxes : 
@@ -904,7 +912,7 @@ INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGA
 INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO2_I_REG) is unused and will be removed from module axi_quad_spi.
 INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO3_I_REG) is unused and will be removed from module axi_quad_spi.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:31 . Memory (MB): peak = 2344.387 ; gain = 728.309
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:33 . Memory (MB): peak = 2342.516 ; gain = 723.184
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -926,13 +934,13 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 2567.262 ; gain = 951.184
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:44 . Memory (MB): peak = 2565.922 ; gain = 946.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished Timing Optimization : Time (s): cpu = 00:00:40 ; elapsed = 00:00:45 . Memory (MB): peak = 2603.723 ; gain = 984.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -953,7 +961,7 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:43 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 2603.742 ; gain = 984.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -971,37 +979,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2603.742 ; gain = 984.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2603.742 ; gain = 984.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2603.742 ; gain = 984.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2603.742 ; gain = 984.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2603.742 ; gain = 984.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2603.742 ; gain = 984.410
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1017,46 +1025,46 @@ Report Cell Usage:
 +------+---------+------+
 |      |Cell     |Count |
 +------+---------+------+
-|1     |LUT1     |    17|
-|2     |LUT2     |   104|
+|1     |LUT1     |    16|
+|2     |LUT2     |   105|
 |3     |LUT3     |    83|
-|4     |LUT4     |    75|
-|5     |LUT5     |   114|
-|6     |LUT6     |   132|
+|4     |LUT4     |    74|
+|5     |LUT5     |   121|
+|6     |LUT6     |   130|
 |7     |RAM32M16 |     2|
 |8     |FD       |     6|
-|9     |FDR      |    49|
+|9     |FDR      |    57|
 |10    |FDRE     |   553|
-|11    |FDSE     |    38|
+|11    |FDSE     |    46|
 +------+---------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:41 ; elapsed = 00:00:47 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2603.742 ; gain = 984.410
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 238 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:42 . Memory (MB): peak = 2603.648 ; gain = 883.930
-Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:47 . Memory (MB): peak = 2603.648 ; gain = 987.570
+Synthesis finished with 0 errors, 0 critical warnings and 242 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:44 . Memory (MB): peak = 2603.742 ; gain = 885.531
+Synthesis Optimization Complete : Time (s): cpu = 00:00:44 ; elapsed = 00:00:49 . Memory (MB): peak = 2603.742 ; gain = 984.410
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2608.402 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 57 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2608.516 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 WARNING: [Constraints 18-5572] Instance U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2638.020 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2637.141 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 57 instances were transformed.
+  A total of 65 instances were transformed.
   FD => FDRE: 6 instances
-  FDR => FDRE: 49 instances
+  FDR => FDRE: 57 instances
   RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 2 instances
 
-Synth Design complete, checksum: 75648572
+Synth Design complete, checksum: 4530682e
 INFO: [Common 17-83] Releasing license: Synthesis
 338 Infos, 157 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:55 . Memory (MB): peak = 2638.020 ; gain = 2053.641
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:01:02 . Memory (MB): peak = 2637.141 ; gain = 2049.285
 INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_axi_quad_spi_0_0_synth_1/Signal_Souce_Control_BD_axi_quad_spi_0_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Signal_Souce_Control_BD_axi_quad_spi_0_0, cache-ID = 55dc3713ac7eec21
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Signal_Souce_Control_BD_axi_quad_spi_0_0, cache-ID = 0581aa85d010b678
 INFO: [Coretcl 2-1174] Renamed 81 cell refs.
 INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_axi_quad_spi_0_0_synth_1/Signal_Souce_Control_BD_axi_quad_spi_0_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Signal_Souce_Control_BD_axi_quad_spi_0_0_utilization_synth.rpt -pb Signal_Souce_Control_BD_axi_quad_spi_0_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 21 11:40:35 2023...
+INFO: [Common 17-206] Exiting Vivado at Tue May  9 15:44:49 2023...

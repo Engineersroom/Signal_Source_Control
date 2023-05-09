@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x67E76B56C9815B99",
+      "boundary_crc": "0x9BEC75E810070A69",
       "device": "xcku5p-ffvb676-2-e",
       "gen_directory": "../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD",
       "name": "Signal_Souce_Control_BD",
@@ -39,8 +39,9 @@
         "m06_couplers": {}
       },
       "axi_gpio_1": "",
-      "axi_quad_spi_1": "",
-      "axi_gpio_2": ""
+      "axi_gpio_2": "",
+      "DDS2": "",
+      "SignalSouce1": ""
     },
     "interface_ports": {
       "rs232_uart": {
@@ -157,9 +158,6 @@
         "direction": "O",
         "left": "0",
         "right": "0"
-      },
-      "DDS2_MISO": {
-        "direction": "I"
       }
     },
     "components": {
@@ -261,7 +259,7 @@
         "inst_hier_path": "axi_quad_spi_0",
         "parameters": {
           "C_NUM_SS_BITS": {
-            "value": "4"
+            "value": "8"
           }
         }
       },
@@ -1333,17 +1331,6 @@
           }
         }
       },
-      "axi_quad_spi_1": {
-        "vlnv": "xilinx.com:ip:axi_quad_spi:3.2",
-        "xci_name": "Signal_Souce_Control_BD_axi_quad_spi_1_0",
-        "xci_path": "ip\\Signal_Souce_Control_BD_axi_quad_spi_1_0\\Signal_Souce_Control_BD_axi_quad_spi_1_0.xci",
-        "inst_hier_path": "axi_quad_spi_1",
-        "parameters": {
-          "C_NUM_SS_BITS": {
-            "value": "4"
-          }
-        }
-      },
       "axi_gpio_2": {
         "vlnv": "xilinx.com:ip:axi_gpio:2.0",
         "xci_name": "Signal_Souce_Control_BD_axi_gpio_2_0",
@@ -1352,6 +1339,46 @@
         "parameters": {
           "C_GPIO_WIDTH": {
             "value": "1"
+          }
+        }
+      },
+      "DDS2": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "Signal_Souce_Control_BD_xlslice_0_0",
+        "xci_path": "ip\\Signal_Souce_Control_BD_xlslice_0_0\\Signal_Souce_Control_BD_xlslice_0_0.xci",
+        "inst_hier_path": "DDS2",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "7"
+          },
+          "DIN_TO": {
+            "value": "4"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "4"
+          }
+        }
+      },
+      "SignalSouce1": {
+        "vlnv": "xilinx.com:ip:xlslice:1.0",
+        "xci_name": "Signal_Souce_Control_BD_xlslice_0_2",
+        "xci_path": "ip\\Signal_Souce_Control_BD_xlslice_0_2\\Signal_Souce_Control_BD_xlslice_0_2.xci",
+        "inst_hier_path": "SignalSouce1",
+        "parameters": {
+          "DIN_FROM": {
+            "value": "3"
+          },
+          "DIN_TO": {
+            "value": "0"
+          },
+          "DIN_WIDTH": {
+            "value": "8"
+          },
+          "DOUT_WIDTH": {
+            "value": "4"
           }
         }
       }
@@ -1429,12 +1456,6 @@
           "axi_gpio_2/S_AXI"
         ]
       },
-      "microblaze_0_axi_periph_M06_AXI": {
-        "interface_ports": [
-          "microblaze_0_axi_periph/M06_AXI",
-          "axi_quad_spi_1/AXI_LITE"
-        ]
-      },
       "microblaze_0_debug": {
         "interface_ports": [
           "mdm_1/MBDEBUG_0",
@@ -1455,6 +1476,18 @@
       }
     },
     "nets": {
+      "DDS2_Dout": {
+        "ports": [
+          "DDS2/Dout",
+          "DDS2_CS"
+        ]
+      },
+      "SignalSouce1_Dout": {
+        "ports": [
+          "SignalSouce1/Dout",
+          "DDS1_CS"
+        ]
+      },
       "axi_gpio_0_gpio_io_o": {
         "ports": [
           "axi_gpio_0/gpio_io_o",
@@ -1470,7 +1503,8 @@
       "axi_quad_spi_0_io0_o": {
         "ports": [
           "axi_quad_spi_0/io0_o",
-          "DDS1_MOSI"
+          "DDS1_MOSI",
+          "DDS2_MOSI"
         ]
       },
       "axi_quad_spi_0_ip2intc_irpt": {
@@ -1482,37 +1516,15 @@
       "axi_quad_spi_0_sck_o": {
         "ports": [
           "axi_quad_spi_0/sck_o",
-          "DDS1_SCK"
+          "DDS1_SCK",
+          "DDS2_SCK"
         ]
       },
       "axi_quad_spi_0_ss_o": {
         "ports": [
           "axi_quad_spi_0/ss_o",
-          "DDS1_CS"
-        ]
-      },
-      "axi_quad_spi_1_io0_o": {
-        "ports": [
-          "axi_quad_spi_1/io0_o",
-          "DDS2_MOSI"
-        ]
-      },
-      "axi_quad_spi_1_ip2intc_irpt": {
-        "ports": [
-          "axi_quad_spi_1/ip2intc_irpt",
-          "xlconcat_0/In1"
-        ]
-      },
-      "axi_quad_spi_1_sck_o": {
-        "ports": [
-          "axi_quad_spi_1/sck_o",
-          "DDS2_SCK"
-        ]
-      },
-      "axi_quad_spi_1_ss_o": {
-        "ports": [
-          "axi_quad_spi_1/ss_o",
-          "DDS2_CS"
+          "DDS2/Din",
+          "SignalSouce1/Din"
         ]
       },
       "clk_wiz_1_locked": {
@@ -1525,12 +1537,6 @@
         "ports": [
           "DDS1_MISO",
           "axi_quad_spi_0/io1_i"
-        ]
-      },
-      "io1_i_0_2": {
-        "ports": [
-          "DDS2_MISO",
-          "axi_quad_spi_1/io1_i"
         ]
       },
       "mdm_1_debug_sys_rst": {
@@ -1560,9 +1566,7 @@
           "microblaze_0_axi_periph/M04_ACLK",
           "axi_gpio_2/s_axi_aclk",
           "microblaze_0_axi_periph/M05_ACLK",
-          "axi_quad_spi_1/s_axi_aclk",
-          "microblaze_0_axi_periph/M06_ACLK",
-          "axi_quad_spi_1/ext_spi_clk"
+          "microblaze_0_axi_periph/M06_ACLK"
         ]
       },
       "reset_1": {
@@ -1601,7 +1605,6 @@
           "microblaze_0_axi_periph/M04_ARESETN",
           "axi_gpio_2/s_axi_aresetn",
           "microblaze_0_axi_periph/M05_ARESETN",
-          "axi_quad_spi_1/s_axi_aresetn",
           "microblaze_0_axi_periph/M06_ARESETN"
         ]
       },
@@ -1640,12 +1643,6 @@
               "SEG_axi_quad_spi_0_Reg": {
                 "address_block": "/axi_quad_spi_0/AXI_LITE/Reg",
                 "offset": "0x44A00000",
-                "range": "64K",
-                "offset_high_param": "C_HIGHADDR"
-              },
-              "SEG_axi_quad_spi_1_Reg": {
-                "address_block": "/axi_quad_spi_1/AXI_LITE/Reg",
-                "offset": "0x44A10000",
                 "range": "64K",
                 "offset_high_param": "C_HIGHADDR"
               },
