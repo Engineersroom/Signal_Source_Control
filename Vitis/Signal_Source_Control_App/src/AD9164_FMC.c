@@ -274,6 +274,70 @@ int SET_FTH1_1GHZ(XSpi *spiPtr)
     return Status;
 }
 
+int SET_Dual_FTH1_1GHZ(XSpi *spiPtr, XSpi *spiPtr2)
+{
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+    Status = XSpi_SetSlaveSelect(spiPtr2, AD9164_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    FTH1_REGSTER1[2] = One_GHz_Arr[0];
+    FTH1_REGSTER2[2] = One_GHz_Arr[1];
+    FTH1_REGSTER3[2] = One_GHz_Arr[2];
+    FTH1_REGSTER4[2] = One_GHz_Arr[3];
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr2, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr2, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr2, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr2, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr2, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr2, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr2, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr2, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    return Status;
+}
 int SET_FTH1_2GHZ(XSpi *spiPtr)
 {
     int Status;
@@ -332,21 +396,26 @@ int SPI_Init_Func(int device_id, XSpi *spiPtr, XIntc *Intptr)
     ConfigPtr = XSpi_LookupConfig(device_id);
     if (ConfigPtr == NULL)
         return XST_DEVICE_NOT_FOUND;
+ 
 
     // Status = XSpi_CfgInitialize(&Spi, ConfigPtr, ConfigPtr->BaseAddress);
     Status = XSpi_CfgInitialize(spiPtr, ConfigPtr, ConfigPtr->BaseAddress);
     if (Status != XST_SUCCESS)
         return XST_FAILURE;
+ 
 
     // SPI컨트롤러가 올바르게 동작하는지 자체 테스트
     Status = XSpi_SelfTest(spiPtr);
     if (Status != XST_SUCCESS)
         return XST_FAILURE;
+ 
 
     // XIntc 초기화
     Status = XIntc_Initialize(Intptr, device_id);
+    xil_printf("XIntc code : %d  \r\n",Status);
     if (Status != XST_SUCCESS)
         return XST_FAILURE;
+    xil_printf("XIntc Init \r\n");
 
     // SPI의 인터럽트 핸들러 지정
     Status = XIntc_Connect(Intptr, device_id,
@@ -354,12 +423,13 @@ int SPI_Init_Func(int device_id, XSpi *spiPtr, XIntc *Intptr)
                            (void *)spiPtr);
     if (Status != XST_SUCCESS)
         return XST_FAILURE;
+        xil_printf("XIntc Connect \r\n");
 
     // XIntc hardware interrupts only
     Status = XIntc_Start(Intptr, XIN_REAL_MODE);
     if (Status != XST_SUCCESS)
         return XST_FAILURE;
-
+    xil_printf("XIntc Start \r\n");
     // SPI 인터럽트 활성화
     XIntc_Enable(Intptr, device_id);
 
@@ -420,7 +490,7 @@ void SpiHandler(void *CallBackRef, u32 StatusEvent, unsigned int ByteCount)
 {
     // 통신 중에는 플래그 down
     TransferInProgress = FALSE;
-    // 통신 완료 인터럽트 외에는 온류
+    // 통신 완료 인터럽트 외에는 오류
     if (StatusEvent != XST_SPI_TRANSFER_DONE)
     {
         Error++;
@@ -430,31 +500,35 @@ void SpiHandler(void *CallBackRef, u32 StatusEvent, unsigned int ByteCount)
 int SPI_Signal_Source_Factory_Init(XSpi *spiPtr)
 {
     XSpi_Start(spiPtr);
-    // xil_printf("Signal Source Factory Init ... \r\n");
+    xil_printf("Signal Source Factory Init 2 ... \r\n");
     int Status;
     // ADF4355
     Status = XSpi_SetSlaveSelect(spiPtr, ADF4355_ID);
+    //  xil_printf("DDS2 Slave Select Complete... \r\n");
+    //  xil_printf("Code : %d \r\n", Status);
     if (Status != XST_SUCCESS)
     {
-        xil_printf("ADF4355 Conneting... failed\r\n");
+        xil_printf("ADF4355 Conneting 1... failed\r\n");
         return XST_FAILURE;
     }
-    // else
+    //  else
     // {
-    //     /xil_printf("ADF4355 Conneting...\r\n");
+    //     xil_printf("ADF4355 Conneting 2...\r\n");
     // }
-    // xil_printf("ADF4355 Selected ... \r\n");
+    xil_printf("ADF4355 Selected ... \r\n");
     for (int asd = 0; asd < 15; asd++)
     {
+
         for (int i = 0; i < ADF4355_BUFFER_SIZE; i++)
         {
             // 버퍼에 데이터 넣기
             WriteBuffer_ADF4355[i] = Init_ADF4355[asd * ADF4355_BUFFER_SIZE + i];
         }
+        // 전송시작
         // 플래그 설정
         TransferInProgress = TRUE;
-        // 전송시작
-        XSpi_Transfer(spiPtr, WriteBuffer_ADF4355, ReadBuffer_ADF4355, ADF4355_BUFFER_SIZE);
+        Status = XSpi_Transfer(spiPtr, WriteBuffer_ADF4355, ReadBuffer_ADF4355, ADF4355_BUFFER_SIZE);
+        // xil_printf("Code : %d \r\n",Status);
         while (TransferInProgress)
             ;
         // usleep(10);

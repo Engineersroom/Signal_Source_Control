@@ -203,3 +203,74 @@ timestamp=[2023-05-09 08:11:12], mode=WORKBENCH_UI_INIT, duration=0:00:00.367, d
 timestamp=[2023-05-09 08:11:13], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.374, duration_ms=374, data={}
 timestamp=[2023-05-09 08:12:22], mode=PLATFORM_GENERATION, duration=0:00:02.390, duration_ms=2390, data={name=Signal_Souce_Control_BD_wrapper}
 timestamp=[2023-05-09 08:12:29], mode=PLATFORM_GENERATION, duration=0:00:07.209, duration_ms=7209, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 08:25:55], mode=PLATFORM_GENERATION, duration=0:00:02.484, duration_ms=2484, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 08:25:55], mode=BUILD, duration=0:00:00.181, duration_ms=181, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 08:25:55], mode=BUILD, duration=0:00:00.141, duration_ms=141, data={name=Signal_Source_Control_App_system, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 08:26:05], mode=PLATFORM_GENERATION, duration=0:00:04.666, duration_ms=4666, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 08:26:07], mode=BUILD, duration=0:00:01.511, duration_ms=1511, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 08:27:16], mode=BUILD, duration=0:00:00.118, duration_ms=118, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 08:27:17], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=Signal_Source_Control_App_system, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 08:49:44], mode=BUILD, duration=0:00:00.496, duration_ms=496, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 08:57:36], mode=BUILD, duration=0:00:00.553, duration_ms=553, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:46:35], mode=BUILD, duration=0:00:00.502, duration_ms=502, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:46:58], mode=BUILD, duration=0:00:00.673, duration_ms=673, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:47:04], mode=PLATFORM_GENERATION, duration=0:00:02.585, duration_ms=2585, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 10:47:04], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 10:47:55], mode=PLATFORM_GENERATION, duration=0:00:02.033, duration_ms=2033, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 10:47:55], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 10:48:00], mode=PLATFORM_GENERATION, duration=0:00:04.735, duration_ms=4735, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 10:48:00], mode=BUILD, duration=0:00:00.917, duration_ms=917, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:52:52], mode=BUILD, duration=0:00:00.187, duration_ms=187, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:52:57], mode=PLATFORM_GENERATION, duration=0:00:02.526, duration_ms=2526, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 10:52:57], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 10:53:05], mode=PLATFORM_GENERATION, duration=0:00:04.672, duration_ms=4672, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 10:53:06], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:54:14], mode=BUILD, duration=0:00:00.187, duration_ms=187, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:55:28], mode=BUILD, duration=0:00:00.913, duration_ms=913, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:56:40], mode=BUILD, duration=0:00:00.493, duration_ms=493, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:57:02], mode=BUILD, duration=0:00:00.488, duration_ms=488, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 10:57:07], mode=PLATFORM_GENERATION, duration=0:00:02.530, duration_ms=2530, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 10:57:07], mode=BUILD, duration=0:00:00.125, duration_ms=125, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 10:57:12], mode=PLATFORM_GENERATION, duration=0:00:04.842, duration_ms=4842, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 10:57:13], mode=BUILD, duration=0:00:01.037, duration_ms=1037, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 11:38:55], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 11:39:00], mode=BUILD, duration=0:00:00.129, duration_ms=129, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:04:50], mode=BUILD, duration=0:00:00.608, duration_ms=608, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:10:47], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:11:32], mode=PLATFORM_GENERATION, duration=0:00:02.531, duration_ms=2531, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 12:11:32], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 12:11:37], mode=PLATFORM_GENERATION, duration=0:00:04.840, duration_ms=4840, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 12:11:39], mode=BUILD, duration=0:00:01.104, duration_ms=1104, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:13:17], mode=BUILD, duration=0:00:00.600, duration_ms=600, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:15:15], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:16:05], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:17:55], mode=BUILD, duration=0:00:00.610, duration_ms=610, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:19:36], mode=BUILD, duration=0:00:00.605, duration_ms=605, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:25:37], mode=BUILD, duration=0:00:00.738, duration_ms=738, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:58:18], mode=BUILD, duration=0:00:00.127, duration_ms=127, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 12:58:23], mode=PLATFORM_GENERATION, duration=0:00:02.530, duration_ms=2530, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 12:58:23], mode=BUILD, duration=0:00:00.123, duration_ms=123, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 12:58:30], mode=PLATFORM_GENERATION, duration=0:00:04.791, duration_ms=4791, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 12:58:31], mode=BUILD, duration=0:00:01.050, duration_ms=1050, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:15:53], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:26:41], mode=BUILD, duration=0:00:00.617, duration_ms=617, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:26:46], mode=PLATFORM_GENERATION, duration=0:00:02.537, duration_ms=2537, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 13:26:46], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 13:26:51], mode=PLATFORM_GENERATION, duration=0:00:04.816, duration_ms=4816, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 13:26:52], mode=BUILD, duration=0:00:01.120, duration_ms=1120, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:40:58], mode=BUILD, duration=0:00:00.728, duration_ms=728, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:41:01], mode=BUILD, duration=0:00:00.116, duration_ms=116, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:50:28], mode=BUILD, duration=0:00:00.305, duration_ms=305, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:50:35], mode=BUILD, duration=0:00:00.736, duration_ms=736, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:52:16], mode=BUILD, duration=0:00:00.186, duration_ms=186, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:52:39], mode=BUILD, duration=0:00:00.483, duration_ms=483, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 13:53:36], mode=PLATFORM_GENERATION, duration=0:00:02.512, duration_ms=2512, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 13:53:36], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=true}
+timestamp=[2023-05-09 13:53:41], mode=PLATFORM_GENERATION, duration=0:00:04.905, duration_ms=4905, data={name=Signal_Souce_Control_BD_wrapper}
+timestamp=[2023-05-09 13:53:42], mode=BUILD, duration=0:00:01.049, duration_ms=1049, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 14:04:11], mode=BUILD, duration=0:00:00.489, duration_ms=489, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 14:05:16], mode=BUILD, duration=0:00:00.741, duration_ms=741, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 14:11:01], mode=BUILD, duration=0:00:00.729, duration_ms=729, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 14:12:22], mode=BUILD, duration=0:00:00.486, duration_ms=486, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 14:24:10], mode=BUILD, duration=0:00:00.728, duration_ms=728, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}
+timestamp=[2023-05-09 14:29:42], mode=BUILD, duration=0:00:00.491, duration_ms=491, data={name=Signal_Source_Control_App, configuration=Debug, clean_build=false}

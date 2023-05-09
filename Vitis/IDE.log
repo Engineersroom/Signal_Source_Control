@@ -3666,3 +3666,16 @@ con
 17:51:02 INFO  : Registering command handlers for Vitis TCF services
 17:51:04 INFO  : Successfully done setting workspace for the tool. 
 17:51:04 INFO  : Successfully done query RDI_DATADIR 
+08:11:08 DEBUG : Logs will be stored at 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/IDE.log'.
+08:11:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\temp_xsdb_launch_script.tcl
+08:11:12 INFO  : XSCT server has started successfully.
+08:11:12 INFO  : plnx-install-location is set to ''
+08:11:12 INFO  : Successfully done setting XSCT server connection channel  
+08:11:12 INFO  : Successfully done setting workspace for the tool. 
+08:11:13 INFO  : Registering command handlers for Vitis TCF services
+08:11:13 INFO  : Platform repository initialization has completed.
+08:11:15 INFO  : Successfully done query RDI_DATADIR 
+08:12:14 INFO  : Hardware specification for platform project 'Signal_Souce_Control_BD_wrapper' is updated.
+08:12:21 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+08:12:29 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+08:12:29 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm

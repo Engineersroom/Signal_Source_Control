@@ -60,3 +60,20 @@ platform active {Signal_Souce_Control_BD_wrapper}
 platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
 platform clean
 platform generate
+platform clean
+platform generate
+platform clean
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate

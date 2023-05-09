@@ -20,5 +20,6 @@ extern char ADAR2001_Test_State[12];
 extern char One_GHz_Arr[4];
 extern char Two_GHz_Arr[4];
 extern char One_Hundred_MHz_Arr[4];
+extern char Freq_VNA_Arr[800];
 extern char Freq_Arr[200];
 #endif /* INIT_ARR_H */

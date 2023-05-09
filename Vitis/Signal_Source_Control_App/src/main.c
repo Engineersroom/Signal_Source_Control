@@ -29,6 +29,9 @@
 static XSpi Spi;
 static XIntc Intc;
 
+static XSpi Spi2;
+static XIntc Intc2;
+
 XGpio GpioTxEn;
 XGpio GpioLed;
 
@@ -42,6 +45,7 @@ int main()
     print("platform init end .. \n\r");
     init_axi_gpio(&GpioTxEn, &GpioLed);
     print("axi gpio init end .. \n\r");
+
     u8 recv_data;
     u8 send_data = 'A';
     int status;
@@ -55,16 +59,21 @@ int main()
     char before_menu = 0;
     u8 *ptr = RecvBuffer;
     xil_printf("Signal Source Control Program...OK\r\n");
+    xil_printf("This is VNA Ver Frequency \r\n");
     UART_Init_Func(XPAR_AXI_UARTLITE_0_DEVICE_ID, &UartLite);
-    xil_printf("Uart Test...OK\r\n");
-    SPI_Init_Func(XPAR_SPI_0_DEVICE_ID, &Spi, &Intc);
-    xil_printf("SPI Test ... OK\r\n");
+    xil_printf("Uart Open...OK\r\n");
+    Status = SPI_Init_Func(XPAR_SPI_0_DEVICE_ID, &Spi, &Intc);
+    xil_printf("SPI 1 Open ... OK\r\n");
+    Status = SPI_Init_Func(XPAR_SPI_1_DEVICE_ID, &Spi2, &Intc);
+    xil_printf("Code 2 : %d \r\n", Status);
+    xil_printf("SPI 2 Open ... OK\r\n");
     xil_printf("Successfully Load Signal Source Control Task\r\n");
-    xil_printf("Factory_Init Start .. \r\n");
-
+    xil_printf("Factory_Init 1 Start .. \r\n");
     SPI_Signal_Source_Factory_Init(&Spi);
-
-    xil_printf("Factory_Init End \r\n");
+    xil_printf("Factory_Init 1 End \r\n");
+    xil_printf("Factory_Init 2 Start .. \r\n");
+    SPI_Signal_Source_Factory_Init(&Spi2);
+    xil_printf("Factory_Init 2 End \r\n");
 
     xil_printf("ver.1.0.1 - UART Interface Open\r\n");
     // 코드 구조
@@ -78,11 +87,12 @@ int main()
     // 1 ~ 100 RX
     xil_printf("Enter 0 for test mode and 1 for use mode \r\n");
     xil_printf("Testing System \r\n");
-    
+
     Init_ADAR2001_Func(&Spi);
-    
+    Init_ADAR2001_Func(&Spi2);
     SET_ADAR2001(&Spi);
-    
+    SET_ADAR2001(&Spi2);
+
     // XGpio_DiscreteWrite(&GpioTxEn, 1, txen_flag);
     // XGpio_DiscreteWrite(&GpioTxEn, 0, txen_flag);
     // unsigned char recv = 0;
@@ -100,15 +110,16 @@ int main()
         }
         else
         {
+            ///////////////////Use Mode //////////////////
             // xil_printf("Test Mode \r\n");
             if (RecvBuffer[0] == 201) // 0xFA) // 250
             {
-                // XGpio_DiscreteWrite(&GpioLed, 1, 0b10101010);
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b10101010);
                 SET_FTH1_1GHZ(&Spi);
             }
             else if (RecvBuffer[0] == 202) // 0xFB) // 254
             {
-                // XGpio_DiscreteWrite(&GpioLed, 1, 0b001010101);
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b001010101);
                 SET_FTH1_2GHZ(&Spi);
             }
             else if (RecvBuffer[0] == 203) // 0xFB) // 254
@@ -119,10 +130,22 @@ int main()
             {
                 SET_FTH1_OFF(&Spi);
             }
+            else if (RecvBuffer[0] == 205) // 0xFB) // 254
+            {
+                SET_Dual_FTH1_1GHZ(&Spi, &Spi2);
+            }
             else
             {
                 SET_FTH1_FREQ(&Spi, RecvBuffer[0]);
             }
+            ///////////////////////Use Mode End ///////////////////////////
+
+            ///////////////Test Mode ////////////////////////
+            // if (RecvBuffer[0] == '1')
+            // {
+            //     xil_printf("Test Mode .. \r\n");
+            // }
+            ////////////////Test Mode End///////////////////
         }
     }
     return 0;
