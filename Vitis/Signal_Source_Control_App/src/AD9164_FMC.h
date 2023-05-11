@@ -4,11 +4,17 @@
 #include "xparameters.h"
 #include "xil_cache.h"
 #include "platform_config.h"
+#include "xgpio.h"
 
-#define ADF4355_ID 4
-#define AD9164_ID 1
-#define AD9508_ID 2
-#define ADAR2001_ID 8
+#define AD9164_1_ID 1
+#define AD9508_1_ID 2
+#define ADF4355_1_ID 4
+#define ADAR2001_1_ID 8
+
+#define AD9164_2_ID 16
+#define AD9508_2_ID 32
+#define ADF4355_2_ID 64
+#define ADAR2001_2_ID 128
 
 #define ADF4355_BUFFER_SIZE 4
 #define AD9508_BUFFER_SIZE 3
@@ -42,6 +48,9 @@ extern u8 WriteBuffer_ADAR2001[ADAR2001_BUFFER_SIZE];
 extern u8 ReadBuffer_ADAR2001[ADAR2001_BUFFER_SIZE];
 
 void SpiHandler(void *CallBackRef, u32 StatusEvent, unsigned int ByteCount);
+
+int init_axi_gpio(XGpio *xgpioPtrTxEn, XGpio *XgpioPtrHWGPIO);
+
 int SPI_Init_Func(int device_id, XSpi *spiPtr, XIntc *Intptr);
 int SPI_Signal_Source_Factory_Init(XSpi *spiPtr);
 int SPI_User_Debug_Mode(XSpi *spiPtr, XUartLite *uartPtr);
@@ -61,6 +70,8 @@ int SET_ADAR2001(XSpi *spiPtr);
 
 
 int SET_Dual_FTH1_1GHZ(XSpi *spiPtr, XSpi *spiPtr2);
+
+int SET_DUAL_FTH1_FREQ(XSpi *spiPtr, unsigned char freq);
 
 
 extern u8 data[20];

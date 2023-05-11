@@ -29,72 +29,48 @@
 static XSpi Spi;
 static XIntc Intc;
 
-static XSpi Spi2;
-static XIntc Intc2;
-
-XGpio GpioTxEn;
-XGpio GpioLed;
+static XGpio GpioTxEn;
+static XGpio GpioLed;
 
 XUartLite UartLite;
 
 int main()
 {
     print("Test ing .. \n\r");
-    int txen_flag = 0;
+
     init_platform();
     print("platform init end .. \n\r");
     init_axi_gpio(&GpioTxEn, &GpioLed);
     print("axi gpio init end .. \n\r");
 
-    u8 recv_data;
-    u8 send_data = 'A';
-    int status;
-    int Status;
-    unsigned int SentCount;
-    unsigned int ReceivedCount = 0;
+    // int Status;
+    XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
+    // XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
 
-    int cnt = 0;
-    int Index;
-    char menu_print_out_flag = 0;
-    char before_menu = 0;
-    u8 *ptr = RecvBuffer;
     xil_printf("Signal Source Control Program...OK\r\n");
     xil_printf("This is VNA Ver Frequency \r\n");
     UART_Init_Func(XPAR_AXI_UARTLITE_0_DEVICE_ID, &UartLite);
     xil_printf("Uart Open...OK\r\n");
-    Status = SPI_Init_Func(XPAR_SPI_0_DEVICE_ID, &Spi, &Intc);
+    SPI_Init_Func(XPAR_SPI_0_DEVICE_ID, &Spi, &Intc);
     xil_printf("SPI 1 Open ... OK\r\n");
-    Status = SPI_Init_Func(XPAR_SPI_1_DEVICE_ID, &Spi2, &Intc);
-    xil_printf("Code 2 : %d \r\n", Status);
-    xil_printf("SPI 2 Open ... OK\r\n");
+
     xil_printf("Successfully Load Signal Source Control Task\r\n");
     xil_printf("Factory_Init 1 Start .. \r\n");
     SPI_Signal_Source_Factory_Init(&Spi);
     xil_printf("Factory_Init 1 End \r\n");
-    xil_printf("Factory_Init 2 Start .. \r\n");
-    SPI_Signal_Source_Factory_Init(&Spi2);
-    xil_printf("Factory_Init 2 End \r\n");
 
     xil_printf("ver.1.0.1 - UART Interface Open\r\n");
-    // 코드 구조
-    //  1단계, 테스트 모드 인지, Signal Source 모드 인지
-    //  2단계, 테스트 모드 일 경우 내가 원하는 함수
-    //  2-1 단계, Signal Source 모드면, RX 인지 TX 인지,
-    //  그 후, 테이블에 해당하는 주파수 발생
-    //  RX TX 정해주면 좋긴 하지만,, 섞어 쓸 수 도 있고 했갈릴 수 도 있으니 구별해서 전송
-    // 노선 변경
-    // 101 ~ 201 TX
-    // 1 ~ 100 RX
     xil_printf("Enter 0 for test mode and 1 for use mode \r\n");
     xil_printf("Testing System \r\n");
 
     Init_ADAR2001_Func(&Spi);
-    Init_ADAR2001_Func(&Spi2);
     SET_ADAR2001(&Spi);
-    SET_ADAR2001(&Spi2);
 
-    // XGpio_DiscreteWrite(&GpioTxEn, 1, txen_flag);
-    // XGpio_DiscreteWrite(&GpioTxEn, 0, txen_flag);
+    XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
+    // XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
+
+    // SET_FTH1_1GHZ(&Spi);
+    SET_DUAL_FTH1_FREQ(&Spi, 1);
     // unsigned char recv = 0;
     while (1)
     {
@@ -110,17 +86,26 @@ int main()
         }
         else
         {
+            XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
             ///////////////////Use Mode //////////////////
             // xil_printf("Test Mode \r\n");
+            // if (RecvBuffer[0] == 'A') // 0xF8) // 248
+            // {
+            //     //SPI_Signal_Source_Factory_Init(&Spi);
+            //     SET_DUAL_FTH1_FREQ(&Spi, RecvBuffer[0]);
+            // }
+            // else
             if (RecvBuffer[0] == 201) // 0xFA) // 250
             {
                 XGpio_DiscreteWrite(&GpioLed, 1, 0b10101010);
                 SET_FTH1_1GHZ(&Spi);
+                XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
             }
             else if (RecvBuffer[0] == 202) // 0xFB) // 254
             {
                 XGpio_DiscreteWrite(&GpioLed, 1, 0b001010101);
                 SET_FTH1_2GHZ(&Spi);
+                XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
             }
             else if (RecvBuffer[0] == 203) // 0xFB) // 254
             {
@@ -132,11 +117,23 @@ int main()
             }
             else if (RecvBuffer[0] == 205) // 0xFB) // 254
             {
-                SET_Dual_FTH1_1GHZ(&Spi, &Spi2);
+                SPI_Signal_Source_Factory_Init(&Spi);
+                SET_DUAL_FTH1_FREQ(&Spi, 1);
+            }
+            else if (RecvBuffer[0] == 206) // 0xFB) // 254
+            {
+                Init_ADAR2001_Func(&Spi);
+                SET_ADAR2001(&Spi);
+            }
+            else if (RecvBuffer[0] == 207) // 0xFB) // 254
+            {
+                XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
+                XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
             }
             else
             {
-                SET_FTH1_FREQ(&Spi, RecvBuffer[0]);
+                // SET_FTH1_FREQ(&Spi, RecvBuffer[0]);
+                SET_DUAL_FTH1_FREQ(&Spi, RecvBuffer[0]);
             }
             ///////////////////////Use Mode End ///////////////////////////
 
