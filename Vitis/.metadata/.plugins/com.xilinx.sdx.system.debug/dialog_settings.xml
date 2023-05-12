@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="Signal_Source_Control_App_system-imgFile" value="D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vivado\Signal_Souce_Control_BD_wrapper.xsa"/>
+	<item key="Signal_Source_Control_App_system-offSet" value=""/>
+	<item key="Signal_Source_Control_App_system-initFile" value=""/>
+	<item key="Signal_Source_Control_App_system-flashType" value="mt25qu01g-spi-x1_x2_x4_x8"/>
+	<item key="Signal_Source_Control_App_system-verifyFlash" value="false"/>
+	<item key="Signal_Source_Control_App_system-blankCheck" value="false"/>
+	<item key="Signal_Source_Control_App_system-device" value="Auto Detect"/>
+	<item key="Signal_Source_Control_App_system-target" value="Local"/>
+	<item key="programflash.hwplatform" value="Signal_Source_Control_App_system"/>
+</section>

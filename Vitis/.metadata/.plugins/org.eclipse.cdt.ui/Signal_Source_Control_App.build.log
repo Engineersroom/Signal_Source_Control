@@ -1,6 +1,1509 @@
-17:43:37 **** Incremental Build of configuration Debug for project Signal_Source_Control_App ****
+17:28:54 **** Build of configuration Debug for project Signal_Source_Control_App ****
 make all 
-make: Nothing to be done for 'all'.
+'Building file: ../src/AD9164_FMC.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/AD9164_FMC.o" -ID:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/AD9164_FMC.d" -MT"src/AD9164_FMC.o" -o "src/AD9164_FMC.o" "../src/AD9164_FMC.c"
+../src/AD9164_FMC.c: In function 'SET_FTH1_FREQ':
+../src/AD9164_FMC.c:127:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  127 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:127:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  127 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:131:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  131 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:131:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  131 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:136:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  136 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:136:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  136 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:141:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  141 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:141:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  141 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:146:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  146 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:146:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  146 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:151:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  151 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:151:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  151 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:156:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  156 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:156:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  156 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c: In function 'SET_DUAL_FTH1_FREQ':
+../src/AD9164_FMC.c:176:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  176 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:176:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  176 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:180:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  180 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:180:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  180 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:185:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  185 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:185:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  185 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:190:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  190 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:190:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  190 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:195:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  195 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:195:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  195 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:200:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  200 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:200:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  200 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:205:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  205 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:205:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  205 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:218:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  218 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:218:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  218 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:222:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  222 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:222:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  222 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:227:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  227 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:227:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  227 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:232:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  232 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:232:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  232 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:237:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  237 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:237:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  237 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:242:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  242 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:242:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  242 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:247:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  247 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:247:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  247 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c: In function 'SET_FTH1_OFF':
+../src/AD9164_FMC.c:267:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  267 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:267:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  267 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:271:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  271 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:271:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  271 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:276:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  276 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:276:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  276 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:281:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  281 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:281:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  281 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:286:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  286 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:286:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  286 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:291:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  291 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:291:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  291 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:296:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  296 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:296:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  296 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c: In function 'SET_FTH1_100MHZ':
+../src/AD9164_FMC.c:316:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  316 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:316:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  316 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:320:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  320 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:320:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  320 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:325:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  325 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:325:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  325 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:330:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  330 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:330:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  330 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:335:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  335 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:335:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  335 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:340:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  340 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:340:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  340 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:345:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  345 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:345:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  345 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:353:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  353 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:353:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  353 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:357:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  357 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:357:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  357 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:362:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  362 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:362:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  362 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:367:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  367 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:367:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  367 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:372:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  372 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:372:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  372 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:377:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  377 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:377:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  377 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:382:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  382 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:382:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  382 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c: In function 'SET_FTH1_1GHZ':
+../src/AD9164_FMC.c:402:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  402 |     XSpi_Transfer(spiPtr, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:402:44: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  402 |     XSpi_Transfer(spiPtr, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                            ^~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:407:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  407 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:407:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  407 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:411:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  411 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:411:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  411 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:416:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  416 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:416:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  416 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:421:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  421 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:421:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  421 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:426:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  426 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:426:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  426 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:431:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  431 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:431:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  431 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:436:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  436 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:436:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  436 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:450:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  450 |     XSpi_Transfer(spiPtr, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:450:44: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  450 |     XSpi_Transfer(spiPtr, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                            ^~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:455:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  455 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:455:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  455 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:459:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  459 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:459:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  459 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:464:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  464 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:464:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  464 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:469:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  469 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:469:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  469 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:474:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  474 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:474:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  474 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:479:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  479 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:479:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  479 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:484:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  484 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:484:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  484 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c: In function 'SET_Dual_FTH1_1GHZ':
+../src/AD9164_FMC.c:507:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  507 |     XSpi_Transfer(spiPtr, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:507:44: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  507 |     XSpi_Transfer(spiPtr, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                            ^~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:508:28: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  508 |     XSpi_Transfer(spiPtr2, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                            ^~~~~~~~~~~~~~~
+      |                            |
+      |                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:508:45: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  508 |     XSpi_Transfer(spiPtr2, FTH_SEL_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                             ^~~~~~~~~~~~~~~~~~
+      |                                             |
+      |                                             char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:513:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  513 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:513:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  513 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:514:28: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  514 |     XSpi_Transfer(spiPtr2, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                            ^~~~~~~~~~~~~~
+      |                            |
+      |                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:514:44: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  514 |     XSpi_Transfer(spiPtr2, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                            ^~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:518:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  518 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:518:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  518 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:519:28: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  519 |     XSpi_Transfer(spiPtr2, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                            ^~~~~~~~~~~~~
+      |                            |
+      |                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:519:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  519 |     XSpi_Transfer(spiPtr2, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:524:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  524 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:524:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  524 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:525:28: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  525 |     XSpi_Transfer(spiPtr2, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                            ^~~~~~~~~~~~~
+      |                            |
+      |                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:525:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  525 |     XSpi_Transfer(spiPtr2, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:530:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  530 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:530:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  530 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:531:28: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  531 |     XSpi_Transfer(spiPtr2, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                            ^~~~~~~~~~~~~
+      |                            |
+      |                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:531:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  531 |     XSpi_Transfer(spiPtr2, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:536:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  536 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:536:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  536 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:537:28: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  537 |     XSpi_Transfer(spiPtr2, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                            ^~~~~~~~~~~~~
+      |                            |
+      |                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:537:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  537 |     XSpi_Transfer(spiPtr2, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:542:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  542 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:542:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  542 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:543:28: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  543 |     XSpi_Transfer(spiPtr2, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                            ^~~~~~~~~~~~~~
+      |                            |
+      |                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:543:44: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  543 |     XSpi_Transfer(spiPtr2, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                            ^~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:548:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  548 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:548:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  548 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:549:28: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  549 |     XSpi_Transfer(spiPtr2, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                            ^~~~~~~~~~~~~~
+      |                            |
+      |                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:549:44: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  549 |     XSpi_Transfer(spiPtr2, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                            ^~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c: In function 'SET_FTH1_2GHZ':
+../src/AD9164_FMC.c:568:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  568 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:568:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  568 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:572:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  572 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:572:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  572 |     XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:577:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  577 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:577:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  577 |     XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:582:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  582 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:582:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  582 |     XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:587:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  587 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:587:42: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  587 |     XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                          ^~~~~~~~~~~~~~~~~~
+      |                                          |
+      |                                          char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:592:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  592 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:592:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  592 |     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:597:27: warning: pointer targets in passing argument 2 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  597 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                           ^~~~~~~~~~~~~~
+      |                           |
+      |                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:42: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c:597:43: warning: pointer targets in passing argument 3 of 'XSpi_Transfer' differ in signedness [-Wpointer-sign]
+  597 |     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+      |                                           ^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../src/AD9164_FMC.c:4:
+D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include/xspi.h:814:58: note: expected 'u8 *' {aka 'unsigned char *'} but argument is of type 'char *'
+  814 | int XSpi_Transfer(XSpi *InstancePtr, u8 *SendBufPtr, u8 *RecvBufPtr,
+      |                                                      ~~~~^~~~~~~~~~
+../src/AD9164_FMC.c: In function 'SET_ADAR2001':
+../src/AD9164_FMC.c:68:1: warning: control reaches end of non-void function [-Wreturn-type]
+   68 | }
+      | ^
+../src/AD9164_FMC.c: In function 'Init_ADAR2001_Func':
+../src/AD9164_FMC.c:113:1: warning: control reaches end of non-void function [-Wreturn-type]
+  113 | }
+      | ^
+'Finished building: ../src/AD9164_FMC.c'
+' '
+'Building file: ../src/init_arr.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/init_arr.o" -ID:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/init_arr.d" -MT"src/init_arr.o" -o "src/init_arr.o" "../src/init_arr.c"
+'Finished building: ../src/init_arr.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: Signal_Source_Control_App.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Signal_Source_Control_App.elf"  ./src/AD9164_FMC.o ./src/init_arr.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Signal_Source_Control_App.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Signal_Source_Control_App.elf  |tee "Signal_Source_Control_App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  25320	   1636	   3524	  30480	   7710	Signal_Source_Control_App.elf
+'Finished building: Signal_Source_Control_App.elf.size'
+' '
 
-17:43:37 Build Finished (took 123ms)
+17:28:56 Build Finished (took 1s.83ms)
 

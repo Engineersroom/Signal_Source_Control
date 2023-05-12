@@ -67,6 +67,7 @@ int main()
     SET_ADAR2001(&Spi);
 
     XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
+    XGpio_DiscreteWrite(&GpioLed, 1, 0b11111111);
     // XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
 
     // SET_FTH1_1GHZ(&Spi);
