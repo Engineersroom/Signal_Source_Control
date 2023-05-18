@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date             : Tue May  9 15:47:43 2023
+| Date             : Thu May 18 13:57:12 2023
 | Host             : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command          : report_power -file Signal_Souce_Control_BD_wrapper_power_routed.rpt -pb Signal_Souce_Control_BD_wrapper_power_summary_routed.pb -rpx Signal_Souce_Control_BD_wrapper_power_routed.rpx
 | Design           : Signal_Souce_Control_BD_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.622        |
+| Total On-Chip Power (W)  | 0.630        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.148        |
+| Dynamic (W)              | 0.156        |
 | Device Static (W)        | 0.474        |
 | Effective TJA (C/W)      | 1.7          |
 | Max Ambient (C)          | 98.9         |
@@ -52,21 +52,21 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.010 |        7 |       --- |             --- |
+| Clocks                   |     0.010 |        8 |       --- |             --- |
 | CLB Logic                |     0.005 |     5395 |       --- |             --- |
-|   LUT as Logic           |     0.003 |     1833 |    216960 |            0.84 |
+|   LUT as Logic           |     0.003 |     1825 |    216960 |            0.84 |
 |   LUT as Distributed RAM |     0.002 |       80 |     99840 |            0.08 |
 |   Register               |    <0.001 |     2129 |    433920 |            0.49 |
 |   LUT as Shift Register  |    <0.001 |       84 |     99840 |            0.08 |
 |   CARRY8                 |    <0.001 |       21 |     27120 |            0.08 |
 |   Others                 |    <0.001 |      537 |       --- |             --- |
 |   F7/F8 Muxes            |     0.000 |      109 |    216960 |            0.05 |
-| Signals                  |     0.006 |     3679 |       --- |             --- |
+| Signals                  |     0.006 |     3685 |       --- |             --- |
 | Block RAM                |     0.017 |       32 |       480 |            6.67 |
-| MMCM                     |     0.098 |        0 |       --- |             --- |
-| I/O                      |     0.011 |       32 |       280 |           11.43 |
+| MMCM                     |     0.099 |        0 |       --- |             --- |
+| I/O                      |     0.019 |       34 |       280 |           12.14 |
 | Static Power             |     0.474 |          |           |                 |
-| Total                    |     0.622 |          |           |                 |
+| Total                    |     0.630 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,17 +76,17 @@ Table of Contents
 +------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source     | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +------------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint     |       0.850 |     0.183 |       0.044 |      0.139 |       NA    | Unspecified | NA         |
-| Vccint_io  |       0.850 |     0.036 |       0.001 |      0.035 |       NA    | Unspecified | NA         |
+| Vccint     |       0.850 |     0.184 |       0.045 |      0.139 |       NA    | Unspecified | NA         |
+| Vccint_io  |       0.850 |     0.037 |       0.002 |      0.035 |       NA    | Unspecified | NA         |
 | Vccbram    |       0.850 |     0.003 |       0.001 |      0.002 |       NA    | Unspecified | NA         |
-| Vccaux     |       1.800 |     0.183 |       0.054 |      0.128 |       NA    | Unspecified | NA         |
-| Vccaux_io  |       1.800 |     0.036 |       0.004 |      0.031 |       NA    | Unspecified | NA         |
+| Vccaux     |       1.800 |     0.183 |       0.055 |      0.128 |       NA    | Unspecified | NA         |
+| Vccaux_io  |       1.800 |     0.037 |       0.006 |      0.031 |       NA    | Unspecified | NA         |
 | Vcco33     |       3.300 |     0.007 |       0.000 |      0.007 |       NA    | Unspecified | NA         |
 | Vcco25     |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco18     |       1.800 |     0.001 |       0.001 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco15     |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco135    |       1.350 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vcco12     |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
+| Vcco12     |       1.200 |     0.003 |       0.003 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco10     |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vccadc     |       1.800 |     0.008 |       0.000 |      0.008 |       NA    | Unspecified | NA         |
 | MGTYAVcc   |       0.900 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -138,6 +138,7 @@ Table of Contents
 | Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK   | Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/DRCK                                |            33.3 |
 | Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE | Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0                        |            66.7 |
 | clk_out1_Signal_Souce_Control_BD_clk_wiz_1_0                              | Signal_Souce_Control_BD_i/clk_wiz_1/inst/clk_out1_Signal_Souce_Control_BD_clk_wiz_1_0 |            10.0 |
+| clk_out2_Signal_Souce_Control_BD_clk_wiz_1_0                              | Signal_Souce_Control_BD_i/clk_wiz_1/inst/clk_out2_Signal_Souce_Control_BD_clk_wiz_1_0 |             8.3 |
 | default_sysclk1_300_clk_p                                                 | default_sysclk1_300_clk_p                                                             |             3.3 |
 +---------------------------------------------------------------------------+---------------------------------------------------------------------------------------+-----------------+
 
@@ -151,12 +152,12 @@ Table of Contents
 +---------------------------------+-----------+
 | Name                            | Power (W) |
 +---------------------------------+-----------+
-| Signal_Souce_Control_BD_wrapper |     0.148 |
-|   Signal_Souce_Control_BD_i     |     0.139 |
+| Signal_Souce_Control_BD_wrapper |     0.156 |
+|   Signal_Souce_Control_BD_i     |     0.140 |
 |     axi_quad_spi_0              |     0.004 |
 |       U0                        |     0.004 |
-|     clk_wiz_1                   |     0.101 |
-|       inst                      |     0.101 |
+|     clk_wiz_1                   |     0.102 |
+|       inst                      |     0.102 |
 |     microblaze_0                |     0.013 |
 |       U0                        |     0.013 |
 |     microblaze_0_local_memory   |     0.018 |

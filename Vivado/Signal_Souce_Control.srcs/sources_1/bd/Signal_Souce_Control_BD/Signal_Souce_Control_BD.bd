@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x9BEC75E810070A69",
+      "boundary_crc": "0x9000382CD7F74C7C",
       "device": "xcku5p-ffvb676-2-e",
       "gen_directory": "../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD",
       "name": "Signal_Souce_Control_BD",
@@ -158,6 +158,56 @@
         "direction": "O",
         "left": "0",
         "right": "0"
+      },
+      "USER_SMA_1": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "120000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "USER_SMA_2": {
+        "type": "clk",
+        "direction": "O",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "120000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
       }
     },
     "components": {
@@ -464,8 +514,26 @@
         "xci_path": "ip\\Signal_Souce_Control_BD_clk_wiz_1_0\\Signal_Souce_Control_BD_clk_wiz_1_0.xci",
         "inst_hier_path": "clk_wiz_1",
         "parameters": {
+          "CLKOUT2_JITTER": {
+            "value": "97.910"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "77.836"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "120.00"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
+          },
           "CLK_IN1_BOARD_INTERFACE": {
             "value": "default_sysclk1_300"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "10"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "2"
           },
           "PRIM_SOURCE": {
             "value": "Differential_clock_capable_pin"
@@ -1527,6 +1595,13 @@
           "SignalSouce1/Din"
         ]
       },
+      "clk_wiz_1_clk_out2": {
+        "ports": [
+          "clk_wiz_1/clk_out2",
+          "USER_SMA_1",
+          "USER_SMA_2"
+        ]
+      },
       "clk_wiz_1_locked": {
         "ports": [
           "clk_wiz_1/locked",
@@ -1670,6 +1745,21 @@
             }
           }
         }
+      }
+    },
+    "elf_association": {
+      "file": {
+        "name": "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf",
+        "type": "ELF",
+        "checksum": "1481633894",
+        "IsVisible": "1",
+        "ScopedToRef": "Signal_Souce_Control_BD",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "implementation"
+        ]
       }
     }
   }

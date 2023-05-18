@@ -56,22 +56,22 @@ int main()
 
     xil_printf("Successfully Load Signal Source Control Task\r\n");
     xil_printf("Factory_Init 1 Start .. \r\n");
-    SPI_Signal_Source_Factory_Init(&Spi);
+    // SPI_Signal_Source_Factory_Init(&Spi);
     xil_printf("Factory_Init 1 End \r\n");
 
     xil_printf("ver.1.0.1 - UART Interface Open\r\n");
     xil_printf("Enter 0 for test mode and 1 for use mode \r\n");
     xil_printf("Testing System \r\n");
 
-    Init_ADAR2001_Func(&Spi);
-    SET_ADAR2001(&Spi);
+    // Init_ADAR2001_Func(&Spi);
+    // SET_ADAR2001(&Spi);
 
     XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
-    XGpio_DiscreteWrite(&GpioLed, 1, 0b11111111);
+    XGpio_DiscreteWrite(&GpioLed, 1, 0b01101110);
     // XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
 
     // SET_FTH1_1GHZ(&Spi);
-    SET_DUAL_FTH1_FREQ(&Spi, 1);
+    //SET_DUAL_FTH1_FREQ(&Spi, 1);
     // unsigned char recv = 0;
     while (1)
     {
@@ -87,7 +87,7 @@ int main()
         }
         else
         {
-            XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
+            //XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
             ///////////////////Use Mode //////////////////
             // xil_printf("Test Mode \r\n");
             // if (RecvBuffer[0] == 'A') // 0xF8) // 248
@@ -98,13 +98,13 @@ int main()
             // else
             if (RecvBuffer[0] == 201) // 0xFA) // 250
             {
-                XGpio_DiscreteWrite(&GpioLed, 1, 0b10101010);
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b00000001);
                 SET_FTH1_1GHZ(&Spi);
                 XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
             }
             else if (RecvBuffer[0] == 202) // 0xFB) // 254
             {
-                XGpio_DiscreteWrite(&GpioLed, 1, 0b001010101);
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b00000010);
                 SET_FTH1_2GHZ(&Spi);
                 XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
             }
@@ -114,15 +114,18 @@ int main()
             }
             else if (RecvBuffer[0] == 204) // 0xFB) // 254
             {
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b00001111);
                 SET_FTH1_OFF(&Spi);
             }
             else if (RecvBuffer[0] == 205) // 0xFB) // 254
             {
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b00000100);
                 SPI_Signal_Source_Factory_Init(&Spi);
                 SET_DUAL_FTH1_FREQ(&Spi, 1);
             }
             else if (RecvBuffer[0] == 206) // 0xFB) // 254
             {
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b00001000);
                 Init_ADAR2001_Func(&Spi);
                 SET_ADAR2001(&Spi);
             }
@@ -130,6 +133,20 @@ int main()
             {
                 XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
                 XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
+            }
+            else if (RecvBuffer[0] == 208) // 0xFB) // 254
+            {
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b00000101);
+                SPI_Signal_Source_Factory_Init_sub(&Spi);
+                SET_DUAL_FTH1_FREQ(&Spi, 1);
+            }
+            else if (RecvBuffer[0] == 209) // 0xFB) // 254
+            {
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b00000101);
+                SPI_Signal_Source_Factory_Init(&Spi);
+                Init_ADAR2001_Func(&Spi);
+                SET_ADAR2001(&Spi);
+                SET_DUAL_FTH1_FREQ(&Spi, 1);
             }
             else
             {

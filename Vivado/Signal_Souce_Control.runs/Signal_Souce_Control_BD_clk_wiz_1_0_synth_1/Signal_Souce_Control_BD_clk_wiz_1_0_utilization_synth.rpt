@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri Apr 14 11:34:05 2023
+| Date         : Thu May 18 13:54:21 2023
 | Host         : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Signal_Souce_Control_BD_clk_wiz_1_0_utilization_synth.rpt -pb Signal_Souce_Control_BD_clk_wiz_1_0_utilization_synth.pb
 | Design       : Signal_Souce_Control_BD_clk_wiz_1_0
@@ -106,8 +106,8 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------------------+------+-------+------------+-----------+-------+
 |       Site Type      | Used | Fixed | Prohibited | Available | Util% |
 +----------------------+------+-------+------------+-----------+-------+
-| GLOBAL CLOCK BUFFERs |    1 |     0 |          0 |       256 |  0.39 |
-|   BUFGCE             |    1 |     0 |          0 |       112 |  0.89 |
+| GLOBAL CLOCK BUFFERs |    2 |     0 |          0 |       256 |  0.78 |
+|   BUFGCE             |    2 |     0 |          0 |       112 |  1.79 |
 |   BUFGCE_DIV         |    0 |     0 |          0 |        16 |  0.00 |
 |   BUFG_GT            |    0 |     0 |          0 |        96 |  0.00 |
 |   BUFGCTRL*          |    0 |     0 |          0 |        32 |  0.00 |
@@ -155,10 +155,10 @@ Warning! LUT value is adjusted to account for LUT combining.
 +------------+------+---------------------+
 |  Ref Name  | Used | Functional Category |
 +------------+------+---------------------+
+| BUFGCE     |    2 |               Clock |
 | MMCME4_ADV |    1 |               Clock |
 | IBUFCTRL   |    1 |              Others |
 | DIFFINBUF  |    1 |                 I/O |
-| BUFGCE     |    1 |               Clock |
 +------------+------+---------------------+
 
 

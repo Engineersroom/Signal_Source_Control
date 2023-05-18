@@ -1,10 +1,10 @@
 // Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-// Date        : Fri Apr 14 11:34:05 2023
+// Date        : Thu May 18 13:54:21 2023
 // Host        : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode funcsim {d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source
-//               Control/Vivado/Signal_Souce_Control/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0_sim_netlist.v}
+// Command     : write_verilog -force -mode funcsim
+//               d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0_sim_netlist.v
 // Design      : Signal_Souce_Control_BD_clk_wiz_1_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -15,11 +15,13 @@
 (* NotValidForBitStream *)
 module Signal_Souce_Control_BD_clk_wiz_1_0
    (clk_out1,
+    clk_out2,
     reset,
     locked,
     clk_in1_p,
     clk_in1_n);
   output clk_out1;
+  output clk_out2;
   input reset;
   output locked;
   input clk_in1_p;
@@ -28,6 +30,7 @@ module Signal_Souce_Control_BD_clk_wiz_1_0
   (* IBUF_LOW_PWR *) (* RTL_KEEP = "yes" *) wire clk_in1_n;
   (* IBUF_LOW_PWR *) (* RTL_KEEP = "yes" *) wire clk_in1_p;
   wire clk_out1;
+  wire clk_out2;
   wire locked;
   (* RTL_KEEP = "yes" *) wire reset;
 
@@ -35,17 +38,20 @@ module Signal_Souce_Control_BD_clk_wiz_1_0
        (.clk_in1_n(clk_in1_n),
         .clk_in1_p(clk_in1_p),
         .clk_out1(clk_out1),
+        .clk_out2(clk_out2),
         .locked(locked),
         .reset(reset));
 endmodule
 
 module Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz
    (clk_out1,
+    clk_out2,
     reset,
     locked,
     clk_in1_p,
     clk_in1_n);
   output clk_out1;
+  output clk_out2;
   input reset;
   output locked;
   input clk_in1_p;
@@ -56,6 +62,8 @@ module Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz
   wire clk_in1_p;
   wire clk_out1;
   wire clk_out1_Signal_Souce_Control_BD_clk_wiz_1_0;
+  wire clk_out2;
+  wire clk_out2_Signal_Souce_Control_BD_clk_wiz_1_0;
   wire locked;
   wire reset;
   wire NLW_mmcme4_adv_inst_CDDCDONE_UNCONNECTED;
@@ -65,7 +73,6 @@ module Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz
   wire NLW_mmcme4_adv_inst_CLKFBSTOPPED_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKINSTOPPED_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT0B_UNCONNECTED;
-  wire NLW_mmcme4_adv_inst_CLKOUT1_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT1B_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT2_UNCONNECTED;
   wire NLW_mmcme4_adv_inst_CLKOUT2B_UNCONNECTED;
@@ -102,6 +109,16 @@ module Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz
         .I(clk_out1_Signal_Souce_Control_BD_clk_wiz_1_0),
         .O(clk_out1));
   (* BOX_TYPE = "PRIMITIVE" *) 
+  (* XILINX_LEGACY_PRIM = "BUFG" *) 
+  (* XILINX_TRANSFORM_PINMAP = "VCC:CE" *) 
+  BUFGCE #(
+    .CE_TYPE("ASYNC"),
+    .SIM_DEVICE("ULTRASCALE_PLUS")) 
+    clkout2_buf
+       (.CE(1'b1),
+        .I(clk_out2_Signal_Souce_Control_BD_clk_wiz_1_0),
+        .O(clk_out2));
+  (* BOX_TYPE = "PRIMITIVE" *) 
   (* OPT_MODIFIED = "MLO" *) 
   MMCME4_ADV #(
     .BANDWIDTH("OPTIMIZED"),
@@ -114,7 +131,7 @@ module Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz
     .CLKOUT0_DUTY_CYCLE(0.500000),
     .CLKOUT0_PHASE(0.000000),
     .CLKOUT0_USE_FINE_PS("FALSE"),
-    .CLKOUT1_DIVIDE(1),
+    .CLKOUT1_DIVIDE(10),
     .CLKOUT1_DUTY_CYCLE(0.500000),
     .CLKOUT1_PHASE(0.000000),
     .CLKOUT1_USE_FINE_PS("FALSE"),
@@ -168,7 +185,7 @@ module Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz
         .CLKINSTOPPED(NLW_mmcme4_adv_inst_CLKINSTOPPED_UNCONNECTED),
         .CLKOUT0(clk_out1_Signal_Souce_Control_BD_clk_wiz_1_0),
         .CLKOUT0B(NLW_mmcme4_adv_inst_CLKOUT0B_UNCONNECTED),
-        .CLKOUT1(NLW_mmcme4_adv_inst_CLKOUT1_UNCONNECTED),
+        .CLKOUT1(clk_out2_Signal_Souce_Control_BD_clk_wiz_1_0),
         .CLKOUT1B(NLW_mmcme4_adv_inst_CLKOUT1B_UNCONNECTED),
         .CLKOUT2(NLW_mmcme4_adv_inst_CLKOUT2_UNCONNECTED),
         .CLKOUT2B(NLW_mmcme4_adv_inst_CLKOUT2B_UNCONNECTED),

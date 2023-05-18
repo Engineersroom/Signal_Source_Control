@@ -1,10 +1,10 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
--- Date        : Fri Apr 14 11:34:05 2023
+-- Date        : Thu May 18 13:54:21 2023
 -- Host        : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim {d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source
---               Control/Vivado/Signal_Souce_Control/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0_sim_netlist.vhdl}
+-- Command     : write_vhdl -force -mode funcsim
+--               d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0_sim_netlist.vhdl
 -- Design      : Signal_Souce_Control_BD_clk_wiz_1_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -17,6 +17,7 @@ use UNISIM.VCOMPONENTS.ALL;
 entity Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz is
   port (
     clk_out1 : out STD_LOGIC;
+    clk_out2 : out STD_LOGIC;
     reset : in STD_LOGIC;
     locked : out STD_LOGIC;
     clk_in1_p : in STD_LOGIC;
@@ -27,6 +28,7 @@ end Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz;
 architecture STRUCTURE of Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz is
   signal clk_in1_Signal_Souce_Control_BD_clk_wiz_1_0 : STD_LOGIC;
   signal clk_out1_Signal_Souce_Control_BD_clk_wiz_1_0 : STD_LOGIC;
+  signal clk_out2_Signal_Souce_Control_BD_clk_wiz_1_0 : STD_LOGIC;
   signal NLW_mmcme4_adv_inst_CDDCDONE_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcme4_adv_inst_CLKFBIN_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcme4_adv_inst_CLKFBOUT_UNCONNECTED : STD_LOGIC;
@@ -34,7 +36,6 @@ architecture STRUCTURE of Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz is
   signal NLW_mmcme4_adv_inst_CLKFBSTOPPED_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcme4_adv_inst_CLKINSTOPPED_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcme4_adv_inst_CLKOUT0B_UNCONNECTED : STD_LOGIC;
-  signal NLW_mmcme4_adv_inst_CLKOUT1_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcme4_adv_inst_CLKOUT1B_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcme4_adv_inst_CLKOUT2_UNCONNECTED : STD_LOGIC;
   signal NLW_mmcme4_adv_inst_CLKOUT2B_UNCONNECTED : STD_LOGIC;
@@ -59,6 +60,9 @@ architecture STRUCTURE of Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz is
   attribute XILINX_LEGACY_PRIM of clkout1_buf : label is "BUFG";
   attribute XILINX_TRANSFORM_PINMAP : string;
   attribute XILINX_TRANSFORM_PINMAP of clkout1_buf : label is "VCC:CE";
+  attribute BOX_TYPE of clkout2_buf : label is "PRIMITIVE";
+  attribute XILINX_LEGACY_PRIM of clkout2_buf : label is "BUFG";
+  attribute XILINX_TRANSFORM_PINMAP of clkout2_buf : label is "VCC:CE";
   attribute BOX_TYPE of mmcme4_adv_inst : label is "PRIMITIVE";
   attribute OPT_MODIFIED : string;
   attribute OPT_MODIFIED of mmcme4_adv_inst : label is "MLO";
@@ -85,6 +89,16 @@ clkout1_buf: unisim.vcomponents.BUFGCE
       I => clk_out1_Signal_Souce_Control_BD_clk_wiz_1_0,
       O => clk_out1
     );
+clkout2_buf: unisim.vcomponents.BUFGCE
+    generic map(
+      CE_TYPE => "ASYNC",
+      SIM_DEVICE => "ULTRASCALE_PLUS"
+    )
+        port map (
+      CE => '1',
+      I => clk_out2_Signal_Souce_Control_BD_clk_wiz_1_0,
+      O => clk_out2
+    );
 mmcme4_adv_inst: unisim.vcomponents.MMCME4_ADV
     generic map(
       BANDWIDTH => "OPTIMIZED",
@@ -97,7 +111,7 @@ mmcme4_adv_inst: unisim.vcomponents.MMCME4_ADV
       CLKOUT0_DUTY_CYCLE => 0.500000,
       CLKOUT0_PHASE => 0.000000,
       CLKOUT0_USE_FINE_PS => "FALSE",
-      CLKOUT1_DIVIDE => 1,
+      CLKOUT1_DIVIDE => 10,
       CLKOUT1_DUTY_CYCLE => 0.500000,
       CLKOUT1_PHASE => 0.000000,
       CLKOUT1_USE_FINE_PS => "FALSE",
@@ -152,7 +166,7 @@ mmcme4_adv_inst: unisim.vcomponents.MMCME4_ADV
       CLKINSTOPPED => NLW_mmcme4_adv_inst_CLKINSTOPPED_UNCONNECTED,
       CLKOUT0 => clk_out1_Signal_Souce_Control_BD_clk_wiz_1_0,
       CLKOUT0B => NLW_mmcme4_adv_inst_CLKOUT0B_UNCONNECTED,
-      CLKOUT1 => NLW_mmcme4_adv_inst_CLKOUT1_UNCONNECTED,
+      CLKOUT1 => clk_out2_Signal_Souce_Control_BD_clk_wiz_1_0,
       CLKOUT1B => NLW_mmcme4_adv_inst_CLKOUT1B_UNCONNECTED,
       CLKOUT2 => NLW_mmcme4_adv_inst_CLKOUT2_UNCONNECTED,
       CLKOUT2B => NLW_mmcme4_adv_inst_CLKOUT2B_UNCONNECTED,
@@ -184,6 +198,7 @@ use UNISIM.VCOMPONENTS.ALL;
 entity Signal_Souce_Control_BD_clk_wiz_1_0 is
   port (
     clk_out1 : out STD_LOGIC;
+    clk_out2 : out STD_LOGIC;
     reset : in STD_LOGIC;
     locked : out STD_LOGIC;
     clk_in1_p : in STD_LOGIC;
@@ -200,6 +215,7 @@ inst: entity work.Signal_Souce_Control_BD_clk_wiz_1_0_clk_wiz
       clk_in1_n => clk_in1_n,
       clk_in1_p => clk_in1_p,
       clk_out1 => clk_out1,
+      clk_out2 => clk_out2,
       locked => locked,
       reset => reset
     );

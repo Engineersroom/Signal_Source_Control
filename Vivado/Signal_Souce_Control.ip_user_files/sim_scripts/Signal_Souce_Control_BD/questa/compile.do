@@ -27,6 +27,7 @@ vlib questa_lib/msim/axi_infrastructure_v1_1_0
 vlib questa_lib/msim/axi_register_slice_v2_1_27
 vlib questa_lib/msim/axi_data_fifo_v2_1_26
 vlib questa_lib/msim/axi_crossbar_v2_1_28
+vlib questa_lib/msim/xlslice_v1_0_2
 
 vmap xpm questa_lib/msim/xpm
 vmap microblaze_v11_0_10 questa_lib/msim/microblaze_v11_0_10
@@ -54,6 +55,7 @@ vmap axi_infrastructure_v1_1_0 questa_lib/msim/axi_infrastructure_v1_1_0
 vmap axi_register_slice_v2_1_27 questa_lib/msim/axi_register_slice_v2_1_27
 vmap axi_data_fifo_v2_1_26 questa_lib/msim/axi_data_fifo_v2_1_26
 vmap axi_crossbar_v2_1_28 questa_lib/msim/axi_crossbar_v2_1_28
+vmap xlslice_v1_0_2 questa_lib/msim/xlslice_v1_0_2
 
 vlog -work xpm  -incr -mfcu  -sv "+incdir+../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/7698" "+incdir+../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/ec67/hdl" \
 "D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv" \
@@ -185,8 +187,14 @@ vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../Signal_Souce_Contro
 
 vcom -work xil_defaultlib  -93  \
 "../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/sim/Signal_Souce_Control_BD_axi_gpio_1_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_2_0/sim/Signal_Souce_Control_BD_axi_gpio_2_0.vhd" \
+
+vlog -work xlslice_v1_0_2  -incr -mfcu  "+incdir+../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/7698" "+incdir+../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/ec67/hdl" \
+"../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v" \
 
 vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/7698" "+incdir+../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/ec67/hdl" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_0/sim/Signal_Souce_Control_BD_xlslice_0_0.v" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_2/sim/Signal_Souce_Control_BD_xlslice_0_2.v" \
 "../../../bd/Signal_Souce_Control_BD/sim/Signal_Souce_Control_BD.v" \
 
 vlog -work xil_defaultlib \

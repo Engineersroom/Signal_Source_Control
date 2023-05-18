@@ -1,6 +1,8 @@
-17:28:56 **** Build of configuration Debug for project Signal_Source_Control_App_system ****
-make all 
-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+16:35:24 **** Clean-only build of configuration Debug for project Signal_Source_Control_App_system ****
+make clean 
+rm -rf ./_sds
+rm -rf package
+rm -f system.bif
 
-17:28:56 Build Finished (took 95ms)
+16:35:24 Build Finished (took 130ms)
 

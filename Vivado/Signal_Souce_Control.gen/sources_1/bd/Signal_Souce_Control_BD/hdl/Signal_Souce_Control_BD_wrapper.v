@@ -1,7 +1,7 @@
 //Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-//Date        : Tue May  9 15:43:27 2023
+//Date        : Thu May 18 13:53:32 2023
 //Host        : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 //Command     : generate_target Signal_Souce_Control_BD_wrapper.bd
 //Design      : Signal_Souce_Control_BD_wrapper
@@ -19,6 +19,8 @@ module Signal_Souce_Control_BD_wrapper
     DDS2_MOSI,
     DDS2_SCK,
     DDS2_TXEN_0,
+    USER_SMA_1,
+    USER_SMA_2,
     default_sysclk1_300_clk_n,
     default_sysclk1_300_clk_p,
     dip_switches_4bits_tri_i,
@@ -35,6 +37,8 @@ module Signal_Souce_Control_BD_wrapper
   output DDS2_MOSI;
   output DDS2_SCK;
   output [0:0]DDS2_TXEN_0;
+  output USER_SMA_1;
+  output USER_SMA_2;
   input default_sysclk1_300_clk_n;
   input default_sysclk1_300_clk_p;
   input [3:0]dip_switches_4bits_tri_i;
@@ -52,6 +56,8 @@ module Signal_Souce_Control_BD_wrapper
   wire DDS2_MOSI;
   wire DDS2_SCK;
   wire [0:0]DDS2_TXEN_0;
+  wire USER_SMA_1;
+  wire USER_SMA_2;
   wire default_sysclk1_300_clk_n;
   wire default_sysclk1_300_clk_p;
   wire [3:0]dip_switches_4bits_tri_i;
@@ -70,6 +76,8 @@ module Signal_Souce_Control_BD_wrapper
         .DDS2_MOSI(DDS2_MOSI),
         .DDS2_SCK(DDS2_SCK),
         .DDS2_TXEN_0(DDS2_TXEN_0),
+        .USER_SMA_1(USER_SMA_1),
+        .USER_SMA_2(USER_SMA_2),
         .default_sysclk1_300_clk_n(default_sysclk1_300_clk_n),
         .default_sysclk1_300_clk_p(default_sysclk1_300_clk_p),
         .dip_switches_4bits_tri_i(dip_switches_4bits_tri_i),

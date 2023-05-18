@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xcku5p-ffvb676-2-e" LaunchTime="1683614612" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Signal_Souce_Control_BD_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xcku5p-ffvb676-2-e" LaunchTime="1684385615" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Signal_Souce_Control_BD_wrapper.dcp">
   <File Type="PA-TCL" Name="Signal_Souce_Control_BD_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Signal_Souce_Control_BD_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Signal_Souce_Control_BD_wrapper_reports.tcl"/>
@@ -25,6 +25,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ScopedToRef" Val="Signal_Souce_Control_BD"/>
+        <Attr Name="ScopedToCell" Val="microblaze_0"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
       <Option Name="TopModule" Val="Signal_Souce_Control_BD_wrapper"/>
@@ -40,6 +48,7 @@
       </FileInfo>
     </File>
     <Config>
+      <Option Name="TargetConstrsFile" Val="$PPRDIR/../KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc"/>
       <Option Name="ConstrsType" Val="XDC"/>
     </Config>
   </FileSet>

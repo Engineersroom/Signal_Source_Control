@@ -11,5 +11,6 @@ vhdl xil_defaultlib  \
 "../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_mdm_1_0/sim/Signal_Souce_Control_BD_mdm_1_0.vhd" \
 "../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/sim/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.vhd" \
 "../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/sim/Signal_Souce_Control_BD_axi_gpio_1_0.vhd" \
+"../../../bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_2_0/sim/Signal_Souce_Control_BD_axi_gpio_2_0.vhd" \
 
 nosort

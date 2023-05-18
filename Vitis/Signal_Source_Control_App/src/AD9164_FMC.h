@@ -53,6 +53,7 @@ int init_axi_gpio(XGpio *xgpioPtrTxEn, XGpio *XgpioPtrHWGPIO);
 
 int SPI_Init_Func(int device_id, XSpi *spiPtr, XIntc *Intptr);
 int SPI_Signal_Source_Factory_Init(XSpi *spiPtr);
+int SPI_Signal_Source_Factory_Init_sub(XSpi *spiPtr);
 int SPI_User_Debug_Mode(XSpi *spiPtr, XUartLite *uartPtr);
 int Read_Register(XSpi *spiPtr, int device_id);
 int SPI_Forced_Input2(XSpi *spiPtr);

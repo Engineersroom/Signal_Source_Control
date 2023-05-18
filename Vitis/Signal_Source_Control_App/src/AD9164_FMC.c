@@ -297,6 +297,43 @@ int SET_FTH1_OFF(XSpi *spiPtr)
     while (TransferInProgress)
         ;
 
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_2_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
     return Status;
 }
 
@@ -749,6 +786,152 @@ int SPI_Signal_Source_Factory_Init(XSpi *spiPtr)
         {
             // 버퍼에 데이터 넣기
             WriteBuffer_ADF4355[i] = Init_ADF4355[asd * ADF4355_BUFFER_SIZE + i];
+        }
+        // 전송시작
+        // 플래그 설정
+        TransferInProgress = TRUE;
+        Status = XSpi_Transfer(spiPtr, WriteBuffer_ADF4355, ReadBuffer_ADF4355, ADF4355_BUFFER_SIZE);
+        while (TransferInProgress)
+            ;
+    }
+
+    // xil_printf("ADF4355 END\r\n");
+    ///////////////////////////////////////////////////////////////////////////////////////
+
+    // AD9508
+    ///////////////////////////////////////////////////////////////////////////////////////
+
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9508_1_ID);
+    if (Status != XST_SUCCESS)
+    {
+        xil_printf("AD9508 Conneting... failed\r\n");
+        return XST_FAILURE;
+    }
+    for (int asd = 0; asd < 12; asd++)
+    {
+        for (int i = 0; i < AD9508_BUFFER_SIZE; i++)
+        {
+            // 버퍼에 데이터 넣기
+            WriteBuffer_AD9508[i] = Init_AD9508[asd * AD9508_BUFFER_SIZE + i];
+        }
+        // 플래그 설정
+        TransferInProgress = TRUE;
+        // 전송시작
+        XSpi_Transfer(spiPtr, WriteBuffer_AD9508, ReadBuffer_AD9508, AD9508_BUFFER_SIZE);
+        while (TransferInProgress)
+            ;
+    }
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9508_2_ID);
+    if (Status != XST_SUCCESS)
+    {
+        xil_printf("AD9508 Conneting... failed\r\n");
+        return XST_FAILURE;
+    }
+    for (int asd = 0; asd < 12; asd++)
+    {
+        for (int i = 0; i < AD9508_BUFFER_SIZE; i++)
+        {
+            // 버퍼에 데이터 넣기
+            WriteBuffer_AD9508[i] = Init_AD9508[asd * AD9508_BUFFER_SIZE + i];
+        }
+        // 플래그 설정
+        TransferInProgress = TRUE;
+        // 전송시작
+        XSpi_Transfer(spiPtr, WriteBuffer_AD9508, ReadBuffer_AD9508, AD9508_BUFFER_SIZE);
+        while (TransferInProgress)
+            ;
+    }
+    // xil_printf("AD9508 END \r\n");
+    ///////////////////////////////////////////////////////////////////////////////////////
+
+    ///////////////////////////////////////////////////////////////////////////////////////
+    // AD9164
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_1_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+    for (int asd = 0; asd < 77; asd++)
+    {
+        for (int i = 0; i < AD9164_BUFFER_SIZE; i++)
+        {
+            // 버퍼에 데이터 넣기
+            WriteBuffer_AD9164[i] = Init_AD9164[asd * AD9164_BUFFER_SIZE + i];
+        }
+        // 플래그 설정
+        TransferInProgress = TRUE;
+        // 전송시작
+        XSpi_Transfer(spiPtr, WriteBuffer_AD9164, ReadBuffer_AD9164, AD9164_BUFFER_SIZE);
+        while (TransferInProgress)
+            ;
+        // usleep(10);
+        //              ;
+        //
+    }
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_2_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+    for (int asd = 0; asd < 77; asd++)
+    {
+        for (int i = 0; i < AD9164_BUFFER_SIZE; i++)
+        {
+            // 버퍼에 데이터 넣기
+            WriteBuffer_AD9164[i] = Init_AD9164[asd * AD9164_BUFFER_SIZE + i];
+        }
+        // 플래그 설정
+        TransferInProgress = TRUE;
+        // 전송시작
+        XSpi_Transfer(spiPtr, WriteBuffer_AD9164, ReadBuffer_AD9164, AD9164_BUFFER_SIZE);
+        while (TransferInProgress)
+            ;
+        // usleep(10);
+        //              ;
+        //
+    }
+    // xil_printf("AD9164 END \r\n");
+    ///////////////////////////////////////////////////////////////////////////////////////
+    return 0;
+}
+
+int SPI_Signal_Source_Factory_Init_sub(XSpi *spiPtr)
+{
+    XSpi_Start(spiPtr);
+    xil_printf("Signal Source Factory Init ... \r\n");
+    int Status;
+    // ADF4355
+    ////////////////////////////////////////////////////////////////
+    Status = XSpi_SetSlaveSelect(spiPtr, ADF4355_1_ID);
+    if (Status != XST_SUCCESS)
+    {
+        xil_printf("ADF4355 Conneting 1... failed\r\n");
+        return XST_FAILURE;
+    }
+    for (int asd = 0; asd < 15; asd++)
+    {
+
+        for (int i = 0; i < ADF4355_BUFFER_SIZE; i++)
+        {
+            // 버퍼에 데이터 넣기
+            WriteBuffer_ADF4355[i] = Init_ADF4355_sub[asd * ADF4355_BUFFER_SIZE + i];
+        }
+        // 전송시작
+        // 플래그 설정
+        TransferInProgress = TRUE;
+        Status = XSpi_Transfer(spiPtr, WriteBuffer_ADF4355, ReadBuffer_ADF4355, ADF4355_BUFFER_SIZE);
+        while (TransferInProgress)
+            ;
+    }
+    Status = XSpi_SetSlaveSelect(spiPtr, ADF4355_2_ID);
+    if (Status != XST_SUCCESS)
+    {
+        xil_printf("ADF4355 Conneting 2... failed\r\n");
+        return XST_FAILURE;
+    }
+    for (int asd = 0; asd < 15; asd++)
+    {
+
+        for (int i = 0; i < ADF4355_BUFFER_SIZE; i++)
+        {
+            // 버퍼에 데이터 넣기
+            WriteBuffer_ADF4355[i] = Init_ADF4355_sub[asd * ADF4355_BUFFER_SIZE + i];
         }
         // 전송시작
         // 플래그 설정

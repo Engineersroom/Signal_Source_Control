@@ -1,6 +1,6 @@
-17:28:50 **** Build of project Signal_Souce_Control_BD_wrapper ****
-buildplatform.bat 51330 Signal_Souce_Control_BD_wrapper  
-XSDB Server Channel: tcfchan#22
+16:35:24 **** Build of project Signal_Souce_Control_BD_wrapper ****
+buildplatform.bat 50027 Signal_Souce_Control_BD_wrapper  
+XSDB Server Channel: tcfchan#58
 Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
 make --no-print-directory seq_libs
 
@@ -130,5 +130,5 @@ mb-ar: creating microblaze_0/lib/libxil.a
 'Finished building libraries'
 
 
-17:28:54 Build Finished (took 4s.554ms)
+16:35:29 Build Finished (took 4s.712ms)
 

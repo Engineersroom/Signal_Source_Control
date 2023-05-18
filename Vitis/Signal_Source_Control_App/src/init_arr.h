@@ -1,8 +1,9 @@
 #ifndef INIT_ARR_H
 #define INIT_ARR_H
-extern char Init_AD9508[36];  // 4����
-extern char Init_ADF4355[60]; // 3����
-extern char Init_AD9164[228]; // 2�� �ְ� 1��
+extern char Init_AD9508[36];
+extern char Init_ADF4355_sub[60]; // 4����
+extern char Init_ADF4355[60];     // 3����
+extern char Init_AD9164[228];     // 2�� �ְ� 1��
 extern char FTH1_Base_Setting[21];
 
 extern char FTH_SEL_REGSTER[3];

@@ -3,8 +3,8 @@
 -- Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
 -- Date        : Fri Apr 14 11:34:06 2023
 -- Host        : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim {d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source
---               Control/Vivado/Signal_Souce_Control/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/Signal_Souce_Control_BD_axi_intc_0_0_sim_netlist.vhdl}
+-- Command     : write_vhdl -force -mode funcsim -rename_top Signal_Souce_Control_BD_axi_intc_0_0 -prefix
+--               Signal_Souce_Control_BD_axi_intc_0_0_ Signal_Souce_Control_BD_axi_intc_0_0_sim_netlist.vhdl
 -- Design      : Signal_Souce_Control_BD_axi_intc_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -60,8 +60,6 @@ entity Signal_Souce_Control_BD_axi_intc_0_0_address_decoder is
     \CIE_GEN.CIE_BIT_GEN[0].cie_reg[0]\ : in STD_LOGIC;
     Bus_RNW_reg_reg_5 : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Signal_Souce_Control_BD_axi_intc_0_0_address_decoder : entity is "address_decoder";
 end Signal_Souce_Control_BD_axi_intc_0_0_address_decoder;
 
 architecture STRUCTURE of Signal_Souce_Control_BD_axi_intc_0_0_address_decoder is
@@ -983,8 +981,6 @@ entity Signal_Souce_Control_BD_axi_intc_0_0_intc_core is
     p_18_in : in STD_LOGIC;
     \REG_GEN[0].ier_reg[0]_1\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Signal_Souce_Control_BD_axi_intc_0_0_intc_core : entity is "intc_core";
 end Signal_Souce_Control_BD_axi_intc_0_0_intc_core;
 
 architecture STRUCTURE of Signal_Souce_Control_BD_axi_intc_0_0_intc_core is
@@ -1461,8 +1457,6 @@ entity Signal_Souce_Control_BD_axi_intc_0_0_slave_attachment is
     p_0_in3_in : in STD_LOGIC;
     \CIE_GEN.CIE_BIT_GEN[0].cie_reg[0]\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Signal_Souce_Control_BD_axi_intc_0_0_slave_attachment : entity is "slave_attachment";
 end Signal_Souce_Control_BD_axi_intc_0_0_slave_attachment;
 
 architecture STRUCTURE of Signal_Souce_Control_BD_axi_intc_0_0_slave_attachment is
@@ -2312,8 +2306,6 @@ entity Signal_Souce_Control_BD_axi_intc_0_0_axi_lite_ipif is
     p_0_in3_in : in STD_LOGIC;
     \CIE_GEN.CIE_BIT_GEN[0].cie_reg[0]\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Signal_Souce_Control_BD_axi_intc_0_0_axi_lite_ipif : entity is "axi_lite_ipif";
 end Signal_Souce_Control_BD_axi_intc_0_0_axi_lite_ipif;
 
 architecture STRUCTURE of Signal_Souce_Control_BD_axi_intc_0_0_axi_lite_ipif is
@@ -2464,8 +2456,6 @@ entity Signal_Souce_Control_BD_axi_intc_0_0_axi_intc is
   attribute C_S_AXI_ADDR_WIDTH of Signal_Souce_Control_BD_axi_intc_0_0_axi_intc : entity is 9;
   attribute C_S_AXI_DATA_WIDTH : integer;
   attribute C_S_AXI_DATA_WIDTH of Signal_Souce_Control_BD_axi_intc_0_0_axi_intc : entity is 32;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of Signal_Souce_Control_BD_axi_intc_0_0_axi_intc : entity is "axi_intc";
   attribute hdl : string;
   attribute hdl of Signal_Souce_Control_BD_axi_intc_0_0_axi_intc : entity is "VHDL";
   attribute imp_netlist : string;

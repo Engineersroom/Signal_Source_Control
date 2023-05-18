@@ -66,13 +66,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="1"/>
-    <Option Name="WTModelSimExportSim" Val="1"/>
-    <Option Name="WTQuestaExportSim" Val="1"/>
+    <Option Name="WTXSimExportSim" Val="2"/>
+    <Option Name="WTModelSimExportSim" Val="2"/>
+    <Option Name="WTQuestaExportSim" Val="2"/>
     <Option Name="WTIesExportSim" Val="0"/>
-    <Option Name="WTVcsExportSim" Val="1"/>
-    <Option Name="WTRivieraExportSim" Val="1"/>
-    <Option Name="WTActivehdlExportSim" Val="1"/>
+    <Option Name="WTVcsExportSim" Val="2"/>
+    <Option Name="WTRivieraExportSim" Val="2"/>
+    <Option Name="WTActivehdlExportSim" Val="2"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
     <Option Name="XSimRadix" Val="hex"/>
     <Option Name="XSimTimeUnit" Val="ns"/>
@@ -96,20 +96,20 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_microblaze_0_0/Signal_Souce_Control_BD_microblaze_0_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_microblaze_0_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_mdm_1_0/Signal_Souce_Control_BD_mdm_1_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_mdm_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_uartlite_0_0/Signal_Souce_Control_BD_axi_uartlite_0_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_axi_uartlite_0_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_axi_quad_spi_0_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_gpio_0_0/Signal_Souce_Control_BD_axi_gpio_0_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_axi_gpio_0_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_axi_gpio_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_dlmb_v10_0/Signal_Souce_Control_BD_dlmb_v10_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_dlmb_v10_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0.xci">
           <Proxy FileSetName="Signal_Souce_Control_BD_clk_wiz_1_0"/>
@@ -117,29 +117,29 @@
         <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_lmb_bram_0/Signal_Souce_Control_BD_lmb_bram_0.xci">
           <Proxy FileSetName="Signal_Souce_Control_BD_lmb_bram_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_xbar_0/Signal_Souce_Control_BD_xbar_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_gpio_2_0/Signal_Souce_Control_BD_axi_gpio_2_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_axi_gpio_2_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_ilmb_v10_0/Signal_Souce_Control_BD_ilmb_v10_0.xci">
           <Proxy FileSetName="Signal_Souce_Control_BD_ilmb_v10_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_gpio_0_0/Signal_Souce_Control_BD_axi_gpio_0_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_axi_gpio_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_xbar_0/Signal_Souce_Control_BD_xbar_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_xbar_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_uartlite_0_0/Signal_Souce_Control_BD_axi_uartlite_0_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_axi_uartlite_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_mdm_1_0/Signal_Souce_Control_BD_mdm_1_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_mdm_1_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_axi_quad_spi_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_axi_gpio_1_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_microblaze_0_0/Signal_Souce_Control_BD_microblaze_0_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_microblaze_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_gpio_2_0/Signal_Souce_Control_BD_axi_gpio_2_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_axi_gpio_2_0"/>
+        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_dlmb_v10_0/Signal_Souce_Control_BD_dlmb_v10_0.xci">
+          <Proxy FileSetName="Signal_Souce_Control_BD_dlmb_v10_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/Signal_Souce_Control_BD/hdl/Signal_Souce_Control_BD_wrapper.v">
@@ -149,10 +149,19 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PPRDIR/../Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="ScopedToRef" Val="Signal_Souce_Control_BD"/>
+          <Attr Name="ScopedToCell" Val="microblaze_0"/>
+          <Attr Name="IsVisible" Val="1"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="Signal_Souce_Control_BD_wrapper"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="dataflowViewerSettings" Val="min_width=16"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -164,6 +173,7 @@
         </FileInfo>
       </File>
       <Config>
+        <Option Name="TargetConstrsFile" Val="$PPRDIR/../KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc"/>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>
@@ -460,9 +470,7 @@
     </Run>
     <Run Id="Signal_Souce_Control_BD_axi_gpio_2_0_synth_1" Type="Ft3:Synth" SrcSet="Signal_Souce_Control_BD_axi_gpio_2_0" Part="xcku5p-ffvb676-2-e" ConstrsSet="Signal_Souce_Control_BD_axi_gpio_2_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Signal_Souce_Control_BD_axi_gpio_2_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_axi_gpio_2_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_axi_gpio_2_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -481,7 +489,9 @@
         <Step Id="phys_opt_design"/>
         <Step Id="route_design"/>
         <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
+        <Step Id="write_bitstream">
+          <Option Id="BinFile">1</Option>
+        </Step>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
       <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
@@ -728,9 +738,7 @@
     </Run>
     <Run Id="Signal_Souce_Control_BD_axi_gpio_2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku5p-ffvb676-2-e" ConstrsSet="Signal_Souce_Control_BD_axi_gpio_2_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Signal_Souce_Control_BD_axi_gpio_2_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_axi_gpio_2_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_axi_gpio_2_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
