@@ -57,9 +57,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souc
 # IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_axi_gpio_1_0 || ORIG_REF_NAME==Signal_Souce_Control_BD_axi_gpio_1_0} -quiet] -quiet
 
-# IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_2_0/Signal_Souce_Control_BD_axi_gpio_2_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_axi_gpio_2_0 || ORIG_REF_NAME==Signal_Souce_Control_BD_axi_gpio_2_0} -quiet] -quiet
-
 # IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_0/Signal_Souce_Control_BD_xlslice_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_xlslice_0_0 || ORIG_REF_NAME==Signal_Souce_Control_BD_xlslice_0_0} -quiet] -quiet
 

@@ -120,9 +120,6 @@
         <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_xbar_0/Signal_Souce_Control_BD_xbar_0.xci">
           <Proxy FileSetName="Signal_Souce_Control_BD_xbar_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_axi_gpio_2_0/Signal_Souce_Control_BD_axi_gpio_2_0.xci">
-          <Proxy FileSetName="Signal_Souce_Control_BD_axi_gpio_2_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="Signal_Souce_Control_BD.bd" FileRelPathName="ip/Signal_Souce_Control_BD_ilmb_v10_0/Signal_Souce_Control_BD_ilmb_v10_0.xci">
           <Proxy FileSetName="Signal_Souce_Control_BD_ilmb_v10_0"/>
         </CompFileExtendedInfo>
@@ -292,12 +289,6 @@
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
-    <FileSet Name="Signal_Souce_Control_BD_axi_gpio_2_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Signal_Souce_Control_BD_axi_gpio_2_0" RelGenDir="$PGENDIR/Signal_Souce_Control_BD_axi_gpio_2_0">
-      <Config>
-        <Option Name="TopModule" Val="Signal_Souce_Control_BD_axi_gpio_2_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
   </FileSets>
   <Simulators>
     <Simulator Name="XSim">
@@ -459,16 +450,6 @@
       <RQSFiles/>
     </Run>
     <Run Id="Signal_Souce_Control_BD_ilmb_v10_0_synth_1" Type="Ft3:Synth" SrcSet="Signal_Souce_Control_BD_ilmb_v10_0" Part="xcku5p-ffvb676-2-e" ConstrsSet="Signal_Souce_Control_BD_ilmb_v10_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Signal_Souce_Control_BD_ilmb_v10_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_ilmb_v10_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_ilmb_v10_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="Signal_Souce_Control_BD_axi_gpio_2_0_synth_1" Type="Ft3:Synth" SrcSet="Signal_Souce_Control_BD_axi_gpio_2_0" Part="xcku5p-ffvb676-2-e" ConstrsSet="Signal_Souce_Control_BD_axi_gpio_2_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/Signal_Souce_Control_BD_axi_gpio_2_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_axi_gpio_2_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_axi_gpio_2_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
@@ -720,23 +701,6 @@
       <RQSFiles/>
     </Run>
     <Run Id="Signal_Souce_Control_BD_ilmb_v10_0_impl_1" Type="Ft2:EntireDesign" Part="xcku5p-ffvb676-2-e" ConstrsSet="Signal_Souce_Control_BD_ilmb_v10_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Signal_Souce_Control_BD_ilmb_v10_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_ilmb_v10_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_ilmb_v10_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2022"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="Signal_Souce_Control_BD_axi_gpio_2_0_impl_1" Type="Ft2:EntireDesign" Part="xcku5p-ffvb676-2-e" ConstrsSet="Signal_Souce_Control_BD_axi_gpio_2_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="Signal_Souce_Control_BD_axi_gpio_2_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_axi_gpio_2_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/Signal_Souce_Control_BD_axi_gpio_2_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>

@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Thu May 18 16:36:21 2023
-# Process ID: 58376
+# Start of session at: Thu May 18 16:46:29 2023
+# Process ID: 55400
 # Current directory: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1
 # Command line: vivado.exe -log Signal_Souce_Control_BD_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Signal_Souce_Control_BD_wrapper.tcl -notrace
 # Log file: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1/Signal_Souce_Control_BD_wrapper.vdi
@@ -11,53 +11,891 @@
 # Running On: DESKTOP-LJ1PS58, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 8, Host memory: 68595 MB
 #-----------------------------------------------------------
 source Signal_Souce_Control_BD_wrapper.tcl -notrace
-Command: open_checkpoint Signal_Souce_Control_BD_wrapper_routed.dcp
-
-Starting open_checkpoint Task
-
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 425.551 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [Project 1-1697] Successfully associated ELF file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf to BD Signal_Souce_Control_BD and cell microblaze_0.
+WARNING: [filemgmt 56-12] File 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' cannot be added to the project because it already exists in the project, skipping this file
+Command: link_design -top Signal_Souce_Control_BD_wrapper -part xcku5p-ffvb676-2-e
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
 INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.169 . Memory (MB): peak = 1609.848 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 236 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_0_0/Signal_Souce_Control_BD_axi_gpio_0_0.dcp' for cell 'Signal_Souce_Control_BD_i/axi_gpio_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0.dcp' for cell 'Signal_Souce_Control_BD_i/axi_gpio_1'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/Signal_Souce_Control_BD_axi_intc_0_0.dcp' for cell 'Signal_Souce_Control_BD_i/axi_intc_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0.dcp' for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_uartlite_0_0/Signal_Souce_Control_BD_axi_uartlite_0_0.dcp' for cell 'Signal_Souce_Control_BD_i/axi_uartlite_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0.dcp' for cell 'Signal_Souce_Control_BD_i/clk_wiz_1'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_mdm_1_0/Signal_Souce_Control_BD_mdm_1_0.dcp' for cell 'Signal_Souce_Control_BD_i/mdm_1'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_microblaze_0_0/Signal_Souce_Control_BD_microblaze_0_0.dcp' for cell 'Signal_Souce_Control_BD_i/microblaze_0'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.dcp' for cell 'Signal_Souce_Control_BD_i/rst_clk_wiz_1_100M'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xbar_0/Signal_Souce_Control_BD_xbar_0.dcp' for cell 'Signal_Souce_Control_BD_i/microblaze_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.dcp' for cell 'Signal_Souce_Control_BD_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_v10_0/Signal_Souce_Control_BD_dlmb_v10_0.dcp' for cell 'Signal_Souce_Control_BD_i/microblaze_0_local_memory/dlmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0.dcp' for cell 'Signal_Souce_Control_BD_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_ilmb_v10_0/Signal_Souce_Control_BD_ilmb_v10_0.dcp' for cell 'Signal_Souce_Control_BD_i/microblaze_0_local_memory/ilmb_v10'
+INFO: [Project 1-454] Reading design checkpoint 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_lmb_bram_0/Signal_Souce_Control_BD_lmb_bram_0.dcp' for cell 'Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram'
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.179 . Memory (MB): peak = 1679.836 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 237 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2022.2
 INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Timing 38-478] Restoring timing data from binary archive.
-INFO: [Timing 38-479] Binary timing data restore complete.
-INFO: [Project 1-856] Restoring constraints from binary archive.
-INFO: [Project 1-853] Binary constraint restore complete.
-Reading XDEF placement.
-Reading placer database...
-Reading XDEF routing.
-Read XDEF Files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.638 . Memory (MB): peak = 2084.691 ; gain = 25.746
-Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.643 . Memory (MB): peak = 2084.691 ; gain = 25.746
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2441.219 ; gain = 0.000
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OUT_FF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site BITSLICE_RX_TX_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OUT_FF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site BITSLICE_RX_TX_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OPFF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site HDIOLOGIC_M_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OPFF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site HDIOLOGIC_M_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST Illegal to place instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST on site BITSLICE_RX_TX_X0Y0. The location site type (BITSLICE_RX_TX) and bel type (OPFF_S) do not match the cell type (FDRE).
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST Illegal to place instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST on site BITSLICE_RX_TX_X0Y0. The location site type (BITSLICE_RX_TX) and bel type (OPFF_S) do not match the cell type (FDRE).
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_microblaze_0_0/Signal_Souce_Control_BD_microblaze_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/microblaze_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_microblaze_0_0/Signal_Souce_Control_BD_microblaze_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/microblaze_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_uartlite_0_0/Signal_Souce_Control_BD_axi_uartlite_0_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_uartlite_0_0/Signal_Souce_Control_BD_axi_uartlite_0_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/axi_uartlite_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_uartlite_0_0/Signal_Souce_Control_BD_axi_uartlite_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_uartlite_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_uartlite_0_0/Signal_Souce_Control_BD_axi_uartlite_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_uartlite_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_0_0/Signal_Souce_Control_BD_axi_gpio_0_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_0_0/Signal_Souce_Control_BD_axi_gpio_0_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_0_0/Signal_Souce_Control_BD_axi_gpio_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_0_0/Signal_Souce_Control_BD_axi_gpio_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/Signal_Souce_Control_BD_axi_intc_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_intc_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/Signal_Souce_Control_BD_axi_intc_0_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_intc_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/clk_wiz_1/inst'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/clk_wiz_1/inst'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0.xdc] for cell 'Signal_Souce_Control_BD_i/clk_wiz_1/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0.xdc:57]
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_clk_wiz_1_0/Signal_Souce_Control_BD_clk_wiz_1_0.xdc] for cell 'Signal_Souce_Control_BD_i/clk_wiz_1/inst'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.xdc] for cell 'Signal_Souce_Control_BD_i/rst_clk_wiz_1_100M/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.xdc] for cell 'Signal_Souce_Control_BD_i/rst_clk_wiz_1_100M/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_1/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0_board.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_1/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_1/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_1/U0'
+Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc]
+CRITICAL WARNING: [Netlist 29-69] Cannot set property 'CLOCK_DEDICATED_ROUTE', because the property does not exist for objects of type 'port'. [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc:174]
+Resolution: Modify .xdc or RTL to not set this property or move it to one of the following object types that can accept this property: pin,net
+CRITICAL WARNING: [Netlist 29-69] Cannot set property 'CLOCK_DEDICATED_ROUTE', because the property does not exist for objects of type 'port'. [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc:179]
+Resolution: Modify .xdc or RTL to not set this property or move it to one of the following object types that can accept this property: pin,net
+Finished Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc]
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0_clocks.xdc] for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_0/Signal_Souce_Control_BD_axi_quad_spi_0_0_clocks.xdc] for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/Signal_Souce_Control_BD_axi_intc_0_0_clocks.xdc] for cell 'Signal_Souce_Control_BD_i/axi_intc_0/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/Signal_Souce_Control_BD_axi_intc_0_0_clocks.xdc] for cell 'Signal_Souce_Control_BD_i/axi_intc_0/U0'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_mdm_1_0/Signal_Souce_Control_BD_mdm_1_0.xdc] for cell 'Signal_Souce_Control_BD_i/mdm_1/U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_mdm_1_0/Signal_Souce_Control_BD_mdm_1_0.xdc] for cell 'Signal_Souce_Control_BD_i/mdm_1/U0'
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.wr_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+WARNING: [XPM_CDC_GRAY: TCL-1000] The source and destination clocks are the same. 
+     Instance: Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_cdc_pntr.rd_pntr_cdc_dc_inst 
+  This will add unnecessary latency to the design. Please check the design for the following: 
+ 1) Manually instantiated XPM_CDC modules: Xilinx recommends that you remove these modules. 
+ 2) Xilinx IP that contains XPM_CDC modules: Verify the connections to the IP to determine whether you can safely ignore this message.
+ [D:/Xilinx/Vivado/2022.2/data/ip/xpm/xpm_cdc/tcl/xpm_cdc_gray.tcl:16]
+INFO: [Project 1-1714] 14 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[20].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[21].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[22].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[23].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[24].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[25].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[26].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[27].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[28].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[29].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[30].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[31].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_8SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.SERIES8_TDP_SP36_NO_ECC_ATTR.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OUT_FF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site BITSLICE_RX_TX_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OUT_FF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site BITSLICE_RX_TX_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OPFF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site HDIOLOGIC_M_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OPFF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site HDIOLOGIC_M_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST Illegal to place instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST on site BITSLICE_RX_TX_X0Y0. The location site type (BITSLICE_RX_TX) and bel type (OPFF_S) do not match the cell type (FDRE).
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST Illegal to place instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST on site BITSLICE_RX_TX_X0Y0. The location site type (BITSLICE_RX_TX) and bel type (OPFF_S) do not match the cell type (FDRE).
+WARNING: [Constraints 18-5572] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/IO0_I_REG has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+Generating merged BMM file for the design top 'Signal_Souce_Control_BD_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2145.246 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 106 instances were transformed.
   IBUF => IBUF (IBUFCTRL, INBUF): 7 instances
   IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
-  LUT6_2 => LUT6_2 (LUT5, LUT6): 79 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 80 instances
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 16 instances
   RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 2 instances
-  SRLC16E => SRL16E: 1 instance 
 
-INFO: [Project 1-604] Checkpoint was created with Vivado v2022.2 (64-bit) build 3671981
-OpenCheckpoint Checksum | Checksum: 7a06d131
------ Checksum: PlaceDB: 24928f35 ShapeSum: 2f5e047b RouteDB: 26163d81 
-open_checkpoint: Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2441.219 ; gain = 2015.668
+62 Infos, 22 Warnings, 2 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 2145.246 ; gain = 1554.246
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku5p'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku5p'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2145.246 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1084988b3
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.752 . Memory (MB): peak = 2145.246 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-1287] Pulled Inverter Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/FSM_onehot_gen_rst_ic.curr_wrst_state[4]_i_1 into driver instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst//i_, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst/FSM_onehot_gen_rst_ic.curr_wrst_state[4]_i_1 into driver instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/xpm_fifo_rst_inst//i_, which resulted in an inversion of 2 pins
+INFO: [Opt 31-1287] Pulled Inverter Signal_Souce_Control_BD_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_1 into driver instance Signal_Souce_Control_BD_i/mdm_1/U0/MDM_Core_I1/JTAG_CONTROL_I/Use_BSCAN.FDC_I/Use_Serial_Unified_Completion.Completion_Status_Register.sample_1[15]_i_2, which resulted in an inversion of 14 pins
+INFO: [Opt 31-138] Pushed 9 inverter(s) to 162 load pin(s).
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OUT_FF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site BITSLICE_RX_TX_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OUT_FF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site BITSLICE_RX_TX_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OPFF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site HDIOLOGIC_M_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST 
+	to bel OPFF. Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST cannot be placed in site HDIOLOGIC_M_X0Y0 because the output signal of the cell requires general routing to fabric and cells placed in OLOGIC can only be routed to delay or I/O site.
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST Illegal to place instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST on site BITSLICE_RX_TX_X0Y0. The location site type (BITSLICE_RX_TX) and bel type (OPFF_S) do not match the cell type (FDRE).
+WARNING: [Shape Builder 18-132] Instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB = TRUE property, but it cannot be placed in an OLOGIC site. Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST Illegal to place instance Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST on site BITSLICE_RX_TX_X0Y0. The location site type (BITSLICE_RX_TX) and bel type (OPFF_S) do not match the cell type (FDRE).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: fff40c54
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.366 . Memory (MB): peak = 2454.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 170 cells and removed 249 cells
+INFO: [Opt 31-1021] In phase Retarget, 1 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 981c2029
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.398 . Memory (MB): peak = 2454.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 13 cells and removed 54 cells
+INFO: [Opt 31-1021] In phase Constant propagation, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 10b58eaef
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.586 . Memory (MB): peak = 2454.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 9 cells and removed 271 cells
+INFO: [Opt 31-1021] In phase Sweep, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-194] Inserted BUFG Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFG_inst to drive 40 load(s) on clock net Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Dbg_Update_0_BUFGCE
+INFO: [Opt 31-193] Inserted 1 BUFG(s) on clock nets
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 4 BUFG optimization | Checksum: 3bbcd2b9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.665 . Memory (MB): peak = 2454.457 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 1 cells of which 1 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 3bbcd2b9
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.678 . Memory (MB): peak = 2454.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 7ddd5841
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.706 . Memory (MB): peak = 2454.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+INFO: [Opt 31-1021] In phase Post Processing Netlist, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |             170  |             249  |                                              1  |
+|  Constant propagation         |              13  |              54  |                                              2  |
+|  Sweep                        |               9  |             271  |                                              2  |
+|  BUFG optimization            |               1  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              2  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2454.457 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: ce7908b2
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.901 . Memory (MB): peak = 2454.457 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 32 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 64
+Ending PowerOpt Patch Enables Task | Checksum: ce7908b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.154 . Memory (MB): peak = 2953.797 ; gain = 0.000
+Ending Power Optimization Task | Checksum: ce7908b2
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 2953.797 ; gain = 499.340
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: ce7908b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2953.797 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2953.797 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: ce7908b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2953.797 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+94 Infos, 28 Warnings, 2 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 2953.797 ; gain = 808.551
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.107 . Memory (MB): peak = 2953.797 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1/Signal_Souce_Control_BD_wrapper_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Signal_Souce_Control_BD_wrapper_drc_opted.rpt -pb Signal_Souce_Control_BD_wrapper_drc_opted.pb -rpx Signal_Souce_Control_BD_wrapper_drc_opted.rpx
+Command: report_drc -file Signal_Souce_Control_BD_wrapper_drc_opted.rpt -pb Signal_Souce_Control_BD_wrapper_drc_opted.pb -rpx Signal_Souce_Control_BD_wrapper_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1/Signal_Souce_Control_BD_wrapper_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku5p'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku5p'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2953.797 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: a0d98485
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2953.797 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2953.797 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 120dca43b
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 21223ab17
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 21223ab17
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 1 Placer Initialization | Checksum: 21223ab17
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+
+Phase 2.1.1 Partition Driven Placement
+
+Phase 2.1.1.1 PBP: Partition Driven Placement
+Phase 2.1.1.1 PBP: Partition Driven Placement | Checksum: 1ecc8c68d
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2.1.1.2 PBP: Clock Region Placement
+Phase 2.1.1.2 PBP: Clock Region Placement | Checksum: b898b127
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2.1.1.3 PBP: Compute Congestion
+Phase 2.1.1.3 PBP: Compute Congestion | Checksum: b898b127
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2.1.1.4 PBP: UpdateTiming
+Phase 2.1.1.4 PBP: UpdateTiming | Checksum: 12ae243ec
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2.1.1.5 PBP: Add part constraints
+Phase 2.1.1.5 PBP: Add part constraints | Checksum: 12ae243ec
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 2.1.1 Partition Driven Placement | Checksum: 12ae243ec
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 2.1 Floorplanning | Checksum: 84d58aa9
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 84d58aa9
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2.3 Post-Processing in Floorplanning
+Phase 2.3 Post-Processing in Floorplanning | Checksum: 84d58aa9
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2.4 Global Placement Core
+
+Phase 2.4.1 UpdateTiming Before Physical Synthesis
+Phase 2.4.1 UpdateTiming Before Physical Synthesis | Checksum: ca332a29
+
+Time (s): cpu = 00:00:30 ; elapsed = 00:00:24 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 2.4.2 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 232 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-1138] End 1 Pass. Optimized 101 nets or LUTs. Breaked 0 LUT, combined 101 existing LUTs and moved 0 existing LUT
+INFO: [Physopt 32-1030] Pass 1. Identified 1 candidate driver set for equivalent driver rewiring.
+INFO: [Physopt 32-661] Optimized 1 net.  Re-placed 5 instances.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 1 net or cell. Created 0 new cell, deleted 0 existing cell and moved 5 existing cells
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            101  |                   101  |           0  |           1  |  00:00:00  |
+|  Retime                                           |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Equivalent Driver Rewiring                       |            0  |              0  |                     1  |           0  |           1  |  00:00:00  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            101  |                   102  |           0  |           5  |  00:00:00  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.4.2 Physical Synthesis In Placer | Checksum: 9f43a005
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 2.4 Global Placement Core | Checksum: 18ff7f691
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 2 Global Placement | Checksum: 18ff7f691
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:25 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1ab113026
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 10421c0b8
+
+Time (s): cpu = 00:00:32 ; elapsed = 00:00:26 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 3.3 Small Shape DP
+
+Phase 3.3.1 Small Shape Clustering
+Phase 3.3.1 Small Shape Clustering | Checksum: 17c35e946
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:26 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 3.3.2 Flow Legalize Slice Clusters
+Phase 3.3.2 Flow Legalize Slice Clusters | Checksum: 1669f6424
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:27 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 3.3.3 Slice Area Swap
+
+Phase 3.3.3.1 Slice Area Swap Initial
+Phase 3.3.3.1 Slice Area Swap Initial | Checksum: 11e2232a4
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:27 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 3.3.3 Slice Area Swap | Checksum: 11e2232a4
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:27 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 3.3 Small Shape DP | Checksum: 130e907a2
+
+Time (s): cpu = 00:00:34 ; elapsed = 00:00:28 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 3.4 Re-assign LUT pins
+Phase 3.4 Re-assign LUT pins | Checksum: 13fc6d4e3
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 3.5 Pipeline Register Optimization
+Phase 3.5 Pipeline Register Optimization | Checksum: 14f47d10e
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 3 Detail Placement | Checksum: 14f47d10e
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:28 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 17accd7fc
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=6.733 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 112de982a
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.105 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Place 46-56] BUFG insertion identified 0 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 0, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 19190b382
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.133 . Memory (MB): peak = 3956.602 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 17accd7fc
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:30 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 4.1.1.2 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=6.733. For the most accurate timing information please run report_timing.
+Phase 4.1.1.2 Post Placement Timing Optimization | Checksum: 2230c5330
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:30 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:30 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 4.1 Post Commit Optimization | Checksum: 2230c5330
+
+Time (s): cpu = 00:00:38 ; elapsed = 00:00:31 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 31121966c
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ________________________________________________________________________
+|           | Global Congestion | Long Congestion   | Short Congestion  |
+| Direction | Region Size       | Region Size       | Region Size       |
+|___________|___________________|___________________|___________________|
+|      North|                1x1|                1x1|                2x2|
+|___________|___________________|___________________|___________________|
+|      South|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+|       East|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+|       West|                1x1|                1x1|                4x4|
+|___________|___________________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 31121966c
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 4.3 Placer Reporting | Checksum: 31121966c
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2d64e100e
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+Ending Placer Task | Checksum: 21a193113
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:34 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+INFO: [Common 17-83] Releasing license: Implementation
+132 Infos, 28 Warnings, 2 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:00:45 ; elapsed = 00:00:36 . Memory (MB): peak = 3956.602 ; gain = 1002.805
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.469 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1/Signal_Souce_Control_BD_wrapper_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file Signal_Souce_Control_BD_wrapper_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file Signal_Souce_Control_BD_wrapper_utilization_placed.rpt -pb Signal_Souce_Control_BD_wrapper_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file Signal_Souce_Control_BD_wrapper_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 3956.602 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku5p'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku5p'
+
+Starting Initial Update Timing Task
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+141 Infos, 28 Warnings, 2 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.447 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1/Signal_Souce_Control_BD_wrapper_physopt.dcp' has been generated.
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcku5p'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku5p'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Phase 1 Build RT Design
+Checksum: PlaceDB: 92a77f1f ConstDB: 0 ShapeSum: 995c6eb8 RouteDB: ee15433c
+Nodegraph reading from file.  Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.919 . Memory (MB): peak = 3956.602 ; gain = 0.000
+Post Restoration Checksum: NetGraph: b9e757ef NumContArr: aecc79d7 Constraints: 1a5be11 Timing: 0
+Phase 1 Build RT Design | Checksum: 16a598fd7
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 16a598fd7
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 16a598fd7
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: 11fd0a7fd
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 27219ff71
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=6.817  | TNS=0.000  | WHS=-0.050 | THS=-1.903 |
+
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00156005 %
+  Global Horizontal Routing Utilization  = 0.00354747 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 3618
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 2983
+  Number of Partially Routed Nets     = 635
+  Number of Node Overlaps             = 0
+
+Phase 2 Router Initialization | Checksum: 2a132d19d
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 2a132d19d
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:08 . Memory (MB): peak = 3956.602 ; gain = 0.000
+Phase 3 Initial Routing | Checksum: 1aa836e16
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 868
+ Number of Nodes with overlaps = 76
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 3
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.903  | TNS=0.000  | WHS=-0.377 | THS=-1.165 |
+
+Phase 4.1 Global Iteration 0 | Checksum: 107fb265e
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 4.2 Additional Iteration for Hold
+Phase 4.2 Additional Iteration for Hold | Checksum: 1e9d42291
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 0.000
+Phase 4 Rip-up And Reroute | Checksum: 1e9d42291
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 130d3b926
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.903  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+
+Phase 5.1.2 Update Timing
+Phase 5.1.2 Update Timing | Checksum: 1436ba6b5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.903  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+Phase 5.1 Delay CleanUp | Checksum: 1436ba6b5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 1436ba6b5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 0.000
+Phase 5 Delay and Skew Optimization | Checksum: 1436ba6b5
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:18 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 1bdbc846b
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=5.903  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 1991117dc
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 0.000
+Phase 6 Post Hold Fix | Checksum: 1991117dc
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.273979 %
+  Global Horizontal Routing Utilization  = 0.287587 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 1b35bdb01
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 1b35bdb01
+
+Time (s): cpu = 00:00:25 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 1b35bdb01
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 10 Resolve XTalk
+Phase 10 Resolve XTalk | Checksum: 1b35bdb01
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=5.903  | TNS=0.000  | WHS=0.021  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 1b35bdb01
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:19 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:26 ; elapsed = 00:00:20 . Memory (MB): peak = 3956.602 ; gain = 0.000
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+157 Infos, 28 Warnings, 2 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:21 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.507 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1/Signal_Souce_Control_BD_wrapper_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Signal_Souce_Control_BD_wrapper_drc_routed.rpt -pb Signal_Souce_Control_BD_wrapper_drc_routed.pb -rpx Signal_Souce_Control_BD_wrapper_drc_routed.rpx
+Command: report_drc -file Signal_Souce_Control_BD_wrapper_drc_routed.rpt -pb Signal_Souce_Control_BD_wrapper_drc_routed.pb -rpx Signal_Souce_Control_BD_wrapper_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1/Signal_Souce_Control_BD_wrapper_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpt -pb Signal_Souce_Control_BD_wrapper_methodology_drc_routed.pb -rpx Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpx
+Command: report_methodology -file Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpt -pb Signal_Souce_Control_BD_wrapper_methodology_drc_routed.pb -rpx Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Vivado_Tcl 2-1520] The results of Report Methodology are in file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/impl_1/Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file Signal_Souce_Control_BD_wrapper_power_routed.rpt -pb Signal_Souce_Control_BD_wrapper_power_summary_routed.pb -rpx Signal_Souce_Control_BD_wrapper_power_routed.rpx
+Command: report_power -file Signal_Souce_Control_BD_wrapper_power_routed.rpt -pb Signal_Souce_Control_BD_wrapper_power_summary_routed.pb -rpx Signal_Souce_Control_BD_wrapper_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+169 Infos, 29 Warnings, 2 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_route_status -file Signal_Souce_Control_BD_wrapper_route_status.rpt -pb Signal_Souce_Control_BD_wrapper_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -report_unconstrained -file Signal_Souce_Control_BD_wrapper_timing_summary_routed.rpt -pb Signal_Souce_Control_BD_wrapper_timing_summary_routed.pb -rpx Signal_Souce_Control_BD_wrapper_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file Signal_Souce_Control_BD_wrapper_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file Signal_Souce_Control_BD_wrapper_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file Signal_Souce_Control_BD_wrapper_bus_skew_routed.rpt -pb Signal_Souce_Control_BD_wrapper_bus_skew_routed.pb -rpx Signal_Souce_Control_BD_wrapper_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
 INFO: [Memdata 28-167] Found XPM memory block Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.TX_FIFO_II/xpm_fifo_instance.xpm_fifo_async_inst/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
 INFO: [Memdata 28-167] Found XPM memory block Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst with a P_MEMORY_PRIMITIVE property set to auto. A value of block is required. You will not be able to use the updatemem program to update the bitstream with new data for the Signal_Souce_Control_BD_i/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/FIFO_EXISTS.RX_FIFO_II/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst block.
 Command: write_bitstream -force Signal_Souce_Control_BD_wrapper.bit -bin_file
 Attempting to get a license for feature 'Implementation' and/or device 'xcku5p'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcku5p'
 Running DRC as a precondition to command write_bitstream
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
 INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Vivado 12-3199] DRC finished with 0 Errors
 INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Generating merged BMM file for the design top 'Signal_Souce_Control_BD_wrapper'...
 INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf 
 INFO: [Designutils 20-2272] Running write_bitstream with 2 threads.
 Loading data files...
@@ -66,13 +904,13 @@ Loading route data...
 Processing options...
 Creating bitmap...
 Creating bitstream...
-Bitstream compression saved 86104288 bits.
+Bitstream compression saved 84839136 bits.
 Writing bitstream ./Signal_Souce_Control_BD_wrapper.bit...
 Writing bitstream ./Signal_Souce_Control_BD_wrapper.bin...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
 INFO: [Project 1-1876] WebTalk data collection is mandatory when using a ULT device. To see the specific WebTalk data collected for your design, open the usage_statistics_webtalk.html or usage_statistics_webtalk.xml file in the implementation directory.
 INFO: [Common 17-83] Releasing license: Implementation
-25 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+15 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:30 ; elapsed = 00:00:28 . Memory (MB): peak = 2821.121 ; gain = 379.902
-INFO: [Common 17-206] Exiting Vivado at Thu May 18 16:37:29 2023...
+write_bitstream: Time (s): cpu = 00:00:28 ; elapsed = 00:00:26 . Memory (MB): peak = 3956.602 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May 18 16:49:00 2023...

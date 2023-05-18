@@ -39,7 +39,6 @@
         "m06_couplers": {}
       },
       "axi_gpio_1": "",
-      "axi_gpio_2": "",
       "DDS2": "",
       "SignalSouce1": ""
     },
@@ -1399,17 +1398,6 @@
           }
         }
       },
-      "axi_gpio_2": {
-        "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "xci_name": "Signal_Souce_Control_BD_axi_gpio_2_0",
-        "xci_path": "ip\\Signal_Souce_Control_BD_axi_gpio_2_0\\Signal_Souce_Control_BD_axi_gpio_2_0.xci",
-        "inst_hier_path": "axi_gpio_2",
-        "parameters": {
-          "C_GPIO_WIDTH": {
-            "value": "1"
-          }
-        }
-      },
       "DDS2": {
         "vlnv": "xilinx.com:ip:xlslice:1.0",
         "xci_name": "Signal_Souce_Control_BD_xlslice_0_0",
@@ -1518,12 +1506,6 @@
           "axi_gpio_1/S_AXI"
         ]
       },
-      "microblaze_0_axi_periph_M05_AXI": {
-        "interface_ports": [
-          "microblaze_0_axi_periph/M05_AXI",
-          "axi_gpio_2/S_AXI"
-        ]
-      },
       "microblaze_0_debug": {
         "interface_ports": [
           "mdm_1/MBDEBUG_0",
@@ -1559,12 +1541,7 @@
       "axi_gpio_0_gpio_io_o": {
         "ports": [
           "axi_gpio_0/gpio_io_o",
-          "DDS1_TXEN_0"
-        ]
-      },
-      "axi_gpio_2_gpio_io_o": {
-        "ports": [
-          "axi_gpio_2/gpio_io_o",
+          "DDS1_TXEN_0",
           "DDS2_TXEN_0"
         ]
       },
@@ -1639,7 +1616,6 @@
           "axi_quad_spi_0/ext_spi_clk",
           "axi_gpio_1/s_axi_aclk",
           "microblaze_0_axi_periph/M04_ACLK",
-          "axi_gpio_2/s_axi_aclk",
           "microblaze_0_axi_periph/M05_ACLK",
           "microblaze_0_axi_periph/M06_ACLK"
         ]
@@ -1678,7 +1654,6 @@
           "microblaze_0_axi_periph/M03_ARESETN",
           "axi_gpio_1/s_axi_aresetn",
           "microblaze_0_axi_periph/M04_ARESETN",
-          "axi_gpio_2/s_axi_aresetn",
           "microblaze_0_axi_periph/M05_ARESETN",
           "microblaze_0_axi_periph/M06_ARESETN"
         ]
@@ -1703,11 +1678,6 @@
               "SEG_axi_gpio_1_Reg": {
                 "address_block": "/axi_gpio_1/S_AXI/Reg",
                 "offset": "0x40010000",
-                "range": "64K"
-              },
-              "SEG_axi_gpio_2_Reg": {
-                "address_block": "/axi_gpio_2/S_AXI/Reg",
-                "offset": "0x40020000",
                 "range": "64K"
               },
               "SEG_axi_intc_0_Reg": {

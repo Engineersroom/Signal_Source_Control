@@ -1,7 +1,7 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.695935",
-   "Default View_TopLeft":"-918,0",
+   "Default View_ScaleFactor":"1.13055",
+   "Default View_TopLeft":"602,297",
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
@@ -33,13 +33,11 @@ preplace inst clk_wiz_1 -pg 1 -lvl 1 -x 130 -y 1090 -defaultsOSRD
 preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 2 -x 440 -y 960 -defaultsOSRD
 preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -x 1580 -y 610 -defaultsOSRD
 preplace inst axi_gpio_1 -pg 1 -lvl 6 -x 1930 -y 810 -defaultsOSRD
-preplace inst axi_gpio_2 -pg 1 -lvl 6 -x 1930 -y 670 -defaultsOSRD
 preplace inst DDS2 -pg 1 -lvl 6 -x 1930 -y 60 -defaultsOSRD
 preplace inst SignalSouce1 -pg 1 -lvl 6 -x 1930 -y 160 -defaultsOSRD
 preplace netloc DDS2_Dout 1 6 1 NJ 60
 preplace netloc SignalSouce1_Dout 1 6 1 NJ 160
-preplace netloc axi_gpio_0_gpio_io_o 1 6 1 NJ 540
-preplace netloc axi_gpio_2_gpio_io_o 1 6 1 NJ 680
+preplace netloc axi_gpio_0_gpio_io_o 1 6 1 2080J 540n
 preplace netloc axi_quad_spi_0_io0_o 1 6 1 2090 310n
 preplace netloc axi_quad_spi_0_ip2intc_irpt 1 1 6 260 350 NJ 350 NJ 350 NJ 350 1780J 450 2070
 preplace netloc axi_quad_spi_0_sck_o 1 6 1 2090 350n
@@ -61,11 +59,10 @@ preplace netloc axi_uartlite_0_UART 1 6 1 NJ 940
 preplace netloc default_sysclk1_300_1 1 0 1 NJ 1080
 preplace netloc microblaze_0_M_AXI_DP 1 4 1 1410 430n
 preplace netloc microblaze_0_axi_periph_M00_AXI 1 5 1 1730 510n
-preplace netloc microblaze_0_axi_periph_M01_AXI 1 2 4 650 850 NJ 850 NJ 850 1730
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 2 4 650 860 NJ 860 NJ 860 1730
 preplace netloc microblaze_0_axi_periph_M02_AXI 1 5 1 1770 310n
 preplace netloc microblaze_0_axi_periph_M03_AXI 1 5 1 1750 610n
 preplace netloc microblaze_0_axi_periph_M04_AXI 1 5 1 1740 630n
-preplace netloc microblaze_0_axi_periph_M05_AXI 1 5 1 N 650
 preplace netloc microblaze_0_debug 1 3 1 900 920n
 preplace netloc microblaze_0_dlmb_1 1 4 1 N 930
 preplace netloc microblaze_0_ilmb_1 1 4 1 N 950

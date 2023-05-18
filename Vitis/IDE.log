@@ -9942,3 +9942,805 @@ con
 09:21:30 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
 09:21:30 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
 17:10:14 INFO  : Disconnected from the channel tcfchan#2.
+17:13:56 DEBUG : Logs will be stored at 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/IDE.log'.
+17:13:57 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\temp_xsdb_launch_script.tcl
+17:13:59 INFO  : Registering command handlers for Vitis TCF services
+17:14:00 INFO  : Platform repository initialization has completed.
+17:14:00 INFO  : XSCT server has started successfully.
+17:14:02 INFO  : Successfully done setting XSCT server connection channel  
+17:14:02 INFO  : plnx-install-location is set to ''
+17:14:02 INFO  : Successfully done query RDI_DATADIR 
+17:14:02 INFO  : Successfully done setting workspace for the tool. 
+17:14:42 INFO  : Result from executing command 'removePlatformRepo': 
+17:14:51 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+17:14:58 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+17:14:58 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:14:59 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+17:15:49 INFO  : Hardware specification for platform project 'Signal_Souce_Control_BD_wrapper' is updated.
+17:15:57 INFO  : Result from executing command 'removePlatformRepo': 
+17:16:06 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+17:16:06 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+17:16:06 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+17:16:12 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+09:43:13 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+09:43:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:43:19 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+09:43:19 INFO  : 'jtag frequency' command is executed.
+09:43:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+09:43:28 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+09:43:28 INFO  : Context for processor 'microblaze_0' is selected.
+09:43:28 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+09:43:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:43:28 INFO  : Context for processor 'microblaze_0' is selected.
+09:43:28 INFO  : System reset is completed.
+09:43:31 INFO  : 'after 3000' command is executed.
+09:43:31 INFO  : Context for processor 'microblaze_0' is selected.
+09:43:31 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+09:43:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+09:43:31 INFO  : Context for processor 'microblaze_0' is selected.
+09:43:31 INFO  : 'con' command is executed.
+09:43:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:43:31 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+09:51:32 INFO  : Result from executing command 'removePlatformRepo': 
+09:51:45 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+09:51:45 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+09:51:46 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+09:51:52 INFO  : Disconnected from the channel tcfchan#6.
+09:51:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:51:54 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+09:51:54 INFO  : 'jtag frequency' command is executed.
+09:51:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+09:52:02 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+09:52:02 INFO  : Context for processor 'microblaze_0' is selected.
+09:52:02 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+09:52:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:52:02 INFO  : Context for processor 'microblaze_0' is selected.
+09:52:02 INFO  : System reset is completed.
+09:52:05 INFO  : 'after 3000' command is executed.
+09:52:05 INFO  : Context for processor 'microblaze_0' is selected.
+09:52:06 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+09:52:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+09:52:06 INFO  : Context for processor 'microblaze_0' is selected.
+09:52:06 INFO  : 'con' command is executed.
+09:52:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:52:06 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+09:55:35 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+09:57:49 INFO  : Disconnected from the channel tcfchan#9.
+09:57:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+09:57:51 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+09:57:51 INFO  : 'jtag frequency' command is executed.
+09:57:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+09:57:59 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+09:57:59 INFO  : Context for processor 'microblaze_0' is selected.
+09:57:59 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+09:57:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+09:58:00 INFO  : Context for processor 'microblaze_0' is selected.
+09:58:00 INFO  : System reset is completed.
+09:58:03 INFO  : 'after 3000' command is executed.
+09:58:03 INFO  : Context for processor 'microblaze_0' is selected.
+09:58:03 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+09:58:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+09:58:03 INFO  : Context for processor 'microblaze_0' is selected.
+09:58:03 INFO  : 'con' command is executed.
+09:58:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+09:58:03 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+09:58:21 INFO  : Result from executing command 'removePlatformRepo': 
+09:59:03 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+09:59:11 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+09:59:11 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+09:59:12 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+09:59:44 INFO  : Result from executing command 'removePlatformRepo': 
+09:59:51 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+09:59:51 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+09:59:51 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+10:05:30 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+10:06:00 INFO  : Disconnected from the channel tcfchan#10.
+10:06:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:06:01 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+10:06:01 INFO  : 'jtag frequency' command is executed.
+10:06:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+10:06:10 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+10:06:10 INFO  : Context for processor 'microblaze_0' is selected.
+10:06:10 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+10:06:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:06:10 INFO  : Context for processor 'microblaze_0' is selected.
+10:06:10 INFO  : System reset is completed.
+10:06:13 INFO  : 'after 3000' command is executed.
+10:06:13 INFO  : Context for processor 'microblaze_0' is selected.
+10:06:13 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+10:06:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+10:06:13 INFO  : Context for processor 'microblaze_0' is selected.
+10:06:13 INFO  : 'con' command is executed.
+10:06:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:06:13 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+10:27:18 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+10:27:23 INFO  : Result from executing command 'removePlatformRepo': 
+10:28:24 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+10:28:29 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+10:28:29 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:28:30 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+10:29:50 INFO  : Result from executing command 'removePlatformRepo': 
+10:30:01 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+10:30:01 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:30:01 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+10:38:34 INFO  : Result from executing command 'removePlatformRepo': 
+10:38:40 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+10:38:40 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:38:41 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+10:39:53 INFO  : Disconnected from the channel tcfchan#16.
+10:39:54 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:40:00 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+10:40:00 INFO  : 'jtag frequency' command is executed.
+10:40:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+10:40:09 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+10:40:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:40:09 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+10:40:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:40:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:40:09 INFO  : System reset is completed.
+10:40:12 INFO  : 'after 3000' command is executed.
+10:40:12 INFO  : Context for processor 'microblaze_0' is selected.
+10:40:12 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+10:40:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+10:40:12 INFO  : Context for processor 'microblaze_0' is selected.
+10:40:12 INFO  : 'con' command is executed.
+10:40:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:40:12 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+10:45:41 INFO  : Disconnected from the channel tcfchan#24.
+10:45:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:45:42 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+10:45:42 INFO  : 'jtag frequency' command is executed.
+10:45:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+10:45:51 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+10:45:51 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:51 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+10:45:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:45:51 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:51 INFO  : System reset is completed.
+10:45:54 INFO  : 'after 3000' command is executed.
+10:45:54 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:54 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+10:45:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+10:45:54 INFO  : Context for processor 'microblaze_0' is selected.
+10:45:54 INFO  : 'con' command is executed.
+10:45:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:45:54 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+10:57:32 INFO  : Result from executing command 'removePlatformRepo': 
+10:57:35 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+10:57:40 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+10:57:40 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+10:57:40 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+10:57:42 INFO  : Disconnected from the channel tcfchan#25.
+10:57:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:57:43 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+10:57:43 INFO  : 'jtag frequency' command is executed.
+10:57:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+10:57:52 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+10:57:52 INFO  : Context for processor 'microblaze_0' is selected.
+10:57:52 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+10:57:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:57:52 INFO  : Context for processor 'microblaze_0' is selected.
+10:57:52 INFO  : System reset is completed.
+10:57:55 INFO  : 'after 3000' command is executed.
+10:57:55 INFO  : Context for processor 'microblaze_0' is selected.
+10:57:55 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+10:57:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+10:57:55 INFO  : Context for processor 'microblaze_0' is selected.
+10:57:55 INFO  : 'con' command is executed.
+10:57:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:57:55 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+11:06:49 INFO  : Disconnected from the channel tcfchan#29.
+11:06:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:06:50 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+11:06:50 INFO  : 'jtag frequency' command is executed.
+11:06:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+11:06:59 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+11:06:59 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:59 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+11:06:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:06:59 INFO  : Context for processor 'microblaze_0' is selected.
+11:06:59 INFO  : System reset is completed.
+11:07:02 INFO  : 'after 3000' command is executed.
+11:07:02 INFO  : Context for processor 'microblaze_0' is selected.
+11:07:02 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+11:07:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+11:07:02 INFO  : Context for processor 'microblaze_0' is selected.
+11:07:02 INFO  : 'con' command is executed.
+11:07:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:07:02 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+11:07:50 INFO  : Disconnected from the channel tcfchan#30.
+11:07:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:07:51 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+11:07:51 INFO  : 'jtag frequency' command is executed.
+11:07:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+11:08:00 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+11:08:00 INFO  : Context for processor 'microblaze_0' is selected.
+11:08:00 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+11:08:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:08:00 INFO  : Context for processor 'microblaze_0' is selected.
+11:08:00 INFO  : System reset is completed.
+11:08:03 INFO  : 'after 3000' command is executed.
+11:08:03 INFO  : Context for processor 'microblaze_0' is selected.
+11:08:03 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+11:08:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+11:08:03 INFO  : Context for processor 'microblaze_0' is selected.
+11:08:03 INFO  : 'con' command is executed.
+11:08:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:08:03 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+11:08:15 INFO  : Result from executing command 'removePlatformRepo': 
+11:08:20 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+11:08:20 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:08:20 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+11:08:26 INFO  : Result from executing command 'removePlatformRepo': 
+11:08:31 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+11:08:31 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+11:08:32 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+12:19:18 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+12:19:22 INFO  : Disconnected from the channel tcfchan#31.
+12:19:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:19:29 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+12:19:29 INFO  : 'jtag frequency' command is executed.
+12:19:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+12:19:38 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+12:19:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:19:38 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+12:19:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:19:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:19:38 INFO  : System reset is completed.
+12:19:41 INFO  : 'after 3000' command is executed.
+12:19:41 INFO  : Context for processor 'microblaze_0' is selected.
+12:19:41 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+12:19:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+12:19:41 INFO  : Context for processor 'microblaze_0' is selected.
+12:19:41 INFO  : 'con' command is executed.
+12:19:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:19:41 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+12:19:55 INFO  : Result from executing command 'removePlatformRepo': 
+12:19:57 INFO  : Disconnected from the channel tcfchan#36.
+12:27:05 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+12:27:05 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+12:27:05 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+12:27:08 INFO  : Result from executing command 'removePlatformRepo': 
+12:27:14 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+12:27:14 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+12:27:14 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+12:27:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:27:18 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+12:27:18 INFO  : 'jtag frequency' command is executed.
+12:27:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+12:27:27 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+12:27:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:27:27 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+12:27:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:27:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:27:27 INFO  : System reset is completed.
+12:27:30 INFO  : 'after 3000' command is executed.
+12:27:30 INFO  : Context for processor 'microblaze_0' is selected.
+12:27:30 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+12:27:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+12:27:30 INFO  : Context for processor 'microblaze_0' is selected.
+12:27:30 INFO  : 'con' command is executed.
+12:27:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:27:30 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+12:30:42 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+12:30:45 INFO  : Disconnected from the channel tcfchan#41.
+12:30:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:30:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:30:55 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:31:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:31:19 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+12:31:19 INFO  : 'jtag frequency' command is executed.
+12:31:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+12:31:27 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+12:31:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:31:27 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+12:31:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:31:27 INFO  : Context for processor 'microblaze_0' is selected.
+12:31:27 INFO  : System reset is completed.
+12:31:30 INFO  : 'after 3000' command is executed.
+12:31:30 INFO  : Context for processor 'microblaze_0' is selected.
+12:31:31 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+12:31:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+12:31:31 INFO  : Context for processor 'microblaze_0' is selected.
+12:31:31 INFO  : 'con' command is executed.
+12:31:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:31:31 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+12:39:15 INFO  : Disconnected from the channel tcfchan#42.
+12:39:16 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:39:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+12:39:25 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:39:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:39:28 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+12:39:28 INFO  : 'jtag frequency' command is executed.
+12:39:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+12:39:37 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+12:39:37 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:37 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+12:39:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:39:37 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:37 INFO  : System reset is completed.
+12:39:40 INFO  : 'after 3000' command is executed.
+12:39:40 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:41 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+12:39:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+12:39:41 INFO  : Context for processor 'microblaze_0' is selected.
+12:39:41 INFO  : 'con' command is executed.
+12:39:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:39:41 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+12:49:11 INFO  : Disconnected from the channel tcfchan#43.
+12:49:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:49:12 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+12:49:12 INFO  : 'jtag frequency' command is executed.
+12:49:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+12:49:21 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+12:49:21 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:21 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+12:49:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:49:21 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:21 INFO  : System reset is completed.
+12:49:24 INFO  : 'after 3000' command is executed.
+12:49:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:24 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+12:49:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+12:49:24 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:25 INFO  : 'con' command is executed.
+12:49:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:49:25 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+12:50:07 INFO  : Result from executing command 'removePlatformRepo': 
+12:50:17 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+12:50:17 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+12:50:18 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+12:50:48 INFO  : Bit file 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/download.bit' is generated.
+12:50:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:50:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+12:50:56 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/download.bit"
+12:52:26 INFO  : Result from executing command 'removePlatformRepo': 
+12:52:31 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+12:52:40 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+12:52:40 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+12:52:40 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+12:52:47 INFO  : Disconnected from the channel tcfchan#44.
+12:52:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:52:48 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+12:52:48 INFO  : 'jtag frequency' command is executed.
+12:52:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+12:52:57 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+12:52:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:57 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+12:52:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:52:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:52:57 INFO  : System reset is completed.
+12:53:00 INFO  : 'after 3000' command is executed.
+12:53:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:00 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+12:53:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+12:53:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:53:00 INFO  : 'con' command is executed.
+12:53:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:53:00 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+12:57:28 INFO  : Disconnected from the channel tcfchan#50.
+12:57:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:57:29 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE6122' is selected.
+12:57:29 INFO  : 'jtag frequency' command is executed.
+12:57:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}' command is executed.
+12:57:38 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+12:57:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:38 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+12:57:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:57:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:38 INFO  : System reset is completed.
+12:57:41 INFO  : 'after 3000' command is executed.
+12:57:41 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:41 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+12:57:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE6122" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE6122-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+12:57:41 INFO  : Context for processor 'microblaze_0' is selected.
+12:57:41 INFO  : 'con' command is executed.
+12:57:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:57:41 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+15:14:08 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+15:14:10 INFO  : Disconnected from the channel tcfchan#51.
+15:14:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:14:11 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE5C92' is selected.
+15:14:11 INFO  : 'jtag frequency' command is executed.
+15:14:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE5C92" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE5C92-04a62093-0"}' command is executed.
+15:14:20 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+15:14:20 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:20 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+15:14:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:14:20 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:20 INFO  : System reset is completed.
+15:14:23 INFO  : 'after 3000' command is executed.
+15:14:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:23 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+15:14:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE5C92" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE5C92-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+15:14:23 INFO  : Context for processor 'microblaze_0' is selected.
+15:14:23 INFO  : 'con' command is executed.
+15:14:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:14:23 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+15:15:05 INFO  : Disconnected from the channel tcfchan#52.
+15:15:06 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:06 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE5C92' is selected.
+15:15:06 INFO  : 'jtag frequency' command is executed.
+15:15:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE5C92" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE5C92-04a62093-0"}' command is executed.
+15:15:15 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+15:15:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:15 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+15:15:15 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:15:15 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:15 INFO  : System reset is completed.
+15:15:18 INFO  : 'after 3000' command is executed.
+15:15:18 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:18 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+15:15:18 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE5C92" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE5C92-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+15:15:18 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:18 INFO  : 'con' command is executed.
+15:15:18 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:15:18 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+16:17:28 INFO  : Disconnected from the channel tcfchan#53.
+16:17:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:17:30 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308AE5C92' is selected.
+16:17:30 INFO  : 'jtag frequency' command is executed.
+16:17:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE5C92" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE5C92-04a62093-0"}' command is executed.
+16:17:38 INFO  : Device configured successfully with "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit"
+16:17:38 INFO  : Context for processor 'microblaze_0' is selected.
+16:17:38 INFO  : Hardware design and registers information is loaded from 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa'.
+16:17:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:17:38 INFO  : Context for processor 'microblaze_0' is selected.
+16:17:39 INFO  : System reset is completed.
+16:17:42 INFO  : 'after 3000' command is executed.
+16:17:42 INFO  : Context for processor 'microblaze_0' is selected.
+16:17:42 INFO  : The application 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf' is downloaded to processor 'microblaze_0'.
+16:17:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308AE5C92" && level==0 && jtag_device_ctx=="jsn-JTAG-SMT2NC-210308AE5C92-04a62093-0"}
+fpga -file D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/_ide/bitstream/Signal_Souce_Control_BD_wrapper.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf
+----------------End of Script----------------
+
+16:17:42 INFO  : Context for processor 'microblaze_0' is selected.
+16:17:42 INFO  : 'con' command is executed.
+16:17:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:17:42 INFO  : Launch script is exported to file 'D:\DMTS\MOLIT_Shoe_Schaner\Development\FPGA\Signal_Source_Control\Vitis\Signal_Source_Control_App_system\_ide\scripts\debugger_signal_source_control_app-default.tcl'
+16:35:12 INFO  : Result from executing command 'removePlatformRepo': 
+16:35:19 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+16:35:19 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:35:19 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
+16:35:23 INFO  : Result from executing command 'removePlatformRepo': 
+16:35:28 INFO  : Result from executing command 'getProjects': Signal_Souce_Control_BD_wrapper
+16:35:28 INFO  : Result from executing command 'getPlatforms': xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:35:29 INFO  : Checking for BSP changes to sync application flags for project 'Signal_Source_Control_App'...
