@@ -71,7 +71,7 @@ int main()
     // XGpio_DiscreteWrite(&GpioTxEn, 1, 0x0);
 
     // SET_FTH1_1GHZ(&Spi);
-    //SET_DUAL_FTH1_FREQ(&Spi, 1);
+    // SET_DUAL_FTH1_FREQ(&Spi, 1);
     // unsigned char recv = 0;
     while (1)
     {
@@ -87,7 +87,7 @@ int main()
         }
         else
         {
-            //XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
+            // XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
             ///////////////////Use Mode //////////////////
             // xil_printf("Test Mode \r\n");
             // if (RecvBuffer[0] == 'A') // 0xF8) // 248
@@ -147,6 +147,16 @@ int main()
                 Init_ADAR2001_Func(&Spi);
                 SET_ADAR2001(&Spi);
                 SET_DUAL_FTH1_FREQ(&Spi, 1);
+            }
+            else if (RecvBuffer[0] == 210) // 0xFB) // 254
+            {
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b11110000);
+                DDS_POWER_OFF(&Spi);
+            }
+            else if (RecvBuffer[0] == 211) // 0xFB) // 254
+            {
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b01010101);
+                DDS_POWER_ON(&Spi);
             }
             else
             {

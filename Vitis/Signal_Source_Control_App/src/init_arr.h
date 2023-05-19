@@ -6,6 +6,8 @@ extern char Init_ADF4355[60];     // 3����
 extern char Init_AD9164[228];     // 2�� �ְ� 1��
 extern char FTH1_Base_Setting[21];
 
+extern char POWER_ON_REGSTER[3];
+extern char POWER_OFF_REGSTER[3];
 extern char FTH_SEL_REGSTER[3];
 extern char FTH1_REGSTER1[3];
 extern char FTH1_REGSTER2[3];

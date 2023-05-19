@@ -21228,3 +21228,543 @@ TRACE::2023-05-18.16:35:29::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_S
 TRACE::2023-05-18.16:35:29::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2023-05-18.16:35:29::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:51:48::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-19.16:51:48::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-19.16:51:48::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-19.16:51:49::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-19.16:51:49::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-19.16:51:49::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-05-19.16:51:49::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s clean 
+
+TRACE::2023-05-19.16:51:49::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-19.16:51:49::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-05-19.16:51:49::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2023-05-19.16:51:55::SCWPlatform::Started generating the artifacts platform Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-19.16:51:55::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-19.16:51:55::SCWPlatform::Started generating the artifacts for system configuration Signal_Souce_Control_BD_wrapper
+LOG::2023-05-19.16:51:55::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-19.16:51:55::SCWSystem::Not a boot domain 
+LOG::2023-05-19.16:51:55::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-19.16:51:55::SCWDomain::Generating domain artifcats
+TRACE::2023-05-19.16:51:55::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-19.16:51:55::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-19.16:51:55::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:55::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:55::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:55::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-19.16:51:55::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:55::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-19.16:51:55::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:51:55::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:51:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-19.16:51:55::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:51:55::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-19.16:51:55::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:51:55::SCWMssOS::Completed writing the mss file at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-19.16:51:55::SCWMssOS::Mss edits present, copying mssfile into export location D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:51:55::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-19.16:51:55::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-19.16:51:55::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-05-19.16:51:55::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-19.16:51:55::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-19.16:51:55::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-19.16:51:55::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-19.16:51:55::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-05-19.16:51:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-19.16:51:55::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-19.16:51:55::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-19.16:51:55::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-19.16:51:55::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-19.16:51:55::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-19.16:51:55::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:55::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-19.16:51:56::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-19.16:51:56::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-19.16:51:56::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-19.16:51:56::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_9/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2023-05-19.16:51:56::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2023-05-19.16:51:56::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-19.16:51:56::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-19.16:51:56::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-05-19.16:51:56::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-05-19.16:51:56::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-19.16:51:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-19.16:51:56::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-19.16:51:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-19.16:51:56::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-19.16:51:56::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-19.16:51:56::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-05-19.16:51:56::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-05-19.16:51:56::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_9/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2023-05-19.16:51:56::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2023-05-19.16:51:56::SCWMssOS::tra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-19.16:51:56::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-19.16:51:56::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-19.16:51:56::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-19.16:51:56::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-19.16:51:56::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:51:57::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-19.16:51:57::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-19.16:51:57::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-19.16:51:57::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-19.16:51:57::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-19.16:51:57::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-19.16:51:57::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-19.16:51:57::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-19.16:51:57::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-19.16:51:57::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-19.16:51:57::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-19.16:51:57::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-19.16:51:57::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-19.16:51:57::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-19.16:51:57::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-19.16:51:57::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-19.16:51:57::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-19.16:51:57::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-19.16:51:57::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-19.16:51:57::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-19.16:51:57::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2023-05-19.16:51:57::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2023-05-19.16:51:57::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2023-05-19.16:51:57::SCWMssOS::e_0/lib/xspi.o microblaze_0/lib/xspi_g.o microblaze_0/lib/xspi_options.o microblaze_0/lib/xspi_selftest.o microblaze_0/lib/xspi
+TRACE::2023-05-19.16:51:57::SCWMssOS::_sinit.o microblaze_0/lib/xspi_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_i
+TRACE::2023-05-19.16:51:57::SCWMssOS::ntr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/
+TRACE::2023-05-19.16:51:57::SCWMssOS::xuartlite_stats.o
+
+TRACE::2023-05-19.16:51:57::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-19.16:51:58::SCWMssOS::Copying to export directory.
+TRACE::2023-05-19.16:51:58::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-19.16:51:58::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-19.16:51:58::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-19.16:51:58::SCWSystem::Completed Processing the sysconfig Signal_Souce_Control_BD_wrapper
+LOG::2023-05-19.16:51:58::SCWPlatform::Completed generating the artifacts for system configuration Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-19.16:51:58::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-19.16:51:58::SCWSystem::Writing the bif file for system config Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-19.16:51:58::SCWSystem::dir created 
+TRACE::2023-05-19.16:51:58::SCWSystem::Writing the bif 
+TRACE::2023-05-19.16:51:58::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-19.16:51:58::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-19.16:51:58::SCWPlatform::Completed generating the platform
+TRACE::2023-05-19.16:51:58::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:51:58::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-19.16:51:58::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-19.16:51:58::SCWMssOS::Commit changes completed.
+TRACE::2023-05-19.16:51:58::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:58::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:58::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:58::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-19.16:51:58::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:58::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-19.16:51:58::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:51:58::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:51:58::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-19.16:51:58::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:51:58::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-19.16:51:58::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:51:58::SCWWriter::formatted JSON is {
+	"platformName":	"Signal_Souce_Control_BD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Signal_Souce_Control_BD_wrapper",
+	"platHandOff":	"D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Signal_Souce_Control_BD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Signal_Souce_Control_BD_wrapper",
+	"systems":	[{
+			"systemName":	"Signal_Souce_Control_BD_wrapper",
+			"systemDesc":	"Signal_Souce_Control_BD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Signal_Souce_Control_BD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"d0c49c0a2c30ca02982893b00cce4e65",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-19.16:51:58::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-19.16:51:59::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:59::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:59::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:59::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-19.16:51:59::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:51:59::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-19.16:51:59::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:51:59::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:51:59::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-19.16:51:59::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:51:59::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-19.16:51:59::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:52:34::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-19.16:52:34::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-19.16:52:34::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-19.16:52:34::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-19.16:52:34::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-19.16:52:34::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-05-19.16:52:34::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s clean 
+
+TRACE::2023-05-19.16:52:34::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-19.16:52:35::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-05-19.16:52:35::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+LOG::2023-05-19.16:53:11::SCWPlatform::Started generating the artifacts platform Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-19.16:53:11::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-19.16:53:11::SCWPlatform::Started generating the artifacts for system configuration Signal_Souce_Control_BD_wrapper
+LOG::2023-05-19.16:53:11::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-19.16:53:11::SCWSystem::Not a boot domain 
+LOG::2023-05-19.16:53:11::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-19.16:53:11::SCWDomain::Generating domain artifcats
+TRACE::2023-05-19.16:53:11::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-19.16:53:11::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-19.16:53:11::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:11::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:11::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:11::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-19.16:53:11::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:11::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-19.16:53:11::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:53:11::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:53:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-19.16:53:11::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:53:11::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:53:11::SCWMssOS::Completed writing the mss file at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-19.16:53:11::SCWMssOS::Mss edits present, copying mssfile into export location D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:53:11::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2023-05-19.16:53:11::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2023-05-19.16:53:11::SCWDomain::Building the domain as part of full build :  standalone_microblaze_0
+TRACE::2023-05-19.16:53:11::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-19.16:53:11::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-19.16:53:11::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-19.16:53:11::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-19.16:53:11::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-19.16:53:11::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-19.16:53:11::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-19.16:53:11::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-19.16:53:11::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-19.16:53:11::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-19.16:53:11::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_9/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2023-05-19.16:53:11::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2023-05-19.16:53:11::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-19.16:53:11::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-19.16:53:11::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-05-19.16:53:11::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-05-19.16:53:11::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-19.16:53:11::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-19.16:53:11::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-19.16:53:11::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-19.16:53:11::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-19.16:53:11::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-19.16:53:11::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-05-19.16:53:11::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-05-19.16:53:11::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:11::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_9/src"
+
+TRACE::2023-05-19.16:53:12::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2023-05-19.16:53:12::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2023-05-19.16:53:12::SCWMssOS::tra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:12::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-19.16:53:12::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-19.16:53:12::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-19.16:53:12::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:12::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-19.16:53:12::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-19.16:53:12::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-19.16:53:12::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-19.16:53:12::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-19.16:53:13::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-19.16:53:13::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-19.16:53:13::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-19.16:53:13::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-19.16:53:13::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-19.16:53:13::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-19.16:53:13::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-19.16:53:13::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-19.16:53:13::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-19.16:53:13::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-19.16:53:13::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-19.16:53:13::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-19.16:53:13::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-19.16:53:13::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-19.16:53:13::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-19.16:53:13::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-19.16:53:13::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-19.16:53:13::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-19.16:53:13::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-19.16:53:13::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2023-05-19.16:53:13::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2023-05-19.16:53:13::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2023-05-19.16:53:13::SCWMssOS::e_0/lib/xspi.o microblaze_0/lib/xspi_g.o microblaze_0/lib/xspi_options.o microblaze_0/lib/xspi_selftest.o microblaze_0/lib/xspi
+TRACE::2023-05-19.16:53:13::SCWMssOS::_sinit.o microblaze_0/lib/xspi_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_i
+TRACE::2023-05-19.16:53:13::SCWMssOS::ntr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/
+TRACE::2023-05-19.16:53:13::SCWMssOS::xuartlite_stats.o
+
+TRACE::2023-05-19.16:53:13::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-19.16:53:13::SCWMssOS::Copying to export directory.
+TRACE::2023-05-19.16:53:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-19.16:53:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-19.16:53:14::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-19.16:53:14::SCWSystem::Completed Processing the sysconfig Signal_Souce_Control_BD_wrapper
+LOG::2023-05-19.16:53:14::SCWPlatform::Completed generating the artifacts for system configuration Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-19.16:53:14::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-19.16:53:14::SCWSystem::Writing the bif file for system config Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-19.16:53:14::SCWSystem::dir created 
+TRACE::2023-05-19.16:53:14::SCWSystem::Writing the bif 
+TRACE::2023-05-19.16:53:14::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-19.16:53:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-19.16:53:14::SCWPlatform::Completed generating the platform
+TRACE::2023-05-19.16:53:14::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:53:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-19.16:53:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-19.16:53:14::SCWMssOS::Commit changes completed.
+TRACE::2023-05-19.16:53:14::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:14::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:14::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:14::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-19.16:53:14::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:14::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-19.16:53:14::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:53:14::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:53:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-19.16:53:14::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:53:14::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-19.16:53:14::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:53:14::SCWWriter::formatted JSON is {
+	"platformName":	"Signal_Souce_Control_BD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Signal_Souce_Control_BD_wrapper",
+	"platHandOff":	"D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Signal_Souce_Control_BD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Signal_Souce_Control_BD_wrapper",
+	"systems":	[{
+			"systemName":	"Signal_Souce_Control_BD_wrapper",
+			"systemDesc":	"Signal_Souce_Control_BD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Signal_Souce_Control_BD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"d0c49c0a2c30ca02982893b00cce4e65",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-19.16:53:14::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-19.16:53:14::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:14::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:14::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:14::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-19.16:53:14::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-19.16:53:14::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-19.16:53:14::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:53:14::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_3
+TRACE::2023-05-19.16:53:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-19.16:53:14::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-19.16:53:14::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-19.16:53:14::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

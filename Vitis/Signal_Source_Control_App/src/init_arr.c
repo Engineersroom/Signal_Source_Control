@@ -5,6 +5,8 @@
 // ADF4355
 // R1 : 32'b0000_0000_0010_
 
+volatile u8 POWER_OFF_REGSTER[3] = {0x00, 0x40, 0x01};
+volatile u8 POWER_ON_REGSTER[3] = {0x00, 0x40, 0x00};
 volatile u8 FTH_SEL_REGSTER[3] = {0x08, 0x00, 0x01};
 volatile u8 FTH1_REGSTER1[3] = {0x08, 0x06, 0xAB};
 volatile u8 FTH1_REGSTER2[3] = {0x08, 0x07, 0xAA};

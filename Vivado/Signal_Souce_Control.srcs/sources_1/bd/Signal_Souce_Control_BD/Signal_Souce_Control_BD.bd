@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x9000382CD7F74C7C",
+      "boundary_crc": "0x9000382C28BFD9AC",
       "device": "xcku5p-ffvb676-2-e",
       "gen_directory": "../../../../Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD",
       "name": "Signal_Souce_Control_BD",
@@ -167,7 +167,7 @@
             "value_src": "default"
           },
           "FREQ_HZ": {
-            "value": "120000000"
+            "value": "10000000"
           },
           "FREQ_TOLERANCE_HZ": {
             "value": "0",
@@ -192,7 +192,7 @@
             "value_src": "default"
           },
           "FREQ_HZ": {
-            "value": "120000000"
+            "value": "10000000"
           },
           "FREQ_TOLERANCE_HZ": {
             "value": "0",
@@ -514,13 +514,13 @@
         "inst_hier_path": "clk_wiz_1",
         "parameters": {
           "CLKOUT2_JITTER": {
-            "value": "97.910"
+            "value": "160.570"
           },
           "CLKOUT2_PHASE_ERROR": {
             "value": "77.836"
           },
           "CLKOUT2_REQUESTED_OUT_FREQ": {
-            "value": "120.00"
+            "value": "10.00"
           },
           "CLKOUT2_USED": {
             "value": "true"
@@ -529,7 +529,7 @@
             "value": "default_sysclk1_300"
           },
           "MMCM_CLKOUT1_DIVIDE": {
-            "value": "10"
+            "value": "120"
           },
           "NUM_OUT_CLKS": {
             "value": "2"

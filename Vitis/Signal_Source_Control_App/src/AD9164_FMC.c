@@ -23,7 +23,107 @@ u8 ReadBuffer_ADAR2001[ADAR2001_BUFFER_SIZE];
 
 volatile static int TransferInProgress;
 int Error;
+int DDS_POWER_ON(XSpi *spiPtr)
+{
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_1_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
 
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, POWER_ON_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_2_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, POWER_ON_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+}
+int DDS_POWER_OFF(XSpi *spiPtr)
+{
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_1_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, POWER_OFF_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_2_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, POWER_OFF_REGSTER, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+}
 // ATN 0x13;
 int SET_ADAR2001(XSpi *spiPtr)
 {
