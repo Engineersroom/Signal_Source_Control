@@ -145,7 +145,7 @@ set_property PACKAGE_PIN AA19 [get_ports {DDS1_CS[1]}]
 set_property IOSTANDARD LVCMOS18 [get_ports {DDS1_CS[1]}]
 set_property PACKAGE_PIN AC18 [get_ports {DDS1_CS[2]}]
 set_property IOSTANDARD LVCMOS18 [get_ports {DDS1_CS[2]}]
-set_property PACKAGE_PIN AD23 [get_ports {DDS1_CS[3]}]
+set_property PACKAGE_PIN AC22 [get_ports {DDS1_CS[3]}]
 set_property IOSTANDARD LVCMOS18 [get_ports {DDS1_CS[3]}]
 
 #set_property PACKAGE_PIN AD23      [get_ports "FMC_HPC0_LA13_P"] ;# Bank  64 VCCO - VADJ_FMC - IO_L8P_T1L_N2_AD5P_64

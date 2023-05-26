@@ -10,6 +10,7 @@
     ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 
 source Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 518.066 ; gain = 84.066
 INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0
 Command: synth_design -top Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0 -part xcku5p-ffvb676-2-e -incremental_mode off -mode out_of_context
 Starting synth_design
@@ -18,12 +19,12 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku5p'
 INFO: [Device 21-403] Loading part xcku5p-ffvb676-2-e
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 21904
+INFO: [Synth 8-7075] Helper process launched with PID 82624
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1984.254 ; gain = 370.004
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1986.047 ; gain = 370.164
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/synth/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/synth/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.vhd:84]
 	Parameter C_FAMILY bound to: kintexuplus - type: string 
 	Parameter C_HIGHADDR bound to: 64'b0000000000000000000000000000000000000000000000011111111111111111 
 	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
@@ -48,8 +49,8 @@ INFO: [Synth 8-638] synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cn
 	Parameter C_BRAM_AWIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_CTRL_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter C_S_AXI_CTRL_DATA_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-3491] module 'lmb_bram_if_cntlr' declared at 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4514' bound to instance 'U0' of component 'lmb_bram_if_cntlr' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/synth/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.vhd:226]
-INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4639]
+INFO: [Synth 8-3491] module 'lmb_bram_if_cntlr' declared at 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4514' bound to instance 'U0' of component 'lmb_bram_if_cntlr' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/synth/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4639]
 	Parameter C_TARGET bound to: 8 - type: integer 
 	Parameter C_BASEADDR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_MASK bound to: 64'b0000000000000000000000000000000001000000000000000000000000000000 
@@ -62,17 +63,17 @@ INFO: [Synth 8-638] synthesizing module 'lmb_bram_if_cntlr' [d:/DMTS/MOLIT_Shoe_
 	Parameter C_ECC bound to: 0 - type: integer 
 	Parameter C_NUM_LMB bound to: 1 - type: integer 
 	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
-INFO: [Synth 8-3491] module 'lmb_mux' declared at 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3893' bound to instance 'lmb_mux_I' of component 'lmb_mux' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4908]
-INFO: [Synth 8-638] synthesizing module 'lmb_mux' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3981]
+INFO: [Synth 8-3491] module 'lmb_mux' declared at 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3893' bound to instance 'lmb_mux_I' of component 'lmb_mux' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4908]
+INFO: [Synth 8-638] synthesizing module 'lmb_mux' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3981]
 	Parameter C_AW bound to: 32 - type: integer 
 	Parameter C_BAR bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_MASK bound to: 64'b0000000000000000000000000000000001000000000000000000000000000000 
-INFO: [Synth 8-3491] module 'pselect_mask' declared at 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3476' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4052]
-INFO: [Synth 8-638] synthesizing module 'pselect_mask' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3491]
-INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3491]
-INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3981]
-INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4639]
-INFO: [Synth 8-256] done synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/synth/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.vhd:84]
+INFO: [Synth 8-3491] module 'pselect_mask' declared at 'd:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3476' bound to instance 'pselect_mask_lmb' of component 'pselect_mask' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4052]
+INFO: [Synth 8-638] synthesizing module 'pselect_mask' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3491]
+INFO: [Synth 8-256] done synthesizing module 'pselect_mask' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3491]
+INFO: [Synth 8-256] done synthesizing module 'lmb_mux' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:3981]
+INFO: [Synth 8-256] done synthesizing module 'lmb_bram_if_cntlr' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/a177/hdl/lmb_bram_if_cntlr_v4_0_vh_rfs.vhd:4639]
+INFO: [Synth 8-256] done synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/synth/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.vhd:84]
 WARNING: [Synth 8-7129] Port A[0] in module pselect_mask is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[2] in module pselect_mask is either unconnected or has no load
 WARNING: [Synth 8-7129] Port A[3] in module pselect_mask is either unconnected or has no load
@@ -175,37 +176,37 @@ WARNING: [Synth 8-7129] Port LMB1_ReadStrobe in module lmb_mux is either unconne
 WARNING: [Synth 8-7129] Port LMB1_WriteStrobe in module lmb_mux is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2082.789 ; gain = 468.539
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2084.512 ; gain = 468.629
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2082.789 ; gain = 468.539
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2084.512 ; gain = 468.629
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2082.789 ; gain = 468.539
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2084.512 ; gain = 468.629
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2082.789 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2084.512 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_ooc.xdc] for cell 'U0'
-Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2137.793 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2121.953 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2137.793 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2121.953 ; gain = 0.000
 INFO: [Designutils 20-5008] Incremental synthesis strategy off
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2137.793 ; gain = 523.543
+Finished Constraint Validation : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2121.953 ; gain = 506.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -213,17 +214,17 @@ Start Loading Part and Timing Information
 Loading part: xcku5p-ffvb676-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2137.793 ; gain = 523.543
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2121.953 ; gain = 506.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc}, line 9).
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/dont_touch.xdc, line 9).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2137.793 ; gain = 523.543
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2121.953 ; gain = 506.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2137.793 ; gain = 523.543
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 2121.953 ; gain = 506.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -248,25 +249,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 2137.793 ; gain = 523.543
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 2121.953 ; gain = 506.070
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2548.684 ; gain = 934.434
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2552.078 ; gain = 936.195
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2548.684 ; gain = 934.434
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2552.078 ; gain = 936.195
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2567.797 ; gain = 953.547
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 2571.195 ; gain = 955.312
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -284,37 +285,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2574.574 ; gain = 960.324
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 2575.949 ; gain = 960.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2574.574 ; gain = 960.324
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 2575.949 ; gain = 960.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2574.574 ; gain = 960.324
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 2575.949 ; gain = 960.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2574.574 ; gain = 960.324
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 2575.949 ; gain = 960.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2574.574 ; gain = 960.324
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 2575.949 ; gain = 960.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2574.574 ; gain = 960.324
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 2575.949 ; gain = 960.066
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -336,16 +337,16 @@ Report Cell Usage:
 |4     |FDRE |     2|
 +------+-----+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2574.574 ; gain = 960.324
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 2575.949 ; gain = 960.066
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 322 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 2574.574 ; gain = 905.320
-Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 2574.574 ; gain = 960.324
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:45 . Memory (MB): peak = 2575.949 ; gain = 922.625
+Synthesis Optimization Complete : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 2575.949 ; gain = 960.066
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2586.617 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2588.980 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2615.125 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2619.066 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -353,9 +354,9 @@ Synth Design complete, checksum: 9358f235
 INFO: [Common 17-83] Releasing license: Synthesis
 29 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 2615.125 ; gain = 2029.660
-INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.dcp' has been generated.
-INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0, cache-ID = 51d9c6f4b5e5e698
-INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.dcp' has been generated.
+synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 2619.066 ; gain = 2031.918
+INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0, cache-ID = 29540c2494e3fee0
+INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_synth_1/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_utilization_synth.rpt -pb Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri Apr 14 15:00:07 2023...
+INFO: [Common 17-206] Exiting Vivado at Fri May 26 13:16:53 2023...

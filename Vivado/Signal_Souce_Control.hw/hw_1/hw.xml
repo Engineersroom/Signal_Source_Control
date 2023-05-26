@@ -23,7 +23,7 @@
     <Object name="xcku5p_0" gui_info="">
       <Properties Property="FULL_PROBES.FILE" value=""/>
       <Properties Property="PROBES.FILE" value=""/>
-      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/$_project_name__BD_wrapper.bit"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value=""/>
       <Properties Property="PROGRAM.HW_CFGMEM_PART" value="mt25qu01g-spi-x1_x2_x4_x8"/>
       <Properties Property="SLR.COUNT" value="1"/>
     </Object>

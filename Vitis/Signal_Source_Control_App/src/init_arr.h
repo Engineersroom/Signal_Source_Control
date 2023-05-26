@@ -13,6 +13,7 @@ extern char FTH1_REGSTER1[3];
 extern char FTH1_REGSTER2[3];
 extern char FTH1_REGSTER3[3];
 extern char FTH1_REGSTER4[3];
+extern char FTH1_TEST_REGSTER1[24];
 extern char SAND_complete1[3];
 extern char SAND_complete2[3];
 extern char Global_AD9164_recv[3];

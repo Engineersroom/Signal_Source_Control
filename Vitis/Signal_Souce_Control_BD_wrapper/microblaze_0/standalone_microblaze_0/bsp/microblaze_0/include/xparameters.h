@@ -2,14 +2,14 @@
 #define XPARAMETERS_H   /* by using protection macros */
 
 /* Definitions for bus frequencies */
-#define XPAR_CPU_M_AXI_DP_FREQ_HZ 100000000
+#define XPAR_CPU_M_AXI_DP_FREQ_HZ 300000000
 /******************************************************************/
 
 /* Canonical definitions for bus frequencies */
 /******************************************************************/
 
-#define XPAR_CPU_CORE_CLOCK_FREQ_HZ 100000000
-#define XPAR_MICROBLAZE_CORE_CLOCK_FREQ_HZ 100000000
+#define XPAR_CPU_CORE_CLOCK_FREQ_HZ 300000000
+#define XPAR_MICROBLAZE_CORE_CLOCK_FREQ_HZ 300000000
 
 /******************************************************************/
 
@@ -61,7 +61,7 @@
 #define XPAR_MICROBLAZE_0_ENDIANNESS 1
 #define XPAR_MICROBLAZE_0_FAULT_TOLERANT 0
 #define XPAR_MICROBLAZE_0_FPU_EXCEPTION 0
-#define XPAR_MICROBLAZE_0_FREQ 100000000
+#define XPAR_MICROBLAZE_0_FREQ 300000000
 #define XPAR_MICROBLAZE_0_FSL_EXCEPTION 0
 #define XPAR_MICROBLAZE_0_FSL_LINKS 0
 #define XPAR_MICROBLAZE_0_IADDR_SIZE 32
@@ -288,7 +288,7 @@
 #define XPAR_MICROBLAZE_ENDIANNESS 1
 #define XPAR_MICROBLAZE_FAULT_TOLERANT 0
 #define XPAR_MICROBLAZE_FPU_EXCEPTION 0
-#define XPAR_MICROBLAZE_FREQ 100000000
+#define XPAR_MICROBLAZE_FREQ 300000000
 #define XPAR_MICROBLAZE_FSL_EXCEPTION 0
 #define XPAR_MICROBLAZE_FSL_LINKS 0
 #define XPAR_MICROBLAZE_IADDR_SIZE 32
@@ -567,7 +567,7 @@
 /******************************************************************/
 
 /* Definitions for driver GPIO */
-#define XPAR_XGPIO_NUM_INSTANCES 3
+#define XPAR_XGPIO_NUM_INSTANCES 2
 
 /* Definitions for peripheral AXI_GPIO_0 */
 #define XPAR_AXI_GPIO_0_BASEADDR 0x40000000
@@ -585,14 +585,6 @@
 #define XPAR_AXI_GPIO_1_IS_DUAL 1
 
 
-/* Definitions for peripheral AXI_GPIO_2 */
-#define XPAR_AXI_GPIO_2_BASEADDR 0x40020000
-#define XPAR_AXI_GPIO_2_HIGHADDR 0x4002FFFF
-#define XPAR_AXI_GPIO_2_DEVICE_ID 2
-#define XPAR_AXI_GPIO_2_INTERRUPT_PRESENT 0
-#define XPAR_AXI_GPIO_2_IS_DUAL 0
-
-
 /******************************************************************/
 
 /* Canonical definitions for peripheral AXI_GPIO_0 */
@@ -608,13 +600,6 @@
 #define XPAR_GPIO_1_DEVICE_ID XPAR_AXI_GPIO_1_DEVICE_ID
 #define XPAR_GPIO_1_INTERRUPT_PRESENT 0
 #define XPAR_GPIO_1_IS_DUAL 1
-
-/* Canonical definitions for peripheral AXI_GPIO_2 */
-#define XPAR_GPIO_2_BASEADDR 0x40020000
-#define XPAR_GPIO_2_HIGHADDR 0x4002FFFF
-#define XPAR_GPIO_2_DEVICE_ID XPAR_AXI_GPIO_2_DEVICE_ID
-#define XPAR_GPIO_2_INTERRUPT_PRESENT 0
-#define XPAR_GPIO_2_IS_DUAL 0
 
 
 /******************************************************************/
@@ -678,9 +663,9 @@
 #define XPAR_AXI_QUAD_SPI_0_NUM_SS_BITS 8U
 #define XPAR_AXI_QUAD_SPI_0_NUM_TRANSFER_BITS 8U
 #define XPAR_AXI_QUAD_SPI_0_SPI_MODE 0U
-#define XPAR_AXI_QUAD_SPI_0_TYPE_OF_AXI4_INTERFACE 0U
-#define XPAR_AXI_QUAD_SPI_0_AXI4_BASEADDR 0U
-#define XPAR_AXI_QUAD_SPI_0_AXI4_HIGHADDR 0U
+#define XPAR_AXI_QUAD_SPI_0_TYPE_OF_AXI4_INTERFACE 1U
+#define XPAR_AXI_QUAD_SPI_0_AXI4_BASEADDR 0x44A00000U
+#define XPAR_AXI_QUAD_SPI_0_AXI4_HIGHADDR 0x44A0FFFFU
 #define XPAR_AXI_QUAD_SPI_0_XIP_MODE 0U
 
 /* Canonical definitions for peripheral AXI_QUAD_SPI_0 */
@@ -693,9 +678,9 @@
 #define XPAR_SPI_0_NUM_SS_BITS 8U
 #define XPAR_SPI_0_NUM_TRANSFER_BITS 8U
 #define XPAR_SPI_0_SPI_MODE 0U
-#define XPAR_SPI_0_TYPE_OF_AXI4_INTERFACE 0U
-#define XPAR_SPI_0_AXI4_BASEADDR 0U
-#define XPAR_SPI_0_AXI4_HIGHADDR 0U
+#define XPAR_SPI_0_TYPE_OF_AXI4_INTERFACE 1U
+#define XPAR_SPI_0_AXI4_BASEADDR 0x44A00000U
+#define XPAR_SPI_0_AXI4_HIGHADDR 0x44A0FFFFU
 #define XPAR_SPI_0_XIP_MODE 0U
 #define XPAR_SPI_0_USE_STARTUP 0U
 

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri May 19 13:54:17 2023
+| Date         : Fri May 26 15:37:02 2023
 | Host         : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpt -pb Signal_Souce_Control_BD_wrapper_methodology_drc_routed.pb -rpx Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpx
 | Design       : Signal_Souce_Control_BD_wrapper
@@ -23,13 +23,14 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 9
+             Violations found: 39
 +-----------+----------+-------------------------------------------------------------------------------------------------------+------------+
 | Rule      | Severity | Description                                                                                           | Violations |
 +-----------+----------+-------------------------------------------------------------------------------------------------------+------------+
 | LUTAR-1   | Warning  | LUT drives async reset alert                                                                          | 1          |
 | TIMING-9  | Warning  | Unknown CDC Logic                                                                                     | 1          |
 | TIMING-10 | Warning  | Missing property on synchronizer                                                                      | 1          |
+| TIMING-18 | Warning  | Missing input or output delay                                                                         | 30         |
 | TIMING-47 | Warning  | False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks | 6          |
 +-----------+----------+-------------------------------------------------------------------------------------------------------+------------+
 
@@ -48,6 +49,156 @@ Related violations: <none>
 TIMING-10#1 Warning
 Missing property on synchronizer  
 One or more logic synchronizer has been detected between 2 clock domains but the synchronizer does not have the property ASYNC_REG defined on one or both registers. It is recommended to run report_cdc for a complete and detailed CDC coverage
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on DDS1_MISO relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An input delay is missing on dip_switches_4bits_tri_i[0] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An input delay is missing on dip_switches_4bits_tri_i[1] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An input delay is missing on dip_switches_4bits_tri_i[2] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An input delay is missing on dip_switches_4bits_tri_i[3] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An input delay is missing on reset relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An input delay is missing on rs232_uart_rxd relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on DDS1_CS[0] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on DDS1_CS[1] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on DDS1_CS[2] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on DDS1_CS[3] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on DDS1_MOSI relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on DDS1_SCK relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on DDS1_TXEN_0[0] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on DDS2_CS[0] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on DDS2_CS[1] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on DDS2_CS[2] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on DDS2_CS[3] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on DDS2_MOSI relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on DDS2_SCK relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on DDS2_TXEN_0[0] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on led_8bits_tri_o[0] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on led_8bits_tri_o[1] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on led_8bits_tri_o[2] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on led_8bits_tri_o[3] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on led_8bits_tri_o[4] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on led_8bits_tri_o[5] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on led_8bits_tri_o[6] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on led_8bits_tri_o[7] relative to clock(s) default_sysclk1_300_clk_p
+Related violations: <none>
+
+TIMING-18#30 Warning
+Missing input or output delay  
+An output delay is missing on rs232_uart_txd relative to clock(s) default_sysclk1_300_clk_p
 Related violations: <none>
 
 TIMING-47#1 Warning

@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal Source Control/Vivado/Signal_Souce_Control/Signal_Souce_Control.runs/Signal_Souce_Control_BD_microblaze_0_0_synth_1'
+HD_PWD='D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/Signal_Souce_Control_BD_microblaze_0_0_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

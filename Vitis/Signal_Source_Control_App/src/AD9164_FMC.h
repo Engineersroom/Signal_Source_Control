@@ -69,6 +69,7 @@ int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq);
 int Init_ADAR2001_Func(XSpi *spiPtr);
 int SET_ADAR2001(XSpi *spiPtr);
 
+int SET_FTH1_100MHz_Test(XSpi *spiPtr);
 
 int SET_Dual_FTH1_1GHZ(XSpi *spiPtr, XSpi *spiPtr2);
 

@@ -1,28 +1,6 @@
-17:25:56 **** Incremental Build of configuration Debug for project Signal_Source_Control_App ****
+15:43:16 **** Incremental Build of configuration Debug for project Signal_Source_Control_App ****
 make all 
-'Building file: ../src/main.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
-../src/main.c: In function 'main':
-../src/main.c:154:17: warning: implicit declaration of function 'DDS_POWER_OFF' [-Wimplicit-function-declaration]
-  154 |                 DDS_POWER_OFF(&Spi);
-      |                 ^~~~~~~~~~~~~
-../src/main.c:159:17: warning: implicit declaration of function 'DDS_POWER_ON' [-Wimplicit-function-declaration]
-  159 |                 DDS_POWER_ON(&Spi);
-      |                 ^~~~~~~~~~~~
-'Finished building: ../src/main.c'
-' '
-'Building target: Signal_Source_Control_App.elf'
-'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/export/Signal_Souce_Control_BD_wrapper/sw/Signal_Souce_Control_BD_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Signal_Source_Control_App.elf"  ./src/AD9164_FMC.o ./src/init_arr.o ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: Signal_Source_Control_App.elf'
-' '
-'Invoking: MicroBlaze Print Size'
-mb-size Signal_Source_Control_App.elf  |tee "Signal_Source_Control_App.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  28968	   1704	   3520	  34192	   8590	Signal_Source_Control_App.elf
-'Finished building: Signal_Source_Control_App.elf.size'
-' '
+make: Nothing to be done for 'all'.
 
-17:25:56 Build Finished (took 485ms)
+15:43:16 Build Finished (took 107ms)
 

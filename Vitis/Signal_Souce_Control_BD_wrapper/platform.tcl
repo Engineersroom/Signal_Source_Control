@@ -166,3 +166,23 @@ platform clean
 platform generate
 platform clean
 platform generate
+platform active {Signal_Souce_Control_BD_wrapper}
+platform generate -domains standalone_microblaze_0 
+platform active {Signal_Souce_Control_BD_wrapper}
+platform generate -domains 
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate -domains 
+platform clean
+platform generate
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate -domains 
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate -domains 

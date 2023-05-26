@@ -450,36 +450,103 @@ int SET_FTH1_100MHZ(XSpi *spiPtr)
     FTH1_REGSTER4[2] = One_Hundred_MHz_Arr[3];
 
     TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr, SAND_complete1, 0, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
     TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, 0, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
 
     TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, 0, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
 
     TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, 0, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
 
     TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, 0, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
 
     TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr, SAND_complete1, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_2_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER1, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER2, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER3, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_REGSTER4, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    return Status;
+}
+
+int SET_FTH1_100MHz_Test(XSpi *spiPtr)
+{
+
+    int Status;
+    Status = XSpi_SetSlaveSelect(spiPtr, AD9164_1_ID);
+    if (Status != XST_SUCCESS)
+        return XST_FAILURE;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, FTH1_TEST_REGSTER1, 0, AD9164_BUFFER_SIZE * 8);
+    while (TransferInProgress)
+        ;
+
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete1, 0, AD9164_BUFFER_SIZE);
+    while (TransferInProgress)
+        ;
+    TransferInProgress = TRUE;
+    XSpi_Transfer(spiPtr, SAND_complete2, 0, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
     Status = XSpi_SetSlaveSelect(spiPtr, AD9164_2_ID);
@@ -490,39 +557,20 @@ int SET_FTH1_100MHZ(XSpi *spiPtr)
     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, FTH1_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
 
     TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, FTH1_REGSTER2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
+    XSpi_Transfer(spiPtr, FTH1_TEST_REGSTER1, Global_AD9164_recv, AD9164_BUFFER_SIZE * 8);
     while (TransferInProgress)
         ;
-
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, FTH1_REGSTER3, Global_AD9164_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-
-    TransferInProgress = TRUE;
-    XSpi_Transfer(spiPtr, FTH1_REGSTER4, Global_AD9164_recv, AD9164_BUFFER_SIZE);
-    while (TransferInProgress)
-        ;
-
     TransferInProgress = TRUE;
     XSpi_Transfer(spiPtr, SAND_complete1, Global_AD9164_recv, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
-
     TransferInProgress = TRUE;
     XSpi_Transfer(spiPtr, SAND_complete2, Global_AD9164_recv, AD9164_BUFFER_SIZE);
     while (TransferInProgress)
         ;
-
-    return Status;
 }
-
 int SET_FTH1_1GHZ(XSpi *spiPtr)
 {
     int Status;
@@ -993,6 +1041,7 @@ int SPI_Signal_Source_Factory_Init(XSpi *spiPtr)
 
 int SPI_Signal_Source_Factory_Init_sub(XSpi *spiPtr)
 {
+    // sub는 내장 오실레이터를 사용할때 INIT 함수.
     XSpi_Start(spiPtr);
     xil_printf("Signal Source Factory Init ... \r\n");
     int Status;

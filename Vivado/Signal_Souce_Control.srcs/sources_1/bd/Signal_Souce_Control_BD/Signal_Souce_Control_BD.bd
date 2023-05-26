@@ -26,13 +26,14 @@
       },
       "mdm_1": "",
       "clk_wiz_1": "",
-      "rst_clk_wiz_1_100M": "",
       "microblaze_0_axi_periph": {
         "xbar": "",
         "s00_couplers": {},
         "m00_couplers": {},
         "m01_couplers": {},
-        "m02_couplers": {},
+        "m02_couplers": {
+          "auto_pc": ""
+        },
         "m03_couplers": {},
         "m04_couplers": {},
         "m05_couplers": {},
@@ -40,7 +41,8 @@
       },
       "axi_gpio_1": "",
       "DDS2": "",
-      "SignalSouce1": ""
+      "SignalSouce1": "",
+      "rst_clk_wiz_1_100M": ""
     },
     "interface_ports": {
       "rs232_uart": {
@@ -164,7 +166,7 @@
         "parameters": {
           "CLK_DOMAIN": {
             "value": "Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1",
-            "value_src": "default"
+            "value_src": "ip_prop"
           },
           "FREQ_HZ": {
             "value": "10000000"
@@ -179,7 +181,7 @@
           },
           "PHASE": {
             "value": "0.0",
-            "value_src": "default"
+            "value_src": "ip_prop"
           }
         }
       },
@@ -189,7 +191,7 @@
         "parameters": {
           "CLK_DOMAIN": {
             "value": "Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1",
-            "value_src": "default"
+            "value_src": "ip_prop"
           },
           "FREQ_HZ": {
             "value": "10000000"
@@ -204,7 +206,7 @@
           },
           "PHASE": {
             "value": "0.0",
-            "value_src": "default"
+            "value_src": "ip_prop"
           }
         }
       }
@@ -309,6 +311,12 @@
         "parameters": {
           "C_NUM_SS_BITS": {
             "value": "8"
+          },
+          "C_SCK_RATIO": {
+            "value": "2"
+          },
+          "C_TYPE_OF_AXI4_INTERFACE": {
+            "value": "1"
           }
         }
       },
@@ -513,6 +521,12 @@
         "xci_path": "ip\\Signal_Souce_Control_BD_clk_wiz_1_0\\Signal_Souce_Control_BD_clk_wiz_1_0.xci",
         "inst_hier_path": "clk_wiz_1",
         "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "81.814"
+          },
+          "CLKOUT1_REQUESTED_OUT_FREQ": {
+            "value": "300"
+          },
           "CLKOUT2_JITTER": {
             "value": "160.570"
           },
@@ -528,6 +542,9 @@
           "CLK_IN1_BOARD_INTERFACE": {
             "value": "default_sysclk1_300"
           },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "4.000"
+          },
           "MMCM_CLKOUT1_DIVIDE": {
             "value": "120"
           },
@@ -537,20 +554,6 @@
           "PRIM_SOURCE": {
             "value": "Differential_clock_capable_pin"
           },
-          "RESET_BOARD_INTERFACE": {
-            "value": "reset"
-          },
-          "USE_BOARD_FLOW": {
-            "value": "true"
-          }
-        }
-      },
-      "rst_clk_wiz_1_100M": {
-        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
-        "xci_name": "Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0",
-        "xci_path": "ip\\Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0\\Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.xci",
-        "inst_hier_path": "rst_clk_wiz_1_100M",
-        "parameters": {
           "RESET_BOARD_INTERFACE": {
             "value": "reset"
           },
@@ -1002,11 +1005,56 @@
                 "direction": "I"
               }
             },
+            "components": {
+              "auto_pc": {
+                "vlnv": "xilinx.com:ip:axi_protocol_converter:2.1",
+                "xci_name": "Signal_Souce_Control_BD_auto_pc_0",
+                "xci_path": "ip\\Signal_Souce_Control_BD_auto_pc_0\\Signal_Souce_Control_BD_auto_pc_0.xci",
+                "inst_hier_path": "microblaze_0_axi_periph/m02_couplers/auto_pc",
+                "parameters": {
+                  "MI_PROTOCOL": {
+                    "value": "AXI4"
+                  },
+                  "SI_PROTOCOL": {
+                    "value": "AXI4LITE"
+                  }
+                },
+                "interface_ports": {
+                  "S_AXI": {
+                    "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+                    "mode": "Slave",
+                    "bridges": [
+                      "M_AXI"
+                    ]
+                  }
+                }
+              }
+            },
             "interface_nets": {
-              "m02_couplers_to_m02_couplers": {
+              "auto_pc_to_m02_couplers": {
+                "interface_ports": [
+                  "M_AXI",
+                  "auto_pc/M_AXI"
+                ]
+              },
+              "m02_couplers_to_auto_pc": {
                 "interface_ports": [
                   "S_AXI",
-                  "M_AXI"
+                  "auto_pc/S_AXI"
+                ]
+              }
+            },
+            "nets": {
+              "S_ACLK_1": {
+                "ports": [
+                  "S_ACLK",
+                  "auto_pc/aclk"
+                ]
+              },
+              "S_ARESETN_1": {
+                "ports": [
+                  "S_ARESETN",
+                  "auto_pc/aresetn"
                 ]
               }
             }
@@ -1437,6 +1485,20 @@
             "value": "4"
           }
         }
+      },
+      "rst_clk_wiz_1_100M": {
+        "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
+        "xci_name": "Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0",
+        "xci_path": "ip\\Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0\\Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0.xci",
+        "inst_hier_path": "rst_clk_wiz_1_100M",
+        "parameters": {
+          "RESET_BOARD_INTERFACE": {
+            "value": "reset"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -1491,7 +1553,7 @@
       "microblaze_0_axi_periph_M02_AXI": {
         "interface_ports": [
           "microblaze_0_axi_periph/M02_AXI",
-          "axi_quad_spi_0/AXI_LITE"
+          "axi_quad_spi_0/AXI_FULL"
         ]
       },
       "microblaze_0_axi_periph_M03_AXI": {
@@ -1602,14 +1664,12 @@
           "clk_wiz_1/clk_out1",
           "microblaze_0/Clk",
           "microblaze_0_local_memory/LMB_Clk",
-          "rst_clk_wiz_1_100M/slowest_sync_clk",
           "microblaze_0_axi_periph/S00_ACLK",
           "axi_gpio_0/s_axi_aclk",
           "microblaze_0_axi_periph/M00_ACLK",
           "microblaze_0_axi_periph/ACLK",
           "axi_intc_0/s_axi_aclk",
           "microblaze_0_axi_periph/M01_ACLK",
-          "axi_quad_spi_0/s_axi_aclk",
           "microblaze_0_axi_periph/M02_ACLK",
           "axi_uartlite_0/s_axi_aclk",
           "microblaze_0_axi_periph/M03_ACLK",
@@ -1617,7 +1677,9 @@
           "axi_gpio_1/s_axi_aclk",
           "microblaze_0_axi_periph/M04_ACLK",
           "microblaze_0_axi_periph/M05_ACLK",
-          "microblaze_0_axi_periph/M06_ACLK"
+          "microblaze_0_axi_periph/M06_ACLK",
+          "rst_clk_wiz_1_100M/slowest_sync_clk",
+          "axi_quad_spi_0/s_axi4_aclk"
         ]
       },
       "reset_1": {
@@ -1648,14 +1710,14 @@
           "microblaze_0_axi_periph/ARESETN",
           "axi_intc_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M01_ARESETN",
-          "axi_quad_spi_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M02_ARESETN",
           "axi_uartlite_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M03_ARESETN",
           "axi_gpio_1/s_axi_aresetn",
           "microblaze_0_axi_periph/M04_ARESETN",
           "microblaze_0_axi_periph/M05_ARESETN",
-          "microblaze_0_axi_periph/M06_ARESETN"
+          "microblaze_0_axi_periph/M06_ARESETN",
+          "axi_quad_spi_0/s_axi4_aresetn"
         ]
       },
       "xlconcat_0_dout": {
@@ -1685,11 +1747,12 @@
                 "offset": "0x41200000",
                 "range": "64K"
               },
-              "SEG_axi_quad_spi_0_Reg": {
-                "address_block": "/axi_quad_spi_0/AXI_LITE/Reg",
+              "SEG_axi_quad_spi_0_MEM0": {
+                "address_block": "/axi_quad_spi_0/aximm/MEM0",
                 "offset": "0x44A00000",
                 "range": "64K",
-                "offset_high_param": "C_HIGHADDR"
+                "offset_base_param": "C_S_AXI4_BASEADDR",
+                "offset_high_param": "C_S_AXI4_HIGHADDR"
               },
               "SEG_axi_uartlite_0_Reg": {
                 "address_block": "/axi_uartlite_0/S_AXI/Reg",
@@ -1721,7 +1784,7 @@
       "file": {
         "name": "D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Source_Control_App/Debug/Signal_Source_Control_App.elf",
         "type": "ELF",
-        "checksum": "1481633894",
+        "checksum": "3047129049",
         "IsVisible": "1",
         "ScopedToRef": "Signal_Souce_Control_BD",
         "ScopedToCell": [

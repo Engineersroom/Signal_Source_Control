@@ -71,7 +71,6 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 4
-set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xcku5p-ffvb676-2-e
 
@@ -127,6 +126,7 @@ set_property used_in_implementation false [get_files -all d:/DMTS/MOLIT_Shoe_Sch
 set_property used_in_implementation false [get_files -all d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0_board.xdc]
 set_property used_in_implementation false [get_files -all d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0.xdc]
+set_property used_in_implementation false [get_files -all d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_auto_pc_0/Signal_Souce_Control_BD_auto_pc_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/Signal_Souce_Control_BD_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_microblaze_0_0/data/mb_bootloop_le.elf]
 

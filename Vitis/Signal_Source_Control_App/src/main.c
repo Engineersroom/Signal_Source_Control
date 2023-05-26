@@ -61,7 +61,7 @@ int main()
 
     xil_printf("ver.1.0.1 - UART Interface Open\r\n");
     xil_printf("Enter 0 for test mode and 1 for use mode \r\n");
-    xil_printf("Testing System \r\n");
+    xil_printf("Testing System 2 \r\n");
 
     // Init_ADAR2001_Func(&Spi);
     // SET_ADAR2001(&Spi);
@@ -158,6 +158,53 @@ int main()
                 XGpio_DiscreteWrite(&GpioLed, 1, 0b01010101);
                 DDS_POWER_ON(&Spi);
             }
+            else if (RecvBuffer[0] == 212)
+            {
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi);
+                SET_FTH1_OFF(&Spi);
+            }
+            else if (RecvBuffer[0] == 213)
+            {
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHz_Test(&Spi);
+                SET_FTH1_OFF(&Spi);
+            }
+
             else
             {
                 // SET_FTH1_FREQ(&Spi, RecvBuffer[0]);

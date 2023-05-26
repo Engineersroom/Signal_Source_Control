@@ -59,25 +59,43 @@ USE axi_quad_spi_v3_2_26.axi_quad_spi;
 ENTITY Signal_Souce_Control_BD_axi_quad_spi_0_0 IS
   PORT (
     ext_spi_clk : IN STD_LOGIC;
-    s_axi_aclk : IN STD_LOGIC;
-    s_axi_aresetn : IN STD_LOGIC;
-    s_axi_awaddr : IN STD_LOGIC_VECTOR(6 DOWNTO 0);
-    s_axi_awvalid : IN STD_LOGIC;
-    s_axi_awready : OUT STD_LOGIC;
-    s_axi_wdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
-    s_axi_wstrb : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
-    s_axi_wvalid : IN STD_LOGIC;
-    s_axi_wready : OUT STD_LOGIC;
-    s_axi_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
-    s_axi_bvalid : OUT STD_LOGIC;
-    s_axi_bready : IN STD_LOGIC;
-    s_axi_araddr : IN STD_LOGIC_VECTOR(6 DOWNTO 0);
-    s_axi_arvalid : IN STD_LOGIC;
-    s_axi_arready : OUT STD_LOGIC;
-    s_axi_rdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
-    s_axi_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
-    s_axi_rvalid : OUT STD_LOGIC;
-    s_axi_rready : IN STD_LOGIC;
+    s_axi4_aclk : IN STD_LOGIC;
+    s_axi4_aresetn : IN STD_LOGIC;
+    s_axi4_awid : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    s_axi4_awaddr : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
+    s_axi4_awlen : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+    s_axi4_awsize : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    s_axi4_awburst : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    s_axi4_awlock : IN STD_LOGIC;
+    s_axi4_awcache : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    s_axi4_awprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    s_axi4_awvalid : IN STD_LOGIC;
+    s_axi4_awready : OUT STD_LOGIC;
+    s_axi4_wdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+    s_axi4_wstrb : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    s_axi4_wlast : IN STD_LOGIC;
+    s_axi4_wvalid : IN STD_LOGIC;
+    s_axi4_wready : OUT STD_LOGIC;
+    s_axi4_bid : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    s_axi4_bresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    s_axi4_bvalid : OUT STD_LOGIC;
+    s_axi4_bready : IN STD_LOGIC;
+    s_axi4_arid : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    s_axi4_araddr : IN STD_LOGIC_VECTOR(23 DOWNTO 0);
+    s_axi4_arlen : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+    s_axi4_arsize : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    s_axi4_arburst : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    s_axi4_arlock : IN STD_LOGIC;
+    s_axi4_arcache : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+    s_axi4_arprot : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+    s_axi4_arvalid : IN STD_LOGIC;
+    s_axi4_arready : OUT STD_LOGIC;
+    s_axi4_rid : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    s_axi4_rdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
+    s_axi4_rresp : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    s_axi4_rlast : OUT STD_LOGIC;
+    s_axi4_rvalid : OUT STD_LOGIC;
+    s_axi4_rready : IN STD_LOGIC;
     io0_i : IN STD_LOGIC;
     io0_o : OUT STD_LOGIC;
     io0_t : OUT STD_LOGIC;
@@ -242,11 +260,11 @@ ARCHITECTURE Signal_Souce_Control_BD_axi_quad_spi_0_0_arch OF Signal_Souce_Contr
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF Signal_Souce_Control_BD_axi_quad_spi_0_0_arch : ARCHITECTURE IS "Signal_Souce_Control_BD_axi_quad_spi_0_0,axi_quad_spi,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF Signal_Souce_Control_BD_axi_quad_spi_0_0_arch: ARCHITECTURE IS "Signal_Souce_Control_BD_axi_quad_spi_0_0,axi_quad_spi,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_quad_spi,x_ipVersion=3.2,x_ipCoreRevision=26,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,Async_Clk=0,C_FAMILY=kintexuplus,C_SELECT_XPM=0,C_SUB_FAMILY=kintexuplus,C_INSTANCE=axi_quad_spi_inst,C_SPI_MEM_ADDR_BITS=24,C_TYPE_OF_AXI4_INTERFACE=0,C_XIP_MODE=0,C_XIP_PERF_MODE=1,C_BYTE_LEVEL_INTERRUPT_EN=0,C_UC_FAMILY=1,C_FIFO_DEPTH=16,C_SCK_RATIO=16,C_DUAL_QUAD_MODE=0,C_NUM_" & 
-"SS_BITS=8,C_NUM_TRANSFER_BITS=8,C_NEW_SEQ_EN=1,C_SPI_MODE=0,C_USE_STARTUP=0,C_USE_STARTUP_EXT=0,C_SPI_MEMORY=1,C_S_AXI_ADDR_WIDTH=7,C_S_AXI_DATA_WIDTH=32,C_S_AXI4_ADDR_WIDTH=24,C_S_AXI4_DATA_WIDTH=32,C_S_AXI4_ID_WIDTH=4,C_SHARED_STARTUP=0,C_S_AXI4_BASEADDR=0xFFFFFFFF,C_S_AXI4_HIGHADDR=0x00000000,C_LSB_STUP=0}";
+  ATTRIBUTE CORE_GENERATION_INFO OF Signal_Souce_Control_BD_axi_quad_spi_0_0_arch: ARCHITECTURE IS "Signal_Souce_Control_BD_axi_quad_spi_0_0,axi_quad_spi,{x_ipProduct=Vivado 2022.2,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=axi_quad_spi,x_ipVersion=3.2,x_ipCoreRevision=26,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,Async_Clk=0,C_FAMILY=kintexuplus,C_SELECT_XPM=0,C_SUB_FAMILY=kintexuplus,C_INSTANCE=axi_quad_spi_inst,C_SPI_MEM_ADDR_BITS=24,C_TYPE_OF_AXI4_INTERFACE=1,C_XIP_MODE=0,C_XIP_PERF_MODE=1,C_BYTE_LEVEL_INTERRUPT_EN=0,C_UC_FAMILY=1,C_FIFO_DEPTH=16,C_SCK_RATIO=2,C_DUAL_QUAD_MODE=0,C_NUM_S" & 
+"S_BITS=8,C_NUM_TRANSFER_BITS=8,C_NEW_SEQ_EN=1,C_SPI_MODE=0,C_USE_STARTUP=0,C_USE_STARTUP_EXT=0,C_SPI_MEMORY=1,C_S_AXI_ADDR_WIDTH=7,C_S_AXI_DATA_WIDTH=32,C_S_AXI4_ADDR_WIDTH=24,C_S_AXI4_DATA_WIDTH=32,C_S_AXI4_ID_WIDTH=4,C_SHARED_STARTUP=0,C_S_AXI4_BASEADDR=0xA0000000,C_S_AXI4_HIGHADDR=0xAFFFFFFF,C_LSB_STUP=0}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
-  ATTRIBUTE X_INTERFACE_PARAMETER OF ext_spi_clk: SIGNAL IS "XIL_INTERFACENAME spi_clk, ASSOCIATED_BUSIF SPI_0, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF ext_spi_clk: SIGNAL IS "XIL_INTERFACENAME spi_clk, ASSOCIATED_BUSIF SPI_0, FREQ_HZ 300000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1, INSERT_VIP 0";
   ATTRIBUTE X_INTERFACE_INFO OF ext_spi_clk: SIGNAL IS "xilinx.com:signal:clock:1.0 spi_clk CLK";
   ATTRIBUTE X_INTERFACE_PARAMETER OF io0_i: SIGNAL IS "XIL_INTERFACENAME SPI_0, BOARD.ASSOCIATED_PARAM QSPI_BOARD_INTERFACE";
   ATTRIBUTE X_INTERFACE_INFO OF io0_i: SIGNAL IS "xilinx.com:interface:spi:1.0 SPI_0 IO0_I";
@@ -257,29 +275,47 @@ ARCHITECTURE Signal_Souce_Control_BD_axi_quad_spi_0_0_arch OF Signal_Souce_Contr
   ATTRIBUTE X_INTERFACE_INFO OF io1_t: SIGNAL IS "xilinx.com:interface:spi:1.0 SPI_0 IO1_T";
   ATTRIBUTE X_INTERFACE_PARAMETER OF ip2intc_irpt: SIGNAL IS "XIL_INTERFACENAME interrupt, SENSITIVITY EDGE_RISING, PORTWIDTH 1";
   ATTRIBUTE X_INTERFACE_INFO OF ip2intc_irpt: SIGNAL IS "xilinx.com:signal:interrupt:1.0 interrupt INTERRUPT";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axi_aclk: SIGNAL IS "XIL_INTERFACENAME lite_clk, ASSOCIATED_BUSIF AXI_LITE, ASSOCIATED_RESET s_axi_aresetn, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 lite_clk CLK";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_araddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE ARADDR";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axi_aresetn: SIGNAL IS "XIL_INTERFACENAME lite_reset, POLARITY ACTIVE_LOW, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 lite_reset RST";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_arready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE ARREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_arvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE ARVALID";
-  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axi_awaddr: SIGNAL IS "XIL_INTERFACENAME AXI_LITE, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 100000000, ID_WIDTH 0, ADDR_WIDTH 7, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1, NUM_READ_THR" & 
-"EADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_awaddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE AWADDR";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_awready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE AWREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_awvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE AWVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_bready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE BREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_bresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE BRESP";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_bvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE BVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_rdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE RDATA";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE RREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_rresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE RRESP";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_rvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE RVALID";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_wdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE WDATA";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_wready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE WREADY";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_wstrb: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE WSTRB";
-  ATTRIBUTE X_INTERFACE_INFO OF s_axi_wvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_LITE WVALID";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axi4_aclk: SIGNAL IS "XIL_INTERFACENAME full_clk, ASSOCIATED_BUSIF AXI_FULL, ASSOCIATED_RESET s_axi4_aresetn, FREQ_HZ 300000000, FREQ_TOLERANCE_HZ 0, PHASE 0.0, CLK_DOMAIN Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 full_clk CLK";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_araddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARADDR";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arburst: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARBURST";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arcache: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARCACHE";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axi4_aresetn: SIGNAL IS "XIL_INTERFACENAME full_reset, POLARITY ACTIVE_LOW, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_aresetn: SIGNAL IS "xilinx.com:signal:reset:1.0 full_reset RST";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arlen: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARLEN";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arlock: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARLOCK";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARPROT";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arsize: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARSIZE";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_arvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL ARVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awaddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWADDR";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awburst: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWBURST";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awcache: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWCACHE";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF s_axi4_awid: SIGNAL IS "XIL_INTERFACENAME AXI_FULL, DATA_WIDTH 32, PROTOCOL AXI4, FREQ_HZ 300000000, ID_WIDTH 4, ADDR_WIDTH 24, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 16, PHASE 0.0, CLK_DOMAIN Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1, NUM_READ_THREA" & 
+"DS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awlen: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWLEN";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awlock: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWLOCK";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWPROT";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awsize: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWSIZE";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_awvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL AWVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_bid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL BID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_bready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL BREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_bresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL BRESP";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_bvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL BVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_rdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL RDATA";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_rid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL RID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_rlast: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL RLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL RREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_rresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL RRESP";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_rvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL RVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_wdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL WDATA";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_wlast: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL WLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_wready: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL WREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_wstrb: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL WSTRB";
+  ATTRIBUTE X_INTERFACE_INFO OF s_axi4_wvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 AXI_FULL WVALID";
   ATTRIBUTE X_INTERFACE_INFO OF sck_i: SIGNAL IS "xilinx.com:interface:spi:1.0 SPI_0 SCK_I";
   ATTRIBUTE X_INTERFACE_INFO OF sck_o: SIGNAL IS "xilinx.com:interface:spi:1.0 SPI_0 SCK_O";
   ATTRIBUTE X_INTERFACE_INFO OF sck_t: SIGNAL IS "xilinx.com:interface:spi:1.0 SPI_0 SCK_T";
@@ -295,13 +331,13 @@ BEGIN
       C_SUB_FAMILY => "kintexuplus",
       C_INSTANCE => "axi_quad_spi_inst",
       C_SPI_MEM_ADDR_BITS => 24,
-      C_TYPE_OF_AXI4_INTERFACE => 0,
+      C_TYPE_OF_AXI4_INTERFACE => 1,
       C_XIP_MODE => 0,
       C_XIP_PERF_MODE => 1,
       C_BYTE_LEVEL_INTERRUPT_EN => 0,
       C_UC_FAMILY => 1,
       C_FIFO_DEPTH => 16,
-      C_SCK_RATIO => 16,
+      C_SCK_RATIO => 2,
       C_DUAL_QUAD_MODE => 0,
       C_NUM_SS_BITS => 8,
       C_NUM_TRANSFER_BITS => 8,
@@ -316,57 +352,60 @@ BEGIN
       C_S_AXI4_DATA_WIDTH => 32,
       C_S_AXI4_ID_WIDTH => 4,
       C_SHARED_STARTUP => 0,
-      C_S_AXI4_BASEADDR => X"FFFFFFFF",
-      C_S_AXI4_HIGHADDR => X"00000000",
+      C_S_AXI4_BASEADDR => X"A0000000",
+      C_S_AXI4_HIGHADDR => X"AFFFFFFF",
       C_LSB_STUP => 0
     )
     PORT MAP (
       ext_spi_clk => ext_spi_clk,
-      s_axi_aclk => s_axi_aclk,
-      s_axi_aresetn => s_axi_aresetn,
-      s_axi4_aclk => '0',
-      s_axi4_aresetn => '0',
-      s_axi_awaddr => s_axi_awaddr,
-      s_axi_awvalid => s_axi_awvalid,
-      s_axi_awready => s_axi_awready,
-      s_axi_wdata => s_axi_wdata,
-      s_axi_wstrb => s_axi_wstrb,
-      s_axi_wvalid => s_axi_wvalid,
-      s_axi_wready => s_axi_wready,
-      s_axi_bresp => s_axi_bresp,
-      s_axi_bvalid => s_axi_bvalid,
-      s_axi_bready => s_axi_bready,
-      s_axi_araddr => s_axi_araddr,
-      s_axi_arvalid => s_axi_arvalid,
-      s_axi_arready => s_axi_arready,
-      s_axi_rdata => s_axi_rdata,
-      s_axi_rresp => s_axi_rresp,
-      s_axi_rvalid => s_axi_rvalid,
-      s_axi_rready => s_axi_rready,
-      s_axi4_awid => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
-      s_axi4_awaddr => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 24)),
-      s_axi4_awlen => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 8)),
-      s_axi4_awsize => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 3)),
-      s_axi4_awburst => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 2)),
-      s_axi4_awlock => '0',
-      s_axi4_awcache => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
-      s_axi4_awprot => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 3)),
-      s_axi4_awvalid => '0',
-      s_axi4_wdata => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 32)),
-      s_axi4_wstrb => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
-      s_axi4_wlast => '0',
-      s_axi4_wvalid => '0',
-      s_axi4_bready => '0',
-      s_axi4_arid => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
-      s_axi4_araddr => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 24)),
-      s_axi4_arlen => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 8)),
-      s_axi4_arsize => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 3)),
-      s_axi4_arburst => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 2)),
-      s_axi4_arlock => '0',
-      s_axi4_arcache => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
-      s_axi4_arprot => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 3)),
-      s_axi4_arvalid => '0',
-      s_axi4_rready => '0',
+      s_axi_aclk => '0',
+      s_axi_aresetn => '0',
+      s_axi4_aclk => s_axi4_aclk,
+      s_axi4_aresetn => s_axi4_aresetn,
+      s_axi_awaddr => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 7)),
+      s_axi_awvalid => '0',
+      s_axi_wdata => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 32)),
+      s_axi_wstrb => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 4)),
+      s_axi_wvalid => '0',
+      s_axi_bready => '0',
+      s_axi_araddr => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 7)),
+      s_axi_arvalid => '0',
+      s_axi_rready => '0',
+      s_axi4_awid => s_axi4_awid,
+      s_axi4_awaddr => s_axi4_awaddr,
+      s_axi4_awlen => s_axi4_awlen,
+      s_axi4_awsize => s_axi4_awsize,
+      s_axi4_awburst => s_axi4_awburst,
+      s_axi4_awlock => s_axi4_awlock,
+      s_axi4_awcache => s_axi4_awcache,
+      s_axi4_awprot => s_axi4_awprot,
+      s_axi4_awvalid => s_axi4_awvalid,
+      s_axi4_awready => s_axi4_awready,
+      s_axi4_wdata => s_axi4_wdata,
+      s_axi4_wstrb => s_axi4_wstrb,
+      s_axi4_wlast => s_axi4_wlast,
+      s_axi4_wvalid => s_axi4_wvalid,
+      s_axi4_wready => s_axi4_wready,
+      s_axi4_bid => s_axi4_bid,
+      s_axi4_bresp => s_axi4_bresp,
+      s_axi4_bvalid => s_axi4_bvalid,
+      s_axi4_bready => s_axi4_bready,
+      s_axi4_arid => s_axi4_arid,
+      s_axi4_araddr => s_axi4_araddr,
+      s_axi4_arlen => s_axi4_arlen,
+      s_axi4_arsize => s_axi4_arsize,
+      s_axi4_arburst => s_axi4_arburst,
+      s_axi4_arlock => s_axi4_arlock,
+      s_axi4_arcache => s_axi4_arcache,
+      s_axi4_arprot => s_axi4_arprot,
+      s_axi4_arvalid => s_axi4_arvalid,
+      s_axi4_arready => s_axi4_arready,
+      s_axi4_rid => s_axi4_rid,
+      s_axi4_rdata => s_axi4_rdata,
+      s_axi4_rresp => s_axi4_rresp,
+      s_axi4_rlast => s_axi4_rlast,
+      s_axi4_rvalid => s_axi4_rvalid,
+      s_axi4_rready => s_axi4_rready,
       io0_i => io0_i,
       io0_o => io0_o,
       io0_t => io0_t,
