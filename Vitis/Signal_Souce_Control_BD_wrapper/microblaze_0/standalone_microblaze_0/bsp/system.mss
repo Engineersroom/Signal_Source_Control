@@ -60,4 +60,10 @@ BEGIN DRIVER
  PARAMETER HW_INSTANCE = microblaze_0_local_memory_ilmb_bram_if_cntlr
 END
 
+BEGIN DRIVER
+ PARAMETER DRIVER_NAME = spi
+ PARAMETER DRIVER_VER = 4.9
+ PARAMETER HW_INSTANCE = axi_quad_spi_1
+END
+
 

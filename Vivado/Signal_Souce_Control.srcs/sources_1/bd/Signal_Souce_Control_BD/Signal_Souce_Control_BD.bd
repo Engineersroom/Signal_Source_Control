@@ -36,13 +36,14 @@
         },
         "m03_couplers": {},
         "m04_couplers": {},
-        "m05_couplers": {},
+        "m05_couplers": {
+          "auto_pc": ""
+        },
         "m06_couplers": {}
       },
       "axi_gpio_1": "",
-      "DDS2": "",
-      "SignalSouce1": "",
-      "rst_clk_wiz_1_100M": ""
+      "rst_clk_wiz_1_100M": "",
+      "axi_quad_spi_1": ""
     },
     "interface_ports": {
       "rs232_uart": {
@@ -310,7 +311,7 @@
         "inst_hier_path": "axi_quad_spi_0",
         "parameters": {
           "C_NUM_SS_BITS": {
-            "value": "8"
+            "value": "4"
           },
           "C_SCK_RATIO": {
             "value": "2"
@@ -1218,11 +1219,56 @@
                 "direction": "I"
               }
             },
+            "components": {
+              "auto_pc": {
+                "vlnv": "xilinx.com:ip:axi_protocol_converter:2.1",
+                "xci_name": "Signal_Souce_Control_BD_auto_pc_1",
+                "xci_path": "ip\\Signal_Souce_Control_BD_auto_pc_1\\Signal_Souce_Control_BD_auto_pc_1.xci",
+                "inst_hier_path": "microblaze_0_axi_periph/m05_couplers/auto_pc",
+                "parameters": {
+                  "MI_PROTOCOL": {
+                    "value": "AXI4"
+                  },
+                  "SI_PROTOCOL": {
+                    "value": "AXI4LITE"
+                  }
+                },
+                "interface_ports": {
+                  "S_AXI": {
+                    "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+                    "mode": "Slave",
+                    "bridges": [
+                      "M_AXI"
+                    ]
+                  }
+                }
+              }
+            },
             "interface_nets": {
-              "m05_couplers_to_m05_couplers": {
+              "auto_pc_to_m05_couplers": {
+                "interface_ports": [
+                  "M_AXI",
+                  "auto_pc/M_AXI"
+                ]
+              },
+              "m05_couplers_to_auto_pc": {
                 "interface_ports": [
                   "S_AXI",
-                  "M_AXI"
+                  "auto_pc/S_AXI"
+                ]
+              }
+            },
+            "nets": {
+              "S_ACLK_1": {
+                "ports": [
+                  "S_ACLK",
+                  "auto_pc/aclk"
+                ]
+              },
+              "S_ARESETN_1": {
+                "ports": [
+                  "S_ARESETN",
+                  "auto_pc/aresetn"
                 ]
               }
             }
@@ -1446,46 +1492,6 @@
           }
         }
       },
-      "DDS2": {
-        "vlnv": "xilinx.com:ip:xlslice:1.0",
-        "xci_name": "Signal_Souce_Control_BD_xlslice_0_0",
-        "xci_path": "ip\\Signal_Souce_Control_BD_xlslice_0_0\\Signal_Souce_Control_BD_xlslice_0_0.xci",
-        "inst_hier_path": "DDS2",
-        "parameters": {
-          "DIN_FROM": {
-            "value": "7"
-          },
-          "DIN_TO": {
-            "value": "4"
-          },
-          "DIN_WIDTH": {
-            "value": "8"
-          },
-          "DOUT_WIDTH": {
-            "value": "4"
-          }
-        }
-      },
-      "SignalSouce1": {
-        "vlnv": "xilinx.com:ip:xlslice:1.0",
-        "xci_name": "Signal_Souce_Control_BD_xlslice_0_2",
-        "xci_path": "ip\\Signal_Souce_Control_BD_xlslice_0_2\\Signal_Souce_Control_BD_xlslice_0_2.xci",
-        "inst_hier_path": "SignalSouce1",
-        "parameters": {
-          "DIN_FROM": {
-            "value": "3"
-          },
-          "DIN_TO": {
-            "value": "0"
-          },
-          "DIN_WIDTH": {
-            "value": "8"
-          },
-          "DOUT_WIDTH": {
-            "value": "4"
-          }
-        }
-      },
       "rst_clk_wiz_1_100M": {
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
         "xci_name": "Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0",
@@ -1497,6 +1503,23 @@
           },
           "USE_BOARD_FLOW": {
             "value": "true"
+          }
+        }
+      },
+      "axi_quad_spi_1": {
+        "vlnv": "xilinx.com:ip:axi_quad_spi:3.2",
+        "xci_name": "Signal_Souce_Control_BD_axi_quad_spi_0_1",
+        "xci_path": "ip\\Signal_Souce_Control_BD_axi_quad_spi_0_1\\Signal_Souce_Control_BD_axi_quad_spi_0_1.xci",
+        "inst_hier_path": "axi_quad_spi_1",
+        "parameters": {
+          "C_NUM_SS_BITS": {
+            "value": "4"
+          },
+          "C_SCK_RATIO": {
+            "value": "2"
+          },
+          "C_TYPE_OF_AXI4_INTERFACE": {
+            "value": "1"
           }
         }
       }
@@ -1568,6 +1591,12 @@
           "axi_gpio_1/S_AXI"
         ]
       },
+      "microblaze_0_axi_periph_M05_AXI": {
+        "interface_ports": [
+          "microblaze_0_axi_periph/M05_AXI",
+          "axi_quad_spi_1/AXI_FULL"
+        ]
+      },
       "microblaze_0_debug": {
         "interface_ports": [
           "mdm_1/MBDEBUG_0",
@@ -1588,18 +1617,6 @@
       }
     },
     "nets": {
-      "DDS2_Dout": {
-        "ports": [
-          "DDS2/Dout",
-          "DDS2_CS"
-        ]
-      },
-      "SignalSouce1_Dout": {
-        "ports": [
-          "SignalSouce1/Dout",
-          "DDS1_CS"
-        ]
-      },
       "axi_gpio_0_gpio_io_o": {
         "ports": [
           "axi_gpio_0/gpio_io_o",
@@ -1610,8 +1627,7 @@
       "axi_quad_spi_0_io0_o": {
         "ports": [
           "axi_quad_spi_0/io0_o",
-          "DDS1_MOSI",
-          "DDS2_MOSI"
+          "DDS1_MOSI"
         ]
       },
       "axi_quad_spi_0_ip2intc_irpt": {
@@ -1623,15 +1639,37 @@
       "axi_quad_spi_0_sck_o": {
         "ports": [
           "axi_quad_spi_0/sck_o",
-          "DDS1_SCK",
-          "DDS2_SCK"
+          "DDS1_SCK"
         ]
       },
       "axi_quad_spi_0_ss_o": {
         "ports": [
           "axi_quad_spi_0/ss_o",
-          "DDS2/Din",
-          "SignalSouce1/Din"
+          "DDS1_CS"
+        ]
+      },
+      "axi_quad_spi_1_io0_o": {
+        "ports": [
+          "axi_quad_spi_1/io0_o",
+          "DDS2_MOSI"
+        ]
+      },
+      "axi_quad_spi_1_ip2intc_irpt": {
+        "ports": [
+          "axi_quad_spi_1/ip2intc_irpt",
+          "xlconcat_0/In1"
+        ]
+      },
+      "axi_quad_spi_1_sck_o": {
+        "ports": [
+          "axi_quad_spi_1/sck_o",
+          "DDS2_SCK"
+        ]
+      },
+      "axi_quad_spi_1_ss_o": {
+        "ports": [
+          "axi_quad_spi_1/ss_o",
+          "DDS2_CS"
         ]
       },
       "clk_wiz_1_clk_out2": {
@@ -1679,7 +1717,9 @@
           "microblaze_0_axi_periph/M05_ACLK",
           "microblaze_0_axi_periph/M06_ACLK",
           "rst_clk_wiz_1_100M/slowest_sync_clk",
-          "axi_quad_spi_0/s_axi4_aclk"
+          "axi_quad_spi_0/s_axi4_aclk",
+          "axi_quad_spi_1/s_axi4_aclk",
+          "axi_quad_spi_1/ext_spi_clk"
         ]
       },
       "reset_1": {
@@ -1717,7 +1757,8 @@
           "microblaze_0_axi_periph/M04_ARESETN",
           "microblaze_0_axi_periph/M05_ARESETN",
           "microblaze_0_axi_periph/M06_ARESETN",
-          "axi_quad_spi_0/s_axi4_aresetn"
+          "axi_quad_spi_0/s_axi4_aresetn",
+          "axi_quad_spi_1/s_axi4_aresetn"
         ]
       },
       "xlconcat_0_dout": {
@@ -1750,6 +1791,13 @@
               "SEG_axi_quad_spi_0_MEM0": {
                 "address_block": "/axi_quad_spi_0/aximm/MEM0",
                 "offset": "0x44A00000",
+                "range": "64K",
+                "offset_base_param": "C_S_AXI4_BASEADDR",
+                "offset_high_param": "C_S_AXI4_HIGHADDR"
+              },
+              "SEG_axi_quad_spi_1_MEM0": {
+                "address_block": "/axi_quad_spi_1/aximm/MEM0",
+                "offset": "0x44A10000",
                 "range": "64K",
                 "offset_base_param": "C_S_AXI4_BASEADDR",
                 "offset_high_param": "C_S_AXI4_HIGHADDR"

@@ -2,8 +2,8 @@
 # Vivado v2022.2 (64-bit)
 # SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
 # IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
-# Start of session at: Fri May 26 15:34:16 2023
-# Process ID: 139080
+# Start of session at: Fri May 26 16:07:36 2023
+# Process ID: 38172
 # Current directory: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1
 # Command line: vivado.exe -log Signal_Souce_Control_BD_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Signal_Souce_Control_BD_wrapper.tcl
 # Log file: D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/Signal_Souce_Control_BD_wrapper.vds
@@ -28,123 +28,119 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 3420
+INFO: [Synth 8-7075] Helper process launched with PID 137724
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2018.309 ; gain = 370.996
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2021.484 ; gain = 373.023
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_wrapper' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/hdl/Signal_Souce_Control_BD_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:12]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_xlslice_0_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_0/synth/Signal_Souce_Control_BD_xlslice_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_xlslice_0_0' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_0/synth/Signal_Souce_Control_BD_xlslice_0_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_xlslice_0_2' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_2/synth/Signal_Souce_Control_BD_xlslice_0_2.v:53]
-INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_2_xlslice__parameterized0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_2_xlslice__parameterized0' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/11d0/hdl/xlslice_v1_0_vl_rfs.v:13]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_xlslice_0_2' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_2/synth/Signal_Souce_Control_BD_xlslice_0_2.v:53]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_gpio_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_gpio_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_gpio_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_gpio_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_gpio_1_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_gpio_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_gpio_1_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_gpio_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_intc_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_intc_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_intc_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_intc_0_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_quad_spi_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_quad_spi_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 's_axi4_bid' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:311]
-WARNING: [Synth 8-7071] port 's_axi4_rid' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:311]
-WARNING: [Synth 8-7071] port 'io0_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:311]
-WARNING: [Synth 8-7071] port 'io1_o' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:311]
-WARNING: [Synth 8-7071] port 'io1_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:311]
-WARNING: [Synth 8-7071] port 'sck_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:311]
-WARNING: [Synth 8-7071] port 'ss_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:311]
-WARNING: [Synth 8-7023] instance 'axi_quad_spi_0' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' has 51 connections declared, but only 44 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:311]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_uartlite_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_uartlite_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_uartlite_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_uartlite_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'interrupt' of module 'Signal_Souce_Control_BD_axi_uartlite_0_0' is unconnected for instance 'axi_uartlite_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:356]
-WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'Signal_Souce_Control_BD_axi_uartlite_0_0' has 22 connections declared, but only 21 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:356]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_clk_wiz_1_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_clk_wiz_1_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_clk_wiz_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_mdm_1_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_mdm_1_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_mdm_1_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_microblaze_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_microblaze_0_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_microblaze_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_microblaze_0_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'Interrupt_Ack' of module 'Signal_Souce_Control_BD_microblaze_0_0' is unconnected for instance 'microblaze_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:398]
-WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'Signal_Souce_Control_BD_microblaze_0_0' has 52 connections declared, but only 51 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:398]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:640]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1WOVEP5' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:1836]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1WOVEP5' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:1836]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1HNPIHM' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:1968]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1HNPIHM' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:1968]
-INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_16USMA7' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2100]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_auto_pc_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_auto_pc_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_auto_pc_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_auto_pc_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'm_axi_awregion' of module 'Signal_Souce_Control_BD_auto_pc_0' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2315]
-WARNING: [Synth 8-7071] port 'm_axi_awqos' of module 'Signal_Souce_Control_BD_auto_pc_0' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2315]
-WARNING: [Synth 8-7071] port 'm_axi_arregion' of module 'Signal_Souce_Control_BD_auto_pc_0' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2315]
-WARNING: [Synth 8-7071] port 'm_axi_arqos' of module 'Signal_Souce_Control_BD_auto_pc_0' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2315]
-WARNING: [Synth 8-7023] instance 'auto_pc' of module 'Signal_Souce_Control_BD_auto_pc_0' has 56 connections declared, but only 52 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2315]
-INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_16USMA7' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2100]
-INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1BVBDQ4' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2370]
-INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1BVBDQ4' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2370]
-INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_CB2CPX' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2502]
-INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_CB2CPX' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2502]
-INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_7EC0EU' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2634]
-INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_7EC0EU' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2634]
-INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_I8P1XF' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2780]
-INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_I8P1XF' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2780]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1GZLGR8' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3160]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1GZLGR8' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3160]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_xbar_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_xbar_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_xbar_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:640]
-WARNING: [Synth 8-7071] port 'M05_AXI_araddr' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_arprot' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_arvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_awaddr' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_awprot' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_awvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_bready' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_rready' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_wdata' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_wstrb' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M05_AXI_wvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_araddr' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_arprot' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_arvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_awaddr' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_awprot' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_awvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_bready' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_rready' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_wdata' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_wstrb' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7071] port 'M06_AXI_wvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-WARNING: [Synth 8-7023] instance 'microblaze_0_axi_periph' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' has 174 connections declared, but only 152 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:450]
-INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_V60STC' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2926]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_dlmb_v10_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_dlmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_dlmb_v10_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_dlmb_v10_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Signal_Souce_Control_BD_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3072]
-WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'Signal_Souce_Control_BD_dlmb_v10_0' has 25 connections declared, but only 24 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3072]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0_stub.v:5]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_ilmb_v10_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_ilmb_v10_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_ilmb_v10_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_ilmb_v10_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Signal_Souce_Control_BD_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3118]
-WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'Signal_Souce_Control_BD_ilmb_v10_0' has 25 connections declared, but only 24 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3118]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_lmb_bram_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_lmb_bram_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_lmb_bram_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_lmb_bram_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'rsta_busy' of module 'Signal_Souce_Control_BD_lmb_bram_0' is unconnected for instance 'lmb_bram' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3143]
-WARNING: [Synth 8-7071] port 'rstb_busy' of module 'Signal_Souce_Control_BD_lmb_bram_0' is unconnected for instance 'lmb_bram' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3143]
-WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'Signal_Souce_Control_BD_lmb_bram_0' has 16 connections declared, but only 14 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3143]
-INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_V60STC' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2926]
-INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-139080-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0_stub.v:5]
-WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:625]
-WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:625]
-WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:625]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_gpio_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_gpio_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_gpio_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_gpio_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_gpio_1_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_gpio_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_gpio_1_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_gpio_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_intc_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_intc_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_intc_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_intc_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_quad_spi_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_quad_spi_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 's_axi4_bid' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:338]
+WARNING: [Synth 8-7071] port 's_axi4_rid' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:338]
+WARNING: [Synth 8-7071] port 'io0_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:338]
+WARNING: [Synth 8-7071] port 'io1_o' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:338]
+WARNING: [Synth 8-7071] port 'io1_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:338]
+WARNING: [Synth 8-7071] port 'sck_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:338]
+WARNING: [Synth 8-7071] port 'ss_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:338]
+WARNING: [Synth 8-7023] instance 'axi_quad_spi_0' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_0' has 51 connections declared, but only 44 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:338]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_quad_spi_0_1' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_quad_spi_0_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_quad_spi_0_1' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_quad_spi_0_1_stub.v:5]
+WARNING: [Synth 8-7071] port 'io0_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_1' is unconnected for instance 'axi_quad_spi_1' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:383]
+WARNING: [Synth 8-7071] port 'io1_o' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_1' is unconnected for instance 'axi_quad_spi_1' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:383]
+WARNING: [Synth 8-7071] port 'io1_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_1' is unconnected for instance 'axi_quad_spi_1' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:383]
+WARNING: [Synth 8-7071] port 'sck_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_1' is unconnected for instance 'axi_quad_spi_1' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:383]
+WARNING: [Synth 8-7071] port 'ss_t' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_1' is unconnected for instance 'axi_quad_spi_1' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:383]
+WARNING: [Synth 8-7023] instance 'axi_quad_spi_1' of module 'Signal_Souce_Control_BD_axi_quad_spi_0_1' has 47 connections declared, but only 42 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:383]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_axi_uartlite_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_uartlite_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_axi_uartlite_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_axi_uartlite_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'interrupt' of module 'Signal_Souce_Control_BD_axi_uartlite_0_0' is unconnected for instance 'axi_uartlite_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:426]
+WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'Signal_Souce_Control_BD_axi_uartlite_0_0' has 22 connections declared, but only 21 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:426]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_clk_wiz_1_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_clk_wiz_1_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_clk_wiz_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_mdm_1_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_mdm_1_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_mdm_1_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_microblaze_0_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_microblaze_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_microblaze_0_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_microblaze_0_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'Interrupt_Ack' of module 'Signal_Souce_Control_BD_microblaze_0_0' is unconnected for instance 'microblaze_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:468]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'Signal_Souce_Control_BD_microblaze_0_0' has 52 connections declared, but only 51 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:468]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:733]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1WOVEP5' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:1989]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1WOVEP5' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:1989]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1HNPIHM' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2121]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1HNPIHM' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2121]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_16USMA7' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2253]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_auto_pc_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_auto_pc_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_auto_pc_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_auto_pc_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'm_axi_awregion' of module 'Signal_Souce_Control_BD_auto_pc_0' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2468]
+WARNING: [Synth 8-7071] port 'm_axi_awqos' of module 'Signal_Souce_Control_BD_auto_pc_0' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2468]
+WARNING: [Synth 8-7071] port 'm_axi_arregion' of module 'Signal_Souce_Control_BD_auto_pc_0' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2468]
+WARNING: [Synth 8-7071] port 'm_axi_arqos' of module 'Signal_Souce_Control_BD_auto_pc_0' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2468]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'Signal_Souce_Control_BD_auto_pc_0' has 56 connections declared, but only 52 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2468]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_16USMA7' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2253]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_1BVBDQ4' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2523]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_1BVBDQ4' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2523]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_CB2CPX' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2655]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_CB2CPX' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2655]
+INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_7EC0EU' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2787]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_auto_pc_1' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_auto_pc_1_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_auto_pc_1' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_auto_pc_1_stub.v:5]
+WARNING: [Synth 8-7071] port 'm_axi_awregion' of module 'Signal_Souce_Control_BD_auto_pc_1' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3002]
+WARNING: [Synth 8-7071] port 'm_axi_awqos' of module 'Signal_Souce_Control_BD_auto_pc_1' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3002]
+WARNING: [Synth 8-7071] port 'm_axi_arregion' of module 'Signal_Souce_Control_BD_auto_pc_1' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3002]
+WARNING: [Synth 8-7071] port 'm_axi_arqos' of module 'Signal_Souce_Control_BD_auto_pc_1' is unconnected for instance 'auto_pc' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3002]
+WARNING: [Synth 8-7023] instance 'auto_pc' of module 'Signal_Souce_Control_BD_auto_pc_1' has 56 connections declared, but only 52 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3002]
+INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_7EC0EU' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:2787]
+INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_I8P1XF' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3057]
+INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_I8P1XF' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3057]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1GZLGR8' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3437]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1GZLGR8' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3437]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_xbar_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_xbar_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_xbar_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:733]
+WARNING: [Synth 8-7071] port 'M06_AXI_araddr' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_arprot' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_arvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_awaddr' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_awprot' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_awvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_bready' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_rready' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_wdata' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_wstrb' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7071] port 'M06_AXI_wvalid' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' is unconnected for instance 'microblaze_0_axi_periph' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+WARNING: [Synth 8-7023] instance 'microblaze_0_axi_periph' of module 'Signal_Souce_Control_BD_microblaze_0_axi_periph_0' has 186 connections declared, but only 175 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:520]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_V60STC' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3203]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_dlmb_v10_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_dlmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_dlmb_v10_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_dlmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Signal_Souce_Control_BD_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3349]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'Signal_Souce_Control_BD_dlmb_v10_0' has 25 connections declared, but only 24 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3349]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_ilmb_v10_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_ilmb_v10_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_ilmb_v10_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_ilmb_v10_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'Signal_Souce_Control_BD_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3395]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'Signal_Souce_Control_BD_ilmb_v10_0' has 25 connections declared, but only 24 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3395]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_lmb_bram_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_lmb_bram_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_lmb_bram_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_lmb_bram_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'rsta_busy' of module 'Signal_Souce_Control_BD_lmb_bram_0' is unconnected for instance 'lmb_bram' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3420]
+WARNING: [Synth 8-7071] port 'rstb_busy' of module 'Signal_Souce_Control_BD_lmb_bram_0' is unconnected for instance 'lmb_bram' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3420]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'Signal_Souce_Control_BD_lmb_bram_0' has 16 connections declared, but only 14 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3420]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_V60STC' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:3203]
+INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' (0#1) [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/.Xil/Vivado-38172-DESKTOP-LJ1PS58/realtime/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0_stub.v:5]
+WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:718]
+WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:718]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/synth/Signal_Souce_Control_BD.v:718]
 INFO: [Synth 8-6157] synthesizing module 'Signal_Souce_Control_BD_xlconcat_0_0' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlconcat_0_0/synth/Signal_Souce_Control_BD_xlconcat_0_0.v:53]
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
@@ -253,18 +249,18 @@ WARNING: [Synth 8-7129] Port In100[0] in module xlconcat_v2_1_4_xlconcat is eith
 WARNING: [Synth 8-7129] Port In101[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2121.570 ; gain = 474.258
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2123.512 ; gain = 475.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2121.570 ; gain = 474.258
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2123.512 ; gain = 475.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2121.570 ; gain = 474.258
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2123.512 ; gain = 475.051
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 2121.570 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 2123.512 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -297,10 +293,14 @@ Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Cont
 Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xbar_0/Signal_Souce_Control_BD_xbar_0/Signal_Souce_Control_BD_xbar_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/microblaze_0_axi_periph/xbar'
 Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_auto_pc_0/Signal_Souce_Control_BD_auto_pc_0/Signal_Souce_Control_BD_auto_pc_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/microblaze_0_axi_periph/m02_couplers/auto_pc'
 Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_auto_pc_0/Signal_Souce_Control_BD_auto_pc_0/Signal_Souce_Control_BD_auto_pc_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/microblaze_0_axi_periph/m02_couplers/auto_pc'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_auto_pc_1/Signal_Souce_Control_BD_auto_pc_1/Signal_Souce_Control_BD_auto_pc_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/microblaze_0_axi_periph/m05_couplers/auto_pc'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_auto_pc_1/Signal_Souce_Control_BD_auto_pc_1/Signal_Souce_Control_BD_auto_pc_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/microblaze_0_axi_periph/m05_couplers/auto_pc'
 Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_1'
 Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/axi_gpio_1'
 Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/rst_clk_wiz_1_100M'
 Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0/Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/rst_clk_wiz_1_100M'
+Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_1/Signal_Souce_Control_BD_axi_quad_spi_0_1/Signal_Souce_Control_BD_axi_quad_spi_0_1_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_1'
+Finished Parsing XDC File [d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_1/Signal_Souce_Control_BD_axi_quad_spi_0_1/Signal_Souce_Control_BD_axi_quad_spi_0_1_in_context.xdc] for cell 'Signal_Souce_Control_BD_i/axi_quad_spi_1'
 Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc]
 CRITICAL WARNING: [Netlist 29-69] Cannot set property 'CLOCK_DEDICATED_ROUTE', because the property does not exist for objects of type 'port'. [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/KCU116_Rev1.0_XDC_20230407_for_ad9164.xdc:174]
 Resolution: Modify .xdc or RTL to not set this property or move it to one of the following object types that can accept this property: pin,net
@@ -313,20 +313,21 @@ Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Cont
 Finished Parsing XDC File [D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2121.570 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2123.512 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2121.570 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2123.512 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'Signal_Souce_Control_BD_i/axi_gpio_0' at clock pin 's_axi_aclk' is different from the actual clock period '3.333', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'Signal_Souce_Control_BD_i/axi_gpio_1' at clock pin 's_axi_aclk' is different from the actual clock period '3.333', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Signal_Souce_Control_BD_i/axi_quad_spi_0' at clock pin 'ext_spi_clk' is different from the actual clock period '3.333', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Signal_Souce_Control_BD_i/axi_quad_spi_1' at clock pin 'ext_spi_clk' is different from the actual clock period '3.333', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'Signal_Souce_Control_BD_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '3.333', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-11241] undeclared symbol 'REGCCE', assumed default net type 'wire' [D:/Xilinx/Vivado/2022.2/data/verilog/src/unimacro/BRAM_SINGLE_MACRO.v:2170]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2121.570 ; gain = 474.258
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2127.492 ; gain = 479.031
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -334,7 +335,7 @@ Start Loading Part and Timing Information
 Loading part: xcku5p-ffvb676-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2121.570 ; gain = 474.258
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2127.551 ; gain = 479.090
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -359,16 +360,16 @@ Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/mdm_1. 
 Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/clk_wiz_1. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/microblaze_0_axi_periph/m02_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/microblaze_0_axi_periph/m05_couplers/auto_pc. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/microblaze_0_axi_periph. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/axi_gpio_1. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/DDS2. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/SignalSouce1. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for Signal_Souce_Control_BD_i/axi_quad_spi_1. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2121.570 ; gain = 474.258
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2127.559 ; gain = 479.098
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2121.570 ; gain = 474.258
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 2127.559 ; gain = 479.098
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -391,25 +392,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 2121.570 ; gain = 474.258
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2127.559 ; gain = 479.098
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2571.754 ; gain = 924.441
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2571.000 ; gain = 922.539
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2572.051 ; gain = 924.738
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2571.598 ; gain = 923.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2591.520 ; gain = 944.207
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2591.562 ; gain = 943.102
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -427,37 +428,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2598.312 ; gain = 951.000
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2596.391 ; gain = 947.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2598.312 ; gain = 951.000
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2596.391 ; gain = 947.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2598.312 ; gain = 951.000
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2596.391 ; gain = 947.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2598.312 ; gain = 951.000
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2596.391 ; gain = 947.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2598.312 ; gain = 951.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2596.391 ; gain = 947.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2598.312 ; gain = 951.000
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2596.391 ; gain = 947.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -469,68 +470,70 @@ Report BlackBoxes:
 +------+---------------------------------------------+----------+
 |1     |Signal_Souce_Control_BD_xbar_0               |         1|
 |2     |Signal_Souce_Control_BD_auto_pc_0            |         1|
-|3     |Signal_Souce_Control_BD_axi_gpio_0_0         |         1|
-|4     |Signal_Souce_Control_BD_axi_gpio_1_0         |         1|
-|5     |Signal_Souce_Control_BD_axi_intc_0_0         |         1|
-|6     |Signal_Souce_Control_BD_axi_quad_spi_0_0     |         1|
-|7     |Signal_Souce_Control_BD_axi_uartlite_0_0     |         1|
-|8     |Signal_Souce_Control_BD_clk_wiz_1_0          |         1|
-|9     |Signal_Souce_Control_BD_mdm_1_0              |         1|
-|10    |Signal_Souce_Control_BD_microblaze_0_0       |         1|
-|11    |Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0 |         1|
-|12    |Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0 |         1|
-|13    |Signal_Souce_Control_BD_dlmb_v10_0           |         1|
-|14    |Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0 |         1|
-|15    |Signal_Souce_Control_BD_ilmb_v10_0           |         1|
-|16    |Signal_Souce_Control_BD_lmb_bram_0           |         1|
+|3     |Signal_Souce_Control_BD_auto_pc_1            |         1|
+|4     |Signal_Souce_Control_BD_axi_gpio_0_0         |         1|
+|5     |Signal_Souce_Control_BD_axi_gpio_1_0         |         1|
+|6     |Signal_Souce_Control_BD_axi_intc_0_0         |         1|
+|7     |Signal_Souce_Control_BD_axi_quad_spi_0_0     |         1|
+|8     |Signal_Souce_Control_BD_axi_quad_spi_0_1     |         1|
+|9     |Signal_Souce_Control_BD_axi_uartlite_0_0     |         1|
+|10    |Signal_Souce_Control_BD_clk_wiz_1_0          |         1|
+|11    |Signal_Souce_Control_BD_mdm_1_0              |         1|
+|12    |Signal_Souce_Control_BD_microblaze_0_0       |         1|
+|13    |Signal_Souce_Control_BD_rst_clk_wiz_1_100M_0 |         1|
+|14    |Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0 |         1|
+|15    |Signal_Souce_Control_BD_dlmb_v10_0           |         1|
+|16    |Signal_Souce_Control_BD_ilmb_bram_if_cntlr_0 |         1|
+|17    |Signal_Souce_Control_BD_ilmb_v10_0           |         1|
+|18    |Signal_Souce_Control_BD_lmb_bram_0           |         1|
 +------+---------------------------------------------+----------+
 
 Report Cell Usage: 
 +------+-------------------------------------------+------+
 |      |Cell                                       |Count |
 +------+-------------------------------------------+------+
-|1     |Signal_Souce_Control_BD_auto_pc            |     1|
-|2     |Signal_Souce_Control_BD_axi_gpio_0         |     1|
-|3     |Signal_Souce_Control_BD_axi_gpio_1         |     1|
-|4     |Signal_Souce_Control_BD_axi_intc_0         |     1|
-|5     |Signal_Souce_Control_BD_axi_quad_spi_0     |     1|
-|6     |Signal_Souce_Control_BD_axi_uartlite_0     |     1|
-|7     |Signal_Souce_Control_BD_clk_wiz_1          |     1|
-|8     |Signal_Souce_Control_BD_dlmb_bram_if_cntlr |     1|
-|9     |Signal_Souce_Control_BD_dlmb_v10           |     1|
-|10    |Signal_Souce_Control_BD_ilmb_bram_if_cntlr |     1|
-|11    |Signal_Souce_Control_BD_ilmb_v10           |     1|
-|12    |Signal_Souce_Control_BD_lmb_bram           |     1|
-|13    |Signal_Souce_Control_BD_mdm_1              |     1|
-|14    |Signal_Souce_Control_BD_microblaze_0       |     1|
-|15    |Signal_Souce_Control_BD_rst_clk_wiz_1_100M |     1|
-|16    |Signal_Souce_Control_BD_xbar               |     1|
-|17    |IBUF                                       |     7|
-|18    |OBUF                                       |    25|
+|1     |Signal_Souce_Control_BD_auto_pc            |     2|
+|3     |Signal_Souce_Control_BD_axi_gpio_0         |     1|
+|4     |Signal_Souce_Control_BD_axi_gpio_1         |     1|
+|5     |Signal_Souce_Control_BD_axi_intc_0         |     1|
+|6     |Signal_Souce_Control_BD_axi_quad_spi_0     |     2|
+|8     |Signal_Souce_Control_BD_axi_uartlite_0     |     1|
+|9     |Signal_Souce_Control_BD_clk_wiz_1          |     1|
+|10    |Signal_Souce_Control_BD_dlmb_bram_if_cntlr |     1|
+|11    |Signal_Souce_Control_BD_dlmb_v10           |     1|
+|12    |Signal_Souce_Control_BD_ilmb_bram_if_cntlr |     1|
+|13    |Signal_Souce_Control_BD_ilmb_v10           |     1|
+|14    |Signal_Souce_Control_BD_lmb_bram           |     1|
+|15    |Signal_Souce_Control_BD_mdm_1              |     1|
+|16    |Signal_Souce_Control_BD_microblaze_0       |     1|
+|17    |Signal_Souce_Control_BD_rst_clk_wiz_1_100M |     1|
+|18    |Signal_Souce_Control_BD_xbar               |     1|
+|19    |IBUF                                       |     7|
+|20    |OBUF                                       |    25|
 +------+-------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2598.312 ; gain = 951.000
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2596.391 ; gain = 947.930
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 25 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2598.312 ; gain = 951.000
-Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2598.312 ; gain = 951.000
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 2596.391 ; gain = 947.930
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 2596.391 ; gain = 947.930
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 2610.336 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2608.453 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2637.680 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2635.320 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 7 instances were transformed.
   IBUF => IBUF (IBUFCTRL, INBUF): 7 instances
 
-Synth Design complete, checksum: b8c16ac2
+Synth Design complete, checksum: 19d12584
 INFO: [Common 17-83] Releasing license: Synthesis
-96 Infos, 157 Warnings, 2 Critical Warnings and 0 Errors encountered.
+92 Infos, 158 Warnings, 2 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 2637.680 ; gain = 2048.898
+synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 2635.320 ; gain = 2046.578
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.runs/synth_1/Signal_Souce_Control_BD_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Signal_Souce_Control_BD_wrapper_utilization_synth.rpt -pb Signal_Souce_Control_BD_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Fri May 26 15:35:02 2023...
+INFO: [Common 17-206] Exiting Vivado at Fri May 26 16:08:24 2023...

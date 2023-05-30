@@ -186,3 +186,9 @@ platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_So
 platform generate -domains 
 platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
 platform generate -domains 
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate -domains 
+platform clean
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform config -updatehw {D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa}
+platform generate

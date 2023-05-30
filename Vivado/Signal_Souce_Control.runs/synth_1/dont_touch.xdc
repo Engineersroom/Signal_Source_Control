@@ -57,13 +57,13 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souc
 # IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_gpio_1_0/Signal_Souce_Control_BD_axi_gpio_1_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_axi_gpio_1_0 || ORIG_REF_NAME==Signal_Souce_Control_BD_axi_gpio_1_0} -quiet] -quiet
 
-# IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_0/Signal_Souce_Control_BD_xlslice_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_xlslice_0_0 || ORIG_REF_NAME==Signal_Souce_Control_BD_xlslice_0_0} -quiet] -quiet
-
-# IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_xlslice_0_2/Signal_Souce_Control_BD_xlslice_0_2.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_xlslice_0_2 || ORIG_REF_NAME==Signal_Souce_Control_BD_xlslice_0_2} -quiet] -quiet
+# IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_quad_spi_0_1/Signal_Souce_Control_BD_axi_quad_spi_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_axi_quad_spi_0_1 || ORIG_REF_NAME==Signal_Souce_Control_BD_axi_quad_spi_0_1} -quiet] -quiet
 
 # IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_auto_pc_0/Signal_Souce_Control_BD_auto_pc_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_auto_pc_0 || ORIG_REF_NAME==Signal_Souce_Control_BD_auto_pc_0} -quiet] -quiet
+
+# IP: bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_auto_pc_1/Signal_Souce_Control_BD_auto_pc_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==Signal_Souce_Control_BD_auto_pc_1 || ORIG_REF_NAME==Signal_Souce_Control_BD_auto_pc_1} -quiet] -quiet
 
 # XDC: d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/Signal_Souce_Control_BD_ooc.xdc

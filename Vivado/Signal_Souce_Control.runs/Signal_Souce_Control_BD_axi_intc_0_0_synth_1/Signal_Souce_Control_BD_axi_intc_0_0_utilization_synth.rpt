@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri May 26 13:16:54 2023
+| Date         : Fri May 26 16:07:33 2023
 | Host         : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Signal_Souce_Control_BD_axi_intc_0_0_utilization_synth.rpt -pb Signal_Souce_Control_BD_axi_intc_0_0_utilization_synth.pb
 | Design       : Signal_Souce_Control_BD_axi_intc_0_0
@@ -35,8 +35,8 @@ Table of Contents
 | CLB LUTs*               |   76 |     0 |          0 |    216960 |  0.04 |
 |   LUT as Logic          |   76 |     0 |          0 |    216960 |  0.04 |
 |   LUT as Memory         |    0 |     0 |          0 |     99840 |  0.00 |
-| CLB Registers           |   77 |     0 |          0 |    433920 |  0.02 |
-|   Register as Flip Flop |   77 |     0 |          0 |    433920 |  0.02 |
+| CLB Registers           |   75 |     0 |          0 |    433920 |  0.02 |
+|   Register as Flip Flop |   75 |     0 |          0 |    433920 |  0.02 |
 |   Register as Latch     |    0 |     0 |          0 |    433920 |  0.00 |
 | CARRY8                  |    0 |     0 |          0 |     27120 |  0.00 |
 | F7 Muxes                |    0 |     0 |          0 |    108480 |  0.00 |
@@ -62,7 +62,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 2     |          Yes |         Set |            - |
-| 75    |          Yes |       Reset |            - |
+| 73    |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -155,7 +155,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |   75 |            Register |
+| FDRE     |   73 |            Register |
 | LUT5     |   39 |                 CLB |
 | LUT6     |   19 |                 CLB |
 | LUT3     |   18 |                 CLB |

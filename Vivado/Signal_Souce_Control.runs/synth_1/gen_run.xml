@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xcku5p-ffvb676-2-e" LaunchTime="1685082853" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Signal_Souce_Control_BD_wrapper.dcp">
+<GenRun Id="synth_1" LaunchPart="xcku5p-ffvb676-2-e" LaunchTime="1685084797" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Signal_Souce_Control_BD_wrapper.dcp">
   <File Type="PA-TCL" Name="Signal_Souce_Control_BD_wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Signal_Souce_Control_BD_wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Signal_Souce_Control_BD_wrapper_reports.tcl"/>
@@ -83,4 +83,6 @@
   <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_clk_wiz_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_axi_intc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_axi_quad_spi_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Signal_Souce_Control_BD_axi_quad_spi_0_1"/>
 </GenRun>

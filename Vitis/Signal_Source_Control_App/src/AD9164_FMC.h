@@ -52,8 +52,9 @@ void SpiHandler(void *CallBackRef, u32 StatusEvent, unsigned int ByteCount);
 int init_axi_gpio(XGpio *xgpioPtrTxEn, XGpio *XgpioPtrHWGPIO);
 
 int SPI_Init_Func(int device_id, XSpi *spiPtr, XIntc *Intptr);
+int SPI_Init_Func2(int device_id, int device_id2, XSpi *spiPtr, XSpi *spiPtr2, XIntc *Intptr);
 int SPI_Signal_Source_Factory_Init(XSpi *spiPtr);
-int SPI_Signal_Source_Factory_Init_sub(XSpi *spiPtr);
+int SPI_Signal_Source_Factory_Init_sub(XSpi *spiPtr, XSpi *spiPtr2);
 int SPI_User_Debug_Mode(XSpi *spiPtr, XUartLite *uartPtr);
 int Read_Register(XSpi *spiPtr, int device_id);
 int SPI_Forced_Input2(XSpi *spiPtr);
@@ -61,8 +62,8 @@ int SPI_Forced_Input2(XSpi *spiPtr);
 int SET_FTH1_1GHZ(XSpi *spiPtr);
 int SET_FTH1_2GHZ(XSpi *spiPtr);
 
-int SET_FTH1_100MHZ(XSpi *spiPtr);
-int SET_FTH1_OFF(XSpi *spiPtr);
+int SET_FTH1_100MHZ(XSpi *spiPtr,XSpi *spiPtr2);
+int SET_FTH1_OFF(XSpi *spiPtr,XSpi *spiPtr2);
 
 int SET_FTH1_FREQ(XSpi *spiPtr, unsigned char freq);
 
@@ -74,7 +75,6 @@ int SET_FTH1_100MHz_Test(XSpi *spiPtr);
 int SET_Dual_FTH1_1GHZ(XSpi *spiPtr, XSpi *spiPtr2);
 
 int SET_DUAL_FTH1_FREQ(XSpi *spiPtr, unsigned char freq);
-
 
 extern u8 data[20];
 extern unsigned char SendBuffer[TEST_BUFFER_SIZE];

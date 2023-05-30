@@ -28,6 +28,8 @@
 
 static XSpi Spi;
 static XIntc Intc;
+static XSpi Spi2;
+static XIntc Intc2;
 
 static XGpio GpioTxEn;
 static XGpio GpioLed;
@@ -36,6 +38,7 @@ XUartLite UartLite;
 
 int main()
 {
+    print("##################################################### .. \n\r");
     print("Test ing .. \n\r");
 
     init_platform();
@@ -51,7 +54,8 @@ int main()
     xil_printf("This is VNA Ver Frequency \r\n");
     UART_Init_Func(XPAR_AXI_UARTLITE_0_DEVICE_ID, &UartLite);
     xil_printf("Uart Open...OK\r\n");
-    SPI_Init_Func(XPAR_SPI_0_DEVICE_ID, &Spi, &Intc);
+    // SPI_Init_Func(XPAR_SPI_0_DEVICE_ID, &Spi, &Intc);
+    SPI_Init_Func2(XPAR_SPI_0_DEVICE_ID, XPAR_SPI_1_DEVICE_ID, &Spi, &Spi2, &Intc);
     xil_printf("SPI 1 Open ... OK\r\n");
 
     xil_printf("Successfully Load Signal Source Control Task\r\n");
@@ -100,6 +104,7 @@ int main()
             {
                 XGpio_DiscreteWrite(&GpioLed, 1, 0b00000001);
                 SET_FTH1_1GHZ(&Spi);
+                SET_FTH1_1GHZ(&Spi2);
                 XGpio_DiscreteWrite(&GpioTxEn, 1, 0xF);
             }
             else if (RecvBuffer[0] == 202) // 0xFB) // 254
@@ -110,17 +115,19 @@ int main()
             }
             else if (RecvBuffer[0] == 203) // 0xFB) // 254
             {
-                SET_FTH1_100MHZ(&Spi);
+
+                SET_FTH1_100MHZ(&Spi, &Spi2);
             }
             else if (RecvBuffer[0] == 204) // 0xFB) // 254
             {
                 XGpio_DiscreteWrite(&GpioLed, 1, 0b00001111);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
             }
             else if (RecvBuffer[0] == 205) // 0xFB) // 254
             {
                 XGpio_DiscreteWrite(&GpioLed, 1, 0b00000100);
                 SPI_Signal_Source_Factory_Init(&Spi);
+                SPI_Signal_Source_Factory_Init(&Spi2);
                 SET_DUAL_FTH1_FREQ(&Spi, 1);
             }
             else if (RecvBuffer[0] == 206) // 0xFB) // 254
@@ -136,9 +143,10 @@ int main()
             }
             else if (RecvBuffer[0] == 208) // 0xFB) // 254
             {
-                XGpio_DiscreteWrite(&GpioLed, 1, 0b00000101);
-                SPI_Signal_Source_Factory_Init_sub(&Spi);
+                XGpio_DiscreteWrite(&GpioLed, 1, 0b00000110);
+                SPI_Signal_Source_Factory_Init_sub(&Spi, &Spi2);
                 SET_DUAL_FTH1_FREQ(&Spi, 1);
+                SET_DUAL_FTH1_FREQ(&Spi2, 1);
             }
             else if (RecvBuffer[0] == 209) // 0xFB) // 254
             {
@@ -160,49 +168,54 @@ int main()
             }
             else if (RecvBuffer[0] == 212)
             {
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
-                SET_FTH1_100MHZ(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+                SET_FTH1_100MHZ(&Spi, &Spi2);
+                SET_FTH1_OFF(&Spi, &Spi2);
+    
             }
             else if (RecvBuffer[0] == 213)
             {
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
                 SET_FTH1_100MHz_Test(&Spi);
-                SET_FTH1_OFF(&Spi);
+                SET_FTH1_OFF(&Spi, &Spi2);
             }
 
             else

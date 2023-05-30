@@ -1,6 +1,6 @@
-15:43:16 **** Incremental Build of configuration Debug for project Signal_Source_Control_App ****
+13:42:52 **** Incremental Build of configuration Debug for project Signal_Source_Control_App ****
 make all 
 make: Nothing to be done for 'all'.
 
-15:43:16 Build Finished (took 107ms)
+13:42:52 Build Finished (took 103ms)
 

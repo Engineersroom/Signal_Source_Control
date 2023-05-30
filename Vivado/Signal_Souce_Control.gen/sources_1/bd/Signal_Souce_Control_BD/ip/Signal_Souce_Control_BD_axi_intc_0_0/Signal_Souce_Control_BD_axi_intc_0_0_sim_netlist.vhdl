@@ -1,7 +1,7 @@
 -- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
--- Date        : Fri May 26 13:16:54 2023
+-- Date        : Fri May 26 16:07:33 2023
 -- Host        : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               d:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control.gen/sources_1/bd/Signal_Souce_Control_BD/ip/Signal_Souce_Control_BD_axi_intc_0_0/Signal_Souce_Control_BD_axi_intc_0_0_sim_netlist.vhdl
@@ -991,9 +991,6 @@ architecture STRUCTURE of Signal_Souce_Control_BD_axi_intc_0_0_intc_core is
   signal \^cie_gen.cie_bit_gen[0].cie_reg[0]_0\ : STD_LOGIC;
   signal \INTR_DETECT_GEN[0].EDGE_DETECT_GEN.hw_intr[0]_i_1_n_0\ : STD_LOGIC;
   signal \INTR_DETECT_GEN[0].EDGE_DETECT_GEN.intr_d1\ : STD_LOGIC;
-  signal \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff\ : STD_LOGIC_VECTOR ( 0 to 1 );
-  attribute async_reg : string;
-  attribute async_reg of \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff\ : signal is "true";
   signal \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.hw_intr[1]_i_1_n_0\ : STD_LOGIC;
   signal \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.intr_d1\ : STD_LOGIC;
   signal \IPR_GEN.ipr[0]_i_1_n_0\ : STD_LOGIC;
@@ -1023,12 +1020,6 @@ architecture STRUCTURE of Signal_Souce_Control_BD_axi_intc_0_0_intc_core is
   signal \^p_0_in3_in\ : STD_LOGIC;
   signal \^p_0_in5_in\ : STD_LOGIC;
   signal \^p_1_in2_in\ : STD_LOGIC;
-  attribute ASYNC_REG_boolean : boolean;
-  attribute ASYNC_REG_boolean of \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[0]\ : label is std.standard.true;
-  attribute KEEP : string;
-  attribute KEEP of \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[0]\ : label is "yes";
-  attribute ASYNC_REG_boolean of \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[1]\ : label is std.standard.true;
-  attribute KEEP of \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[1]\ : label is "yes";
   attribute SOFT_HLUTNM : string;
   attribute SOFT_HLUTNM of \IPR_GEN.ipr[0]_i_1\ : label is "soft_lutpair26";
   attribute SOFT_HLUTNM of irq_gen_i_1 : label is "soft_lutpair26";
@@ -1087,35 +1078,13 @@ begin
       Q => \INTR_DETECT_GEN[0].EDGE_DETECT_GEN.intr_d1\,
       R => \^sr\(0)
     );
-\INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[0]\: unisim.vcomponents.FDRE
-    generic map(
-      INIT => '0'
-    )
-        port map (
-      C => s_axi_aclk,
-      CE => '1',
-      D => intr(1),
-      Q => \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff\(0),
-      R => '0'
-    );
-\INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff_reg[1]\: unisim.vcomponents.FDRE
-    generic map(
-      INIT => '0'
-    )
-        port map (
-      C => s_axi_aclk,
-      CE => '1',
-      D => \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff\(0),
-      Q => \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff\(1),
-      R => '0'
-    );
 \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.hw_intr[1]_i_1\: unisim.vcomponents.LUT3
     generic map(
       INIT => X"F4"
     )
         port map (
       I0 => \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.intr_d1\,
-      I1 => \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff\(1),
+      I1 => intr(1),
       I2 => hw_intr(1),
       O => \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.hw_intr[1]_i_1_n_0\
     );
@@ -1131,7 +1100,7 @@ begin
      port map (
       C => s_axi_aclk,
       CE => '1',
-      D => \INTR_DETECT_GEN[1].ASYNC_GEN.intr_ff\(1),
+      D => intr(1),
       Q => \INTR_DETECT_GEN[1].EDGE_DETECT_GEN.intr_d1\,
       R => \^sr\(0)
     );
@@ -2415,7 +2384,7 @@ entity Signal_Souce_Control_BD_axi_intc_0_0_axi_intc is
   attribute C_ADDR_WIDTH : integer;
   attribute C_ADDR_WIDTH of Signal_Souce_Control_BD_axi_intc_0_0_axi_intc : entity is 32;
   attribute C_ASYNC_INTR : string;
-  attribute C_ASYNC_INTR of Signal_Souce_Control_BD_axi_intc_0_0_axi_intc : entity is "32'b11111111111111111111111111111110";
+  attribute C_ASYNC_INTR of Signal_Souce_Control_BD_axi_intc_0_0_axi_intc : entity is "32'b11111111111111111111111111111100";
   attribute C_CASCADE_MASTER : integer;
   attribute C_CASCADE_MASTER of Signal_Souce_Control_BD_axi_intc_0_0_axi_intc : entity is 0;
   attribute C_DISABLE_SYNCHRONIZERS : integer;
@@ -2770,7 +2739,7 @@ architecture STRUCTURE of Signal_Souce_Control_BD_axi_intc_0_0 is
   attribute C_ADDR_WIDTH : integer;
   attribute C_ADDR_WIDTH of U0 : label is 32;
   attribute C_ASYNC_INTR : string;
-  attribute C_ASYNC_INTR of U0 : label is "32'b11111111111111111111111111111110";
+  attribute C_ASYNC_INTR of U0 : label is "32'b11111111111111111111111111111100";
   attribute C_CASCADE_MASTER : integer;
   attribute C_CASCADE_MASTER of U0 : label is 0;
   attribute C_DISABLE_SYNCHRONIZERS : integer;
@@ -2850,7 +2819,7 @@ architecture STRUCTURE of Signal_Souce_Control_BD_axi_intc_0_0 is
   attribute x_interface_info of s_axi_wready : signal is "xilinx.com:interface:aximm:1.0 s_axi WREADY";
   attribute x_interface_info of s_axi_wvalid : signal is "xilinx.com:interface:aximm:1.0 s_axi WVALID";
   attribute x_interface_info of intr : signal is "xilinx.com:signal:interrupt:1.0 interrupt_input INTERRUPT";
-  attribute x_interface_parameter of intr : signal is "XIL_INTERFACENAME interrupt_input, SENSITIVITY NULL:EDGE_RISING, PORTWIDTH 2";
+  attribute x_interface_parameter of intr : signal is "XIL_INTERFACENAME interrupt_input, SENSITIVITY EDGE_RISING:EDGE_RISING, PORTWIDTH 2";
   attribute x_interface_info of s_axi_araddr : signal is "xilinx.com:interface:aximm:1.0 s_axi ARADDR";
   attribute x_interface_info of s_axi_awaddr : signal is "xilinx.com:interface:aximm:1.0 s_axi AWADDR";
   attribute x_interface_parameter of s_axi_awaddr : signal is "XIL_INTERFACENAME s_axi, DATA_WIDTH 32, PROTOCOL AXI4LITE, FREQ_HZ 300000000, ID_WIDTH 0, ADDR_WIDTH 9, AWUSER_WIDTH 0, ARUSER_WIDTH 0, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 0, HAS_LOCK 0, HAS_PROT 0, HAS_CACHE 0, HAS_QOS 0, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 0, NUM_READ_OUTSTANDING 2, NUM_WRITE_OUTSTANDING 2, MAX_BURST_LENGTH 1, PHASE 0.0, CLK_DOMAIN Signal_Souce_Control_BD_clk_wiz_1_0_clk_out1, NUM_READ_THREADS 1, NUM_WRITE_THREADS 1, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";

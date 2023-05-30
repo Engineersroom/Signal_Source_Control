@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri May 26 15:35:02 2023
+| Date         : Fri May 26 16:08:24 2023
 | Host         : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Signal_Souce_Control_BD_wrapper_utilization_synth.rpt -pb Signal_Souce_Control_BD_wrapper_utilization_synth.pb
 | Design       : Signal_Souce_Control_BD_wrapper
@@ -178,10 +178,12 @@ Warning! LUT value is adjusted to account for LUT combining.
 | Signal_Souce_Control_BD_dlmb_bram_if_cntlr_0 |    1 |
 | Signal_Souce_Control_BD_clk_wiz_1_0          |    1 |
 | Signal_Souce_Control_BD_axi_uartlite_0_0     |    1 |
+| Signal_Souce_Control_BD_axi_quad_spi_0_1     |    1 |
 | Signal_Souce_Control_BD_axi_quad_spi_0_0     |    1 |
 | Signal_Souce_Control_BD_axi_intc_0_0         |    1 |
 | Signal_Souce_Control_BD_axi_gpio_1_0         |    1 |
 | Signal_Souce_Control_BD_axi_gpio_0_0         |    1 |
+| Signal_Souce_Control_BD_auto_pc_1            |    1 |
 | Signal_Souce_Control_BD_auto_pc_0            |    1 |
 +----------------------------------------------+------+
 

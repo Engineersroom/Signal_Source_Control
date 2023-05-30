@@ -25785,3 +25785,1150 @@ TRACE::2023-05-26.15:41:56::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_S
 TRACE::2023-05-26.15:41:56::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
 
 TRACE::2023-05-26.15:41:56::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Platform location is D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:48::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-05-26.16:04:48::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:48::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_32
+TRACE::2023-05-26.16:04:48::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_32
+TRACE::2023-05-26.16:04:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:48::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:48::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_32
+TRACE::2023-05-26.16:04:48::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_32
+TRACE::2023-05-26.16:04:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:48::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:04:48::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:48::SCWPlatform::update - Opened existing hwdb Signal_Souce_Control_BD_wrapper_34
+TRACE::2023-05-26.16:04:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:48::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-26.16:04:48::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-26.16:04:48::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:04:48::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-05-26.16:04:48::SCWMssOS::Removing the swdes entry for  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:48::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-26.16:04:48::SCWPlatform::Opened new HwDB with name Signal_Souce_Control_BD_wrapper_35
+TRACE::2023-05-26.16:04:48::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-26.16:04:48::SCWMssOS::Writing the mss file completed D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:04:48::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:48::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:48::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_35
+TRACE::2023-05-26.16:04:48::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_35
+TRACE::2023-05-26.16:04:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:48::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:04:48::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:48::SCWWriter::formatted JSON is {
+	"platformName":	"Signal_Souce_Control_BD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Signal_Souce_Control_BD_wrapper",
+	"platHandOff":	"D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Signal_Souce_Control_BD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Signal_Souce_Control_BD_wrapper",
+	"systems":	[{
+			"systemName":	"Signal_Souce_Control_BD_wrapper",
+			"systemDesc":	"Signal_Souce_Control_BD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Signal_Souce_Control_BD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"30604a5d9ca7fdbc87447875060a88621",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-26.16:04:49::SCWPlatform::Clearing the existing platform
+TRACE::2023-05-26.16:04:49::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-05-26.16:04:49::SCWMssOS::Removing the swdes entry for  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:49::SCWSystem::Clearing the domains completed.
+TRACE::2023-05-26.16:04:49::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-05-26.16:04:49::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:49::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:49::SCWPlatform:: Platform location is D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:49::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:49::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:49::SCWPlatform::Removing the HwDB with name D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:49::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:49::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:49::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:49::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:49::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:49::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:49::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-26.16:04:50::SCWPlatform::Opened new HwDB with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWReader::Active system found as  Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:04:50::SCWReader::Handling sysconfig Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:04:50::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:50::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:50::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-26.16:04:50::SCWMssOS::No sw design opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:50::SCWMssOS::mss exists loading the mss file  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:50::SCWMssOS::Opened the sw design from mss  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:50::SCWMssOS::Adding the swdes entry D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-26.16:04:50::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-26.16:04:50::SCWMssOS::Opened the sw design.  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:50::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:50::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-26.16:04:50::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-26.16:04:50::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:04:50::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-05-26.16:04:50::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:04:50::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:04:50::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:04:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:04:50::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:50::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:04:50::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:04:50::SCWReader::No isolation master present  
+LOG::2023-05-26.16:05:09::SCWPlatform::Started generating the artifacts platform Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:05:09::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-26.16:05:09::SCWPlatform::Started generating the artifacts for system configuration Signal_Souce_Control_BD_wrapper
+LOG::2023-05-26.16:05:09::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-26.16:05:09::SCWSystem::Not a boot domain 
+LOG::2023-05-26.16:05:09::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-26.16:05:09::SCWDomain::Generating domain artifcats
+TRACE::2023-05-26.16:05:09::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-26.16:05:09::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-26.16:05:09::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:09::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:09::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:09::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:05:09::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:09::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:05:09::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:05:09::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:05:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:05:09::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:05:09::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:05:09::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:05:09::SCWMssOS::Completed writing the mss file at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-26.16:05:09::SCWMssOS::Mss edits present, copying mssfile into export location D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:05:10::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2023-05-26.16:05:12::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-26.16:05:12::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-26.16:05:12::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-26.16:05:12::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-26.16:05:12::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-26.16:05:12::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-26.16:05:12::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-26.16:05:12::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-26.16:05:12::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-26.16:05:12::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-26.16:05:12::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_9/src"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2023-05-26.16:05:12::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2023-05-26.16:05:12::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-26.16:05:12::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-26.16:05:12::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-26.16:05:12::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-05-26.16:05:12::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-05-26.16:05:12::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-26.16:05:13::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-26.16:05:13::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-26.16:05:13::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-26.16:05:13::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-26.16:05:13::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-26.16:05:13::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-05-26.16:05:13::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-05-26.16:05:13::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_9/src"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2023-05-26.16:05:13::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2023-05-26.16:05:13::SCWMssOS::tra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-26.16:05:13::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-26.16:05:13::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-26.16:05:13::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-26.16:05:13::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-26.16:05:13::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:05:14::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-26.16:05:14::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-26.16:05:14::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-26.16:05:14::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-26.16:05:14::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-26.16:05:14::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-26.16:05:14::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-26.16:05:14::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-26.16:05:14::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-26.16:05:14::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-26.16:05:14::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-26.16:05:14::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-26.16:05:14::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-26.16:05:14::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-26.16:05:14::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-26.16:05:14::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-26.16:05:14::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-26.16:05:14::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-26.16:05:14::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-26.16:05:14::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-26.16:05:14::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2023-05-26.16:05:14::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2023-05-26.16:05:14::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2023-05-26.16:05:14::SCWMssOS::e_0/lib/xspi.o microblaze_0/lib/xspi_g.o microblaze_0/lib/xspi_options.o microblaze_0/lib/xspi_selftest.o microblaze_0/lib/xspi
+TRACE::2023-05-26.16:05:14::SCWMssOS::_sinit.o microblaze_0/lib/xspi_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_i
+TRACE::2023-05-26.16:05:14::SCWMssOS::ntr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/
+TRACE::2023-05-26.16:05:14::SCWMssOS::xuartlite_stats.o
+
+TRACE::2023-05-26.16:05:14::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-26.16:05:15::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-26.16:05:15::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-26.16:05:15::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-26.16:05:15::SCWSystem::Completed Processing the sysconfig Signal_Souce_Control_BD_wrapper
+LOG::2023-05-26.16:05:15::SCWPlatform::Completed generating the artifacts for system configuration Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:05:15::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-26.16:05:15::SCWSystem::Writing the bif file for system config Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:05:15::SCWSystem::dir created 
+TRACE::2023-05-26.16:05:15::SCWSystem::Writing the bif 
+TRACE::2023-05-26.16:05:15::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-26.16:05:15::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-26.16:05:15::SCWPlatform::Completed generating the platform
+TRACE::2023-05-26.16:05:15::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:05:15::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-26.16:05:15::SCWMssOS::Writing the mss file completed D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:05:15::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:05:15::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:15::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:15::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:15::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:05:15::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:15::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:05:15::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:05:15::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:05:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:05:15::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:05:15::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:05:15::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:05:15::SCWWriter::formatted JSON is {
+	"platformName":	"Signal_Souce_Control_BD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Signal_Souce_Control_BD_wrapper",
+	"platHandOff":	"D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Signal_Souce_Control_BD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Signal_Souce_Control_BD_wrapper",
+	"systems":	[{
+			"systemName":	"Signal_Souce_Control_BD_wrapper",
+			"systemDesc":	"Signal_Souce_Control_BD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Signal_Souce_Control_BD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"30604a5d9ca7fdbc87447875060a8862",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-26.16:05:15::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-26.16:05:15::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:15::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:15::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:15::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:05:15::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:05:15::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:05:15::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:05:15::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:05:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:05:15::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:05:15::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:05:15::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:06:09::SCWMssOS::cleaning the bsp 
+TRACE::2023-05-26.16:06:09::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make clean 
+TRACE::2023-05-26.16:06:09::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s clean 
+
+TRACE::2023-05-26.16:06:09::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s clean 
+
+TRACE::2023-05-26.16:06:09::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s clean 
+
+TRACE::2023-05-26.16:06:09::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s clean 
+
+TRACE::2023-05-26.16:06:09::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s clean 
+
+TRACE::2023-05-26.16:06:09::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s clean 
+
+TRACE::2023-05-26.16:06:10::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s clean 
+
+TRACE::2023-05-26.16:06:10::SCWMssOS::rm -f microblaze_0/lib/libxil.a
+
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Platform location is D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:01::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-05-26.16:12:01::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:01::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:12:01::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:12:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:01::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:01::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:12:01::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_36
+TRACE::2023-05-26.16:12:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:01::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:01::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:01::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:01::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:01::SCWPlatform::update - Opened existing hwdb Signal_Souce_Control_BD_wrapper_37
+TRACE::2023-05-26.16:12:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:01::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-26.16:12:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-26.16:12:01::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:12:01::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-05-26.16:12:01::SCWMssOS::Removing the swdes entry for  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:01::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:01::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-26.16:12:01::SCWPlatform::Opened new HwDB with name Signal_Souce_Control_BD_wrapper_38
+TRACE::2023-05-26.16:12:01::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:01::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-26.16:12:01::SCWMssOS::Writing the mss file completed D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:01::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:12:01::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:01::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:01::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_38
+TRACE::2023-05-26.16:12:01::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_38
+TRACE::2023-05-26.16:12:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:01::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:01::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:01::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:01::SCWWriter::formatted JSON is {
+	"platformName":	"Signal_Souce_Control_BD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Signal_Souce_Control_BD_wrapper",
+	"platHandOff":	"D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Signal_Souce_Control_BD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Signal_Souce_Control_BD_wrapper",
+	"systems":	[{
+			"systemName":	"Signal_Souce_Control_BD_wrapper",
+			"systemDesc":	"Signal_Souce_Control_BD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Signal_Souce_Control_BD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b50eef1dc7883c66a730d7049228b71",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-26.16:12:02::SCWPlatform::Clearing the existing platform
+TRACE::2023-05-26.16:12:02::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-05-26.16:12:02::SCWMssOS::Removing the swdes entry for  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWSystem::Clearing the domains completed.
+TRACE::2023-05-26.16:12:02::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Platform location is D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:02::SCWPlatform::Removing the HwDB with name D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-26.16:12:02::SCWPlatform::Opened new HwDB with name Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWReader::Active system found as  Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:12:02::SCWReader::Handling sysconfig Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:12:02::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:02::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-26.16:12:02::SCWMssOS::No sw design opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWMssOS::mss exists loading the mss file  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWMssOS::Opened the sw design from mss  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWMssOS::Adding the swdes entry D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-26.16:12:02::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-26.16:12:02::SCWMssOS::Opened the sw design.  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-26.16:12:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-26.16:12:02::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:12:02::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-05-26.16:12:02::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:02::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:02::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:02::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:02::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:02::SCWReader::No isolation master present  
+TRACE::2023-05-26.16:12:08::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:08::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:08::SCWPlatform:: Platform location is D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa
+TRACE::2023-05-26.16:12:08::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:08::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:09::SCWMssOS::Doing hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-05-26.16:12:09::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:09::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_39
+TRACE::2023-05-26.16:12:09::SCWPlatform::Could not get the HWDB from existing dbname
+TRACE::2023-05-26.16:12:09::SCWPlatform::Do not have an existing db opened. Attempting to open the hwDb. 
+TRACE::2023-05-26.16:12:09::SCWPlatform::Opened new HwDB with name Signal_Souce_Control_BD_wrapper_40
+TRACE::2023-05-26.16:12:09::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:09::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_40
+TRACE::2023-05-26.16:12:09::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_40
+TRACE::2023-05-26.16:12:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:09::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:09::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:09::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:09::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/tempdsa/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:09::SCWPlatform::update - Opened existing hwdb Signal_Souce_Control_BD_wrapper_41
+TRACE::2023-05-26.16:12:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:09::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-26.16:12:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-26.16:12:09::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:12:09::SCWMssOS::Completed hw sync for the mss in domain: standalone_microblaze_0
+TRACE::2023-05-26.16:12:09::SCWMssOS::Removing the swdes entry for  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:09::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:09::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-26.16:12:09::SCWPlatform::Opened new HwDB with name Signal_Souce_Control_BD_wrapper_42
+TRACE::2023-05-26.16:12:09::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:09::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-26.16:12:09::SCWMssOS::Writing the mss file completed D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:09::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:12:09::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:09::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:09::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_42
+TRACE::2023-05-26.16:12:09::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_42
+TRACE::2023-05-26.16:12:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:09::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:09::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:09::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:09::SCWWriter::formatted JSON is {
+	"platformName":	"Signal_Souce_Control_BD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Signal_Souce_Control_BD_wrapper",
+	"platHandOff":	"D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Signal_Souce_Control_BD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Signal_Souce_Control_BD_wrapper",
+	"systems":	[{
+			"systemName":	"Signal_Souce_Control_BD_wrapper",
+			"systemDesc":	"Signal_Souce_Control_BD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Signal_Souce_Control_BD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b50eef1dc7883c66a730d7049228b71",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2023-05-26.16:12:10::SCWPlatform::Clearing the existing platform
+TRACE::2023-05-26.16:12:10::SCWSystem::Clearing the existing sysconfig
+TRACE::2023-05-26.16:12:10::SCWMssOS::Removing the swdes entry for  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWSystem::Clearing the domains completed.
+TRACE::2023-05-26.16:12:10::SCWPlatform::Clearing the opened hw db.
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Platform location is D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:10::SCWPlatform::Removing the HwDB with name D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:10::SCWPlatform::Do not have an existing db opened. 
+TRACE::2023-05-26.16:12:10::SCWPlatform::Opened new HwDB with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWReader::Active system found as  Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:12:10::SCWReader::Handling sysconfig Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:12:10::SCWDomain::checking for install qemu data   : 
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:10::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2023-05-26.16:12:10::SCWMssOS::No sw design opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWMssOS::mss exists loading the mss file  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWMssOS::Opened the sw design from mss  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWMssOS::Adding the swdes entry D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-26.16:12:10::SCWMssOS::updating the scw layer about changes
+TRACE::2023-05-26.16:12:10::SCWMssOS::Opened the sw design.  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2023-05-26.16:12:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2023-05-26.16:12:10::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:12:10::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2023-05-26.16:12:10::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:10::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:10::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:10::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:10::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:10::SCWReader::No isolation master present  
+LOG::2023-05-26.16:12:33::SCWPlatform::Started generating the artifacts platform Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:12:33::SCWPlatform::Sanity checking of platform is completed
+LOG::2023-05-26.16:12:33::SCWPlatform::Started generating the artifacts for system configuration Signal_Souce_Control_BD_wrapper
+LOG::2023-05-26.16:12:33::SCWSystem::Checking the domain standalone_microblaze_0
+LOG::2023-05-26.16:12:33::SCWSystem::Not a boot domain 
+LOG::2023-05-26.16:12:33::SCWSystem::Started Processing the domain standalone_microblaze_0
+TRACE::2023-05-26.16:12:33::SCWDomain::Generating domain artifcats
+TRACE::2023-05-26.16:12:33::SCWMssOS::Generating standalone artifcats
+TRACE::2023-05-26.16:12:33::SCWMssOS:: Copying the user libraries. 
+TRACE::2023-05-26.16:12:33::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:33::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:33::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:33::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:33::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:33::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:33::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:33::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:33::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:33::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:33::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:33::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:33::SCWMssOS::Completed writing the mss file at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp
+TRACE::2023-05-26.16:12:33::SCWMssOS::Mss edits present, copying mssfile into export location D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:33::SCWMssOS::bsp generated is stale removing and regenerating. 
+TRACE::2023-05-26.16:12:35::SCWMssOS::doing bsp build ... 
+TRACE::2023-05-26.16:12:35::SCWMssOS::System Command Ran  D: & cd  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp & make 
+TRACE::2023-05-26.16:12:35::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-26.16:12:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-26.16:12:35::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-26.16:12:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-26.16:12:35::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2023-05-26.16:12:35::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2023-05-26.16:12:35::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-26.16:12:35::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-26.16:12:35::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/spi_v4_9/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2023-05-26.16:12:35::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2023-05-26.16:12:35::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2023-05-26.16:12:35::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2023-05-26.16:12:35::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2023-05-26.16:12:35::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2023-05-26.16:12:35::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_8/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-26.16:12:35::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-26.16:12:35::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_16/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_16/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-26.16:12:35::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-26.16:12:35::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_9/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2023-05-26.16:12:35::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2023-05-26.16:12:35::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_15/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_15/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2023-05-26.16:12:35::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2023-05-26.16:12:35::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/spi_v4_9/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/spi_v4_9/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_FL
+TRACE::2023-05-26.16:12:35::SCWMssOS::AGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wex
+TRACE::2023-05-26.16:12:35::SCWMssOS::tra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v8_0/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/standalone_v8_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2023-05-26.16:12:35::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2023-05-26.16:12:35::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_7/src"
+
+TRACE::2023-05-26.16:12:35::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2023-05-26.16:12:35::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2023-05-26.16:12:35::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2023-05-26.16:12:36::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2023-05-26.16:12:36::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2023-05-26.16:12:36::SCWMssOS::make --no-print-directory archive
+
+TRACE::2023-05-26.16:12:36::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/_exit.o microblaze_0/lib/errno.o microblaze_0/lib/fcntl.o microblaze_0/lib
+TRACE::2023-05-26.16:12:36::SCWMssOS::/hw_exception_handler.o microblaze_0/lib/inbyte.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_disa
+TRACE::2023-05-26.16:12:36::SCWMssOS::ble_exceptions.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib
+TRACE::2023-05-26.16:12:36::SCWMssOS::/microblaze_enable_dcache.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_icache.o microbl
+TRACE::2023-05-26.16:12:37::SCWMssOS::aze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/microblaze_flush_cach
+TRACE::2023-05-26.16:12:37::SCWMssOS::e_ext.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/microbl
+TRACE::2023-05-26.16:12:37::SCWMssOS::aze_flush_dcache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_init_icache_range.o microb
+TRACE::2023-05-26.16:12:37::SCWMssOS::laze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/microblaze_invalidate_cac
+TRACE::2023-05-26.16:12:37::SCWMssOS::he_ext.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/
+TRACE::2023-05-26.16:12:37::SCWMssOS::lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/microblaze_invalidate
+TRACE::2023-05-26.16:12:37::SCWMssOS::_icache_range.o microblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_sleep.o 
+TRACE::2023-05-26.16:12:37::SCWMssOS::microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/microblaze_update_icache.o microblaze_0/lib/outbyte.o microblaze_0
+TRACE::2023-05-26.16:12:37::SCWMssOS::/lib/print.o microblaze_0/lib/pvr.o microblaze_0/lib/xbram.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xbram_intr.o microblaz
+TRACE::2023-05-26.16:12:37::SCWMssOS::e_0/lib/xbram_selftest.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/xgpio.o microblaze_0/lib/xgpio_extra.o microblaze_0/li
+TRACE::2023-05-26.16:12:37::SCWMssOS::b/xgpio_g.o microblaze_0/lib/xgpio_intr.o microblaze_0/lib/xgpio_selftest.o microblaze_0/lib/xgpio_sinit.o microblaze_0/lib/xil
+TRACE::2023-05-26.16:12:37::SCWMssOS::_assert.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_exception.o microblaze_0/lib/xil_me
+TRACE::2023-05-26.16:12:37::SCWMssOS::m.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/x
+TRACE::2023-05-26.16:12:37::SCWMssOS::il_testcache.o microblaze_0/lib/xil_testio.o microblaze_0/lib/xil_testmem.o microblaze_0/lib/xil_util.o microblaze_0/lib/xintc.
+TRACE::2023-05-26.16:12:37::SCWMssOS::o microblaze_0/lib/xintc_g.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/xintc_l.o microblaze_0/lib/xintc_options.o microbla
+TRACE::2023-05-26.16:12:37::SCWMssOS::ze_0/lib/xintc_selftest.o microblaze_0/lib/xinterrupt_wrap.o microblaze_0/lib/xio.o microblaze_0/lib/xplatform_info.o microblaz
+TRACE::2023-05-26.16:12:37::SCWMssOS::e_0/lib/xspi.o microblaze_0/lib/xspi_g.o microblaze_0/lib/xspi_options.o microblaze_0/lib/xspi_selftest.o microblaze_0/lib/xspi
+TRACE::2023-05-26.16:12:37::SCWMssOS::_sinit.o microblaze_0/lib/xspi_stats.o microblaze_0/lib/xuartlite.o microblaze_0/lib/xuartlite_g.o microblaze_0/lib/xuartlite_i
+TRACE::2023-05-26.16:12:37::SCWMssOS::ntr.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/
+TRACE::2023-05-26.16:12:37::SCWMssOS::xuartlite_stats.o
+
+TRACE::2023-05-26.16:12:37::SCWMssOS::'Finished building libraries'
+
+TRACE::2023-05-26.16:12:37::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2023-05-26.16:12:37::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2023-05-26.16:12:37::SCWSystem::Completed Processing the domain standalone_microblaze_0
+LOG::2023-05-26.16:12:37::SCWSystem::Completed Processing the sysconfig Signal_Souce_Control_BD_wrapper
+LOG::2023-05-26.16:12:37::SCWPlatform::Completed generating the artifacts for system configuration Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:12:37::SCWPlatform::Started preparing the platform 
+TRACE::2023-05-26.16:12:37::SCWSystem::Writing the bif file for system config Signal_Souce_Control_BD_wrapper
+TRACE::2023-05-26.16:12:37::SCWSystem::dir created 
+TRACE::2023-05-26.16:12:37::SCWSystem::Writing the bif 
+TRACE::2023-05-26.16:12:37::SCWPlatform::Started writing the spfm file 
+TRACE::2023-05-26.16:12:37::SCWPlatform::Started writing the xpfm file 
+TRACE::2023-05-26.16:12:37::SCWPlatform::Completed generating the platform
+TRACE::2023-05-26.16:12:37::SCWMssOS::Saving the mss changes D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:37::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss with des name system
+TRACE::2023-05-26.16:12:37::SCWMssOS::Writing the mss file completed D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:37::SCWMssOS::Commit changes completed.
+TRACE::2023-05-26.16:12:37::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:37::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:37::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:37::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:37::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:37::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:37::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:37::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:37::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:37::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:37::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:37::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:37::SCWWriter::formatted JSON is {
+	"platformName":	"Signal_Souce_Control_BD_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Signal_Souce_Control_BD_wrapper",
+	"platHandOff":	"D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vivado/Signal_Souce_Control_BD_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/Signal_Souce_Control_BD_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Signal_Souce_Control_BD_wrapper",
+	"systems":	[{
+			"systemName":	"Signal_Souce_Control_BD_wrapper",
+			"systemDesc":	"Signal_Souce_Control_BD_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Signal_Souce_Control_BD_wrapper",
+			"sysActiveDom":	"standalone_microblaze_0",
+			"sysDefaultDom":	"standalone_microblaze_0",
+			"domains":	[{
+					"domainName":	"standalone_microblaze_0",
+					"domainDispName":	"standalone_microblaze_0",
+					"domainDesc":	"standalone_microblaze_0",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.0",
+					"mssFile":	"",
+					"md5Digest":	"d5b50eef1dc7883c66a730d7049228b7",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2023-05-26.16:12:37::SCWPlatform::updated the xpfm file.
+TRACE::2023-05-26.16:12:38::SCWPlatform::Trying to open the hw design at D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:38::SCWPlatform::DSA given D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:38::SCWPlatform::DSA absoulate path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:38::SCWPlatform::DSA directory D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw
+TRACE::2023-05-26.16:12:38::SCWPlatform:: Platform Path D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/hw/Signal_Souce_Control_BD_wrapper.xsa
+TRACE::2023-05-26.16:12:38::SCWPlatform:: Unique name xilinx:kcu116::0.0
+TRACE::2023-05-26.16:12:38::SCWPlatform::Trying to set the existing hwdb with name Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:38::SCWPlatform::Opened existing hwdb Signal_Souce_Control_BD_wrapper_43
+TRACE::2023-05-26.16:12:38::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2023-05-26.16:12:38::SCWMssOS::Checking the sw design at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss
+TRACE::2023-05-26.16:12:38::SCWMssOS::DEBUG:  swdes dump  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss|system||
+
+TRACE::2023-05-26.16:12:38::SCWMssOS::Sw design exists and opened at  D:/DMTS/MOLIT_Shoe_Schaner/Development/FPGA/Signal_Source_Control/Vitis/Signal_Souce_Control_BD_wrapper/microblaze_0/standalone_microblaze_0/bsp/system.mss

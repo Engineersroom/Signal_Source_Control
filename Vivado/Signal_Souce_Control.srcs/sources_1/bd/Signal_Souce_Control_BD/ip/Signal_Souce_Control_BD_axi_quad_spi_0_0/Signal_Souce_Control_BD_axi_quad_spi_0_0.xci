@@ -14,7 +14,7 @@
         "C_SPI_MODE": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_NUM_TRANSFER_BITS": [ { "value": "8", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_DUAL_QUAD_MODE": [ { "value": "0", "resolve_type": "user", "format": "long", "enabled": false, "usage": "all" } ],
-        "C_NUM_SS_BITS": [ { "value": "8", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "C_NUM_SS_BITS": [ { "value": "4", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_SCK_RATIO": [ { "value": "2", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_FIFO_DEPTH": [ { "value": "16", "resolve_type": "user", "format": "long", "usage": "all" } ],
         "C_XIP_MODE": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "all" } ],
@@ -55,7 +55,7 @@
         "C_FIFO_DEPTH": [ { "value": "16", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_SCK_RATIO": [ { "value": "2", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_DUAL_QUAD_MODE": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
-        "C_NUM_SS_BITS": [ { "value": "8", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "C_NUM_SS_BITS": [ { "value": "4", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_NUM_TRANSFER_BITS": [ { "value": "8", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_NEW_SEQ_EN": [ { "value": "1", "resolve_type": "generated", "format": "long", "usage": "all" } ],
         "C_SPI_MODE": [ { "value": "0", "resolve_type": "generated", "format": "long", "usage": "all" } ],
@@ -147,8 +147,8 @@
         "sck_i": [ { "direction": "in", "driver_value": "0" } ],
         "sck_o": [ { "direction": "out" } ],
         "sck_t": [ { "direction": "out" } ],
-        "ss_i": [ { "direction": "in", "size_left": "7", "size_right": "0", "driver_value": "0" } ],
-        "ss_o": [ { "direction": "out", "size_left": "7", "size_right": "0" } ],
+        "ss_i": [ { "direction": "in", "size_left": "3", "size_right": "0", "driver_value": "0" } ],
+        "ss_o": [ { "direction": "out", "size_left": "3", "size_right": "0" } ],
         "ss_t": [ { "direction": "out" } ],
         "ip2intc_irpt": [ { "direction": "out" } ]
       },
@@ -587,7 +587,7 @@
                   "fields": {
                     "Selected_Slave": {
                       "bit_offset": 0,
-                      "bit_width": 8,
+                      "bit_width": 4,
                       "display_name": "Selected Slave",
                       "description": "Active-Low, one-hot encoded slave select\nThe slaves are numbered right to left starting at zero with the LSB. The slave numbers correspond to the indexes of signal SS\n",
                       "is_volatile": true,

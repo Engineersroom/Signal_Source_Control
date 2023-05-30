@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri May 26 15:37:02 2023
+| Date         : Fri May 26 16:10:36 2023
 | Host         : DESKTOP-LJ1PS58 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpt -pb Signal_Souce_Control_BD_wrapper_methodology_drc_routed.pb -rpx Signal_Souce_Control_BD_wrapper_methodology_drc_routed.rpx
 | Design       : Signal_Souce_Control_BD_wrapper
@@ -203,32 +203,32 @@ Related violations: <none>
 
 TIMING-47#1 Warning
 False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
-A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/INTERNAL_TCK (see constraint position 12 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/INTERNAL_TCK (see constraint position 11 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
 Related violations: <none>
 
 TIMING-47#2 Warning
 False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
-A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE (see constraint position 13 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE (see constraint position 12 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
 Related violations: <none>
 
 TIMING-47#3 Warning
 False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
-A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/INTERNAL_TCK and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK (see constraint position 12 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/INTERNAL_TCK and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK (see constraint position 11 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
 Related violations: <none>
 
 TIMING-47#4 Warning
 False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
-A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/INTERNAL_TCK and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE (see constraint position 12 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/INTERNAL_TCK and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE (see constraint position 11 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
 Related violations: <none>
 
 TIMING-47#5 Warning
 False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
-A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK (see constraint position 13 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/DRCK (see constraint position 12 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
 Related violations: <none>
 
 TIMING-47#6 Warning
 False path, asynchronous clock group or max delay datapath only constraint between synchronous clocks  
-A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/INTERNAL_TCK (see constraint position 12 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
+A Clock Group timing constraint is set between synchronous clocks Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/UPDATE and Signal_Souce_Control_BD_i/mdm_1/U0/Use_E2.BSCAN_I/Use_E2.BSCANE2_I/INTERNAL_TCK (see constraint position 11 in the Timing Constraint window in Vivado IDE). Masking entire synchronous clock domains via  set_false_path, set_clock_groups or set_max_delay -datapath_only may result in failure in hardware.
 Related violations: <none>
 
 
